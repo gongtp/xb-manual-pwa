@@ -131,7 +131,9 @@ npm run preview:pwa
 
 ### 发布到 GitHub Pages
 
-项目已提供 `.github/workflows/pages.yml`：推送 `main` 或手动触发时构建并上传 **dist-pwa/**。
+项目已提供 `.github/workflows/pages.yml`：推送 `main` 且包含程序、基础资料、静态资源、脚本、测试或构建/发布配置改动时，构建并上传 **dist-pwa/**。
+仅修改 README、Markdown 文档或其他未列入工作流 `paths` 的文件时，不自动部署。
+文档与程序一起修改时仍会部署。GitHub Actions 中的手动发布入口始终保留，不受路径筛选限制。
 工作流自动读取 Pages 的站点子路径，无需把仓库名写死进代码。
 
 代码仓库：https://github.com/gongtp/xb-manual-pwa
