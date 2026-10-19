@@ -1,0 +1,4436 @@
+[
+  {
+    "id": "XC2-DRIVER-REX",
+    "kind": "driver",
+    "name": "莱克斯",
+    "englishName": "Rex",
+    "arc": "baseGame",
+    "group": "主角队伍",
+    "element": "",
+    "role": "御刃者",
+    "weapon": "随装备异刃变化",
+    "acquisition": "序章主线剧情",
+    "acquisitionType": "story",
+    "description": "以打捞为生的少年，与焰结伴踏上寻找乐园的旅途。",
+    "fieldSkills": [],
+    "battleSkills": [
+      {
+        "name": "肌肉锻炼",
+        "effect": "力量增加20"
+      },
+      {
+        "name": "高速反应",
+        "effect": "敏捷增加20"
+      },
+      {
+        "name": "速攻1",
+        "effect": "战斗开始时可以使用 X键的御刃者武技"
+      },
+      {
+        "name": "学习以太",
+        "effect": "以太力增加20"
+      },
+      {
+        "name": "救助",
+        "effect": "救起对象的HP提升15%"
+      },
+      {
+        "name": "健康优良儿",
+        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量"
+      },
+      {
+        "name": "武技连锁",
+        "effect": "可以通过取消御刃者武技 来使用御刃者武技"
+      },
+      {
+        "name": "强化连击",
+        "effect": "取消时的伤害上升率增加 20%"
+      },
+      {
+        "name": "速攻2",
+        "effect": "战斗开始时可以使用 Y键的御刃者武技"
+      },
+      {
+        "name": "爷爷的祈祷",
+        "effect": "运气增加20"
+      },
+      {
+        "name": "速攻3",
+        "effect": "战斗开始时可以使用 B键的御刃者武技"
+      },
+      {
+        "name": "精力充沛",
+        "effect": "最大HP增加200"
+      },
+      {
+        "name": "连携的极致",
+        "effect": "连锁攻击开始时 攻击力倍率提升"
+      },
+      {
+        "name": "倒地高手",
+        "effect": "将倒地的有效时间延长15%"
+      },
+      {
+        "name": "对胜利的执着",
+        "effect": "发生暴击时 队伍槽少量增加"
+      },
+      {
+        "name": "疯狂学习以太",
+        "effect": "以太力提升10%"
+      },
+      {
+        "name": "影之一击",
+        "effect": "偷袭成功时 伤害输出提升50%"
+      },
+      {
+        "name": "声援团团员",
+        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%"
+      },
+      {
+        "name": "预感",
+        "effect": "灵巧增加20"
+      },
+      {
+        "name": "危机爆发力",
+        "effect": "降低敌方的破防抗性"
+      },
+      {
+        "name": "肌肉继承",
+        "effect": "力量提升10%"
+      },
+      {
+        "name": "药物知识",
+        "effect": "回复瓶的效果提升20%"
+      },
+      {
+        "name": "看破",
+        "effect": "敏捷提升10%"
+      },
+      {
+        "name": "斗志昂扬",
+        "effect": "使用御刃者武技取代自动攻击时 HP回复3%"
+      },
+      {
+        "name": "行动预测",
+        "effect": "灵巧提升10%"
+      },
+      {
+        "name": "团结力",
+        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加"
+      },
+      {
+        "name": "坚定之心",
+        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）"
+      },
+      {
+        "name": "牵绊之力",
+        "effect": "取消时所增加的必杀技 填充量提升20%"
+      },
+      {
+        "name": "钢铁少年",
+        "effect": "最大HP提升10%"
+      },
+      {
+        "name": "爷爷的守护",
+        "effect": "运气提升10%"
+      }
+    ],
+    "favoriteCategories": [
+      "饮料",
+      "美术品"
+    ],
+    "favoriteItems": [
+      "托里格风味塔尔塔里烤肉",
+      "珊瑚黑白棋"
+    ],
+    "auxCores": null,
+    "statModifier": "",
+    "partners": [
+      "XC2-BLADE-PYRA",
+      "XC2-BLADE-MYTHRA",
+      "XC2-BLADE-ROC",
+      "XC2-BLADE-NIA"
+    ],
+    "image": "/images/xc2/xc2-driver-rex.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_001_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E8%8E%B1%E5%85%8B%E6%96%AF",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-DRIVER-NIA",
+    "kind": "driver",
+    "name": "尼娅",
+    "englishName": "Nia",
+    "arc": "baseGame",
+    "group": "主角队伍",
+    "element": "",
+    "role": "御刃者",
+    "weapon": "随装备异刃变化",
+    "acquisition": "第1章主线剧情",
+    "acquisitionType": "story",
+    "description": "与白虎同行的御刃者，在队伍中善于运用回复力量。",
+    "fieldSkills": [],
+    "battleSkills": [
+      {
+        "name": "野性觉醒1",
+        "effect": "战斗开始时可以使用 X键的御刃者武技"
+      },
+      {
+        "name": "治疗者",
+        "effect": "救起对象的HP提升15%"
+      },
+      {
+        "name": "猫女",
+        "effect": "敏捷增加20"
+      },
+      {
+        "name": "以太的才能",
+        "effect": "以太力增加20"
+      },
+      {
+        "name": "动态视力",
+        "effect": "灵巧增加20"
+      },
+      {
+        "name": "药草调和",
+        "effect": "回复瓶的效果提升20%"
+      },
+      {
+        "name": "巨猫",
+        "effect": "最大HP增加200"
+      },
+      {
+        "name": "喜悦共享",
+        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加"
+      },
+      {
+        "name": "连抓",
+        "effect": "可以通过取消御刃者武技 来使用御刃者武技"
+      },
+      {
+        "name": "野性觉醒2",
+        "effect": "战斗开始时可以使用 Y键的御刃者武技"
+      },
+      {
+        "name": "野性觉醒3",
+        "effect": "战斗开始时可以使用 B键的御刃者武技"
+      },
+      {
+        "name": "合气",
+        "effect": "将破防的有效时间延长20%"
+      },
+      {
+        "name": "野兽追击",
+        "effect": "取消时的伤害上升率增加 20%"
+      },
+      {
+        "name": "生存本能",
+        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量"
+      },
+      {
+        "name": "野豹攻击",
+        "effect": "偷袭成功时 伤害输出提升50%"
+      },
+      {
+        "name": "机会回复",
+        "effect": "连锁攻击开始时HP回复25%"
+      },
+      {
+        "name": "虎眼",
+        "effect": "灵巧提升10%"
+      },
+      {
+        "name": "技术纯熟",
+        "effect": "降低敌方的破防抗性"
+      },
+      {
+        "name": "柔韧筋肉",
+        "effect": "力量增加20"
+      },
+      {
+        "name": "幸运女孩",
+        "effect": "运气增加20"
+      },
+      {
+        "name": "力量的传达",
+        "effect": "取消时所增加的必杀技 填充量提升20%"
+      },
+      {
+        "name": "拉拉队长",
+        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%"
+      },
+      {
+        "name": "真实之力",
+        "effect": "以太力提升10%"
+      },
+      {
+        "name": "幸运女神",
+        "effect": "运气提升10%"
+      },
+      {
+        "name": "狂野生命",
+        "effect": "最大HP提升10%"
+      },
+      {
+        "name": "肾上腺素",
+        "effect": "使用御刃者武技取代自动攻击时 HP回复3%"
+      },
+      {
+        "name": "通往胜利的道路",
+        "effect": "发生暴击时 队伍槽少量增加"
+      },
+      {
+        "name": "好胜心",
+        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）"
+      },
+      {
+        "name": "巨熊爪击",
+        "effect": "力量提升10%"
+      },
+      {
+        "name": "虎女",
+        "effect": "敏捷提升10%"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "纺织品"
+    ],
+    "favoriteItems": [
+      "奶油橘味煎饼",
+      "斯佩比亚熊木雕"
+    ],
+    "auxCores": null,
+    "statModifier": "",
+    "partners": [
+      "XC2-BLADE-DROMARCH"
+    ],
+    "image": "/images/xc2/xc2-driver-nia.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_002_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%B0%BC%E5%A8%85",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-DRIVER-TORA",
+    "kind": "driver",
+    "name": "虎",
+    "englishName": "Tora",
+    "arc": "baseGame",
+    "group": "主角队伍",
+    "element": "",
+    "role": "御刃者",
+    "weapon": "随装备异刃变化",
+    "acquisition": "第2章主线剧情",
+    "acquisitionType": "story",
+    "description": "喜爱机械的诺彭少年，借助亲手制造的人造异刃花参与战斗。",
+    "fieldSkills": [],
+    "battleSkills": [
+      {
+        "name": "安慰剂",
+        "effect": "回复瓶的效果提升20%"
+      },
+      {
+        "name": "万全准备1",
+        "effect": "战斗开始时可以使用 X键的御刃者武技"
+      },
+      {
+        "name": "喜欢工作",
+        "effect": "灵巧增加20"
+      },
+      {
+        "name": "柔韧身躯",
+        "effect": "最大HP增加200"
+      },
+      {
+        "name": "幸运男孩",
+        "effect": "运气增加20"
+      },
+      {
+        "name": "更柔韧的身躯",
+        "effect": "最大HP提升10%"
+      },
+      {
+        "name": "超级幸运男孩",
+        "effect": "运气提升10%"
+      },
+      {
+        "name": "免疫爆发",
+        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量"
+      },
+      {
+        "name": "万全准备2",
+        "effect": "战斗开始时可以使用 Y键的御刃者武技"
+      },
+      {
+        "name": "硬撑",
+        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）"
+      },
+      {
+        "name": "肌肉锻炼器",
+        "effect": "力量增加20"
+      },
+      {
+        "name": "工作狂人",
+        "effect": "灵巧提升10%"
+      },
+      {
+        "name": "欢天喜地",
+        "effect": "连锁攻击结束时 队伍槽增加"
+      },
+      {
+        "name": "诺彭式连续攻击",
+        "effect": "可以通过取消御刃者武技 来使用御刃者武技"
+      },
+      {
+        "name": "万全准备3",
+        "effect": "战斗开始时可以使用 B键的御刃者武技"
+      },
+      {
+        "name": "情绪回复",
+        "effect": "使用御刃者武技取代自动攻击时 HP回复3%"
+      },
+      {
+        "name": "被隐藏的才能",
+        "effect": "以太力增加20"
+      },
+      {
+        "name": "强硬的先发制人",
+        "effect": "偷袭成功时 伤害输出提升50%"
+      },
+      {
+        "name": "诺彭式救助法",
+        "effect": "救起对象的HP提升15%"
+      },
+      {
+        "name": "匆忙脚步",
+        "effect": "敏捷增加20"
+      },
+      {
+        "name": "吉祥物般的存在",
+        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%"
+      },
+      {
+        "name": "诺彭式击倒法",
+        "effect": "将倒地的有效时间延长15%"
+      },
+      {
+        "name": "更加匆忙的脚步",
+        "effect": "敏捷提升10%"
+      },
+      {
+        "name": "看向那边嘿",
+        "effect": "降低敌方的破防抗性"
+      },
+      {
+        "name": "炫耀成功",
+        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加"
+      },
+      {
+        "name": "对花的挂虑",
+        "effect": "取消时所增加的必杀技 填充量提升20%"
+      },
+      {
+        "name": "蛋白质继承",
+        "effect": "力量提升10%"
+      },
+      {
+        "name": "才能开花结果？",
+        "effect": "以太力提升10%"
+      },
+      {
+        "name": "诺彭式连击强化",
+        "effect": "取消时的伤害上升率增加 20%"
+      },
+      {
+        "name": "气氛制造者",
+        "effect": "发生暴击时 队伍槽少量增加"
+      }
+    ],
+    "favoriteCategories": [
+      "饮料",
+      "乐器"
+    ],
+    "favoriteItems": [
+      "多汁包子",
+      "镂空披肩"
+    ],
+    "auxCores": null,
+    "statModifier": "",
+    "partners": [
+      "XC2-BLADE-POPPI",
+      "XC2-BLADE-POPPI-QT",
+      "XC2-BLADE-POPPI-QT-PI"
+    ],
+    "image": "/images/xc2/xc2-driver-tora.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_003_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E8%99%8E",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-DRIVER-MORAG",
+    "kind": "driver",
+    "name": "梅勒芙",
+    "englishName": "Morag",
+    "arc": "baseGame",
+    "group": "主角队伍",
+    "element": "",
+    "role": "御刃者",
+    "weapon": "随装备异刃变化",
+    "acquisition": "第4章主线剧情",
+    "acquisitionType": "story",
+    "description": "斯佩比亚帝国的特别执政官，与迦具土共同守护国家。",
+    "fieldSkills": [],
+    "battleSkills": [
+      {
+        "name": "武技连环",
+        "effect": "可以通过取消御刃者武技 来使用御刃者武技"
+      },
+      {
+        "name": "帝国式步法",
+        "effect": "敏捷增加20"
+      },
+      {
+        "name": "以太学",
+        "effect": "以太力增加20"
+      },
+      {
+        "name": "基础锻炼",
+        "effect": "自动攻击的伤害提升20%"
+      },
+      {
+        "name": "先发制人1",
+        "effect": "战斗开始时可以使用 X键的御刃者武技"
+      },
+      {
+        "name": "集中力",
+        "effect": "灵巧增加20"
+      },
+      {
+        "name": "炼金术",
+        "effect": "回复瓶的效果提升20%"
+      },
+      {
+        "name": "先发制人2",
+        "effect": "战斗开始时可以使用 Y键的御刃者武技"
+      },
+      {
+        "name": "续战能力",
+        "effect": "使用御刃者武技取代自动攻击时 HP回复3%"
+      },
+      {
+        "name": "力量石",
+        "effect": "运气增加20"
+      },
+      {
+        "name": "帝国式应急治疗",
+        "effect": "救起对象的HP提升15%"
+      },
+      {
+        "name": "先发制人3",
+        "effect": "战斗开始时可以使用 B键的御刃者武技"
+      },
+      {
+        "name": "肉体锻炼",
+        "effect": "力量增加20"
+      },
+      {
+        "name": "帝国式追击法",
+        "effect": "取消时的伤害上升率增加 20%"
+      },
+      {
+        "name": "步法的极致",
+        "effect": "敏捷提升10%"
+      },
+      {
+        "name": "鼓舞",
+        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加"
+      },
+      {
+        "name": "无音杀伤",
+        "effect": "偷袭成功时 伤害输出提升50%"
+      },
+      {
+        "name": "瞬间连击",
+        "effect": "自动攻击命中时 有10%的概率发生2次攻击"
+      },
+      {
+        "name": "异刃共斗术",
+        "effect": "取消时所增加的必杀技 填充量提升20%"
+      },
+      {
+        "name": "生存训练",
+        "effect": "最大HP增加200"
+      },
+      {
+        "name": "以太学的极致",
+        "effect": "以太力提升10%"
+      },
+      {
+        "name": "内气功",
+        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量"
+      },
+      {
+        "name": "冥想",
+        "effect": "灵巧提升10%"
+      },
+      {
+        "name": "武士道觉悟",
+        "effect": "最大HP提升10%"
+      },
+      {
+        "name": "气场巡礼",
+        "effect": "运气提升10%"
+      },
+      {
+        "name": "帝国军人的自尊",
+        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）"
+      },
+      {
+        "name": "神技",
+        "effect": "发生暴击时 队伍槽少量增加"
+      },
+      {
+        "name": "机会降临",
+        "effect": "连锁攻击开始时 攻击力倍率提升"
+      },
+      {
+        "name": "战斗体型",
+        "effect": "力量提升10%"
+      },
+      {
+        "name": "声援团团长",
+        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%"
+      }
+    ],
+    "favoriteCategories": [
+      "蔬菜",
+      "美术品"
+    ],
+    "favoriteItems": [
+      "炸肉排",
+      "蒸汽管风琴"
+    ],
+    "auxCores": null,
+    "statModifier": "",
+    "partners": [
+      "XC2-BLADE-BRIGHID",
+      "XC2-BLADE-AEGAEON"
+    ],
+    "image": "/images/xc2/xc2-driver-morag.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_005_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%A2%85%E5%8B%92%E8%8A%99",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-DRIVER-ZEKE",
+    "kind": "driver",
+    "name": "齐格",
+    "englishName": "Zeke",
+    "arc": "baseGame",
+    "group": "主角队伍",
+    "element": "",
+    "role": "御刃者",
+    "weapon": "随装备异刃变化",
+    "acquisition": "第5章主线剧情",
+    "acquisitionType": "story",
+    "description": "来自洛修利亚的王子，与搭档彩歌一起旅行。",
+    "fieldSkills": [],
+    "battleSkills": [
+      {
+        "name": "马赫准备1",
+        "effect": "战斗开始时可以使用 X键的御刃者武技"
+      },
+      {
+        "name": "肌肉力量",
+        "effect": "力量增加20"
+      },
+      {
+        "name": "幸运之男",
+        "effect": "运气增加20"
+      },
+      {
+        "name": "钢铁之心",
+        "effect": "最大HP增加200"
+      },
+      {
+        "name": "瞬间移动",
+        "effect": "敏捷增加20"
+      },
+      {
+        "name": "会心专家",
+        "effect": "暴击伤害提升10%"
+      },
+      {
+        "name": "伙伴共鸣",
+        "effect": "取消时所增加的必杀技 填充量提升20%"
+      },
+      {
+        "name": "大力士的肌肉",
+        "effect": "力量提升10%"
+      },
+      {
+        "name": "技能连锁",
+        "effect": "可以通过取消御刃者武技 来使用御刃者武技"
+      },
+      {
+        "name": "马赫准备2",
+        "effect": "战斗开始时可以使用 Y键的御刃者武技"
+      },
+      {
+        "name": "剧场型英雄",
+        "effect": "连锁攻击时 暴击率提升10%"
+      },
+      {
+        "name": "马赫准备3",
+        "effect": "战斗开始时可以使用 B键的御刃者武技"
+      },
+      {
+        "name": "狮子心",
+        "effect": "救起对象的HP提升15%"
+      },
+      {
+        "name": "以太才俊",
+        "effect": "以太力增加20"
+      },
+      {
+        "name": "延长发射",
+        "effect": "将浮空的有效时间延长15%"
+      },
+      {
+        "name": "以太天才",
+        "effect": "以太力提升10%"
+      },
+      {
+        "name": "自然恢复力",
+        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量"
+      },
+      {
+        "name": "黄金之心",
+        "effect": "最大HP提升10%"
+      },
+      {
+        "name": "行家之击",
+        "effect": "灵巧提升10%"
+      },
+      {
+        "name": "魔鬼追击",
+        "effect": "取消时的伤害上升率增加 20%"
+      },
+      {
+        "name": "英雄动作",
+        "effect": "发生暴击时 队伍槽少量增加"
+      },
+      {
+        "name": "黑暗猛砍",
+        "effect": "偷袭成功时 伤害输出提升50%"
+      },
+      {
+        "name": "达人攻击",
+        "effect": "灵巧增加20"
+      },
+      {
+        "name": "飞毛腿",
+        "effect": "敏捷提升10%"
+      },
+      {
+        "name": "兴奋回复",
+        "effect": "使用御刃者武技取代自动攻击时 HP回复3%"
+      },
+      {
+        "name": "第二生命",
+        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）"
+      },
+      {
+        "name": "大声援",
+        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%"
+      },
+      {
+        "name": "解放霸王心眼",
+        "effect": "牵绊MAX时 同时按下R和+ 彩歌会在一定时间内觉醒（1场战斗仅限1次）"
+      },
+      {
+        "name": "超级药",
+        "effect": "回复瓶的效果提升20%"
+      },
+      {
+        "name": "大团结",
+        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加"
+      }
+    ],
+    "favoriteCategories": [
+      "肉类",
+      "纺织品"
+    ],
+    "favoriteItems": [
+      "英雄阿德尔烤饼",
+      "雪花水晶壶"
+    ],
+    "auxCores": null,
+    "statModifier": "",
+    "partners": [
+      "XC2-BLADE-PANDORIA"
+    ],
+    "image": "/images/xc2/xc2-driver-zeke.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_004_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E9%BD%90%E6%A0%BC",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-DRIVER-VANDHAM",
+    "kind": "driver",
+    "name": "凡达姆",
+    "englishName": "Vandham",
+    "arc": "baseGame",
+    "group": "临时可控角色",
+    "element": "",
+    "role": "御刃者",
+    "weapon": "双镰刀",
+    "acquisition": "第3章临时加入",
+    "acquisitionType": "story",
+    "description": "英维迪亚佣兵团的首领，是莱克斯第3章的临时队友。",
+    "fieldSkills": [],
+    "battleSkills": [
+      {
+        "name": "肌肉锁链",
+        "effect": "可以通过取消御刃者武技 来使用御刃者武技"
+      },
+      {
+        "name": "不屈意志",
+        "effect": "最大HP增加200"
+      },
+      {
+        "name": "俯卧撑一万次",
+        "effect": "力量增加20"
+      },
+      {
+        "name": "战场老兵",
+        "effect": "自动攻击命中时 有10%的概率发生2次攻击"
+      },
+      {
+        "name": "速肌强化1",
+        "effect": "战斗开始时可以使用 X键的御刃者武技"
+      },
+      {
+        "name": "以太力量",
+        "effect": "以太力增加20"
+      },
+      {
+        "name": "肌肉精英",
+        "effect": "力量提升10%"
+      },
+      {
+        "name": "连击肌肉",
+        "effect": "取消时的伤害上升率增加 20%"
+      },
+      {
+        "name": "速肌强化2",
+        "effect": "战斗开始时可以使用 Y键的御刃者武技"
+      },
+      {
+        "name": "守护者",
+        "effect": "最大HP提升10%"
+      },
+      {
+        "name": "超回复",
+        "effect": "回复瓶的效果提升20%"
+      },
+      {
+        "name": "速肌强化3",
+        "effect": "战斗开始时可以使用 B键的御刃者武技"
+      },
+      {
+        "name": "最后的男人",
+        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）"
+      },
+      {
+        "name": "巨大的手",
+        "effect": "救起对象的HP提升15%"
+      },
+      {
+        "name": "以太肌肉",
+        "effect": "以太力提升10%"
+      },
+      {
+        "name": "动力提升",
+        "effect": "将浮空的有效时间延长15%"
+      },
+      {
+        "name": "迅猛肌肉",
+        "effect": "敏捷增加20"
+      },
+      {
+        "name": "靠得住的男人",
+        "effect": "发生暴击时 队伍槽少量增加"
+      },
+      {
+        "name": "同伴支援",
+        "effect": "取消时所增加的必杀技 填充量提升20%"
+      },
+      {
+        "name": "战斗感觉",
+        "effect": "灵巧增加20"
+      },
+      {
+        "name": "肌肉王",
+        "effect": "力量提升10%"
+      },
+      {
+        "name": "熟练技术",
+        "effect": "灵巧提升10%"
+      },
+      {
+        "name": "复原力",
+        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量"
+      },
+      {
+        "name": "肌肉回避",
+        "effect": "敏捷提升10%"
+      },
+      {
+        "name": "向天祈祷",
+        "effect": "运气增加20"
+      },
+      {
+        "name": "炫耀肌肉",
+        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加"
+      },
+      {
+        "name": "天命",
+        "effect": "运气提升10%"
+      },
+      {
+        "name": "运动回复",
+        "effect": "使用御刃者武技取代自动攻击时 HP回复3%"
+      },
+      {
+        "name": "大声支援",
+        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%"
+      },
+      {
+        "name": "一气呵成",
+        "effect": "连锁攻击结束时 队伍槽增加"
+      }
+    ],
+    "favoriteCategories": [
+      "主食",
+      "桌游"
+    ],
+    "favoriteItems": [
+      "带骨鳞甲兽肉排",
+      "幽界神话戏曲"
+    ],
+    "auxCores": null,
+    "statModifier": "",
+    "partners": [
+      "XC2-BLADE-ROC"
+    ],
+    "image": "/images/xc2/xc2-driver-vandham.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_006_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%87%A1%E8%BE%BE%E5%A7%86",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": false,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-DRIVER-JIN",
+    "kind": "driver",
+    "name": "真",
+    "englishName": "Jin",
+    "arc": "baseGame",
+    "group": "临时可控角色",
+    "element": "",
+    "role": "临时操作 · 异刃",
+    "weapon": "刀",
+    "acquisition": "第8章临时可操作，身份为异刃",
+    "acquisitionType": "story",
+    "description": "秘密结社伊拉的成员；本篇第8章可以短暂操作这位异刃。",
+    "fieldSkills": [],
+    "battleSkills": [],
+    "favoriteCategories": [
+      "主食",
+      "鱼类"
+    ],
+    "favoriteItems": [
+      "炒油牡蛎",
+      "千年阿鲁斯"
+    ],
+    "auxCores": null,
+    "statModifier": "",
+    "partners": [],
+    "image": "/images/xc2/xc2-driver-jin.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_007_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E7%9C%9F",
+    "updatedAt": "2026-10-03",
+    "spoiler": true,
+    "playable": true,
+    "collectible": false,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-PYRA",
+    "kind": "blade",
+    "name": "焰",
+    "englishName": "Pyra",
+    "arc": "baseGame",
+    "group": "史诗异刃",
+    "element": "火",
+    "role": "攻击",
+    "weapon": "圣杯之剑",
+    "acquisition": "第一章主线剧情",
+    "acquisitionType": "story",
+    "description": "温柔而坚定的天之圣杯，与莱克斯共同寻找乐园。",
+    "fieldSkills": [
+      "火属性之力",
+      "集中力",
+      "料理"
+    ],
+    "battleSkills": [
+      {
+        "name": "净化之炎",
+        "effect": "必杀技命中时 HP低于20%的敌人有(5/7/10/12/15)%的概率无法战斗（首领及珍稀种除外）"
+      },
+      {
+        "name": "圣杯片鳞",
+        "effect": "异刃连击的伤害提升(24/36/48/60/72)%"
+      },
+      {
+        "name": "火焰刀身",
+        "effect": "暴击伤害提升(10/20/30/40/50)%"
+      }
+    ],
+    "favoriteCategories": [
+      "蔬菜",
+      "书籍"
+    ],
+    "favoriteItems": [
+      "塞利奥茶",
+      "木纹阿尔卑斯长号"
+    ],
+    "auxCores": 2,
+    "statModifier": "力量10%",
+    "partners": [
+      "XC2-DRIVER-REX"
+    ],
+    "image": "/images/xc2/xc2-blade-pyra.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_001_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%84%B0",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-MYTHRA",
+    "kind": "blade",
+    "name": "光",
+    "englishName": "Mythra",
+    "arc": "baseGame",
+    "group": "史诗异刃",
+    "element": "光",
+    "role": "攻击",
+    "weapon": "圣杯之剑",
+    "acquisition": "第三章主线剧情",
+    "acquisitionType": "story",
+    "description": "天之圣杯的另一面，以光属性力量和暴击相关技能支援战斗。",
+    "fieldSkills": [
+      "光属性之力",
+      "集中力",
+      "女孩谈话"
+    ],
+    "battleSkills": [
+      {
+        "name": "因果律预测",
+        "effect": "牵绊为最高值时 全体队友命中率及回避率提升(30/35/40/45/50)%"
+      },
+      {
+        "name": "光速连击",
+        "effect": "产生暴击时 使用的武技和必杀技的填充量回复(20/40/60/80/100)%"
+      },
+      {
+        "name": "闪光",
+        "effect": "暴击率增加(5/7/10/12/15)%"
+      }
+    ],
+    "favoriteCategories": [
+      "甜点",
+      "美术品"
+    ],
+    "favoriteItems": [
+      "云海蟹奶油土豆饼",
+      "最后的合唱"
+    ],
+    "auxCores": 2,
+    "statModifier": "以太力10%",
+    "partners": [
+      "XC2-DRIVER-REX"
+    ],
+    "image": "/images/xc2/xc2-blade-mythra.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_002_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%85%89",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-PNEUMA",
+    "kind": "blade",
+    "name": "觉醒圣杯",
+    "englishName": "Pneuma",
+    "arc": "baseGame",
+    "group": "史诗异刃",
+    "element": "光",
+    "role": "攻击",
+    "weapon": "圣杯之剑",
+    "acquisition": "第7章主线解锁；战斗中焰或光牵绊MAX且队伍槽MAX时，按 R + X 启动觉醒",
+    "acquisitionType": "story",
+    "description": "焰与光解放力量后的战斗形态，与原有两份档案共享角色身份。",
+    "fieldSkills": [],
+    "battleSkills": [
+      {
+        "name": "期望的未来",
+        "effect": "可以使出任意属性的连击"
+      },
+      {
+        "name": "天选之人",
+        "effect": "依靠天之圣杯的力量 御刃者的能力受到大幅强化"
+      },
+      {
+        "name": "天之圣杯",
+        "effect": "依靠天之圣杯的保佑 队伍全员的能力受到大幅强化"
+      }
+    ],
+    "favoriteCategories": [],
+    "favoriteItems": [],
+    "auxCores": null,
+    "statModifier": "",
+    "partners": [
+      "XC2-DRIVER-REX"
+    ],
+    "image": "/images/xc2/xc2-blade-pneuma.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Homuri.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E8%A7%89%E9%86%92%E5%9C%A3%E6%9D%AF",
+    "updatedAt": "2026-10-03",
+    "spoiler": true,
+    "playable": true,
+    "collectible": false,
+    "isForm": true,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-DROMARCH",
+    "kind": "blade",
+    "name": "白虎",
+    "englishName": "Dromarch",
+    "arc": "baseGame",
+    "group": "史诗异刃",
+    "element": "水",
+    "role": "回复",
+    "weapon": "双环刃",
+    "acquisition": "第一章主线剧情",
+    "acquisitionType": "story",
+    "description": "尼娅的忠实搭档，以双环刃和水属性力量协助队伍。",
+    "fieldSkills": [
+      "水属性之力",
+      "植物学",
+      "古代文明的知识"
+    ],
+    "battleSkills": [
+      {
+        "name": "四神的守护",
+        "effect": "受到敌方异刃连击的伤害降低(30/35/40/45/50)%"
+      },
+      {
+        "name": "大河的恩惠",
+        "effect": "使用御刃者武技后HP回复(3/3.5/4/4.5/5)%"
+      },
+      {
+        "name": "治愈咆哮",
+        "effect": "受到攻击后有25%的概率使HP回复(4/6/8/10/12)%"
+      }
+    ],
+    "favoriteCategories": [
+      "肉类",
+      "桌游"
+    ],
+    "favoriteItems": [
+      "兴奋翻车鱼干",
+      "万年杉树古琴"
+    ],
+    "auxCores": 2,
+    "statModifier": "以太力10%",
+    "partners": [
+      "XC2-DRIVER-NIA"
+    ],
+    "image": "/images/xc2/xc2-blade-dromarch.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_005_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%99%BD%E8%99%8E",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-POPPI",
+    "kind": "blade",
+    "name": "花JS",
+    "englishName": "Poppi α",
+    "arc": "baseGame",
+    "group": "史诗异刃",
+    "element": "地(初始)",
+    "role": "防御(初始)",
+    "weapon": "花之盾",
+    "acquisition": "第2章主线剧情；显示加入时的属性与类别，可在花的定制中更改",
+    "acquisitionType": "story",
+    "description": "虎制造的人造异刃花的初始形态，可通过花的定制调整性能。",
+    "fieldSkills": [
+      "跳跃",
+      "诺彭的知识",
+      "怪力"
+    ],
+    "battleSkills": [
+      {
+        "name": "诺彭金属",
+        "effect": "物理及以太防御增加(5/6/7/8/10)%"
+      },
+      {
+        "name": "防御更替",
+        "effect": "格挡率增加(10/12/14/16/20)%"
+      },
+      {
+        "name": "紧急模式",
+        "effect": "HP低于30%时 格挡率提升(20/30/40/50/60)%"
+      }
+    ],
+    "favoriteCategories": [
+      "主食",
+      "乐器"
+    ],
+    "favoriteItems": [
+      "泡泡果汁",
+      "圆圆沙锤"
+    ],
+    "auxCores": null,
+    "statModifier": "最大HP15%(初始)",
+    "partners": [
+      "XC2-DRIVER-TORA"
+    ],
+    "image": "/images/xc2/xc2-blade-poppi.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_006_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E8%8A%B1JS",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-POPPI-QT",
+    "kind": "blade",
+    "name": "花JK",
+    "englishName": "Poppi QT",
+    "arc": "baseGame",
+    "group": "史诗异刃",
+    "element": "火(初始)",
+    "role": "防御(初始)",
+    "weapon": "花之臂",
+    "acquisition": "第4章主线剧情；显示加入时的属性与类别，可在花的定制中更改",
+    "acquisitionType": "story",
+    "description": "花的强化形态，可通过花的定制改变属性、类别与能力修正。",
+    "fieldSkills": [
+      "开锁",
+      "忍耐力",
+      "农学"
+    ],
+    "battleSkills": [
+      {
+        "name": "加速装置",
+        "effect": "有(5/7/10/12/15)%的概率使自身的攻击必中并回避敌方攻击"
+      },
+      {
+        "name": "高速反击",
+        "effect": "回避攻击时 按力量(160/200/240/280/320)%的伤害进行反击"
+      },
+      {
+        "name": "高速启动",
+        "effect": "异刃切换的冷却时间缩短(10/15/20/25/30)%"
+      }
+    ],
+    "favoriteCategories": [
+      "蔬菜",
+      "美术品"
+    ],
+    "favoriteItems": [
+      "满天宝石挞",
+      "玄武纹棉布"
+    ],
+    "auxCores": null,
+    "statModifier": "敏捷10%(初始)",
+    "partners": [
+      "XC2-DRIVER-TORA"
+    ],
+    "image": "/images/xc2/xc2-blade-poppi-qt.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_007_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E8%8A%B1JK",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-POPPI-QT-PI",
+    "kind": "blade",
+    "name": "花JD",
+    "englishName": "Poppi QTπ",
+    "arc": "baseGame",
+    "group": "史诗异刃",
+    "element": "冰(初始)",
+    "role": "攻击(初始)",
+    "weapon": "花之佩剑",
+    "acquisition": "完成「花的魔改造」；显示加入时的属性与类别，可在花的定制中更改",
+    "acquisitionType": "quest",
+    "description": "花进一步强化后的形态，使用花之佩剑并保留定制能力。",
+    "fieldSkills": [
+      "观察眼",
+      "古代文明的知识",
+      "森林学"
+    ],
+    "battleSkills": [
+      {
+        "name": "反射",
+        "effect": "有(5/7/10/12/15)%的概率反弹攻击"
+      },
+      {
+        "name": "纳米机械修复",
+        "effect": "HP低于30%时 每秒HP回复(0.6/0.8/1/1.2/1.4)%"
+      },
+      {
+        "name": "超频",
+        "effect": "牵绊为最高值时 伤害输出提升(60/70/80/90/100)%"
+      }
+    ],
+    "favoriteCategories": [
+      "主食",
+      "纺织品"
+    ],
+    "favoriteItems": [
+      "迷情蜜瓜冰糕",
+      "风花梳子"
+    ],
+    "auxCores": null,
+    "statModifier": "力量15%(初始)",
+    "partners": [
+      "XC2-DRIVER-TORA"
+    ],
+    "image": "/images/xc2/xc2-blade-poppi-qt-pi.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_008_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E8%8A%B1JD",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-Q-33"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-ROC",
+    "kind": "blade",
+    "name": "朱雀",
+    "englishName": "Roc",
+    "arc": "baseGame",
+    "group": "史诗异刃",
+    "element": "风",
+    "role": "攻击",
+    "weapon": "双镰刀",
+    "acquisition": "第4章主线剧情",
+    "acquisitionType": "story",
+    "description": "使用双镰刀的风属性异刃，在剧情中与凡达姆和莱克斯并肩作战。",
+    "fieldSkills": [
+      "风属性之力",
+      "瘴气雾散",
+      "开锁"
+    ],
+    "battleSkills": [
+      {
+        "name": "镰鼬",
+        "effect": "攻击造成的仇恨值降低(20/25/30/35/40)%"
+      },
+      {
+        "name": "疾风怒涛",
+        "effect": "战斗开始后的30秒内 伤害输出提升(60/70/80/90/100)%"
+      },
+      {
+        "name": "急速下降",
+        "effect": "从背面攻击时伤害 输出提升(20/40/60/80/100)%"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "桌游"
+    ],
+    "favoriteItems": [
+      "树染缠腰布",
+      "烤全深渊蝶鲨"
+    ],
+    "auxCores": 2,
+    "statModifier": "灵巧15%",
+    "partners": [
+      "XC2-DRIVER-REX",
+      "XC2-DRIVER-VANDHAM"
+    ],
+    "image": "/images/xc2/xc2-blade-roc.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_011_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E6%9C%B1%E9%9B%80",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-BRIGHID",
+    "kind": "blade",
+    "name": "迦具土",
+    "englishName": "Brighid",
+    "arc": "baseGame",
+    "group": "史诗异刃",
+    "element": "火",
+    "role": "防御",
+    "weapon": "军刀",
+    "acquisition": "第4章主线剧情",
+    "acquisitionType": "story",
+    "description": "斯佩比亚的皇家异刃，与梅勒芙搭档使用火属性军刀。",
+    "fieldSkills": [
+      "火属性之力",
+      "观察眼",
+      "矿物学"
+    ],
+    "battleSkills": [
+      {
+        "name": "战争篝火",
+        "effect": "御刃者每回避一次攻击 伤害输出提升(6/7/8/9/10)%（最多250%）"
+      },
+      {
+        "name": "火焰之壁",
+        "effect": "HP低于30%时 回避率提升(20/30/40/50/60)%"
+      },
+      {
+        "name": "幽炎",
+        "effect": "有(50/60/70/80/90)%的概率回避射击攻击"
+      }
+    ],
+    "favoriteCategories": [
+      "甜品",
+      "化妆品"
+    ],
+    "favoriteItems": [
+      "融雪千层饼",
+      "阿鲁斯油护手霜"
+    ],
+    "auxCores": 2,
+    "statModifier": "敏捷15%",
+    "partners": [
+      "XC2-DRIVER-MORAG"
+    ],
+    "image": "/images/xc2/xc2-blade-brighid.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_010_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E8%BF%A6%E5%85%B7%E5%9C%9F",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-PANDORIA",
+    "kind": "blade",
+    "name": "彩歌",
+    "englishName": "Pandoria",
+    "arc": "baseGame",
+    "group": "史诗异刃",
+    "element": "雷",
+    "role": "攻击",
+    "weapon": "大剑",
+    "acquisition": "第5章主线剧情",
+    "acquisitionType": "story",
+    "description": "齐格的雷属性搭档，使用大剑并具有三个辅助核心插槽。",
+    "fieldSkills": [
+      "雷属性之力",
+      "开锁",
+      "鱼类学"
+    ],
+    "battleSkills": [
+      {
+        "name": "紫电光石火",
+        "effect": "牵绊为最高值时 武技填充的增加量提升(30/35/40/45/50)%"
+      },
+      {
+        "name": "爆雷击",
+        "effect": "攻击时有(60/70/80/90/100)%的概率使格挡无效"
+      },
+      {
+        "name": "疾风迅雷",
+        "effect": "自动攻击的速度提升(20/22/25/27/30)%"
+      }
+    ],
+    "favoriteCategories": [
+      "肉类",
+      "书籍"
+    ],
+    "favoriteItems": [
+      "蛋黄酱烤章鱼",
+      "星月唇膏"
+    ],
+    "auxCores": 3,
+    "statModifier": "力量10%",
+    "partners": [
+      "XC2-DRIVER-ZEKE"
+    ],
+    "image": "/images/xc2/xc2-blade-pandoria.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_009_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%BD%A9%E6%AD%8C",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-NIA",
+    "kind": "blade",
+    "name": "尼娅",
+    "englishName": "Nia",
+    "arc": "baseGame",
+    "group": "史诗异刃",
+    "element": "水",
+    "role": "回复",
+    "weapon": "弯刀",
+    "acquisition": "第7章主线剧情",
+    "acquisitionType": "story",
+    "description": "尼娅在主线中展现的异刃身份，以水属性回复能力支援莱克斯。",
+    "fieldSkills": [
+      "水属性之力",
+      "森林学",
+      "忍耐力"
+    ],
+    "battleSkills": [
+      {
+        "name": "丰饶之海",
+        "effect": "牵绊为最高值时 每过一段时间 我方全员的HP回复(4/5/6/7/8)%"
+      },
+      {
+        "name": "瞬间再生",
+        "effect": "受到攻击后 有25%的概率使HP回复(4/6/8/10/12)%"
+      },
+      {
+        "name": "活性细胞",
+        "effect": "自动攻击命中时 HP回复伤害输出的(5/7/9/10/12)%"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "乐器"
+    ],
+    "favoriteItems": [
+      "雪孩子土豆色拉",
+      "秘密潜入"
+    ],
+    "auxCores": 3,
+    "statModifier": "最大HP15%",
+    "partners": [
+      "XC2-DRIVER-REX"
+    ],
+    "image": "/images/xc2/xc2-blade-nia.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_004_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%B0%BC%E5%A8%85",
+    "updatedAt": "2026-10-03",
+    "spoiler": true,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-AEGAEON",
+    "kind": "blade",
+    "name": "绵津见",
+    "englishName": "Aegaeon",
+    "arc": "baseGame",
+    "group": "史诗异刃",
+    "element": "水",
+    "role": "防御",
+    "weapon": "刀",
+    "acquisition": "第6章主线剧情获得「绵津见的核心水晶」；25次战斗后即可调谐",
+    "acquisitionType": "story",
+    "description": "冷静的皇家护卫，获得其核心水晶后可与梅勒芙调谐。",
+    "fieldSkills": [
+      "水属性之力",
+      "古代文明的知识",
+      "跳跃"
+    ],
+    "battleSkills": [
+      {
+        "name": "明镜止水",
+        "effect": "牵绊达到最高值后的(10/12/14/16/18)秒内 回避敌方攻击"
+      },
+      {
+        "name": "流水步法",
+        "effect": "移动时回避率提升(20/30/40/50/60)%"
+      },
+      {
+        "name": "无我境界",
+        "effect": "HP低于30%时 回避率提升(20/30/40/50/60)%"
+      }
+    ],
+    "favoriteCategories": [
+      "甜点",
+      "美术品"
+    ],
+    "favoriteItems": [
+      "莫特科拉人偶",
+      "熔岩馅饼"
+    ],
+    "auxCores": 2,
+    "statModifier": "敏捷15%",
+    "partners": [
+      "XC2-DRIVER-MORAG"
+    ],
+    "image": "/images/xc2/xc2-blade-aegaeon.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_012_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%BB%B5%E6%B4%A5%E8%A7%81",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-GODFREY",
+    "kind": "blade",
+    "name": "红莲",
+    "englishName": "Godfrey",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "冰",
+    "role": "防御",
+    "weapon": "战锤",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "热衷于伸张正义的冰属性异刃，以战锤守护同伴。",
+    "fieldSkills": [
+      "热诚之心",
+      "正义之心",
+      "温柔之心"
+    ],
+    "battleSkills": [
+      {
+        "name": "坚韧毅力",
+        "effect": "HP低于30%时 受到伤害降低(24/26/30/32/36)%"
+      },
+      {
+        "name": "超级热血",
+        "effect": "攻击等级比自己高的敌人时 伤害输出提升(20/35/50/65/80)%"
+      },
+      {
+        "name": "正义之光",
+        "effect": "HP低于30%时 每秒HP回复(0.6/0.8/1/1.2/1.4)%"
+      }
+    ],
+    "favoriteCategories": [
+      "乐器",
+      "肉类"
+    ],
+    "favoriteItems": [
+      "星型肉排",
+      "玫拉姆森林冒险记"
+    ],
+    "auxCores": 2,
+    "statModifier": "最大HP15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-godfrey.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_017_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%BA%A2%E8%8E%B2",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-01"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-WULFRIC",
+    "kind": "blade",
+    "name": "力男",
+    "englishName": "Wulfric",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "地",
+    "role": "攻击",
+    "weapon": "长枪",
+    "acquisition": "第3章主线剧情获得「豪迈的核心水晶」，第4章调谐可能",
+    "acquisitionType": "story",
+    "description": "使用长枪的地属性攻击型异刃，具备怪力与集中力等场景技能。",
+    "fieldSkills": [
+      "怪力",
+      "地属性之力",
+      "集中力"
+    ],
+    "battleSkills": [
+      {
+        "name": "怪力乱神",
+        "effect": "攻击倒地或浮空状态敌人时 伤害输出提升(50/75/100/125/150)%"
+      },
+      {
+        "name": "力量解放",
+        "effect": "牵绊为最高值时 伤害输出提升(60/70/80/90/100)%"
+      },
+      {
+        "name": "攻其要害",
+        "effect": "暴击伤害提升(10/20/30/40/50)%"
+      }
+    ],
+    "favoriteCategories": [
+      "主食",
+      "书籍"
+    ],
+    "favoriteItems": [
+      "糖醋海洋茶鱼",
+      "雪原的诺彭强盗"
+    ],
+    "auxCores": 2,
+    "statModifier": "力量15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-wulfric.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_049_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%8A%9B%E7%94%B7",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-02"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-PERCEVAL",
+    "kind": "blade",
+    "name": "婆娑罗",
+    "englishName": "Perceval",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "暗",
+    "role": "防御",
+    "weapon": "刀",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用刀的暗属性防御型异刃，可通过核心水晶调谐加入。",
+    "fieldSkills": [
+      "暗属性之力",
+      "跳跃",
+      "暗杀"
+    ],
+    "battleSkills": [
+      {
+        "name": "恶鬼罗刹",
+        "effect": "根据打倒的敌人数量 伤害输出提升(90/105/120/135/150)%（最多300%）"
+      },
+      {
+        "name": "魂魄吸收",
+        "effect": "打败敌人时HP回复(45/53/60/68/75)%"
+      },
+      {
+        "name": "一闪",
+        "effect": "攻击人型时有(1/2/3/4/5)%的概率使其无法战斗（首领及珍稀种除外）"
+      }
+    ],
+    "favoriteCategories": [
+      "饮料",
+      "美术品"
+    ],
+    "favoriteItems": [
+      "赤杆三味线",
+      "雪醋淋冰包心菜"
+    ],
+    "auxCores": 1,
+    "statModifier": "敏捷10%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-perceval.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_019_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%A9%86%E5%A8%91%E7%BD%97",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-03"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-VALE",
+    "kind": "blade",
+    "name": "鸣",
+    "englishName": "Vale",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "暗",
+    "role": "攻击",
+    "weapon": "长枪",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用长枪的暗属性异刃，可通过核心水晶调谐加入队伍。",
+    "fieldSkills": [
+      "暗属性之力",
+      "机械纺织",
+      "女孩谈话"
+    ],
+    "battleSkills": [
+      {
+        "name": "暴力机关",
+        "effect": "每使用一次必杀技则伤害输出增加(25/30/35/40/50)%（最多300%）"
+      },
+      {
+        "name": "间隙之枪",
+        "effect": "从侧面攻击时伤害输出提升(20/40/60/80/100)%"
+      },
+      {
+        "name": "血脂圆舞曲",
+        "effect": "攻击浮空状态的敌人时 伤害输出提升(50/75/100/125/150)%"
+      }
+    ],
+    "favoriteCategories": [
+      "甜点",
+      "纺织品"
+    ],
+    "favoriteItems": [
+      "香脆冰雪酱瓜",
+      "王家羊毛"
+    ],
+    "auxCores": 3,
+    "statModifier": "以太力15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-vale.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_053_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E9%B8%A3",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-04"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-AGATE",
+    "kind": "blade",
+    "name": "玛瑙",
+    "englishName": "Agate",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "地",
+    "role": "攻击",
+    "weapon": "战斧",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用战斧的地属性异刃，具备矿物学与观察眼等场景技能。",
+    "fieldSkills": [
+      "宝石梦",
+      "矿物学",
+      "观察眼"
+    ],
+    "battleSkills": [
+      {
+        "name": "尖锐之金青石",
+        "effect": "牵绊为最高值时 队伍全员的伤害输出提升(25/30/35/40/50)%"
+      },
+      {
+        "name": "追击之黝帘石",
+        "effect": "攻击倒地状态的敌人时 伤害输出提升(50/75/100/125/150)%"
+      },
+      {
+        "name": "歼灭之虎晴石",
+        "effect": "攻击昆虫时 伤害输出提升(40/50/60/70/80)%"
+      }
+    ],
+    "favoriteCategories": [
+      "饮料",
+      "美术品"
+    ],
+    "favoriteItems": [
+      "香味干金枪鱼头汤",
+      "假肢阿乔的悲惨世界"
+    ],
+    "auxCores": 2,
+    "statModifier": "灵巧10%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-agate.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_052_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%8E%9B%E7%91%99",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-05"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-GORG",
+    "kind": "blade",
+    "name": "雄黄",
+    "englishName": "Gorg",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "水",
+    "role": "攻击",
+    "weapon": "战斧",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "持战斧作战的水属性异刃，拥有观察眼与糕点师等场景技能。",
+    "fieldSkills": [
+      "观察眼",
+      "忍耐力",
+      "糕点师"
+    ],
+    "battleSkills": [
+      {
+        "name": "FTL",
+        "effect": "牵绊为最高值时 队伍全员受到伤害降低(10/12/15/17/20)%"
+      },
+      {
+        "name": "IMD",
+        "effect": "物理防御增加(5/7/10/12/15)%"
+      },
+      {
+        "name": "FAS",
+        "effect": "攻击水生类时 伤害输出提升(40/50/60/70/80)%"
+      }
+    ],
+    "favoriteCategories": [
+      "纺织品",
+      "甜点"
+    ],
+    "favoriteItems": [
+      "帝国秘密温泉一日游",
+      "霓虹葡萄布丁"
+    ],
+    "auxCores": 2,
+    "statModifier": "最大HP15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-gorg.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_022_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E9%9B%84%E9%BB%84",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-06"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-BOREAS",
+    "kind": "blade",
+    "name": "韦驮天",
+    "englishName": "Boreas",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "风",
+    "role": "回复",
+    "weapon": "弹击球",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用弹击球的风属性回复型异刃，拥有独特的食物相关能力。",
+    "fieldSkills": [
+      "诺彭的知识",
+      "打捞技术",
+      "韦驮天"
+    ],
+    "battleSkills": [
+      {
+        "name": "承蒙款待啵",
+        "effect": "打倒敌人时 队伍全员的HP回复(40/45/50/55/60)%"
+      },
+      {
+        "name": "躲开啵",
+        "effect": "牵绊为最高值时 回避率提升(15/23/30/38/45)%"
+      },
+      {
+        "name": "弹开啵",
+        "effect": "受到敌人攻击时 有(30/35/40/45/50)%的概率击退敌人"
+      }
+    ],
+    "favoriteCategories": [
+      "主食",
+      "化妆品"
+    ],
+    "favoriteItems": [
+      "巨大蘑菇派",
+      "冰霜迪法露"
+    ],
+    "auxCores": 1,
+    "statModifier": "最大HP15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-boreas.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_023_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E9%9F%A6%E9%A9%AE%E5%A4%A9",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-07"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-DAGAS",
+    "kind": "blade",
+    "name": "宫比罗",
+    "englishName": "Dagas",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "火",
+    "role": "攻击",
+    "weapon": "战斧",
+    "acquisition": "异刃调谐；完成异刃任务「王的威光」后，进化为宫比罗(觉醒)",
+    "acquisitionType": "resonance",
+    "description": "自称王者的火属性异刃，可通过专属任务唤醒进一步的力量。",
+    "fieldSkills": [
+      "怠慢"
+    ],
+    "battleSkills": [
+      {
+        "name": "凯撒领域",
+        "effect": "牵绊为最高值时 队伍全员的伤害输出和攻击范围提升(40/45/50/55/60)%"
+      },
+      {
+        "name": "王者风范",
+        "effect": "异刃连击的伤害提升(10/15/20/25/30)%"
+      },
+      {
+        "name": "黄金效果",
+        "effect": "敌人掉落的金币提升(30/35/40/45/50)%"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "美术品"
+    ],
+    "favoriteItems": [
+      "慢火煎芬芳虾",
+      "黑色花田"
+    ],
+    "auxCores": 1,
+    "statModifier": "力量5%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-dagas.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_040_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%AE%AB%E6%AF%94%E7%BD%97",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-08"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-DAGAS-AWAKENED",
+    "kind": "blade",
+    "name": "宫比罗(觉醒)",
+    "englishName": "Dagas",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "火",
+    "role": "攻击",
+    "weapon": "战斧",
+    "acquisition": "完成异刃任务‘王的威光’后，宫比罗进入觉醒形态",
+    "acquisitionType": "quest",
+    "description": "完成王的威光后强化的宫比罗，属于同一异刃的觉醒形态。",
+    "fieldSkills": [
+      "诺彭的知识",
+      "矿物学",
+      "古代文明的知识"
+    ],
+    "battleSkills": [
+      {
+        "name": "凯撒领域",
+        "effect": "牵绊为最高值时 队伍全员的伤害输出和攻击范围提升(80/90/100/110/120)%"
+      },
+      {
+        "name": "王者风范",
+        "effect": "异刃连击的伤害提升(20/30/40/50/60)%"
+      },
+      {
+        "name": "黄金效果",
+        "effect": "敌人掉落的金币提升(60/70/80/90/100)%"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "美术品"
+    ],
+    "favoriteItems": [
+      "慢火煎芬芳虾",
+      "黑色花田"
+    ],
+    "auxCores": 3,
+    "statModifier": "力量10%",
+    "partners": [
+      "XC2-BLADE-DAGAS"
+    ],
+    "image": "/images/xc2/xc2-blade-dagas-awakened.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_040_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%AE%AB%E6%AF%94%E7%BD%97(%E8%A7%89%E9%86%92)",
+    "updatedAt": "2026-10-03",
+    "spoiler": true,
+    "playable": true,
+    "collectible": false,
+    "isForm": true,
+    "questIds": [
+      "XC2-QUEST-B-08"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-KASANDRA",
+    "kind": "blade",
+    "name": "重音",
+    "englishName": "Kasandra",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "暗",
+    "role": "防御",
+    "weapon": "战锤",
+    "acquisition": "完成事件「重音的核心水晶」",
+    "acquisitionType": "special",
+    "description": "以战锤作战的暗属性防御型异刃，可通过核心水晶调谐加入。",
+    "fieldSkills": [
+      "诺彭的知识",
+      "农学",
+      "幸运女孩"
+    ],
+    "battleSkills": [
+      {
+        "name": "五鬼",
+        "effect": "仇恨值每秒 逐渐增加 且所有攻击的仇恨值提升(10/15/20/25/30)%"
+      },
+      {
+        "name": "天医",
+        "effect": "发生暴击时 HP回复伤害输出的(10/15/20/25/30)%"
+      },
+      {
+        "name": "伏位",
+        "effect": "从正面攻击时 伤害输出提升(10/20/30/40/50)%"
+      }
+    ],
+    "favoriteCategories": [
+      "主食",
+      "化妆品"
+    ],
+    "favoriteItems": [
+      "妖精菲尔梅莉的雕像",
+      "天文占卜大辞典"
+    ],
+    "auxCores": 2,
+    "statModifier": "最大HP15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-kasandra.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_024_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E9%87%8D%E9%9F%B3",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-09"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-PRAXIS",
+    "kind": "blade",
+    "name": "水分",
+    "englishName": "Praxis",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "水",
+    "role": "攻击",
+    "weapon": "长枪",
+    "acquisition": "完成「核心水晶猎手」获得水分的核心水晶；25次战斗后调谐可能",
+    "acquisitionType": "quest",
+    "description": "与星织有深厚联系的水属性异刃，通过任务获得专属核心水晶。",
+    "fieldSkills": [
+      "女孩谈话",
+      "水属性之力",
+      "打捞技术"
+    ],
+    "battleSkills": [
+      {
+        "name": "觉醒少女～力～",
+        "effect": "牵绊为最高值时伤害输出提升(60/70/80/90/100)%"
+      },
+      {
+        "name": "觉醒少女～技～",
+        "effect": "牵绊为最高值时命中率提升(30/35/40/45/50)%"
+      },
+      {
+        "name": "元气四射",
+        "effect": "HP高于90%时 伤害输出提升(20/30/40/50/60)%"
+      }
+    ],
+    "favoriteCategories": [
+      "甜点",
+      "书籍"
+    ],
+    "favoriteItems": [
+      "高级雪花奶酪蛋糕",
+      "卷卷假睫毛"
+    ],
+    "auxCores": 1,
+    "statModifier": "灵巧10%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-praxis.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_025_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E6%B0%B4%E5%88%86",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-11",
+      "XC2-QUEST-B-12",
+      "XC2-QUEST-B-10"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-THEORY",
+    "kind": "blade",
+    "name": "星织",
+    "englishName": "Theory",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "冰",
+    "role": "防御",
+    "weapon": "刀",
+    "acquisition": "完成「异刃的记忆」获得星织的核心水晶；25次战斗后调谐可能",
+    "acquisitionType": "quest",
+    "description": "与水分相伴的冰属性剑士，通过异刃的记忆获得专属核心水晶。",
+    "fieldSkills": [
+      "冰属性之力",
+      "集中力",
+      "诺彭的知识"
+    ],
+    "battleSkills": [
+      {
+        "name": "闪空斗舞",
+        "effect": "回避攻击时 按力量(200/250/300/350/400)%的伤害进行反击"
+      },
+      {
+        "name": "意志坚定",
+        "effect": "攻击锁定自己的敌人时 伤害输出提升(25/30/35/40/50)%"
+      },
+      {
+        "name": "宠辱不惊",
+        "effect": "破防抗性提升(30/40/50/60/70)%"
+      }
+    ],
+    "favoriteCategories": [
+      "蔬菜",
+      "桌游"
+    ],
+    "favoriteItems": [
+      "炖蔬菜浓汤",
+      "雪花闪亮香水"
+    ],
+    "auxCores": 2,
+    "statModifier": "敏捷15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-theory.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_026_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E6%98%9F%E7%BB%87",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-11",
+      "XC2-QUEST-B-12",
+      "XC2-QUEST-B-10"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-PERUN",
+    "kind": "blade",
+    "name": "时叶",
+    "englishName": "Perun",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "冰",
+    "role": "攻击",
+    "weapon": "长枪",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用长枪的冰属性异刃，通过独有的异刃任务认识伙伴。",
+    "fieldSkills": [
+      "冰属性之力",
+      "古代文明的知识",
+      "骑士道"
+    ],
+    "battleSkills": [
+      {
+        "name": "守护者",
+        "effect": "有队友无法战斗或处于濒死状态时 伤害输出提升(150/175/200/225/250)% 受到伤害降低(20/25/30/35/40)%"
+      },
+      {
+        "name": "无音枪术",
+        "effect": "自动攻击造成的仇恨值降低(30/35/40/45/50)%"
+      },
+      {
+        "name": "战斗基础",
+        "effect": "自动攻击的伤害提升(20/40/60/80/100)%"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "纺织品"
+    ],
+    "favoriteItems": [
+      "深焙黑咖啡",
+      "冯斯低音提琴"
+    ],
+    "auxCores": 1,
+    "statModifier": "灵巧10%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-perun.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_027_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E6%97%B6%E5%8F%B6",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-13"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-KORA",
+    "kind": "blade",
+    "name": "石榴",
+    "englishName": "Kora",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "雷",
+    "role": "回复",
+    "weapon": "钩爪拳套",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用钩爪拳套的雷属性回复型异刃，可通过核心水晶调谐加入。",
+    "fieldSkills": [
+      "女孩谈话",
+      "雷属性之力",
+      "开锁"
+    ],
+    "battleSkills": [
+      {
+        "name": "思考停滞",
+        "effect": "必杀技命中时 有(60/65/70/75/80)%的概率使敌人的动作停止3秒"
+      },
+      {
+        "name": "散步乐趣",
+        "effect": "移动时HP每秒回复(4.5/5.3/6/6.8/7.5)%"
+      },
+      {
+        "name": "存储回复瓶",
+        "effect": "回复瓶的持续时间延长(60/70/80/90/100)秒（全体效果）"
+      }
+    ],
+    "favoriteCategories": [
+      "饮料",
+      "化妆品"
+    ],
+    "favoriteItems": [
+      "花香巴伐利亚奶羹",
+      "海螺假发"
+    ],
+    "auxCores": 2,
+    "statModifier": "以太力10%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-kora.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_028_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%9F%B3%E6%A6%B4",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-14"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-AZAMI",
+    "kind": "blade",
+    "name": "蓟",
+    "englishName": "Azami",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "暗",
+    "role": "攻击",
+    "weapon": "以太巨炮",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "持以太巨炮的暗属性异刃，专属技能与对伙伴的关注有关。",
+    "fieldSkills": [
+      "暗属性之力",
+      "植物学",
+      "千里邪眼"
+    ],
+    "battleSkills": [
+      {
+        "name": "深爱之人",
+        "effect": "御刃者的HP越低 必杀技的伤害输出提升越高"
+      },
+      {
+        "name": "二人的痛处",
+        "effect": "搭档御刃者受到伤害时 牵绊上升(15/18/21/24/30)"
+      },
+      {
+        "name": "报复",
+        "effect": "受到攻击时 按以太力(180/210/240/270/300)%的伤害进行反击"
+      }
+    ],
+    "favoriteCategories": [
+      "饮料",
+      "书籍"
+    ],
+    "favoriteItems": [
+      "蒸汽雪花凉拌色拉",
+      "蛋白珊瑚口红"
+    ],
+    "auxCores": 2,
+    "statModifier": "以太力15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-azami.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_029_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E8%93%9F",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-15"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-URSULA",
+    "kind": "blade",
+    "name": "七冰",
+    "englishName": "Ursula",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "冰",
+    "role": "回复",
+    "weapon": "钩爪拳套",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "带着伙伴熊参与战斗的冰属性异刃，也拥有歌唱相关的专属能力。",
+    "fieldSkills": [
+      "调谐和声",
+      "鱼类学",
+      "忍耐力"
+    ],
+    "battleSkills": [
+      {
+        "name": "雪之护符",
+        "effect": "牵绊达到最高值时 向队伍全体展开一个吸收最大HP(40/45/50/55/60)%伤害的障壁"
+      },
+      {
+        "name": "熊熊的治愈",
+        "effect": "异刃切换时 队伍全员的HP回复(20/25/30/35/40)%"
+      },
+      {
+        "name": "捉迷藏",
+        "effect": "御刃者武技和必杀技造成的仇恨值降低(15/23/30/38/45)%"
+      }
+    ],
+    "favoriteCategories": [
+      "甜点",
+      "化妆品"
+    ],
+    "favoriteItems": [
+      "托里格鲁特琴",
+      "蒸汽管风琴"
+    ],
+    "auxCores": 1,
+    "statModifier": "敏捷10%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-ursula.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_030_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E4%B8%83%E5%86%B0",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-16"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-NEWT",
+    "kind": "blade",
+    "name": "纽兹",
+    "englishName": "Newt",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "火",
+    "role": "防御",
+    "weapon": "刀",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用刀的火属性防御型异刃，具有较高的最大HP修正。",
+    "fieldSkills": [
+      "怪力",
+      "打捞技术",
+      "巨神兽兵器的知识"
+    ],
+    "battleSkills": [
+      {
+        "name": "镇守",
+        "effect": "有(30/40/50/60/70)%的概率可防止敌方御刃者连击造成的反应动作"
+      },
+      {
+        "name": "最终防卫线",
+        "effect": "5M范围内队员(包括自己)受到的伤害降低(20/25/30/35/40)%"
+      },
+      {
+        "name": "战场之花",
+        "effect": "自动攻击造成的仇恨值提升(30/35/40/45/50)%"
+      }
+    ],
+    "favoriteCategories": [
+      "肉类",
+      "乐器"
+    ],
+    "favoriteItems": [
+      "军事区域",
+      "活力炒电击里脊肉"
+    ],
+    "auxCores": 2,
+    "statModifier": "最大HP20%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-newt.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_032_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%BA%BD%E5%85%B9",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-17"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-NIM",
+    "kind": "blade",
+    "name": "宇迦",
+    "englishName": "Nim",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "地",
+    "role": "回复",
+    "weapon": "钩爪拳套",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用钩爪拳套的地属性回复型异刃，拥有鱼类学等场景技能。",
+    "fieldSkills": [
+      "地属性之力",
+      "鱼类学",
+      "芙涅克斯谈话"
+    ],
+    "battleSkills": [
+      {
+        "name": "融合再生",
+        "effect": "发生融合连击时回复队伍全员HP 难度越高效果越高"
+      },
+      {
+        "name": "融合知识",
+        "effect": "融合连击的效果提升(25/30/35/40/50)%"
+      },
+      {
+        "name": "驯兽师",
+        "effect": "攻击野兽时 伤害输出提升(40/50/60/70/80)%"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "乐器"
+    ],
+    "favoriteItems": [
+      "三色丸子",
+      "意外之失"
+    ],
+    "auxCores": 2,
+    "statModifier": "灵巧10%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-nim.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_033_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%AE%87%E8%BF%A6",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-18"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-SHEBA",
+    "kind": "blade",
+    "name": "凛音",
+    "englishName": "Sheba",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "水",
+    "role": "攻击",
+    "weapon": "以太巨炮",
+    "acquisition": "托里格镇杂货店购买「传承的核心水晶」",
+    "acquisitionType": "special",
+    "description": "喜爱金钱与茶会的水属性异刃，通过购买传承的核心水晶加入。",
+    "fieldSkills": [
+      "女孩谈话",
+      "开锁",
+      "喜欢女孩"
+    ],
+    "battleSkills": [
+      {
+        "name": "经济动物",
+        "effect": "战斗时获得金币后 攻击力根据其金额提升（最大(201/234/267/300/333)%）"
+      },
+      {
+        "name": "后宫的喜悦",
+        "effect": "每有1名女性参加战斗 伤害输出提升(20/22/25/27/30)%（自身除外）"
+      },
+      {
+        "name": "有钱能使鬼推磨",
+        "effect": "御刃者武技和必杀技造成的仇恨值降低(10/15/20/25/30)%"
+      }
+    ],
+    "favoriteCategories": [
+      "甜点",
+      "纺织品"
+    ],
+    "favoriteItems": [
+      "阿卡狄亚茶",
+      "艾非姆的铜像"
+    ],
+    "auxCores": 3,
+    "statModifier": "以太力15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-sheba.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_034_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%87%9B%E9%9F%B3",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-19"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-VESS",
+    "kind": "blade",
+    "name": "结",
+    "englishName": "Vess",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "雷",
+    "role": "回复",
+    "weapon": "弹击球",
+    "acquisition": "完成任务「安稳」；获得「结的核心水晶」，25次战斗后调谐可能",
+    "acquisitionType": "quest",
+    "description": "以弹击球支援同伴的雷属性异刃，拥有饭团行家的专属能力。",
+    "fieldSkills": [
+      "森林学",
+      "忍耐力",
+      "饭团行家"
+    ],
+    "battleSkills": [
+      {
+        "name": "闲散时空",
+        "effect": "牵绊为最高值时 参加战斗的敌人的填充量将减少(10/12/15/17/20)%"
+      },
+      {
+        "name": "共感",
+        "effect": "搭档御刃者攻击未中时 牵绊上升(10/12/14/16/20)"
+      },
+      {
+        "name": "预想外的行动",
+        "effect": "暴击率增加(5/7/10/12/15)%"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "化妆品"
+    ],
+    "favoriteItems": [
+      "蜜豆牡丹饼",
+      "托里格雪花围巾"
+    ],
+    "auxCores": 2,
+    "statModifier": "最大HP10%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-vess.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_035_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%BB%93",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-20"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-ADENINE",
+    "kind": "blade",
+    "name": "式",
+    "englishName": "Adenine",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "风",
+    "role": "回复",
+    "weapon": "钩爪拳套",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "求知欲旺盛的风属性异刃，古代文明知识是其重要场景能力。",
+    "fieldSkills": [
+      "风属性之力",
+      "观察眼",
+      "超古代文明的知识"
+    ],
+    "battleSkills": [
+      {
+        "name": "属性知识",
+        "effect": "异刃连击的伤害提升(20/30/40/50/60)%"
+      },
+      {
+        "name": "战斗知识",
+        "effect": "使用弱点属性攻击时 伤害输出提升(60/70/80/90/100)%（全体效果）"
+      },
+      {
+        "name": "宝物知识",
+        "effect": "敌人掉落道具的概率提升(60/70/80/90/100)%"
+      }
+    ],
+    "favoriteCategories": [
+      "蔬菜",
+      "书籍"
+    ],
+    "favoriteItems": [
+      "托里格风味腌菜",
+      "利贝拉里塔斯的生活"
+    ],
+    "auxCores": 2,
+    "statModifier": "灵巧15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-adenine.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_031_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%BC%8F",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-21"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-ELECTRA",
+    "kind": "blade",
+    "name": "雷鼓",
+    "englishName": "Electra",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "雷",
+    "role": "防御",
+    "weapon": "战锤",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "手持战锤的雷属性异刃，在冒险中逐渐掌握自己的力量。",
+    "fieldSkills": [
+      "雷属性之力",
+      "集中力",
+      "雷电控制"
+    ],
+    "battleSkills": [
+      {
+        "name": "麻酥酥女孩",
+        "effect": "受到攻击时 按以太力(240/280/320/360/400)%的伤害进行反击"
+      },
+      {
+        "name": "尖刺刺女孩",
+        "effect": "仇恨值每秒 逐渐增加(5/10/15/20/30)"
+      },
+      {
+        "name": "硬邦邦女孩",
+        "effect": "格挡率增加(10/12/14/16/20)%"
+      }
+    ],
+    "favoriteCategories": [
+      "肉类",
+      "乐器"
+    ],
+    "favoriteItems": [
+      "蜂蜜牛奶",
+      "金属小鼓"
+    ],
+    "auxCores": 1,
+    "statModifier": "最大HP15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-electra.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_036_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E9%9B%B7%E9%BC%93",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-22"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-ZENOBIA",
+    "kind": "blade",
+    "name": "八重切",
+    "englishName": "Zenobia",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "风",
+    "role": "攻击",
+    "weapon": "战斧",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用战斧的风属性异刃，拥有三个辅助核心插槽。",
+    "fieldSkills": [
+      "风属性之力",
+      "怪力",
+      "跳跃"
+    ],
+    "battleSkills": [
+      {
+        "name": "修罗道",
+        "effect": "珍稀种及首领参加战斗时 伤害输出提升(60/70/80/90/100)%"
+      },
+      {
+        "name": "不屈不挠",
+        "effect": "攻击等级比自己高的敌人时 伤害输出提升(20/35/50/65/80)%"
+      },
+      {
+        "name": "一骑当千",
+        "effect": "参加战斗的敌人每增加1个 伤害输出提升(20/25/30/35/40)%（最多250%）"
+      }
+    ],
+    "favoriteCategories": [
+      "肉类",
+      "书籍"
+    ],
+    "favoriteItems": [
+      "炭烤铁火鸟",
+      "隐匿勇者嘉拉德的肖像画"
+    ],
+    "auxCores": 3,
+    "statModifier": "力量15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-zenobia.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_037_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%85%AB%E9%87%8D%E5%88%87",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-23"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-FINCH",
+    "kind": "blade",
+    "name": "伊吹",
+    "englishName": "Finch",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "风",
+    "role": "防御",
+    "weapon": "战锤",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用战锤的风属性异刃，以防御类别和敏捷修正支援队伍。",
+    "fieldSkills": [
+      "昆虫学",
+      "跳跃",
+      "健忘症"
+    ],
+    "battleSkills": [
+      {
+        "name": "用过了吗",
+        "effect": "使用御刃者武技及必杀技时有(10/12/14/16/20)%的概率不减少填充量"
+      },
+      {
+        "name": "会忘记呢",
+        "effect": "必杀技命中时 有(30/35/40/45/50)%的概率随机将敌人的1个武技的填充量变为0"
+      },
+      {
+        "name": "趁人不备",
+        "effect": "偷袭成功时 伤害输出提升(100/125/150/175/200)%"
+      }
+    ],
+    "favoriteCategories": [
+      "蔬菜",
+      "化妆品"
+    ],
+    "favoriteItems": [
+      "肉甜椒镶菜",
+      "雪花闪亮香水"
+    ],
+    "auxCores": 1,
+    "statModifier": "敏捷15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-finch.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_038_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E4%BC%8A%E5%90%B9",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-24"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-FLOREN",
+    "kind": "blade",
+    "name": "萤",
+    "englishName": "Floren",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "地",
+    "role": "回复",
+    "weapon": "弹击球",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用弹击球的地属性回复型异刃，可通过核心水晶调谐加入。",
+    "fieldSkills": [
+      "植物学",
+      "地属性之力",
+      "偷心"
+    ],
+    "battleSkills": [
+      {
+        "name": "春的到来",
+        "effect": "牵绊为最高值时队伍全员的回复量提升(15/17/20/22/25)%"
+      },
+      {
+        "name": "凋零之樱",
+        "effect": "无法战斗时队友的HP回复(60/70/80/90/100)%"
+      },
+      {
+        "name": "纯白百合",
+        "effect": "仇恨值的减少量提升(10/15/20/25/30)%"
+      }
+    ],
+    "favoriteCategories": [
+      "蔬菜",
+      "美术品"
+    ],
+    "favoriteItems": [
+      "镂空花纹的树叶头巾",
+      "饼雪团子"
+    ],
+    "auxCores": 2,
+    "statModifier": "以太力10%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-floren.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_021_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E8%90%A4",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-25"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-KOS-MOS",
+    "kind": "blade",
+    "name": "KOS-MOS Re:",
+    "englishName": "KOS-MOS",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "光",
+    "role": "攻击",
+    "weapon": "以太巨炮",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用以太巨炮的光属性异刃，具备三个辅助核心插槽。",
+    "fieldSkills": [
+      "光属性之力",
+      "开锁",
+      "高速演算"
+    ],
+    "battleSkills": [
+      {
+        "name": "相变技术",
+        "effect": "无视对手的防御力 且必杀技的伤害输出提升(60/70/80/90/100)%"
+      },
+      {
+        "name": "超频率",
+        "effect": "牵绊为最高值时伤害输出提升(60/70/80/90/100)% 受到伤害降低(10/15/20/25/30)%"
+      },
+      {
+        "name": "拟脑空间",
+        "effect": "攻击造成的仇恨值降低(20/25/30/35/40)%"
+      }
+    ],
+    "favoriteCategories": [
+      "主食",
+      "桌游"
+    ],
+    "favoriteItems": [
+      "主任咖喱",
+      "剑斗士相扑"
+    ],
+    "auxCores": 3,
+    "statModifier": "以太力20%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-kos-mos.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_041_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:KOS-MOS%20Re:",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-26"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-HERALD",
+    "kind": "blade",
+    "name": "天威",
+    "englishName": "Herald",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "雷",
+    "role": "攻击",
+    "weapon": "以太巨炮",
+    "acquisition": "特殊事件/天威的核心水晶",
+    "acquisitionType": "special",
+    "description": "使用以太巨炮的雷属性异刃，以力量修正和攻击类别参与战斗。",
+    "fieldSkills": [
+      "雷属性之力",
+      "怪力",
+      "失控"
+    ],
+    "battleSkills": [
+      {
+        "name": "封印殆尽",
+        "effect": "牵绊为最高值时伤害输出提升(120/140/160/180/200)% 受到伤害提升(20/22/25/27/30)%"
+      },
+      {
+        "name": "禁忌",
+        "effect": "仇恨值的减少量提升(10/15/20/25/30)%"
+      },
+      {
+        "name": "无限驱动",
+        "effect": "自动攻击命中时 HP回复伤害输出的(5/7/9/10/12)%"
+      }
+    ],
+    "favoriteCategories": [
+      "饮料",
+      "桌游"
+    ],
+    "favoriteItems": [
+      "月光香蕉牛奶",
+      "宝石台球"
+    ],
+    "auxCores": 3,
+    "statModifier": "力量15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-herald.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_051_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%A4%A9%E5%A8%81",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-QD3-5",
+      "XC2-QUEST-B-27"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-DAHLIA",
+    "kind": "blade",
+    "name": "月",
+    "englishName": "Dahlia",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "冰",
+    "role": "回复",
+    "weapon": "弹击球",
+    "acquisition": "异刃调谐",
+    "acquisitionType": "resonance",
+    "description": "使用弹击球的冰属性回复型异刃，可通过核心水晶调谐加入。",
+    "fieldSkills": [
+      "森林学",
+      "冰属性之力",
+      "冰雕"
+    ],
+    "battleSkills": [
+      {
+        "name": "聚光灯",
+        "effect": "在连锁攻击中进行攻击时有(60/70/80/90/100)%的概率对相邻属性球也造成伤害"
+      },
+      {
+        "name": "烟火",
+        "effect": "攻击浮空状态的敌人时 伤害输出提升(75/115/150/190/225)%"
+      },
+      {
+        "name": "机会制造者",
+        "effect": "连锁攻击中 每次轮到自己时 暴击率提升(20/22/25/27/30)%（全体效果）"
+      }
+    ],
+    "favoriteCategories": [
+      "蔬菜",
+      "化妆品"
+    ],
+    "favoriteItems": [
+      "果肉包",
+      "洛修利亚冰魔方"
+    ],
+    "auxCores": 2,
+    "statModifier": "灵巧10%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-dahlia.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_054_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E6%9C%88",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-B-28"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-T-ELOS",
+    "kind": "blade",
+    "name": "T-elos Re:",
+    "englishName": "T-elos",
+    "arc": "baseGame",
+    "group": "稀有异刃",
+    "element": "暗",
+    "role": "攻击",
+    "weapon": "战斧",
+    "acquisition": "原版免费更新：通关主线后，通过核心水晶调谐获得（不要求进入二周目）",
+    "acquisitionType": "resonance",
+    "description": "通关主线后进入调谐池的暗属性异刃，属于原版免费更新内容。",
+    "fieldSkills": [
+      "暗属性之力",
+      "打捞技术",
+      "跳跃"
+    ],
+    "battleSkills": [
+      {
+        "name": "相变技术",
+        "effect": "无视对手的防御力 且必杀技的伤害输出提升(60/70/80/90/100)%"
+      },
+      {
+        "name": "天堂追踪者",
+        "effect": "各御刃者每陷入一次无法战斗状态，伤害输出提升(100/125/150/175/200)%（最多500%）"
+      },
+      {
+        "name": "碎心者",
+        "effect": "根据打倒的敌人数量，伤害输出提升(60/70/80/90/100)%（最多300%）"
+      }
+    ],
+    "favoriteCategories": [
+      "乐器",
+      "书籍"
+    ],
+    "favoriteItems": [
+      "军队中提琴",
+      "简单打捞说明书"
+    ],
+    "auxCores": 3,
+    "statModifier": "力量15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-t-elos.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_142_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:T-elos%20Re:",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-010942E0C1"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-POPPIBUSTER",
+    "kind": "blade",
+    "name": "花巴斯塔",
+    "englishName": "Poppibuster",
+    "arc": "expansionPass",
+    "group": "扩展票异刃",
+    "element": "光",
+    "role": "防御",
+    "weapon": "战锤",
+    "acquisition": "下载扩展票稀有异刃第1弹，第5章后在虎的家完成‘全新的力量’；可与虎以外的御刃者搭档",
+    "acquisitionType": "quest",
+    "description": "通过扩展票任务加入的人造异刃，可与虎以外的御刃者搭档。",
+    "fieldSkills": [
+      "昆虫学",
+      "打捞技术",
+      "怪力"
+    ],
+    "battleSkills": [
+      {
+        "name": "高阶牵绊系统",
+        "effect": "牵绊为最高值时伤害输出提升(60/70/80/90/100)% 受到伤害降低(10/15/20/25/30)%"
+      },
+      {
+        "name": "高速移动",
+        "effect": "自身攻击速度提升(15/17/20/22/25)% 武技速度提升(10/12/15/17/20)%"
+      },
+      {
+        "name": "重构",
+        "effect": "必杀技4每使用一次 其伤害输出提升(250/275/300/325/350)%（最多1000%）"
+      }
+    ],
+    "favoriteCategories": [
+      "肉类",
+      "桌游"
+    ],
+    "favoriteItems": [
+      "甜甜小香肠",
+      "诺彭彭庭院"
+    ],
+    "auxCores": 3,
+    "statModifier": "敏捷15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-poppibuster.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Dlc21_fim_bl_141_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E8%8A%B1%E5%B7%B4%E6%96%AF%E5%A1%94",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-C19D4AA666"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-SHULK",
+    "kind": "blade",
+    "name": "修尔克",
+    "englishName": "Shulk",
+    "arc": "expansionPass",
+    "group": "扩展票异刃",
+    "element": "光",
+    "role": "攻击",
+    "weapon": "莫纳德",
+    "acquisition": "扩展票挑战之地加入；完成挑战‘恐龙战线’后可带回本篇",
+    "acquisitionType": "challenge",
+    "description": "来自异界的光属性异刃，在挑战之地加入并使用莫纳德。",
+    "fieldSkills": [
+      "打捞技术",
+      "观察眼",
+      "古代文明的知识"
+    ],
+    "battleSkills": [
+      {
+        "name": "未来预知",
+        "effect": "敌人发动强力攻击时触发按键挑战 成功完成可使攻击无效化（再次触发需100/90/80/70/60秒后）"
+      },
+      {
+        "name": "莫纳德强化",
+        "effect": "牵绊为最高值时 队伍全员的伤害输出提升(20/24/28/32/40)%"
+      },
+      {
+        "name": "莫纳德神速",
+        "effect": "牵绊为最高值时 全体队友命中率及回避率提升(24/28/32/36/40)%"
+      }
+    ],
+    "favoriteCategories": [
+      "蔬菜",
+      "书籍"
+    ],
+    "favoriteItems": [
+      "真・英雄阿德尔烤饼",
+      "斯佩比亚帝国军兵器图鉴"
+    ],
+    "auxCores": 3,
+    "statModifier": "以太力20%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-shulk.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Dlc1_fim_bl_143_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E4%BF%AE%E5%B0%94%E5%85%8B",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-FIORA",
+    "kind": "blade",
+    "name": "菲奥伦",
+    "englishName": "Fiora",
+    "arc": "expansionPass",
+    "group": "扩展票异刃",
+    "element": "风",
+    "role": "回复",
+    "weapon": "小刀",
+    "acquisition": "扩展票挑战之地加入；完成挑战‘恐龙战线’后可带回本篇",
+    "acquisitionType": "challenge",
+    "description": "来自异界的风属性回复型异刃，在挑战之地与修尔克一同加入。",
+    "fieldSkills": [
+      "鱼类学",
+      "忍耐力",
+      "诺彭的知识"
+    ],
+    "battleSkills": [
+      {
+        "name": "女武神",
+        "effect": "牵绊为最高值时 暴击率提升(20/25/30/35/40)%（全体效果）"
+      },
+      {
+        "name": "元气大爆发",
+        "effect": "每发生一次暴击 伤害输出提升(5/7/10/12/15)%（最多300%）"
+      },
+      {
+        "name": "不服输的勇气",
+        "effect": "参加战斗的敌人每增加1个 伤害输出提升(20/25/30/35/40)%（最多250%）"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "化妆品"
+    ],
+    "favoriteItems": [
+      "冰鱼包子浓汤",
+      "滑润化妆水"
+    ],
+    "auxCores": 3,
+    "statModifier": "力量15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-fiora.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Dlc1_fim_bl_144_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E8%8F%B2%E5%A5%A5%E4%BC%A6",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-CORVIN",
+    "kind": "blade",
+    "name": "神八",
+    "englishName": "Corvin",
+    "arc": "expansionPass",
+    "group": "扩展票异刃",
+    "element": "光",
+    "role": "防御",
+    "weapon": "打刀",
+    "acquisition": "领取扩展票稀有异刃第3弹，在阿伐利缇亚商会·格尔特蒙特返航港向NPC领取核心水晶，再进行调谐",
+    "acquisitionType": "special",
+    "description": "通过扩展票获得的光属性异刃，使用打刀并拥有三个辅助核心插槽。",
+    "fieldSkills": [
+      "光属性之力",
+      "森林学",
+      "古代文明的知识"
+    ],
+    "battleSkills": [
+      {
+        "name": "神气觉醒",
+        "effect": "牵绊为最高值时 伤害输出提升90/105/120/135/150% 回避率提升15/17/20/22/25%"
+      },
+      {
+        "name": "黑翼加护",
+        "effect": "发生暴击时 队伍槽增加8/10/12/14/16"
+      },
+      {
+        "name": "瞬时攻击",
+        "effect": "回避攻击时 御刃者武技的填充量增加0.5/1/1.5/2/2.5"
+      }
+    ],
+    "favoriteCategories": [
+      "饮品",
+      "桌游"
+    ],
+    "favoriteItems": [
+      "闪亮果汁",
+      "诺彭棋"
+    ],
+    "auxCores": 3,
+    "statModifier": "敏捷20%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-corvin.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Dlc22_fim_bl_145_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%A5%9E%E5%85%AB",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-E1C8E405AA"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-CROSSETTE",
+    "kind": "blade",
+    "name": "火花",
+    "englishName": "Crossette",
+    "arc": "expansionPass",
+    "group": "扩展票异刃",
+    "element": "火",
+    "role": "回复",
+    "weapon": "弹击球",
+    "acquisition": "领取扩展票稀有异刃第2弹，在阿伐利缇亚商会·树荫休息处向NPC领取核心水晶，再进行调谐",
+    "acquisitionType": "special",
+    "description": "通过扩展票获得的火属性异刃，以弹击球和回复类别支援队伍。",
+    "fieldSkills": [
+      "激辣料理",
+      "农学",
+      "忍耐力"
+    ],
+    "battleSkills": [
+      {
+        "name": "烟花师",
+        "effect": "攻击浮空状态敌人时 伤害输出提升200/225/250/275/300%（全体效果）"
+      },
+      {
+        "name": "火种收集",
+        "effect": "每拾取一次回复瓶 伤害输出提升60/70/80/90/100%（最多500%）"
+      },
+      {
+        "name": "调配能手",
+        "effect": "融合连击的效果提升30/36/42/48/60%"
+      }
+    ],
+    "favoriteCategories": [
+      "主食",
+      "甜品"
+    ],
+    "favoriteItems": [
+      "阳光派",
+      "辛辣尖嘴龙奶油浓汤"
+    ],
+    "auxCores": 3,
+    "statModifier": "以太力20%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-crossette.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Dlc23_fim_bl_146_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%81%AB%E8%8A%B1",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": [
+      "XC2-QUEST-7917FE6907"
+    ]
+  },
+  {
+    "id": "XC2-BLADE-ELMA",
+    "kind": "blade",
+    "name": "艾尔玛",
+    "englishName": "Elma",
+    "arc": "expansionPass",
+    "group": "扩展票异刃",
+    "element": "暗",
+    "role": "攻击",
+    "weapon": "双剑",
+    "acquisition": "完成扩展票挑战‘异界的战士’后加入；完成‘艾尔玛再临’后可带回本篇",
+    "acquisitionType": "challenge",
+    "description": "来自异界的暗属性异刃，通过挑战之地的专属战斗加入。",
+    "fieldSkills": [
+      "观察眼",
+      "集中力",
+      "开锁"
+    ],
+    "battleSkills": [
+      {
+        "name": "超频齿轮",
+        "effect": "艾尔玛参加战斗时 同时按下R和-发动消费3条队伍槽 效果时间50/60/70/80/90秒"
+      },
+      {
+        "name": "危机痛击",
+        "effect": "牵绊为最高值时 伤害输出增加90/105/120/135/150% 暴击率增加20/25/30/35/40%"
+      },
+      {
+        "name": "背面剑击",
+        "effect": "从背面攻击时 伤害输出提升30/60/90/120/150%"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "艺术品"
+    ],
+    "favoriteItems": [
+      "避魔曼陀罗毛巾",
+      "水管吸管果冰霜"
+    ],
+    "auxCores": 3,
+    "statModifier": "以太力20%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-elma.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Dlc24_fim_bl_147_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E8%89%BE%E5%B0%94%E7%8E%9B",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-AKHOS",
+    "kind": "blade",
+    "name": "义经",
+    "englishName": "Akhos",
+    "arc": "baseGame",
+    "group": "二周目异刃",
+    "element": "雷",
+    "role": "回复",
+    "weapon": "大镰",
+    "acquisition": "进入Advanced New Game后 异刃调谐",
+    "acquisitionType": "newGamePlus",
+    "description": "伊拉的雷属性成员，在二周目中可通过核心水晶调谐加入。",
+    "fieldSkills": [
+      "雷属性之力",
+      "农学",
+      "观察眼"
+    ],
+    "battleSkills": [
+      {
+        "name": "流转",
+        "effect": "有(30/40/50/60/70)%的概率颠倒防御力 对方的防御力越高则伤害越高"
+      },
+      {
+        "name": "死界",
+        "effect": "打败敌人时HP回复(45/53/60/68/75)%"
+      },
+      {
+        "name": "连环",
+        "effect": "取消时所增加的必杀技填充量提升(20/25/30/35/40)%"
+      }
+    ],
+    "favoriteCategories": [
+      "主食",
+      "桌游"
+    ],
+    "favoriteItems": [
+      "蜜青将鱼",
+      "铠虾座的证人"
+    ],
+    "auxCores": 3,
+    "statModifier": "以太力15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-akhos.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_018_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E4%B9%89%E7%BB%8F",
+    "updatedAt": "2026-10-03",
+    "spoiler": true,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-PATROKA",
+    "kind": "blade",
+    "name": "弁庆",
+    "englishName": "Patroka",
+    "arc": "baseGame",
+    "group": "二周目异刃",
+    "element": "地",
+    "role": "攻击",
+    "weapon": "长刀",
+    "acquisition": "进入Advanced New Game后 异刃调谐",
+    "acquisitionType": "newGamePlus",
+    "description": "伊拉的地属性成员，在二周目中以长刀参与攻击。",
+    "fieldSkills": [
+      "地属性之力",
+      "开锁",
+      "集中力"
+    ],
+    "battleSkills": [
+      {
+        "name": "致命",
+        "effect": "使用弱点属性攻击时 伤害输出提升(60/70/80/90/100)%（全体效果）"
+      },
+      {
+        "name": "怒发冲冠",
+        "effect": "HP低于30%时 伤害输出提升(30/60/90/120/150)%"
+      },
+      {
+        "name": "SS",
+        "effect": "根据打倒的敌人数量 伤害输出提升(60/70/80/90/100)%（最多300%）"
+      }
+    ],
+    "favoriteCategories": [
+      "蔬菜",
+      "化妆品"
+    ],
+    "favoriteItems": [
+      "迪法露果胶挞",
+      "毛皮衬垫"
+    ],
+    "auxCores": 3,
+    "statModifier": "力量15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-patroka.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_020_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%BC%81%E5%BA%86",
+    "updatedAt": "2026-10-03",
+    "spoiler": true,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-MIKHAIL",
+    "kind": "blade",
+    "name": "佐田彦",
+    "englishName": "Mikhail",
+    "arc": "baseGame",
+    "group": "二周目异刃",
+    "element": "暗",
+    "role": "防御",
+    "weapon": "扇",
+    "acquisition": "二周目第9章后，在莫尔斯之地的世界树区域与佐田彦对话加入，并与对话者绑定",
+    "acquisitionType": "newGamePlus",
+    "description": "伊拉的暗属性成员，在二周目第9章后通过对话加入队伍。",
+    "fieldSkills": [
+      "暗属性之力",
+      "打捞技术",
+      "古代文明的知识"
+    ],
+    "battleSkills": [
+      {
+        "name": "重力风车",
+        "effect": "有(20/22/25/27/30)%的概率击飞前来攻击的对手（全体效果）"
+      },
+      {
+        "name": "时空重叠",
+        "effect": "仇恨值每秒 逐渐增加"
+      },
+      {
+        "name": "时空歪曲",
+        "effect": "牵绊为最高值时 回避率提升(15/23/30/38/45)%"
+      }
+    ],
+    "favoriteCategories": [
+      "饮料",
+      "书籍"
+    ],
+    "favoriteItems": [
+      "烤蔬菜千层饼",
+      "洛修利亚天鹅绒"
+    ],
+    "auxCores": 3,
+    "statModifier": "敏捷15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-mikhail.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_039_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E4%BD%90%E7%94%B0%E5%BD%A6",
+    "updatedAt": "2026-10-03",
+    "spoiler": true,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-OBRONA",
+    "kind": "blade",
+    "name": "神威",
+    "englishName": "Obrona",
+    "arc": "baseGame",
+    "group": "二周目异刃",
+    "element": "雷",
+    "role": "攻击",
+    "weapon": "小太刀",
+    "acquisition": "进入Advanced New Game后 异刃调谐",
+    "acquisitionType": "newGamePlus",
+    "description": "伊拉的雷属性异刃，在二周目中使用小太刀作战。",
+    "fieldSkills": [
+      "雷属性之力",
+      "跳跃",
+      "鱼类学"
+    ],
+    "battleSkills": [
+      {
+        "name": "神速喵",
+        "effect": "自动攻击的速度提升(30/33/38/41/45)%"
+      },
+      {
+        "name": "看得见喵？",
+        "effect": "自动攻击造成的仇恨值降低(45/53/60/68/75)%"
+      },
+      {
+        "name": "快准备喵",
+        "effect": "异刃切换的冷却时间缩短(15/23/30/38/45)%"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "乐器"
+    ],
+    "favoriteItems": [
+      "幽界美术名画全集",
+      "奥托燕麦粥"
+    ],
+    "auxCores": 2,
+    "statModifier": "敏捷20%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-obrona.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_016_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%A5%9E%E5%A8%81",
+    "updatedAt": "2026-10-03",
+    "spoiler": true,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-PERDIDO",
+    "kind": "blade",
+    "name": "罗候",
+    "englishName": "Perdido",
+    "arc": "baseGame",
+    "group": "二周目异刃",
+    "element": "火",
+    "role": "攻击",
+    "weapon": "大炮",
+    "acquisition": "进入Advanced New Game后 异刃调谐",
+    "acquisitionType": "newGamePlus",
+    "description": "伊拉的火属性异刃，在二周目中以大炮参与战斗。",
+    "fieldSkills": [
+      "火属性之力",
+      "矿物学",
+      "忍耐力"
+    ],
+    "battleSkills": [
+      {
+        "name": "此乃双击",
+        "effect": "自动攻击必为双重攻击 伤害输出提升(20/22/25/27/30)%"
+      },
+      {
+        "name": "初心不可忘",
+        "effect": "自动攻击的伤害提升(20/40/60/80/100)%"
+      },
+      {
+        "name": "武士道",
+        "effect": "从正面攻击时 伤害输出提升(10/20/30/40/50)%"
+      }
+    ],
+    "favoriteCategories": [
+      "饮品",
+      "美术品"
+    ],
+    "favoriteItems": [
+      "鳞甲兽奶柠檬茶",
+      "升天的阿鲁斯"
+    ],
+    "auxCores": 2,
+    "statModifier": "力量10%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-perdido.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_015_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%BD%97%E5%80%99",
+    "updatedAt": "2026-10-03",
+    "spoiler": true,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-CRESSIDUS",
+    "kind": "blade",
+    "name": "大锤",
+    "englishName": "Cressidus",
+    "arc": "baseGame",
+    "group": "二周目异刃",
+    "element": "地",
+    "role": "防御",
+    "weapon": "手甲",
+    "acquisition": "进入Advanced New Game后 异刃调谐",
+    "acquisitionType": "newGamePlus",
+    "description": "伊拉的地属性防御型异刃，在二周目中使用手甲作战。",
+    "fieldSkills": [
+      "地属性之力",
+      "诺彭的知识",
+      "植物学"
+    ],
+    "battleSkills": [
+      {
+        "name": "派生技",
+        "effect": "攻击倒地状态的敌人时伤害输出提升(50/75/100/125/150)% 并延长倒地时间"
+      },
+      {
+        "name": "合体技",
+        "effect": "异刃必杀技Lv4的伤害提升(60/90/120/150/180)%"
+      },
+      {
+        "name": "乱入",
+        "effect": "异刃切换参加战斗时 对敌方全员造成伤害"
+      }
+    ],
+    "favoriteCategories": [
+      "肉类",
+      "纺织品"
+    ],
+    "favoriteItems": [
+      "芥末酱香肠",
+      "暴风雪中的圣歌队"
+    ],
+    "auxCores": 2,
+    "statModifier": "最大HP20%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-cressidus.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_014_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E5%A4%A7%E9%94%A4",
+    "updatedAt": "2026-10-03",
+    "spoiler": true,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-SEVER",
+    "kind": "blade",
+    "name": "斩铁",
+    "englishName": "Sever",
+    "arc": "baseGame",
+    "group": "二周目异刃",
+    "element": "风",
+    "role": "防御",
+    "weapon": "旋棍",
+    "acquisition": "进入Advanced New Game后 异刃调谐",
+    "acquisitionType": "newGamePlus",
+    "description": "伊拉的风属性防御型异刃，在二周目中使用旋棍作战。",
+    "fieldSkills": [
+      "风属性之力",
+      "怪力",
+      "昆虫学"
+    ],
+    "battleSkills": [
+      {
+        "name": "透甲",
+        "effect": "有(60/70/80/90/100)%的概率无视防御力"
+      },
+      {
+        "name": "防御无效",
+        "effect": "攻击时有(60/70/80/90/100)%的概率使格挡无效"
+      },
+      {
+        "name": "残虐杀法",
+        "effect": "偷袭成功时 伤害输出提升(200/250/300/350/400)%"
+      }
+    ],
+    "favoriteCategories": [
+      "肉类",
+      "乐器"
+    ],
+    "favoriteItems": [
+      "管状积木",
+      "酱烤铁板肉"
+    ],
+    "auxCores": 2,
+    "statModifier": "力量15%",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-sever.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_013_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E6%96%A9%E9%93%81",
+    "updatedAt": "2026-10-03",
+    "spoiler": true,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-BLADE-MALOS",
+    "kind": "blade",
+    "name": "灭",
+    "englishName": "Malos",
+    "arc": "baseGame",
+    "group": "剧情角色",
+    "element": "",
+    "role": "",
+    "weapon": "",
+    "acquisition": "剧情登场；不可获得",
+    "acquisitionType": "special",
+    "description": "伊拉成员与天之圣杯之一；本篇不能将他作为队伍异刃获得。",
+    "fieldSkills": [],
+    "battleSkills": [],
+    "favoriteCategories": [],
+    "favoriteItems": [],
+    "auxCores": null,
+    "statModifier": "",
+    "partners": [],
+    "image": "/images/xc2/xc2-blade-malos.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Malos.png",
+    "sourceUrl": "https://xenoblade2.cn/%E5%BC%82%E5%88%83:%E7%81%AD",
+    "updatedAt": "2026-10-03",
+    "spoiler": true,
+    "playable": false,
+    "collectible": false,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-TORNA-DRIVER-LORA",
+    "kind": "driver",
+    "name": "劳拉",
+    "englishName": "Lora",
+    "arc": "torna",
+    "group": "黄金之国伊拉",
+    "element": "",
+    "role": "御刃者",
+    "weapon": "与小队异刃互换武器",
+    "acquisition": "黄金之国伊拉初始队伍成员",
+    "acquisitionType": "torna",
+    "description": "与真和霞组成小队的御刃者，在圣杯大战时期展开旅程。",
+    "fieldSkills": [],
+    "battleSkills": [
+      {
+        "name": "飞燕",
+        "effect": "消耗当前一半HP 填充自身所有武技"
+      }
+    ],
+    "favoriteCategories": [
+      "肉类",
+      "护符"
+    ],
+    "favoriteItems": [
+      "红酒炖雪牛兽",
+      "黄金之国护符"
+    ],
+    "auxCores": null,
+    "statModifier": "",
+    "partners": [
+      "XC2-TORNA-BLADE-JIN",
+      "XC2-TORNA-BLADE-HAZE"
+    ],
+    "image": "/images/xc2/xc2-torna-driver-lora.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%83%A9%E3%82%A6%E3%83%A9.png",
+    "sourceUrl": "https://xenoblade2.cn/%E9%BB%84%E9%87%91%E4%B9%8B%E5%9B%BD%E4%BC%8A%E6%8B%89:%E5%8A%B3%E6%8B%89",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-TORNA-DRIVER-ADDAM",
+    "kind": "driver",
+    "name": "阿德尔",
+    "englishName": "Addam",
+    "arc": "torna",
+    "group": "黄金之国伊拉",
+    "element": "",
+    "role": "御刃者",
+    "weapon": "与小队异刃互换武器",
+    "acquisition": "黄金之国伊拉主线队伍成员",
+    "acquisitionType": "torna",
+    "description": "伊拉的王子，与光和米诺奇组成小队应对圣杯大战。",
+    "fieldSkills": [],
+    "battleSkills": [
+      {
+        "name": "超越者",
+        "effect": "以自身一部分HP为代价，延长御刃者连击的持续时间"
+      }
+    ],
+    "favoriteCategories": [
+      "主食",
+      "饰品"
+    ],
+    "favoriteItems": [
+      "能量铁板烧",
+      "银河饰物"
+    ],
+    "auxCores": null,
+    "statModifier": "",
+    "partners": [
+      "XC2-TORNA-BLADE-MYTHRA",
+      "XC2-TORNA-BLADE-MINOTH"
+    ],
+    "image": "/images/xc2/xc2-torna-driver-addam.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%82%A2%E3%83%87%E3%83%AB.png",
+    "sourceUrl": "https://xenoblade2.cn/%E9%BB%84%E9%87%91%E4%B9%8B%E5%9B%BD%E4%BC%8A%E6%8B%89:%E9%98%BF%E5%BE%B7%E5%B0%94",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-TORNA-DRIVER-HUGO",
+    "kind": "driver",
+    "name": "尤格",
+    "englishName": "Hugo",
+    "arc": "torna",
+    "group": "黄金之国伊拉",
+    "element": "",
+    "role": "御刃者",
+    "weapon": "与小队异刃互换武器",
+    "acquisition": "黄金之国伊拉主线队伍成员",
+    "acquisitionType": "torna",
+    "description": "斯佩比亚的年轻皇帝，与迦具土和绵津见组成防御见长的小队。",
+    "fieldSkills": [],
+    "battleSkills": [
+      {
+        "name": "帝王掌控",
+        "effect": "减少自身HP最大值的25% 15秒内参加战斗的敌人目标固定为自己"
+      }
+    ],
+    "favoriteCategories": [
+      "蔬菜",
+      "化妆品"
+    ],
+    "favoriteItems": [
+      "斯佩比亚煮巨鹰",
+      "久远香水"
+    ],
+    "auxCores": null,
+    "statModifier": "",
+    "partners": [
+      "XC2-TORNA-BLADE-BRIGHID",
+      "XC2-TORNA-BLADE-AEGAEON"
+    ],
+    "image": "/images/xc2/xc2-torna-driver-hugo.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%83%A6%E3%83%BC%E3%82%B4.png",
+    "sourceUrl": "https://xenoblade2.cn/%E9%BB%84%E9%87%91%E4%B9%8B%E5%9B%BD%E4%BC%8A%E6%8B%89:%E5%B0%A4%E6%A0%BC",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-TORNA-BLADE-JIN",
+    "kind": "blade",
+    "name": "真",
+    "englishName": "Jin",
+    "arc": "torna",
+    "group": "黄金之国伊拉",
+    "element": "冰",
+    "role": "攻击",
+    "weapon": "太刀",
+    "acquisition": "黄金之国伊拉主线队伍成员",
+    "acquisitionType": "torna",
+    "description": "劳拉小队的冰属性异刃，以太刀和快速斩击参与战斗。",
+    "fieldSkills": [
+      "矿物学",
+      "高速剑",
+      "忍耐力"
+    ],
+    "battleSkills": [
+      {
+        "name": "流转",
+        "effect": "Lv1：每进行一次攻击者切换 伤害输出提升30%（最多250%）；Lv5：每进行一次攻击者切换 伤害输出提升50%（最多250%）"
+      },
+      {
+        "name": "共鸣",
+        "effect": "Lv1：牵绊为最高值时 伤害输出提升60% 受到伤害降低10%；Lv5：牵绊为最高值时 伤害输出提升100% 受到伤害降低30%"
+      },
+      {
+        "name": "心眼",
+        "effect": "Lv1：暴击伤害提升20%；Lv5：暴击伤害提升80%"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "饰物"
+    ],
+    "favoriteItems": [
+      "金刚岩鱼天妇罗",
+      "自然风饰物"
+    ],
+    "auxCores": 2,
+    "statModifier": "力量15%",
+    "partners": [
+      "XC2-TORNA-DRIVER-LORA"
+    ],
+    "image": "/images/xc2/xc2-torna-blade-jin.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E7%9C%9F%EF%BC%88%E6%97%A0%E9%9D%A2%E5%85%B7%EF%BC%89.png",
+    "sourceUrl": "https://xenoblade2.cn/%E9%BB%84%E9%87%91%E4%B9%8B%E5%9B%BD%E4%BC%8A%E6%8B%89:%E7%9C%9F",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-TORNA-BLADE-HAZE",
+    "kind": "blade",
+    "name": "霞",
+    "englishName": "Haze",
+    "arc": "torna",
+    "group": "黄金之国伊拉",
+    "element": "风",
+    "role": "回复",
+    "weapon": "锡杖",
+    "acquisition": "黄金之国伊拉主线队伍成员",
+    "acquisitionType": "torna",
+    "description": "劳拉小队的风属性异刃，以锡杖和回复能力协助同伴。",
+    "fieldSkills": [
+      "森林学",
+      "以太操作",
+      "观察眼"
+    ],
+    "battleSkills": [
+      {
+        "name": "仇风",
+        "effect": "Lv1：牵绊为最高值时 队伍全员受到伤害降低10%；Lv5：牵绊为最高值时 队伍全员受到伤害降低20%"
+      },
+      {
+        "name": "顺风",
+        "effect": "Lv1：牵绊为最高值时 队伍全员的伤害输出提升25%；Lv5：牵绊为最高值时 队伍全员的伤害输出提升50%"
+      },
+      {
+        "name": "熏风",
+        "effect": "Lv1：全部减益效果抗性提升20% （全体效果）；Lv5：全部减益效果抗性提升40% （全体效果）"
+      }
+    ],
+    "favoriteCategories": [
+      "蔬菜",
+      "书籍"
+    ],
+    "favoriteItems": [
+      "花卉沙拉",
+      "伊拉的骑士"
+    ],
+    "auxCores": 3,
+    "statModifier": "以太力15%",
+    "partners": [
+      "XC2-TORNA-DRIVER-LORA"
+    ],
+    "image": "/images/xc2/xc2-torna-blade-haze.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%82%AB%E3%82%B9%E3%83%9F.png",
+    "sourceUrl": "https://xenoblade2.cn/%E9%BB%84%E9%87%91%E4%B9%8B%E5%9B%BD%E4%BC%8A%E6%8B%89:%E9%9C%9E",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-TORNA-BLADE-MYTHRA",
+    "kind": "blade",
+    "name": "光",
+    "englishName": "Mythra",
+    "arc": "torna",
+    "group": "黄金之国伊拉",
+    "element": "光",
+    "role": "攻击",
+    "weapon": "圣杯之剑",
+    "acquisition": "黄金之国伊拉主线队伍成员",
+    "acquisitionType": "torna",
+    "description": "阿德尔小队的天之圣杯，在黄金之国以独立的战斗系统作战。",
+    "fieldSkills": [
+      "集中力",
+      "光之力",
+      "女孩谈话"
+    ],
+    "battleSkills": [
+      {
+        "name": "因果律预测",
+        "effect": "Lv1：牵绊为最高值时 全体队友命中率及回避率提升30%；Lv5：牵绊为最高值时 全体队友命中率及回避率提升50%"
+      },
+      {
+        "name": "光速连击",
+        "effect": "Lv1：产生暴击时 使用的武技 和必杀技的填充量回复20%；Lv5：产生暴击时 使用的武技 和必杀技的填充量回复60%"
+      },
+      {
+        "name": "闪光",
+        "effect": "Lv1：暴击率增加5%；Lv5：暴击率增加15%"
+      }
+    ],
+    "favoriteCategories": [
+      "甜品",
+      "肉类"
+    ],
+    "favoriteItems": [
+      "奇迹奇妙冰糕",
+      "胡椒兔怪肉"
+    ],
+    "auxCores": 2,
+    "statModifier": "以太力15%",
+    "partners": [
+      "XC2-TORNA-DRIVER-ADDAM"
+    ],
+    "image": "/images/xc2/xc2-torna-blade-mythra.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E5%85%89%EF%BC%88%E6%A0%B8%E5%BF%83%E5%AE%8C%E6%95%B4%EF%BC%89.png",
+    "sourceUrl": "https://xenoblade2.cn/%E9%BB%84%E9%87%91%E4%B9%8B%E5%9B%BD%E4%BC%8A%E6%8B%89:%E5%85%89",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-TORNA-BLADE-MINOTH",
+    "kind": "blade",
+    "name": "米诺奇",
+    "englishName": "Minoth",
+    "arc": "torna",
+    "group": "黄金之国伊拉",
+    "element": "暗",
+    "role": "攻击",
+    "weapon": "枪刀",
+    "acquisition": "黄金之国伊拉主线队伍成员",
+    "acquisitionType": "torna",
+    "description": "阿德尔小队的暗属性成员，以枪刀参与攻击与支援。",
+    "fieldSkills": [
+      "昆虫学",
+      "挖掘"
+    ],
+    "battleSkills": [
+      {
+        "name": "神圣",
+        "effect": "Lv1：每进行一次取消 伤害输出提升6%（最多250%）；Lv5：每进行一次取消 伤害输出提升10%（最多250%）"
+      },
+      {
+        "name": "一半",
+        "effect": "Lv1：攻击造成的仇恨值降低20%；Lv5：攻击造成的仇恨值降低40%"
+      },
+      {
+        "name": "洁净",
+        "effect": "Lv1：珍稀种及首领参加战斗时 伤害输出提升60%；Lv5：珍稀种及首领参加战斗时 伤害输出提升100%"
+      }
+    ],
+    "favoriteCategories": [
+      "主食",
+      "化妆品"
+    ],
+    "favoriteItems": [
+      "卢斯卡面疙瘩",
+      "美艳香水"
+    ],
+    "auxCores": 3,
+    "statModifier": "灵巧15%",
+    "partners": [
+      "XC2-TORNA-DRIVER-ADDAM"
+    ],
+    "image": "/images/xc2/xc2-torna-blade-minoth.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%83%9F%E3%83%8E%E3%83%81.png",
+    "sourceUrl": "https://xenoblade2.cn/%E9%BB%84%E9%87%91%E4%B9%8B%E5%9B%BD%E4%BC%8A%E6%8B%89:%E7%B1%B3%E8%AF%BA%E5%A5%87",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-TORNA-BLADE-BRIGHID",
+    "kind": "blade",
+    "name": "迦具土",
+    "englishName": "Brighid",
+    "arc": "torna",
+    "group": "黄金之国伊拉",
+    "element": "火",
+    "role": "防御",
+    "weapon": "军刀",
+    "acquisition": "黄金之国伊拉主线队伍成员",
+    "acquisitionType": "torna",
+    "description": "尤格小队的火属性异刃，以军刀守护斯佩比亚的皇帝。",
+    "fieldSkills": [
+      "植物学",
+      "开锁"
+    ],
+    "battleSkills": [
+      {
+        "name": "战争篝火",
+        "effect": "Lv1：每回避一次攻击 伤害输出提升6%（最多250%）；Lv5：每回避一次攻击 伤害输出提升10%（最多250%）"
+      },
+      {
+        "name": "火焰之壁",
+        "effect": "Lv1：HP低于30%时 回避率提升20%；Lv5：HP低于30%时 回避率提升60%"
+      },
+      {
+        "name": "幽炎",
+        "effect": "Lv1：有50%的概率回避射击攻击；Lv5：有90%的概率回避射击攻击"
+      }
+    ],
+    "favoriteCategories": [
+      "鱼类",
+      "书籍"
+    ],
+    "favoriteItems": [
+      "古拉鱼什锦刺身拼盘",
+      "守护之物"
+    ],
+    "auxCores": 2,
+    "statModifier": "敏捷15%",
+    "partners": [
+      "XC2-TORNA-DRIVER-HUGO"
+    ],
+    "image": "/images/xc2/xc2-torna-blade-brighid.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%82%AB%E3%82%B0%E3%83%84%E3%83%81.png",
+    "sourceUrl": "https://xenoblade2.cn/%E9%BB%84%E9%87%91%E4%B9%8B%E5%9B%BD%E4%BC%8A%E6%8B%89:%E8%BF%A6%E5%85%B7%E5%9C%9F",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  },
+  {
+    "id": "XC2-TORNA-BLADE-AEGAEON",
+    "kind": "blade",
+    "name": "绵津见",
+    "englishName": "Aegaeon",
+    "arc": "torna",
+    "group": "黄金之国伊拉",
+    "element": "水",
+    "role": "防御",
+    "weapon": "刀",
+    "acquisition": "黄金之国伊拉主线队伍成员",
+    "acquisitionType": "torna",
+    "description": "尤格小队的水属性异刃，与迦具土一同执行皇室护卫职责。",
+    "fieldSkills": [
+      "鱼类学",
+      "水流控制",
+      "怪力"
+    ],
+    "battleSkills": [
+      {
+        "name": "明镜止水",
+        "effect": "Lv1：牵绊达到最高值后的10秒内 回避敌方攻击；Lv5：牵绊达到最高值后的18秒内 回避敌方攻击"
+      },
+      {
+        "name": "流水步法",
+        "effect": "Lv1：移动时回避率提升20%；Lv5：移动时回避率提升60%"
+      },
+      {
+        "name": "无我境界",
+        "effect": "Lv1：HP低于30%时 回避率提升20%；Lv5：HP低于30%时 回避率提升60%"
+      }
+    ],
+    "favoriteCategories": [
+      "甜品",
+      "护符"
+    ],
+    "favoriteItems": [
+      "芳醇白金糖果",
+      "远视护符"
+    ],
+    "auxCores": 2,
+    "statModifier": "敏捷15%",
+    "partners": [
+      "XC2-TORNA-DRIVER-HUGO"
+    ],
+    "image": "/images/xc2/xc2-torna-blade-aegaeon.png",
+    "imageSource": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%83%AF%E3%83%80%E3%83%84%E3%83%9F.png",
+    "sourceUrl": "https://xenoblade2.cn/%E9%BB%84%E9%87%91%E4%B9%8B%E5%9B%BD%E4%BC%8A%E6%8B%89:%E7%BB%B5%E6%B4%A5%E8%A7%81",
+    "updatedAt": "2026-10-03",
+    "spoiler": false,
+    "playable": true,
+    "collectible": true,
+    "isForm": false,
+    "questIds": []
+  }
+]

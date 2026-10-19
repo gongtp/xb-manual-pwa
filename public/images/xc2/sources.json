@@ -1,0 +1,712 @@
+{
+  "XC2-DRIVER-REX": {
+    "file": "/images/xc2/xc2-driver-rex.png",
+    "sourceFile": "Fim_dr_001_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_001_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/8/87/Fim_dr_001_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/8/87/Fim_dr_001_0.png",
+    "width": 622,
+    "height": 1125,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-DRIVER-NIA": {
+    "file": "/images/xc2/xc2-driver-nia.png",
+    "sourceFile": "Fim_dr_002_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_002_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/0/09/Fim_dr_002_0.png/640px-Fim_dr_002_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/0/09/Fim_dr_002_0.png",
+    "width": 640,
+    "height": 941,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-DRIVER-TORA": {
+    "file": "/images/xc2/xc2-driver-tora.png",
+    "sourceFile": "Fim_dr_003_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_003_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/5/5b/Fim_dr_003_0.png/640px-Fim_dr_003_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/5/5b/Fim_dr_003_0.png",
+    "width": 640,
+    "height": 698,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-DRIVER-MORAG": {
+    "file": "/images/xc2/xc2-driver-morag.png",
+    "sourceFile": "Fim_dr_005_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_005_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/7/7c/Fim_dr_005_0.png/640px-Fim_dr_005_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/7/7c/Fim_dr_005_0.png",
+    "width": 640,
+    "height": 1039,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-DRIVER-ZEKE": {
+    "file": "/images/xc2/xc2-driver-zeke.png",
+    "sourceFile": "Fim_dr_004_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_004_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/6/6d/Fim_dr_004_0.png/640px-Fim_dr_004_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/6/6d/Fim_dr_004_0.png",
+    "width": 640,
+    "height": 945,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-DRIVER-VANDHAM": {
+    "file": "/images/xc2/xc2-driver-vandham.png",
+    "sourceFile": "Fim_dr_006_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_006_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/c/cd/Fim_dr_006_0.png/640px-Fim_dr_006_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/c/cd/Fim_dr_006_0.png",
+    "width": 640,
+    "height": 918,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-DRIVER-JIN": {
+    "file": "/images/xc2/xc2-driver-jin.png",
+    "sourceFile": "Fim_dr_007_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_dr_007_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/0/0c/Fim_dr_007_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/0/0c/Fim_dr_007_0.png",
+    "width": 532,
+    "height": 1258,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-PYRA": {
+    "file": "/images/xc2/xc2-blade-pyra.png",
+    "sourceFile": "Fim_bl_001_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_001_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/f/fa/Fim_bl_001_0.png/640px-Fim_bl_001_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/f/fa/Fim_bl_001_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-MYTHRA": {
+    "file": "/images/xc2/xc2-blade-mythra.png",
+    "sourceFile": "Fim_bl_002_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_002_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/b/bb/Fim_bl_002_0.png/640px-Fim_bl_002_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/b/bb/Fim_bl_002_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-PNEUMA": {
+    "file": "/images/xc2/xc2-blade-pneuma.png",
+    "sourceFile": "Homuri.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Homuri.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/6/6b/Homuri.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/6/6b/Homuri.png",
+    "width": 200,
+    "height": 200,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-DROMARCH": {
+    "file": "/images/xc2/xc2-blade-dromarch.png",
+    "sourceFile": "Fim_bl_005_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_005_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/c/c0/Fim_bl_005_0.png/640px-Fim_bl_005_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/c/c0/Fim_bl_005_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-POPPI": {
+    "file": "/images/xc2/xc2-blade-poppi.png",
+    "sourceFile": "Fim_bl_006_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_006_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/e/eb/Fim_bl_006_0.png/640px-Fim_bl_006_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/e/eb/Fim_bl_006_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-POPPI-QT": {
+    "file": "/images/xc2/xc2-blade-poppi-qt.png",
+    "sourceFile": "Fim_bl_007_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_007_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/f/f5/Fim_bl_007_0.png/640px-Fim_bl_007_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/f/f5/Fim_bl_007_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-POPPI-QT-PI": {
+    "file": "/images/xc2/xc2-blade-poppi-qt-pi.png",
+    "sourceFile": "Fim_bl_008_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_008_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/5/5c/Fim_bl_008_0.png/640px-Fim_bl_008_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/5/5c/Fim_bl_008_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-ROC": {
+    "file": "/images/xc2/xc2-blade-roc.png",
+    "sourceFile": "Fim_bl_011_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_011_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/9/92/Fim_bl_011_0.png/640px-Fim_bl_011_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/9/92/Fim_bl_011_0.png",
+    "width": 640,
+    "height": 1011,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-BRIGHID": {
+    "file": "/images/xc2/xc2-blade-brighid.png",
+    "sourceFile": "Fim_bl_010_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_010_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/a/a8/Fim_bl_010_0.png/640px-Fim_bl_010_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/a/a8/Fim_bl_010_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-PANDORIA": {
+    "file": "/images/xc2/xc2-blade-pandoria.png",
+    "sourceFile": "Fim_bl_009_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_009_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/c/cf/Fim_bl_009_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/c/cf/Fim_bl_009_0.png",
+    "width": 585,
+    "height": 1068,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-NIA": {
+    "file": "/images/xc2/xc2-blade-nia.png",
+    "sourceFile": "Fim_bl_004_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_004_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/c/c1/Fim_bl_004_0.png/640px-Fim_bl_004_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/c/c1/Fim_bl_004_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-AEGAEON": {
+    "file": "/images/xc2/xc2-blade-aegaeon.png",
+    "sourceFile": "Fim_bl_012_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_012_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/7/7c/Fim_bl_012_0.png/640px-Fim_bl_012_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/7/7c/Fim_bl_012_0.png",
+    "width": 640,
+    "height": 1166,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-GODFREY": {
+    "file": "/images/xc2/xc2-blade-godfrey.png",
+    "sourceFile": "Fim_bl_017_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_017_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/c/c8/Fim_bl_017_0.png/640px-Fim_bl_017_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/c/c8/Fim_bl_017_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-WULFRIC": {
+    "file": "/images/xc2/xc2-blade-wulfric.png",
+    "sourceFile": "Fim_bl_049_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_049_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/7/70/Fim_bl_049_0.png/640px-Fim_bl_049_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/7/70/Fim_bl_049_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-PERCEVAL": {
+    "file": "/images/xc2/xc2-blade-perceval.png",
+    "sourceFile": "Fim_bl_019_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_019_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/a/a2/Fim_bl_019_0.png/640px-Fim_bl_019_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/a/a2/Fim_bl_019_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-VALE": {
+    "file": "/images/xc2/xc2-blade-vale.png",
+    "sourceFile": "Fim_bl_053_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_053_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/f/fa/Fim_bl_053_0.png/640px-Fim_bl_053_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/f/fa/Fim_bl_053_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-AGATE": {
+    "file": "/images/xc2/xc2-blade-agate.png",
+    "sourceFile": "Fim_bl_052_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_052_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/4/4a/Fim_bl_052_0.png/640px-Fim_bl_052_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/4/4a/Fim_bl_052_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-GORG": {
+    "file": "/images/xc2/xc2-blade-gorg.png",
+    "sourceFile": "Fim_bl_022_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_022_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/a/a9/Fim_bl_022_0.png/640px-Fim_bl_022_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/a/a9/Fim_bl_022_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-BOREAS": {
+    "file": "/images/xc2/xc2-blade-boreas.png",
+    "sourceFile": "Fim_bl_023_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_023_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/6/6f/Fim_bl_023_0.png/640px-Fim_bl_023_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/6/6f/Fim_bl_023_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-DAGAS": {
+    "file": "/images/xc2/xc2-blade-dagas.png",
+    "sourceFile": "Fim_bl_040_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_040_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/3/3f/Fim_bl_040_0.png/640px-Fim_bl_040_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/3/3f/Fim_bl_040_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-DAGAS-AWAKENED": {
+    "file": "/images/xc2/xc2-blade-dagas-awakened.png",
+    "sourceFile": "Fim_bl_040_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_040_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/3/3f/Fim_bl_040_0.png/640px-Fim_bl_040_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/3/3f/Fim_bl_040_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-KASANDRA": {
+    "file": "/images/xc2/xc2-blade-kasandra.png",
+    "sourceFile": "Fim_bl_024_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_024_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/5/51/Fim_bl_024_0.png/640px-Fim_bl_024_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/5/51/Fim_bl_024_0.png",
+    "width": 640,
+    "height": 919,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-PRAXIS": {
+    "file": "/images/xc2/xc2-blade-praxis.png",
+    "sourceFile": "Fim_bl_025_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_025_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/4/47/Fim_bl_025_0.png/640px-Fim_bl_025_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/4/47/Fim_bl_025_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-THEORY": {
+    "file": "/images/xc2/xc2-blade-theory.png",
+    "sourceFile": "Fim_bl_026_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_026_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/9/96/Fim_bl_026_0.png/640px-Fim_bl_026_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/9/96/Fim_bl_026_0.png",
+    "width": 640,
+    "height": 975,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-PERUN": {
+    "file": "/images/xc2/xc2-blade-perun.png",
+    "sourceFile": "Fim_bl_027_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_027_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/4/4e/Fim_bl_027_0.png/640px-Fim_bl_027_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/4/4e/Fim_bl_027_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-KORA": {
+    "file": "/images/xc2/xc2-blade-kora.png",
+    "sourceFile": "Fim_bl_028_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_028_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/4/4a/Fim_bl_028_0.png/640px-Fim_bl_028_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/4/4a/Fim_bl_028_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-AZAMI": {
+    "file": "/images/xc2/xc2-blade-azami.png",
+    "sourceFile": "Fim_bl_029_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_029_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/8/8c/Fim_bl_029_0.png/640px-Fim_bl_029_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/8/8c/Fim_bl_029_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-URSULA": {
+    "file": "/images/xc2/xc2-blade-ursula.png",
+    "sourceFile": "Fim_bl_030_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_030_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/4/46/Fim_bl_030_0.png/640px-Fim_bl_030_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/4/46/Fim_bl_030_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-NEWT": {
+    "file": "/images/xc2/xc2-blade-newt.png",
+    "sourceFile": "Fim_bl_032_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_032_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/7/7e/Fim_bl_032_0.png/640px-Fim_bl_032_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/7/7e/Fim_bl_032_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-NIM": {
+    "file": "/images/xc2/xc2-blade-nim.png",
+    "sourceFile": "Fim_bl_033_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_033_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/2/26/Fim_bl_033_0.png/640px-Fim_bl_033_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/2/26/Fim_bl_033_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-SHEBA": {
+    "file": "/images/xc2/xc2-blade-sheba.png",
+    "sourceFile": "Fim_bl_034_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_034_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/e/e7/Fim_bl_034_0.png/640px-Fim_bl_034_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/e/e7/Fim_bl_034_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-VESS": {
+    "file": "/images/xc2/xc2-blade-vess.png",
+    "sourceFile": "Fim_bl_035_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_035_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/e/ee/Fim_bl_035_0.png/640px-Fim_bl_035_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/e/ee/Fim_bl_035_0.png",
+    "width": 640,
+    "height": 878,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-ADENINE": {
+    "file": "/images/xc2/xc2-blade-adenine.png",
+    "sourceFile": "Fim_bl_031_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_031_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/c/ca/Fim_bl_031_0.png/640px-Fim_bl_031_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/c/ca/Fim_bl_031_0.png",
+    "width": 640,
+    "height": 1045,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-ELECTRA": {
+    "file": "/images/xc2/xc2-blade-electra.png",
+    "sourceFile": "Fim_bl_036_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_036_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/3/38/Fim_bl_036_0.png/640px-Fim_bl_036_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/3/38/Fim_bl_036_0.png",
+    "width": 640,
+    "height": 789,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-ZENOBIA": {
+    "file": "/images/xc2/xc2-blade-zenobia.png",
+    "sourceFile": "Fim_bl_037_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_037_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/3/36/Fim_bl_037_0.png/640px-Fim_bl_037_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/3/36/Fim_bl_037_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-FINCH": {
+    "file": "/images/xc2/xc2-blade-finch.png",
+    "sourceFile": "Fim_bl_038_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_038_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/a/a2/Fim_bl_038_0.png/640px-Fim_bl_038_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/a/a2/Fim_bl_038_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-FLOREN": {
+    "file": "/images/xc2/xc2-blade-floren.png",
+    "sourceFile": "Fim_bl_021_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_021_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/9/9b/Fim_bl_021_0.png/640px-Fim_bl_021_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/9/9b/Fim_bl_021_0.png",
+    "width": 640,
+    "height": 1252,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-KOS-MOS": {
+    "file": "/images/xc2/xc2-blade-kos-mos.png",
+    "sourceFile": "Fim_bl_041_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_041_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/b/b7/Fim_bl_041_0.png/640px-Fim_bl_041_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/b/b7/Fim_bl_041_0.png",
+    "width": 640,
+    "height": 552,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-HERALD": {
+    "file": "/images/xc2/xc2-blade-herald.png",
+    "sourceFile": "Fim_bl_051_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_051_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/c/c9/Fim_bl_051_0.png/640px-Fim_bl_051_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/c/c9/Fim_bl_051_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-DAHLIA": {
+    "file": "/images/xc2/xc2-blade-dahlia.png",
+    "sourceFile": "Fim_bl_054_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_054_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/8/80/Fim_bl_054_0.png/640px-Fim_bl_054_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/8/80/Fim_bl_054_0.png",
+    "width": 640,
+    "height": 1048,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-T-ELOS": {
+    "file": "/images/xc2/xc2-blade-t-elos.png",
+    "sourceFile": "Fim_bl_142_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_142_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/6/6d/Fim_bl_142_0.png/640px-Fim_bl_142_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/6/6d/Fim_bl_142_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-POPPIBUSTER": {
+    "file": "/images/xc2/xc2-blade-poppibuster.png",
+    "sourceFile": "Dlc21_fim_bl_141_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Dlc21_fim_bl_141_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/b/bc/Dlc21_fim_bl_141_0.png/640px-Dlc21_fim_bl_141_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/b/bc/Dlc21_fim_bl_141_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-SHULK": {
+    "file": "/images/xc2/xc2-blade-shulk.png",
+    "sourceFile": "Dlc1_fim_bl_143_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Dlc1_fim_bl_143_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/8/8a/Dlc1_fim_bl_143_0.png/640px-Dlc1_fim_bl_143_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/8/8a/Dlc1_fim_bl_143_0.png",
+    "width": 640,
+    "height": 1160,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-FIORA": {
+    "file": "/images/xc2/xc2-blade-fiora.png",
+    "sourceFile": "Dlc1_fim_bl_144_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Dlc1_fim_bl_144_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/4/4a/Dlc1_fim_bl_144_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/4/4a/Dlc1_fim_bl_144_0.png",
+    "width": 553,
+    "height": 1200,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-CORVIN": {
+    "file": "/images/xc2/xc2-blade-corvin.png",
+    "sourceFile": "Dlc22_fim_bl_145_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Dlc22_fim_bl_145_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/b/bc/Dlc22_fim_bl_145_0.png/640px-Dlc22_fim_bl_145_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/b/bc/Dlc22_fim_bl_145_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-CROSSETTE": {
+    "file": "/images/xc2/xc2-blade-crossette.png",
+    "sourceFile": "Dlc23_fim_bl_146_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Dlc23_fim_bl_146_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/6/69/Dlc23_fim_bl_146_0.png/640px-Dlc23_fim_bl_146_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/6/69/Dlc23_fim_bl_146_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-ELMA": {
+    "file": "/images/xc2/xc2-blade-elma.png",
+    "sourceFile": "Dlc24_fim_bl_147_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Dlc24_fim_bl_147_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/d/d2/Dlc24_fim_bl_147_0.png/640px-Dlc24_fim_bl_147_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/d/d2/Dlc24_fim_bl_147_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-AKHOS": {
+    "file": "/images/xc2/xc2-blade-akhos.png",
+    "sourceFile": "Fim_bl_018_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_018_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/1/1a/Fim_bl_018_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/1/1a/Fim_bl_018_0.png",
+    "width": 512,
+    "height": 1280,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-PATROKA": {
+    "file": "/images/xc2/xc2-blade-patroka.png",
+    "sourceFile": "Fim_bl_020_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_020_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/c/c3/Fim_bl_020_0.png/640px-Fim_bl_020_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/c/c3/Fim_bl_020_0.png",
+    "width": 640,
+    "height": 1184,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-MIKHAIL": {
+    "file": "/images/xc2/xc2-blade-mikhail.png",
+    "sourceFile": "Fim_bl_039_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_039_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/9/9f/Fim_bl_039_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/9/9f/Fim_bl_039_0.png",
+    "width": 469,
+    "height": 1266,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-OBRONA": {
+    "file": "/images/xc2/xc2-blade-obrona.png",
+    "sourceFile": "Fim_bl_016_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_016_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/c/c8/Fim_bl_016_0.png/640px-Fim_bl_016_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/c/c8/Fim_bl_016_0.png",
+    "width": 640,
+    "height": 559,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-PERDIDO": {
+    "file": "/images/xc2/xc2-blade-perdido.png",
+    "sourceFile": "Fim_bl_015_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_015_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/1/13/Fim_bl_015_0.png/640px-Fim_bl_015_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/1/13/Fim_bl_015_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-CRESSIDUS": {
+    "file": "/images/xc2/xc2-blade-cressidus.png",
+    "sourceFile": "Fim_bl_014_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_014_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/9/91/Fim_bl_014_0.png/640px-Fim_bl_014_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/9/91/Fim_bl_014_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-SEVER": {
+    "file": "/images/xc2/xc2-blade-sever.png",
+    "sourceFile": "Fim_bl_013_0.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Fim_bl_013_0.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/2/25/Fim_bl_013_0.png/640px-Fim_bl_013_0.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/2/25/Fim_bl_013_0.png",
+    "width": 640,
+    "height": 718,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-BLADE-MALOS": {
+    "file": "/images/xc2/xc2-blade-malos.png",
+    "sourceFile": "Malos.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:Malos.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/0/01/Malos.png/640px-Malos.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/0/01/Malos.png",
+    "width": 640,
+    "height": 1138,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-TORNA-DRIVER-LORA": {
+    "file": "/images/xc2/xc2-torna-driver-lora.png",
+    "sourceFile": "ラウラ.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%83%A9%E3%82%A6%E3%83%A9.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/4/4a/%E3%83%A9%E3%82%A6%E3%83%A9.png/640px-%E3%83%A9%E3%82%A6%E3%83%A9.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/4/4a/%E3%83%A9%E3%82%A6%E3%83%A9.png",
+    "width": 640,
+    "height": 1023,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-TORNA-DRIVER-ADDAM": {
+    "file": "/images/xc2/xc2-torna-driver-addam.png",
+    "sourceFile": "アデル.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%82%A2%E3%83%87%E3%83%AB.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/4/48/%E3%82%A2%E3%83%87%E3%83%AB.png/640px-%E3%82%A2%E3%83%87%E3%83%AB.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/4/48/%E3%82%A2%E3%83%87%E3%83%AB.png",
+    "width": 640,
+    "height": 1190,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-TORNA-DRIVER-HUGO": {
+    "file": "/images/xc2/xc2-torna-driver-hugo.png",
+    "sourceFile": "ユーゴ.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%83%A6%E3%83%BC%E3%82%B4.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/3/33/%E3%83%A6%E3%83%BC%E3%82%B4.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/3/33/%E3%83%A6%E3%83%BC%E3%82%B4.png",
+    "width": 398,
+    "height": 1228,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-TORNA-BLADE-JIN": {
+    "file": "/images/xc2/xc2-torna-blade-jin.png",
+    "sourceFile": "真（无面具）.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E7%9C%9F%EF%BC%88%E6%97%A0%E9%9D%A2%E5%85%B7%EF%BC%89.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/c/c9/%E7%9C%9F%EF%BC%88%E6%97%A0%E9%9D%A2%E5%85%B7%EF%BC%89.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/c/c9/%E7%9C%9F%EF%BC%88%E6%97%A0%E9%9D%A2%E5%85%B7%EF%BC%89.png",
+    "width": 528,
+    "height": 1252,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-TORNA-BLADE-HAZE": {
+    "file": "/images/xc2/xc2-torna-blade-haze.png",
+    "sourceFile": "カスミ.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%82%AB%E3%82%B9%E3%83%9F.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/0/05/%E3%82%AB%E3%82%B9%E3%83%9F.png/640px-%E3%82%AB%E3%82%B9%E3%83%9F.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/0/05/%E3%82%AB%E3%82%B9%E3%83%9F.png",
+    "width": 640,
+    "height": 980,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-TORNA-BLADE-MYTHRA": {
+    "file": "/images/xc2/xc2-torna-blade-mythra.png",
+    "sourceFile": "光（核心完整）.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E5%85%89%EF%BC%88%E6%A0%B8%E5%BF%83%E5%AE%8C%E6%95%B4%EF%BC%89.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/2/23/%E5%85%89%EF%BC%88%E6%A0%B8%E5%BF%83%E5%AE%8C%E6%95%B4%EF%BC%89.png/640px-%E5%85%89%EF%BC%88%E6%A0%B8%E5%BF%83%E5%AE%8C%E6%95%B4%EF%BC%89.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/2/23/%E5%85%89%EF%BC%88%E6%A0%B8%E5%BF%83%E5%AE%8C%E6%95%B4%EF%BC%89.png",
+    "width": 640,
+    "height": 986,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-TORNA-BLADE-MINOTH": {
+    "file": "/images/xc2/xc2-torna-blade-minoth.png",
+    "sourceFile": "ミノチ.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%83%9F%E3%83%8E%E3%83%81.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/1/13/%E3%83%9F%E3%83%8E%E3%83%81.png/640px-%E3%83%9F%E3%83%8E%E3%83%81.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/1/13/%E3%83%9F%E3%83%8E%E3%83%81.png",
+    "width": 640,
+    "height": 1081,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-TORNA-BLADE-BRIGHID": {
+    "file": "/images/xc2/xc2-torna-blade-brighid.png",
+    "sourceFile": "カグツチ.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%82%AB%E3%82%B0%E3%83%84%E3%83%81.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/b/b8/%E3%82%AB%E3%82%B0%E3%83%84%E3%83%81.png/640px-%E3%82%AB%E3%82%B0%E3%83%84%E3%83%81.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/b/b8/%E3%82%AB%E3%82%B0%E3%83%84%E3%83%81.png",
+    "width": 640,
+    "height": 1138,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  },
+  "XC2-TORNA-BLADE-AEGAEON": {
+    "file": "/images/xc2/xc2-torna-blade-aegaeon.png",
+    "sourceFile": "ワダツミ.png",
+    "sourceUrl": "https://xenoblade2.cn/%E6%96%87%E4%BB%B6:%E3%83%AF%E3%83%80%E3%83%84%E3%83%9F.png",
+    "downloadUrl": "https://images.xenoblade2.cn/images/thumb/f/fd/%E3%83%AF%E3%83%80%E3%83%84%E3%83%9F.png/640px-%E3%83%AF%E3%83%80%E3%83%84%E3%83%9F.png",
+    "originalUrl": "https://images.xenoblade2.cn/images/f/fd/%E3%83%AF%E3%83%80%E3%83%84%E3%83%9F.png",
+    "width": 640,
+    "height": 1138,
+    "attribution": "Character artwork from Xenoblade Chronicles 2 / Torna. Nintendo / MONOLITHSOFT. Hosted by 乐园数据管理室."
+  }
+}

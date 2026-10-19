@@ -1,0 +1,4092 @@
+[
+  {
+    "id": "XC1-NPC-MAIN-0001",
+    "name": "修尔克",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "兵器开发局（调查推车／金属架）",
+        "activeTime": "全天",
+        "condition": "机神界中枢事件后，用修尔克作队长调查触发；无需寻找站立 NPC。"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#1",
+    "notes": "此档案记录任务触发角色，原始 NPC 表中的中央区广场为角色占位，不作为接取地点。接取方法参考：https://gamefaqs.gamespot.com/switch/272738-xenoblade-chronicles-definitive-edition/faqs/70515",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0080"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0017",
+    "name": "芭涅雅",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "废品号甲板",
+        "activeTime": "全天",
+        "condition": "机神界中枢事件后，在停泊于６号殖民地的废品号上接取。"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#17",
+    "notes": "废品号会随剧情移动；这里记录蒙纳多复制品任务的接取位置。参考：https://hyperwiki.jp/xenobladede/quest/q244/",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0194",
+      "XC1-Q-0195",
+      "XC1-Q-0196",
+      "XC1-Q-0197",
+      "XC1-Q-0198"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0026",
+    "name": "欧达玛",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 正门",
+        "activeTime": "全天",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#26",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0136"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0101",
+    "name": "维尔纳",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "机神兵残骸遗迹",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "3:00 ~ 12:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0146",
+      "XC1-Q-0185"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%BB%B4%E5%B0%94%E7%BA%B3",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0103",
+    "name": "洛可",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0024"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B4%9B%E5%8F%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0104",
+    "name": "莉露卡",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0038"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%8E%89%E9%9C%B2%E5%8D%A1",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0105",
+    "name": "柯帕姆",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0022",
+      "XC1-Q-0048",
+      "XC1-Q-0056",
+      "XC1-Q-0057"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%9F%AF%E5%B8%95%E5%A7%86",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0106",
+    "name": "多萝缇亚",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0079"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%A4%9A%E8%90%9D%E7%BC%87%E4%BA%9A",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0107",
+    "name": "欧尔克霍古",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "18:00 ~ 0:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "15:00 ~ 0:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "磷光之地扎托尔",
+        "location": "光球方尖碑",
+        "activeTime": "15:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#107",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0176"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0108",
+    "name": "谢莉尔",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "6:00 ~ 12:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0042"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%B0%A2%E8%8E%89%E5%B0%94",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0110",
+    "name": "荻吉莲",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "18:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "21:00 ~ 6:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0005",
+      "XC1-Q-0063",
+      "XC1-Q-0071"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%8D%BB%E5%90%89%E8%8E%B2",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0111",
+    "name": "玛夏",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0002"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%8E%9B%E5%A4%8F",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0112",
+    "name": "艾米·莉塔",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": ""
+      },
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0023",
+      "XC1-Q-0053",
+      "XC1-Q-0054",
+      "XC1-Q-0066"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%89%BE%E7%B1%B3%C2%B7%E8%8E%89%E5%A1%94",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0113",
+    "name": "米勒",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0074",
+      "XC1-Q-0075"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%B1%B3%E5%8B%92",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0114",
+    "name": "卢希奥尔",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0077"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8D%A2%E5%B8%8C%E5%A5%A5%E5%B0%94",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0115",
+    "name": "卡丹",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": ""
+      },
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0073"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8D%A1%E4%B8%B9",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0116",
+    "name": "阿道夫",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0045"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E9%98%BF%E9%81%93%E5%A4%AB",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0118",
+    "name": "莫妮卡",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#118",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0044"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0119",
+    "name": "迪因",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "6:00 ~ 12:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0037"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%BF%AA%E5%9B%A0",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0120",
+    "name": "梅妮",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0078"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%A2%85%E5%A6%AE",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0122",
+    "name": "亚恩",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#122",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0065"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0123",
+    "name": "修菈",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "灰烬洞窟",
+        "location": "巴尔法加墓地",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0090",
+      "XC1-Q-0091",
+      "XC1-Q-0092",
+      "XC1-Q-0093",
+      "XC1-Q-0094"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E4%BF%AE%E8%8F%88",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0124",
+    "name": "尼尔尼",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0004"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%B0%BC%E5%B0%94%E5%B0%BC",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0125",
+    "name": "弗里兹",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0076"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%BC%97%E9%87%8C%E5%85%B9",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0126",
+    "name": "格列弗",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0036"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%A0%BC%E5%88%97%E5%BC%97",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0128",
+    "name": "苏珊娜",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0003",
+      "XC1-Q-0035"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%8B%8F%E7%8F%8A%E5%A8%9C",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0129",
+    "name": "迪奥尼杰斯",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "6:00 ~ 12:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0001"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%BF%AA%E5%A5%A5%E5%B0%BC%E6%9D%B0%E6%96%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0130",
+    "name": "贝蒂",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0072"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%B4%9D%E8%92%82",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0131",
+    "name": "芙兰索瓦",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0043"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%8A%99%E5%85%B0%E7%B4%A2%E7%93%A6",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0132",
+    "name": "涅莉涅",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0049"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B6%85%E8%8E%89%E6%B6%85",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0133",
+    "name": "杰克森",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0058",
+      "XC1-Q-0059",
+      "XC1-Q-0060"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%9D%B0%E5%85%8B%E6%A3%AE",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0134",
+    "name": "凯尼·鲁宾",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "21:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0061",
+      "XC1-Q-0062"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%87%AF%E5%B0%BC%C2%B7%E9%B2%81%E5%AE%BE",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0135",
+    "name": "加兹洛",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "18:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "巨神脚",
+        "location": "卡穆特的地标",
+        "activeTime": "21:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0067",
+      "XC1-Q-0069"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8A%A0%E5%85%B9%E6%B4%9B",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0136",
+    "name": "吉洛克",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "18:00 ~ 0:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0068",
+      "XC1-Q-0070"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%90%89%E6%B4%9B%E5%85%8B",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0137",
+    "name": "雷莫莱昂",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#137",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0046"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0139",
+    "name": "勒索王",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "21:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0047"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8B%92%E7%B4%A2%E7%8E%8B",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0140",
+    "name": "索尔多赛萨米",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0050",
+      "XC1-Q-0051",
+      "XC1-Q-0052"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%B4%A2%E5%B0%94%E5%A4%9A%E8%B5%9B%E8%90%A8%E7%B1%B3",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0141",
+    "name": "萝丝威斯特",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "21:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0168"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%90%9D%E4%B8%9D%E5%A8%81%E6%96%AF%E7%89%B9",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0142",
+    "name": "帕痞",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "居住区 休憩广场",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "15:00 ~ 0:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "灰烬洞窟",
+        "location": "腿部岭道",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0190"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%B8%95%E7%97%9E",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0143",
+    "name": "努克",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0173"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8A%AA%E5%85%8B",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0144",
+    "name": "派拉尔",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0184"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B4%BE%E6%8B%89%E5%B0%94",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0145",
+    "name": "迷费迷费",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0171"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%BF%B7%E8%B4%B9%E8%BF%B7%E8%B4%B9",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0156",
+    "name": "宝珠爷爷",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "宝珠爷爷的露天商店",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#156",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0064"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0280",
+    "name": "安娜",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "巨神脚",
+        "location": "逃生艇营地",
+        "activeTime": "9:00 ~ 18:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0140"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%AE%89%E5%A8%9C",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0282",
+    "name": "盖尔曼",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "巨神脚",
+        "location": "逃生艇营地",
+        "activeTime": "21:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0106",
+      "XC1-Q-0144",
+      "XC1-Q-0145"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%9B%96%E5%B0%94%E6%9B%BC",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0283",
+    "name": "塔兹",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "巨神脚",
+        "location": "逃生艇营地",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 12:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0101",
+      "XC1-Q-0107",
+      "XC1-Q-0142",
+      "XC1-Q-0143"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%A1%94%E5%85%B9",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0284",
+    "name": "亚达",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "巨神脚",
+        "location": "逃生艇营地",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 12:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0105",
+      "XC1-Q-0169"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E4%BA%9A%E8%BE%BE",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0285",
+    "name": "伊旺",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "巨神脚",
+        "location": "逃生艇营地",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "18:00 ~ 6:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0103",
+      "XC1-Q-0137",
+      "XC1-Q-0138"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E4%BC%8A%E6%97%BA",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0286",
+    "name": "奥尔嘉",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "巨神脚",
+        "location": "逃生艇营地",
+        "activeTime": "18:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0100",
+      "XC1-Q-0141"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%A5%A5%E5%B0%94%E5%98%89",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0287",
+    "name": "玛多琉娜",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "巨神脚",
+        "location": "逃生艇营地",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "18:00 ~ 6:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0102",
+      "XC1-Q-0104",
+      "XC1-Q-0139"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%8E%9B%E5%A4%9A%E7%90%89%E5%A8%9C",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0321",
+    "name": "诺菈",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      },
+      {
+        "region": "边境村",
+        "location": "诺彭高塔",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0157",
+      "XC1-Q-0158",
+      "XC1-Q-0159"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%AF%BA%E8%8F%88",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0322",
+    "name": "莓酱酱",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "21:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "边境村",
+        "location": "祈祷露台",
+        "activeTime": "18:00 ~ 0:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0160",
+      "XC1-Q-0161",
+      "XC1-Q-0165"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%8E%93%E9%85%B1%E9%85%B1",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0323",
+    "name": "诺彭里克",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0153",
+      "XC1-Q-0179",
+      "XC1-Q-0180"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%AF%BA%E5%BD%AD%E9%87%8C%E5%85%8B",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0324",
+    "name": "波卡波卡",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0151",
+      "XC1-Q-0156"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B3%A2%E5%8D%A1%E6%B3%A2%E5%8D%A1",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0325",
+    "name": "鼓囊囊",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "21:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "边境村",
+        "location": "力奇的家",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0178"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E9%BC%93%E5%9B%8A%E5%9B%8A",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0326",
+    "name": "米恩卡",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      },
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0181"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%B1%B3%E6%81%A9%E5%8D%A1",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0327",
+    "name": "塔迪德纳斯",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": ""
+      },
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇都阿卡莫托 正门",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "巨神脚",
+        "location": "逃生艇营地",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0150"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%A1%94%E8%BF%AA%E5%BE%B7%E7%BA%B3%E6%96%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0328",
+    "name": "鸫·银",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": ""
+      },
+      {
+        "region": "边境村",
+        "location": "诺彭高塔",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "皇都阿卡莫托",
+        "location": "永远的喷泉",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0177",
+      "XC1-Q-0191"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E9%B8%AB%C2%B7%E9%93%B6",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0329",
+    "name": "梅奇希里亚",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": ""
+      },
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇宫",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "巨神脚",
+        "location": "逃生艇营地",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0152",
+      "XC1-Q-0155",
+      "XC1-Q-0162",
+      "XC1-Q-0166"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%A2%85%E5%A5%87%E5%B8%8C%E9%87%8C%E4%BA%9A",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0330",
+    "name": "尤里",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇都阿卡莫托 正门",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "瓦拉克雪山",
+        "location": "海利库特礼拜堂",
+        "activeTime": "全天",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#330",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0174",
+      "XC1-Q-0193"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0331",
+    "name": "洁莉根",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇都阿卡莫托 正门",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "磷光之地扎托尔",
+        "location": "岩窟的姊妹石像",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0170"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B4%81%E8%8E%89%E6%A0%B9",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0332",
+    "name": "簪·银",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "希望的喷泉",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "15:00 ~ 0:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "磷光之地扎托尔",
+        "location": "岩窟的姊妹石像",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "磷光之地扎托尔",
+        "location": "光球方尖碑",
+        "activeTime": "15:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#332",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0175"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0333",
+    "name": "安·银",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "15:00 ~ 0:00",
+        "condition": ""
+      },
+      {
+        "region": "皇都阿卡莫托",
+        "location": "希望的喷泉",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "艾尔特海",
+        "location": "以太工厂",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "灰烬洞窟",
+        "location": "腿部岭道",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0189"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%AE%89%C2%B7%E9%93%B6",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0334",
+    "name": "希塔克罗斯",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "3:00 ~ 18:00",
+        "condition": ""
+      },
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0182",
+      "XC1-Q-0183"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%B8%8C%E5%A1%94%E5%85%8B%E7%BD%97%E6%96%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0335",
+    "name": "娜欧奈米",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      },
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0192"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%A8%9C%E6%AC%A7%E5%A5%88%E7%B1%B3",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0433",
+    "name": "奇菈菈",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "诺彭高塔",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0242"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%A5%87%E8%8F%88%E8%8F%88",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0434",
+    "name": "迪古",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "诺彭高塔",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0243",
+      "XC1-Q-0280"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%BF%AA%E5%8F%A4",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0437",
+    "name": "泰迪",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0248",
+      "XC1-Q-0249",
+      "XC1-Q-0250"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B3%B0%E8%BF%AA",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0438",
+    "name": "恩帕",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0293",
+      "XC1-Q-0294"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%81%A9%E5%B8%95",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0439",
+    "name": "尤西",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "6:00 ~ 12:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0290"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%B0%A4%E8%A5%BF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0441",
+    "name": "皮凯",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0247",
+      "XC1-Q-0282",
+      "XC1-Q-0283"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%9A%AE%E5%87%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0442",
+    "name": "巴恩",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "边境村",
+        "location": "花粉加工厂",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0258"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%B7%B4%E6%81%A9",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0443",
+    "name": "米加米加",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#443",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0245",
+      "XC1-Q-0256"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0444",
+    "name": "菈夏",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#444",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0251",
+      "XC1-Q-0259",
+      "XC1-Q-0281"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0445",
+    "name": "弗果果",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "21:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0244",
+      "XC1-Q-0246",
+      "XC1-Q-0291",
+      "XC1-Q-0292"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%BC%97%E6%9E%9C%E6%9E%9C",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0447",
+    "name": "多巴加斯",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "花粉加工厂",
+        "activeTime": "3:00 ~ 18:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0257",
+      "XC1-Q-0260",
+      "XC1-Q-0310"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%A4%9A%E5%B7%B4%E5%8A%A0%E6%96%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0448",
+    "name": "加尔达",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "花粉加工厂",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "玛格纳原始森林",
+        "location": "玛格纳林道",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0285",
+      "XC1-Q-0286",
+      "XC1-Q-0287",
+      "XC1-Q-0288",
+      "XC1-Q-0309",
+      "XC1-Q-0312"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8A%A0%E5%B0%94%E8%BE%BE",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0449",
+    "name": "琪莉",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "花粉加工厂",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "玛格纳原始森林",
+        "location": "玛格纳林道",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0284",
+      "XC1-Q-0311"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%90%AA%E8%8E%89",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0450",
+    "name": "梅迪",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "21:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0289",
+      "XC1-Q-0295"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%A2%85%E8%BF%AA",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0452",
+    "name": "隆",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "花粉加工厂",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0239",
+      "XC1-Q-0240"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E9%9A%86",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0454",
+    "name": "雷克",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "力奇的家",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0233",
+      "XC1-Q-0234",
+      "XC1-Q-0236",
+      "XC1-Q-0238"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E9%9B%B7%E5%85%8B",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0455",
+    "name": "琪可",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "力奇的家",
+        "activeTime": "6:00 ~ 12:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0235"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%90%AA%E5%8F%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0456",
+    "name": "莫达尼",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "力奇的家",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0237"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%8E%AB%E8%BE%BE%E5%B0%BC",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0457",
+    "name": "派琪卡",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "力奇的家",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0252",
+      "XC1-Q-0253"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B4%BE%E7%90%AA%E5%8D%A1",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0459",
+    "name": "露帕",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "力奇的家",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#459",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0254",
+      "XC1-Q-0255",
+      "XC1-Q-0299",
+      "XC1-Q-0300",
+      "XC1-Q-0301",
+      "XC1-Q-0302"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0461",
+    "name": "拉庞",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "村长的家",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0298"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%8B%89%E5%BA%9E",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0462",
+    "name": "米可",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "天启大厅",
+        "activeTime": "6:00 ~ 0:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0304"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%B1%B3%E5%8F%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0463",
+    "name": "达比比",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "村长的家",
+        "activeTime": "18:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "边境村",
+        "location": "诺彭高塔",
+        "activeTime": "18:00 ~ 0:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0296",
+      "XC1-Q-0297"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%BE%BE%E6%AF%94%E6%AF%94",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0464",
+    "name": "佩鲁鲁",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "天启大厅",
+        "activeTime": "6:00 ~ 0:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0305",
+      "XC1-Q-0306"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E4%BD%A9%E9%B2%81%E9%B2%81",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0465",
+    "name": "皮普",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "村长的家",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0241"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%9A%AE%E6%99%AE",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0467",
+    "name": "霍可",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "村长的家",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#320",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0148",
+      "XC1-Q-0149"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0471",
+    "name": "阿提尔",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "诺彭高塔",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": ""
+      },
+      {
+        "region": "皇都阿卡莫托",
+        "location": "希望的喷泉",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0308"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E9%98%BF%E6%8F%90%E5%B0%94",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0473",
+    "name": "波皮耶",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "诺彭高塔",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": ""
+      },
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇都阿卡莫托 正门",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0356"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B3%A2%E7%9A%AE%E8%80%B6",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0476",
+    "name": "卡尔巴",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "诺彭高塔",
+        "activeTime": "18:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇宫",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0314",
+      "XC1-Q-0315"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8D%A1%E5%B0%94%E5%B7%B4",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0477",
+    "name": "尼洛",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "希望的喷泉",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "边境村",
+        "location": "诺彭高塔",
+        "activeTime": "18:00 ~ 6:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#477",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0307",
+      "XC1-Q-0313",
+      "XC1-Q-0353"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0560",
+    "name": "洛库洛",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "圣天翔大厅",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0340",
+      "XC1-Q-0345"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B4%9B%E5%BA%93%E6%B4%9B",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0561",
+    "name": "埃因",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "永远的喷泉",
+        "activeTime": "18:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "巨神脚",
+        "location": "逃生艇营地",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0132",
+      "XC1-Q-0350",
+      "XC1-Q-0388"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%9F%83%E5%9B%A0",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0562",
+    "name": "七凤",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇宫",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0386"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E4%B8%83%E5%87%A4",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0563",
+    "name": "泽因",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "永远的喷泉",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "瓦拉克雪山",
+        "location": "海利库特礼拜堂",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0346",
+      "XC1-Q-0348",
+      "XC1-Q-0403",
+      "XC1-Q-0404"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B3%BD%E5%9B%A0",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0564",
+    "name": "米拉利斯",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇宫",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "艾尔特海",
+        "location": "兰塔艾尔海岸",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0338",
+      "XC1-Q-0339"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%B1%B3%E6%8B%89%E5%88%A9%E6%96%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0566",
+    "name": "梅莉莎",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇宫",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0337"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%A2%85%E8%8E%89%E8%8E%8E",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0567",
+    "name": "薇薇安",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇宫",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": ""
+      },
+      {
+        "region": "艾尔特海",
+        "location": "以太工厂",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "艾尔特海",
+        "location": "白翼宫",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0330",
+      "XC1-Q-0331",
+      "XC1-Q-0390"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%96%87%E8%96%87%E5%AE%89",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0569",
+    "name": "波莱里欧",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "希望的喷泉",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0354",
+      "XC1-Q-0355"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B3%A2%E8%8E%B1%E9%87%8C%E6%AC%A7",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0573",
+    "name": "卢斯",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇宫",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0336"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8D%A2%E6%96%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0574",
+    "name": "加达",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "圣天翔大厅",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0351"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8A%A0%E8%BE%BE",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0576",
+    "name": "赛葛尔",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇都阿卡莫托 正门",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "磷光之地扎托尔",
+        "location": "岩窟的姊妹石像",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0218",
+      "XC1-Q-0219",
+      "XC1-Q-0341",
+      "XC1-Q-0342",
+      "XC1-Q-0343",
+      "XC1-Q-0344"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%B5%9B%E8%91%9B%E5%B0%94",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0580",
+    "name": "米莉亚",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇宫",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "艾尔特海",
+        "location": "以太工厂",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#762",
+    "notes": "英文名 Miriall，与主角梅莉亚（Melia）是不同人物。活动时间取自终极版简体中文 BDAT；出现条件与任务前置请查看关联任务。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0327",
+      "XC1-Q-0329",
+      "XC1-Q-0389"
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0582",
+    "name": "萝莎",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "永远的喷泉",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": ""
+      },
+      {
+        "region": "磷光之地扎托尔",
+        "location": "岩窟的姊妹石像",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0216",
+      "XC1-Q-0217",
+      "XC1-Q-0220"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%90%9D%E8%8E%8E",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0583",
+    "name": "提托",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇宫",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": ""
+      },
+      {
+        "region": "艾尔特海",
+        "location": "以太工厂",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0332",
+      "XC1-Q-0352"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%8F%90%E6%89%98",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0587",
+    "name": "塔莉亚",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇宫",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "艾尔特海",
+        "location": "以太工厂",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0328",
+      "XC1-Q-0387"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%A1%94%E8%8E%89%E4%BA%9A",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0589",
+    "name": "安莉耶塔",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "永远的喷泉",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0349"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%AE%89%E8%8E%89%E8%80%B6%E5%A1%94",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0598",
+    "name": "克拉尔",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "永远的喷泉",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "瓦拉克雪山",
+        "location": "海利库特礼拜堂",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "瓦拉克雪山",
+        "location": "贝法鲁阁基座",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0347",
+      "XC1-Q-0402"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%85%8B%E6%8B%89%E5%B0%94",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0691",
+    "name": "沃尔提克",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0428",
+      "XC1-Q-0429"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B2%83%E5%B0%94%E6%8F%90%E5%85%8B",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0692",
+    "name": "利雷托",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0430",
+      "XC1-Q-0436"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%88%A9%E9%9B%B7%E6%89%98",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0693",
+    "name": "爱琳娜",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0415",
+      "XC1-Q-0416",
+      "XC1-Q-0424"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E7%88%B1%E7%90%B3%E5%A8%9C",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0694",
+    "name": "蕾安娜",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0420",
+      "XC1-Q-0421"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%95%BE%E5%AE%89%E5%A8%9C",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0696",
+    "name": "洁绮",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0422"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B4%81%E7%BB%AE",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0697",
+    "name": "尤冯莉亚",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0434"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%B0%A4%E5%86%AF%E8%8E%89%E4%BA%9A",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0698",
+    "name": "凯尔斯",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0423",
+      "XC1-Q-0433",
+      "XC1-Q-0435"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%87%AF%E5%B0%94%E6%96%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0699",
+    "name": "弥妮斯",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "21:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0432"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%BC%A5%E5%A6%AE%E6%96%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0700",
+    "name": "普理莫",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "18:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0414"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%99%AE%E7%90%86%E8%8E%AB",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0701",
+    "name": "卡拉尔",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0431"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8D%A1%E6%8B%89%E5%B0%94",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0702",
+    "name": "娜塔莉亚",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0425"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%A8%9C%E5%A1%94%E8%8E%89%E4%BA%9A",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0703",
+    "name": "奥尔菲斯",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0437",
+      "XC1-Q-0438",
+      "XC1-Q-0439",
+      "XC1-Q-0440"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%A5%A5%E5%B0%94%E8%8F%B2%E6%96%AF",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0705",
+    "name": "雷",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "废品号",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0417",
+      "XC1-Q-0418",
+      "XC1-Q-0419"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E9%9B%B7",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0729",
+    "name": "杜兰德",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "眺望之丘公园",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "巨神脚",
+        "location": "逃生艇营地",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 正门",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0130",
+      "XC1-Q-0131",
+      "XC1-Q-0164",
+      "XC1-Q-0186"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%9D%9C%E5%85%B0%E5%BE%B7",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0731",
+    "name": "欧奈斯特",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "巨神脚",
+        "location": "逃生艇营地",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0109",
+      "XC1-Q-0110",
+      "XC1-Q-0111"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%AC%A7%E5%A5%88%E6%96%AF%E7%89%B9",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0732",
+    "name": "古雷利",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "巨神脚",
+        "location": "螺旋山谷",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0095",
+      "XC1-Q-0113",
+      "XC1-Q-0129"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8F%A4%E9%9B%B7%E5%88%A9",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0733",
+    "name": "巴尔德",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "巨神脚",
+        "location": "螺旋山谷",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0112"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%B7%B4%E5%B0%94%E5%BE%B7",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0739",
+    "name": "卡赞",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "瞭望三岔路",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0133",
+      "XC1-Q-0134",
+      "XC1-Q-0135"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8D%A1%E8%B5%9E",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0745",
+    "name": "戈多",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "磷光之地扎托尔",
+        "location": "诺彭商会营地",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0206",
+      "XC1-Q-0209"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%88%88%E5%A4%9A",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0746",
+    "name": "卡恰",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "磷光之地扎托尔",
+        "location": "诺彭商会营地",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0207",
+      "XC1-Q-0208"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8D%A1%E6%81%B0",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0747",
+    "name": "扎扎坦",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "磷光之地扎托尔",
+        "location": "光球方尖碑",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0200",
+      "XC1-Q-0201",
+      "XC1-Q-0202",
+      "XC1-Q-0203",
+      "XC1-Q-0204",
+      "XC1-Q-0205"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%89%8E%E6%89%8E%E5%9D%A6",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0754",
+    "name": "诺彭仙人",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "玛格纳原始森林",
+        "location": "唤神圣域",
+        "activeTime": "12:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0228",
+      "XC1-Q-0229",
+      "XC1-Q-0231"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%AF%BA%E5%BD%AD%E4%BB%99%E4%BA%BA",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0759",
+    "name": "雪莲",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "艾尔特海",
+        "location": "席维拉特灯塔",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0326"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E9%9B%AA%E8%8E%B2",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0760",
+    "name": "贾克",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "艾尔特海",
+        "location": "以太工厂",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0322",
+      "XC1-Q-0323",
+      "XC1-Q-0324",
+      "XC1-Q-0325"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%B4%BE%E5%85%8B",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0770",
+    "name": "达尔克",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "瓦拉克雪山",
+        "location": "诺彭营地",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0400",
+      "XC1-Q-0401"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E8%BE%BE%E5%B0%94%E5%85%8B",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0776",
+    "name": "卡尔波拉",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "食指原野",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0426",
+      "XC1-Q-0427"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E5%8D%A1%E5%B0%94%E6%B3%A2%E6%8B%89",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0777",
+    "name": "波赛萝涅",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "坠落巨臂",
+        "location": "回转式防卫墙",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": ""
+      },
+      {
+        "region": "机神界区域",
+        "location": "机神界人的隐居处",
+        "activeTime": "6:00 ~ 6:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0444"
+    ],
+    "source": "蒙纳多研究本部 NPC 汇总",
+    "sourceUrl": "https://xenoblade.cn/NPC:%E6%B3%A2%E8%B5%9B%E8%90%9D%E6%B6%85",
+    "notes": "出现多个地点时，表示该 NPC 可能随剧情推进或移居而改变位置。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-MAIN-0907",
+    "name": "６号殖民地的大小姐",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "0:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#907",
+    "notes": "游戏以此称呼记录的特定委托人，勿强行归为莓酱酱或梅奇希里亚。活动时间取自终极版简体中文 BDAT。",
+    "updatedAt": "2026-10-01",
+    "questIds": [
+      "XC1-Q-0163",
+      "XC1-Q-0167"
+    ]
+  },
+  {
+    "id": "XC1-NPC-FC-0481",
+    "name": "加奈特",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "盟友海角",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0481"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0482",
+    "name": "赫尔穆特",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "盟友海角",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0482"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0483",
+    "name": "雷纳特",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "盟友海角",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0483",
+      "XC1-Q-0484",
+      "XC1-Q-0485",
+      "XC1-Q-0486"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0487",
+    "name": "托蕾雅娜",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "盟友海角",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0487"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0488",
+    "name": "哈巧巧",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "纳比尔三岔路",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0488"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0489",
+    "name": "希西",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "岩门洞窟后方",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0489"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0490",
+    "name": "波罗罗",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "空桥",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0490"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0491",
+    "name": "莎库莎库",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "阿巴契的背鳍",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0491"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0492",
+    "name": "瑟琪琪",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "阿巴契的背鳍",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0492"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0493",
+    "name": "露朵露",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "蝉洞门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0493"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0494",
+    "name": "诺伊诺",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "调查团驻屯地遗址",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0494"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0495",
+    "name": "托罗托罗",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "贝尔广场／贝尔遗迹洞窟",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0495"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0496",
+    "name": "纳维纳",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "被埋葬的历代君王墓碑之间",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0496"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0497",
+    "name": "兹库库",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "悲哀墓场／祈愿雕石标",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0497"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0498",
+    "name": "瓦那瓦那",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "古岚戴尔正门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0498",
+      "XC1-Q-0499"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0500",
+    "name": "罗特",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0500"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0501",
+    "name": "赫尔米娜",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0501"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0502",
+    "name": "塞莉塞托娜",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0502"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0503",
+    "name": "伊妮丝",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "亚基尼诞生之地",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0503"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0504",
+    "name": "安吉拉",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0504",
+      "XC1-Q-0507"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0505",
+    "name": "玛戈",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0505"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0506",
+    "name": "内斯特尔",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0506"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0508",
+    "name": "梅里坎斯",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "调查团驻屯地遗址",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0508"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0509",
+    "name": "米斯里尔",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "废品号",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0509"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0512",
+    "name": "阿姆雷特",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0512"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0513",
+    "name": "塞蕾",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0513"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0514",
+    "name": "修修",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "亚基尼诞生之地",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0514"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0515",
+    "name": "塔辛",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0515"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0516",
+    "name": "阿尔芙蕾达",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0516"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0517",
+    "name": "维妮娅",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0517"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0518",
+    "name": "拉达姆",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0518"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0519",
+    "name": "阿拉拉",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "格兰德拱门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0519"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0520",
+    "name": "莉法",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "芙蕾丝街道",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0520"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0521",
+    "name": "多多拉",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托（相连的未来）",
+        "location": "皇都阿卡莫托正门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0521"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0522",
+    "name": "拉班",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "蝉洞门",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0522"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  },
+  {
+    "id": "XC1-NPC-FC-0523",
+    "name": "马克西斯",
+    "arc": "futureConnected",
+    "appearances": [
+      {
+        "region": "巨神肩",
+        "location": "古岚戴尔",
+        "activeTime": "无固定时间限制",
+        "condition": "随《相连的未来》剧情与前置任务开放"
+      }
+    ],
+    "questIds": [
+      "XC1-Q-0523"
+    ],
+    "source": "hyperWiki 相连的未来任务表；简中实机资料",
+    "sourceUrl": "https://hyperwiki.jp/xenobladede/quest-fc/",
+    "notes": "仅收录任务委托人与任务接取位置；无姓名的通用委托不建立 NPC 资料。",
+    "updatedAt": "2026-08-27"
+  }
+]

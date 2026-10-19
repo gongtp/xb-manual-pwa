@@ -1,0 +1,412 @@
+[
+  {
+    "id": "XC1-NPC-MAIN-0118",
+    "name": "莫妮卡",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#118",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      118
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0137",
+    "name": "雷莫莱昂",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#137",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      137
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0156",
+    "name": "宝珠爷爷",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "宝珠爷爷的露天商店",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#156",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      156
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0122",
+    "name": "亚恩",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "军事区 正门",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#122",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      122
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0001",
+    "name": "修尔克",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "兵器开发局（调查推车／金属架）",
+        "activeTime": "全天",
+        "condition": "机神界中枢事件后，用修尔克作队长调查触发；无需寻找站立 NPC。"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#1",
+    "notes": "此档案记录任务触发角色，原始 NPC 表中的中央区广场为角色占位，不作为接取地点。接取方法参考：https://gamefaqs.gamespot.com/switch/272738-xenoblade-chronicles-definitive-edition/faqs/70515",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      1
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0026",
+    "name": "欧达玛",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 正门",
+        "activeTime": "全天",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#26",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      26
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0467",
+    "name": "霍可",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "村长的家",
+        "activeTime": "9:00 ~ 15:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 18:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#320",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      320,
+      467
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0330",
+    "name": "尤里",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇都阿卡莫托 正门",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "瓦拉克雪山",
+        "location": "海利库特礼拜堂",
+        "activeTime": "全天",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#330",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      330,
+      593,
+      773
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0017",
+    "name": "芭涅雅",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "废品号甲板",
+        "activeTime": "全天",
+        "condition": "机神界中枢事件后，在停泊于６号殖民地的废品号上接取。"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#17",
+    "notes": "废品号会随剧情移动；这里记录蒙纳多复制品任务的接取位置。参考：https://hyperwiki.jp/xenobladede/quest/q244/",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      17
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0443",
+    "name": "米加米加",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#443",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      443
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0444",
+    "name": "菈夏",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "御神体祭坛",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#444",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      444
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0459",
+    "name": "露帕",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "边境村",
+        "location": "力奇的家",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#459",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      459
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0477",
+    "name": "尼洛",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "希望的喷泉",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "边境村",
+        "location": "诺彭高塔",
+        "activeTime": "18:00 ~ 6:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#477",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      477,
+      586
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0580",
+    "name": "米莉亚",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "皇宫",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "艾尔特海",
+        "location": "以太工厂",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#762",
+    "notes": "英文名 Miriall，与主角梅莉亚（Melia）是不同人物。活动时间取自终极版简体中文 BDAT；出现条件与任务前置请查看关联任务。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      762,
+      580
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0907",
+    "name": "６号殖民地的大小姐",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "0:00 ~ 3:00",
+        "condition": ""
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#907",
+    "notes": "游戏以此称呼记录的特定委托人，勿强行归为莓酱酱或梅奇希里亚。活动时间取自终极版简体中文 BDAT。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      907
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0332",
+    "name": "簪·银",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "皇都阿卡莫托",
+        "location": "希望的喷泉",
+        "activeTime": "18:00 ~ 3:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "15:00 ~ 0:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "磷光之地扎托尔",
+        "location": "岩窟的姊妹石像",
+        "activeTime": "6:00 ~ 15:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "磷光之地扎托尔",
+        "location": "光球方尖碑",
+        "activeTime": "15:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#332",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      332,
+      595,
+      751,
+      918
+    ]
+  },
+  {
+    "id": "XC1-NPC-MAIN-0107",
+    "name": "欧尔克霍古",
+    "arc": "main",
+    "appearances": [
+      {
+        "region": "９号殖民地",
+        "location": "商业区 以太路灯",
+        "activeTime": "18:00 ~ 0:00",
+        "condition": ""
+      },
+      {
+        "region": "６号殖民地",
+        "location": "６号殖民地 复兴总部",
+        "activeTime": "15:00 ~ 0:00",
+        "condition": "随剧情推进或移居后"
+      },
+      {
+        "region": "磷光之地扎托尔",
+        "location": "光球方尖碑",
+        "activeTime": "15:00 ~ 3:00",
+        "condition": "随剧情推进或移居后"
+      }
+    ],
+    "source": "终极版简体中文 BDAT；蒙纳多研究本部",
+    "sourceUrl": "https://xenobladedata.github.io/xb1de/bdat/bdat_common/FLD_npclist.html#107",
+    "notes": "活动时间取自终极版简体中文 BDAT；列出 NPC 关联地标。移居、剧情和任务前置可能影响出现。",
+    "updatedAt": "2026-10-01",
+    "sourceNpcIds": [
+      107,
+      314,
+      919
+    ]
+  }
+]

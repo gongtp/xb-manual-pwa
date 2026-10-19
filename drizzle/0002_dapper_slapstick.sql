@@ -1,0 +1,1 @@
+ALTER TABLE `quests` ADD `manual_notes` text DEFAULT '' NOT NULL;
