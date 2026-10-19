@@ -312,7 +312,7 @@ test("combines filters and calculates option facets from the other active filter
   );
 });
 
-test("reads all migrated records from the fixed SQLite file", async () => {
+test("initializes the public catalog in a fresh SQLite database", async () => {
   const questResponse = await render("/api/quests");
   assert.equal(questResponse.status, 200);
   const questPayload = await questResponse.json();
@@ -328,7 +328,7 @@ test("reads all migrated records from the fixed SQLite file", async () => {
     !/[{][|]|wikitable|\d+px|缩略图|\]\]|；===/.test(quest.notes)
   )));
   assert.ok(questPayload.labels.length >= 2);
-  assert.ok(questPayload.labels.some((label) => label.name === "互斥未完成"));
+  assert.ok(questPayload.labels.some((label) => label.id === "XC1-MARK-INCOMPLETE"));
 
   const noteResponse = await render("/api/notes?game=XC1");
   assert.equal(noteResponse.status, 200);

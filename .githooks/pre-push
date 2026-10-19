@@ -1,0 +1,10 @@
+#!/bin/sh
+case "$2" in
+  https://github.com/gongtp/xb-manual-pwa.git|git@github.com:gongtp/xb-manual-pwa.git) ;;
+  *) echo '拒绝推送：此项目仅发布到指定 GitHub 仓库。' >&2; exit 1 ;;
+esac
+while read -r local_ref local_sha remote_ref remote_sha
+do
+  case "$local_sha" in 0000000000000000000000000000000000000000) continue ;; esac
+  node scripts/check-public-files.mjs "$local_sha" || exit 1
+done

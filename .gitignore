@@ -56,4 +56,12 @@ __pycache__/
 *.db-*
 *backup*.json
 *备份*.json
+*.sqlite3
+*.sqlite3-*
+*.db3
+*.db3-*
+*.bundle
+/backups/
+/backup/
+/personal-data/
 

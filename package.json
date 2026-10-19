@@ -6,6 +6,7 @@
     "node": ">=22.13.0"
   },
   "scripts": {
+    "check:public": "node scripts/check-public-files.mjs",
     "dev": "vinext dev --hostname 0.0.0.0",
     "dev:pwa": "vite --config vite.pwa.config.ts --host 0.0.0.0",
     "build:pwa": "node scripts/build-pwa.mjs",

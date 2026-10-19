@@ -134,14 +134,25 @@ npm run preview:pwa
 项目已提供 `.github/workflows/pages.yml`：推送 `main` 或手动触发时构建并上传 **dist-pwa/**。
 工作流自动读取 Pages 的站点子路径，无需把仓库名写死进代码。
 
-1. 准备 GitHub 仓库并推送代码（可以保留 Gitee 远程，同时增加 GitHub 远程）。
-2. 在 GitHub 仓库的 Settings → Pages，将 Source 设为 GitHub Actions。
-3. 在 Actions 中运行“发布离线资料库”；完成后使用 Pages 提供的 HTTPS 地址。
+代码仓库：https://github.com/gongtp/xb-manual-pwa
 
-发布产物不包含 `data/xeno-archive.sqlite`、个人完整备份或测试文件。
-**但本仓库历史已经跟踪了个人 SQLite：如果把整个 Git 历史推到公开 GitHub 仓库，数据库仍会在源码仓库中公开。**
-实际发布前应选择支持 Pages 的私有仓库套餐，或建立不含个人数据库及其历史的公开发布仓库。
-本次只提供构建与发布配置，尚未创建 GitHub 仓库或发布网站。
+手机访问：https://gongtp.github.io/xb-manual-pwa/
+
+当前工作目录直接使用 GitHub 的干净历史，`origin` 仅指向上述 GitHub 仓库。
+修改代码后在本目录测试、提交并 `git push origin main`，Actions 自动发布；不再同步临时发布副本。
+原 Gitee 仓库暂时保留，不再向其推送，也不要合并旧仓库历史。
+
+`data/` 中受版本控制的 JSON/TS 是公开基础资料。页面内的个人修改保存在
+`data/xeno-archive.sqlite`，数据库文件始终留在本地，不参与提交。
+完整备份和任务导出统一保存到本地 `backups/`（整个目录已忽略），或项目目录之外。
+不要将个人记录写进公开基础资料文件，也不要使用 `git add -f` 强制添加数据库或备份。
+
+本机已启用 `.githooks/pre-push`，检查推送目标、提交历史中的数据库路径和完整备份格式。
+新克隆时运行 `git config core.hooksPath .githooks` 启用同样的保护；也可手动运行 `npm run check:public`。
+忽略规则与检查是防误操作保护，不会识别任意改名或改写的个人内容，提交前仍应查看差异。
+
+旧历史和迁移时的数据库快照保存在本地 `work/github-migration-20261020/`，不会上传。
+电脑与手机数据库彼此独立，更新网站不会同步或覆盖个人数据；需要迁移时使用完整备份。
 
 ### 更新与数据安全
 
@@ -150,7 +161,7 @@ npm run preview:pwa
 下载失败时继续使用旧版本，可联网后点击“检查更新 / 重试下载”。
 初次离线准备会下载所有内置图像，完成前请保持应用打开。
 
-`npm test` 在临时数据库快照上运行，不修改当前个人数据库；包含完整备份的桌面/浏览器往返与损坏备份回滚验证。
+`npm test` 使用从基础资料初始化的临时数据库，不读取或修改当前个人数据库；包含完整备份的桌面/浏览器往返与损坏备份回滚验证。
 
 ## 电脑开发启动
 
