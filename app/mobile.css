@@ -1,0 +1,86 @@
+/* Phone layout uses the same data and views as desktop. */
+.mobile-app-header, .mobile-tabbar, .mobile-actions-toggle, .mobile-filter-toggle { display: none; }
+
+@media (max-width: 780px) {
+  html { scroll-padding-top: calc(80px + env(safe-area-inset-top)); }
+  body { padding: 0; }
+  .archive-app { padding-bottom: calc(74px + env(safe-area-inset-bottom)); }
+  .archive-app .sidebar { display: none; }
+  .archive-app .main-shell { min-height: 0; height: auto; overflow: visible; }
+  .archive-app .mobile-app-header { position: sticky; top: 0; z-index: 12; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: calc(8px + env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) 8px max(16px, env(safe-area-inset-left)); color: white; background: #20232b; }
+  .mobile-app-header > label { display: grid; min-width: 0; gap: 2px; }
+  .mobile-app-header > label > span { color: #bdc2ce; font-size: 11px; letter-spacing: .08em; }
+  .archive-app .mobile-app-header select { max-width: 100%; min-height: 32px; padding: 0 4px; color: white; background: #20232b; border: 0; font-size: 17px; font-weight: 650; }
+  .mobile-app-header > .data-tools-trigger { flex-shrink: 0; min-height: 44px; padding: 8px 10px; color: #fff; background: #343945; border: 1px solid #565c68; border-radius: 10px; font-size: 13px; }
+  .archive-app .mobile-tabbar { position: fixed; z-index: 12; bottom: 0; inset-inline: 0; display: flex; gap: 4px; padding: 6px max(8px, env(safe-area-inset-right)) calc(6px + env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-left)); background: #fff; border-top: 1px solid #dddfe4; box-shadow: 0 -3px 18px #20232b08; }
+  .mobile-tabbar button { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; min-width: 0; min-height: 52px; padding: 5px 2px; color: #657080; background: transparent; border: 0; border-radius: 10px; font-size: 11px; }
+  .mobile-tabbar button[aria-current="page"] { color: #a63535; background: #fcf0ef; font-weight: 650; }
+  /* iOS zooms focused text controls below 16px, including view-specific overrides. */
+  .archive-app input:not([type="checkbox"]):not([type="radio"]), .archive-app select, .archive-app textarea { font-size: 16px !important; }
+  .archive-app button, .archive-app summary, .archive-app select { touch-action: manipulation; }
+  .archive-app .content, .archive-app .notes-page .notes-content, .archive-app .npc-page .npc-content { padding: 16px 14px 24px; }
+  .archive-app .topbar, .archive-app .notes-page .notes-topbar { gap: 10px; padding: 12px 14px; min-height: 0; }
+  .archive-app .quest-topbar .search-box { order: 0; flex: 1; min-width: 0; margin: 0; }
+  .archive-app .quest-topbar .mobile-actions-toggle { display: inline-flex; min-height: 44px; }
+  .archive-app .quest-topbar .top-actions { display: none; }
+  .archive-app .quest-topbar.mobile-actions-open .top-actions { display: flex; width: 100%; margin: 0; }
+  .archive-app .quest-topbar .top-actions button { flex: 1; min-height: 44px; padding-inline: 7px; font-size: 13px; }
+  .archive-app .search-box kbd { display: none; }
+  .archive-app .search-box input { padding-right: 12px; }
+  .archive-app .quest-heading { margin-bottom: 12px; }
+  .archive-app .quest-heading h1 { font-size: 23px; }
+  .archive-app .quest-heading > div > p:last-child { font-size: 12px; line-height: 1.6; }
+  .archive-app .mobile-filter-toggle { display: flex; width: 100%; min-height: 44px; margin-bottom: 12px; }
+  .archive-app #quest-filters { display: none; }
+  .archive-app #quest-filters.mobile-filters-open { display: block; padding: 14px; background: white; border: 1px solid var(--line); border-radius: 10px; }
+  .archive-app .filter-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .archive-app .record-row { grid-template-columns: 18px minmax(0, 1fr); gap: 8px; padding: 14px 12px; }
+  .archive-app .record-main strong { white-space: normal; overflow-wrap: anywhere; line-height: 1.6; font-size: 16px; }
+  .archive-app .record-marker { grid-column: 2; grid-row: 3; justify-self: start; max-width: 100%; }
+  .archive-app .marker-trigger { min-height: 44px; padding-inline: 12px; font-size: 14px; }
+  .archive-app .record-location { grid-column: 2; grid-row: 2; }
+  .archive-app .record-location strong { white-space: normal; font-size: 13px; line-height: 1.6; }
+  .archive-app .pagination { max-width: 100%; flex-wrap: wrap; gap: 4px; }
+  .archive-app .pagination button { min-width: 40px; min-height: 44px; }
+  .archive-app .notes-page .notes-list-panel { grid-template-columns: minmax(0, 1fr) 130px; }
+  .archive-app .notes-page .notes-list { display: block; max-height: 240px; overflow-x: hidden; overflow-y: auto; }
+  .archive-app .notes-page .note-row { width: 100%; min-height: 76px; padding: 12px 14px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .archive-app .notes-page .note-row-copy > strong { font-size: 15px; }
+  .archive-app .notes-page .note-row-excerpt { font-size: 13px; }
+  .archive-app .notes-page .note-row-copy > small { font-size: 12px; }
+  .archive-app .notes-page .note-actions { display: flex; flex-wrap: wrap; }
+  .archive-app .notes-page .note-actions button { min-height: 44px; }
+  .archive-app .notes-page .markdown-content { padding: 20px 16px; font-size: 16px; line-height: 1.85; overflow-wrap: anywhere; }
+  .archive-app .markdown-content table { display: block; max-width: 100%; overflow-x: auto; font-size: 14px; }
+  .archive-app .markdown-content img { max-width: 100%; height: auto; }
+  .archive-app .notes-page .note-fields { grid-template-columns: minmax(0, 1fr); }
+  .archive-app .notes-page .note-fields > * { grid-column: 1; min-width: 0; }
+  .archive-app .notes-page .markdown-editor-field textarea { min-height: 45dvh; font-size: 16px; line-height: 1.75; }
+  .archive-app .notes-page .note-editor-actions { position: sticky; bottom: calc(66px + env(safe-area-inset-bottom)); z-index: 3; padding: 12px; background: white; border-top: 1px solid var(--line); }
+  .archive-app .notes-page .note-editor-actions button { min-height: 44px; }
+  .archive-app .npc-page .npc-list { display: block; max-height: 250px; overflow-y: auto; }
+  .archive-app .npc-page .npc-row { width: 100%; min-height: 80px; }
+  .archive-app .npc-page .npc-filterbar .filter-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .archive-app .npc-page .npc-place-fields dd, .archive-app .npc-detail-section p { font-size: 14px; line-height: 1.7; }
+  .archive-app .xc2-codex .xc2-character-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); max-height: 360px; }
+  .archive-app .xc2-codex .xc2-content, .archive-app .atlas-content, .archive-app .x2l-content { padding: 16px 14px 24px; }
+  .archive-app .xc2-codex .xc2-breadcrumb, .archive-app .x2l-edition { display: none; }
+  .archive-app .xc2-codex .xc2-topbar, .archive-app .xc1-atlas .atlas-topbar, .archive-app .x2l-topbar { padding: 12px 14px; min-height: 0; }
+  .archive-app .xc2-codex .xc2-kind-tabs { gap: 8px; }
+  .archive-app .xc2-codex .xc2-kind-tabs button, .archive-app .xc2-codex .xc2-detail-actions button,
+  .archive-app .atlas-arcs button, .archive-app .atlas-star-button, .archive-app .atlas-discover-button,
+  .archive-app .x2l-arcs button, .archive-app .x2l-region { min-height: 44px; }
+  .archive-app .xc2-codex .xc2-detail, .archive-app .atlas-detail, .archive-app .x2l-detail { scroll-margin-top: calc(82px + env(safe-area-inset-top)); }
+  .archive-app .xc2-codex .xc2-detail-section p, .archive-app .xc2-codex .xc2-favorites dd,
+  .archive-app .atlas-detail-section p, .archive-app .x2l-detail-section p { font-size: 14px; line-height: 1.8; }
+  .archive-app .atlas-toolbar, .archive-app .x2l-toolbar { flex-wrap: wrap; }
+  .archive-app .x2l-arcs { overflow-x: auto; }
+  .archive-app .atlas-select { min-width: 0; }
+  .archive-app .modal-backdrop { z-index: 40; padding: max(10px, env(safe-area-inset-top)) 8px max(10px, env(safe-area-inset-bottom)); }
+  .archive-app .modal, .archive-app .detail-modal { width: 100%; max-width: 100%; max-height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 20px); }
+  .archive-app .detail-heading, .archive-app .detail-modal-body { padding-inline: 16px; }
+  .archive-app .modal-actions button, .archive-app .detail-modal-footer button, .archive-app .close-button { min-height: 44px; }
+  .archive-app .data-tools-dialog { width: calc(100% - 20px); max-height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 24px); padding: 20px 16px; color: #203c34; }
+  .archive-app .data-tools-dialog h2 { font-size: 21px; }
+  .archive-app .toast { z-index: 50; bottom: calc(82px + env(safe-area-inset-bottom)); inset-inline: 14px; max-width: none; }
+}

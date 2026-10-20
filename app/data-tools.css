@@ -3,9 +3,8 @@
 .data-tools-dialog::backdrop { background: #0c201c99; }
 .data-tools-dialog h2, .data-tools-dialog h3 { margin: 0 0 12px; }
 .data-tools-dialog p { line-height: 1.7; margin: 12px 0; overflow-wrap: anywhere; }
-.sidebar-bottom .data-tools-dialog button, .backup-download { display: inline-block; width: auto; min-height: 44px; padding: 10px 14px; margin: 4px; border: 1px solid #a8bcb4; border-radius: 8px; background: white; color: #173c36; cursor: pointer; overflow-wrap: anywhere; }
+.sidebar-bottom .data-tools-dialog button, .data-tools-dialog button, .backup-download { display: inline-block; width: auto; min-height: 44px; padding: 10px 14px; margin: 4px; border: 1px solid #a8bcb4; border-radius: 8px; background: white; color: #173c36; cursor: pointer; overflow-wrap: anywhere; }
 .data-tools-dialog button:disabled { opacity: .5; cursor: wait; }
 .data-tools-dialog section { border-top: 1px solid #d5ddd7; margin-top: 20px; padding-top: 20px; }
 .backup-confirm { background: #fff5de; padding: 16px; border-radius: 8px; }
-@media (display-mode: standalone) { body { padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); } }
 @media (max-width: 780px) { .sidebar-bottom:has(.data-tools-trigger) { display: block; } }

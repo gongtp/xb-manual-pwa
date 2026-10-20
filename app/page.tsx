@@ -1,6 +1,7 @@
 "use client";
 import { dataFetch } from "../lib/data-client";
 import DataTools from "./data-tools";
+import "./mobile.css";
 
 import { ChangeEvent, FormEvent, useCallback, useEffect, useMemo, useState } from "react";
 import GameNotes, { MarkdownPreview } from "./game-notes";
@@ -362,6 +363,8 @@ export default function Home() {
   const [importReport, setImportReport] = useState<ImportReport | null>(null);
   const [importError, setImportError] = useState("");
   const [toast, setToast] = useState("");
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [mobileActionsOpen, setMobileActionsOpen] = useState(false);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [databaseError, setDatabaseError] = useState("");
@@ -953,6 +956,20 @@ export default function Home() {
 
   return (
     <main className="archive-app">
+      <header className="mobile-app-header">
+        <label><span>异度资料库</span><select aria-label="切换作品" value={gameFilter} onChange={(event) => changeGameFilter(event.target.value as GameCode)}>
+          {gameCodes.map((game) => <option key={game} value={game}>{gameNames[game]}</option>)}
+        </select></label>
+        <DataTools compact />
+      </header>
+      <nav className="mobile-tabbar" aria-label="手机栏目导航">
+        {sidebarModulesByGame[gameFilter].filter((module) => module.target).map((module) => (
+          <button key={module.id} aria-current={activeModule === module.target ? "page" : undefined}
+            onClick={() => { if (module.target) setActiveModule(module.target); window.scrollTo({ top: 0 }); }}>
+            <UiIcon name={module.icon} size={21} /><span>{module.label}</span>
+          </button>
+        ))}
+      </nav>
       <aside className="sidebar">
         <div className="brand">
           <span className="brand-mark"><ArchiveLogo /></span>
@@ -1039,14 +1056,15 @@ export default function Home() {
                 onOpenQuest={openQuestFromNpc}
               />
             : <>
-        <header className="topbar">
+        <header className={`topbar quest-topbar ${mobileActionsOpen ? "mobile-actions-open" : ""}`}>
           <div className="workspace-breadcrumb"><span>资料库</span><UiIcon name="chevron-right" size={14} /><strong>{gameNames[gameFilter]}</strong></div>
           <label className="search-box">
             <span><UiIcon name="search" size={18} /></span>
             <input data-archive-search aria-label="搜索任务名称或编号" value={query} onChange={(event) => { setQuery(event.target.value); setCurrentPage(1); }} placeholder={gameFilter === "XCX" ? "搜索任务、英文名、人物或目标" : "搜索任务名称或编号"} />
             <kbd>Ctrl K</kbd>
           </label>
-          <div className="top-actions">
+          <button className="mobile-actions-toggle secondary-button" aria-expanded={mobileActionsOpen} aria-controls="quest-actions" onClick={() => setMobileActionsOpen(!mobileActionsOpen)}>操作</button>
+          <div className="top-actions" id="quest-actions">
             <button className="secondary-button" onClick={exportJson} disabled={loading}><UiIcon name="download" size={16} />导出任务</button>
             <button className="secondary-button" disabled={loading} onClick={() => { setImportReport(null); setImportError(""); setImportOpen(true); }}><UiIcon name="upload" size={16} />导入任务</button>
             <button className="primary-button" onClick={openNewQuest} disabled={loading}><UiIcon name="plus" size={17} />新建任务</button>
@@ -1069,7 +1087,11 @@ export default function Home() {
 
           {databaseError && <div className="database-error"><strong>数据库连接失败</strong><span>{databaseError}</span></div>}
 
-          <section className="filterbar" aria-label="任务筛选">
+          <button className="mobile-filter-toggle secondary-button" aria-expanded={mobileFiltersOpen} aria-controls="quest-filters" onClick={() => setMobileFiltersOpen(!mobileFiltersOpen)}>
+            <UiIcon name="search" size={16} />{mobileFiltersOpen ? "收起筛选" : "筛选任务"}
+            {[typeFilter, arcFilter, timedFilter, exclusiveFilter, regionFilter, markerFilter].some((value) => value !== "all") && <span> · 已筛选</span>}
+          </button>
+          <section id="quest-filters" className={`filterbar ${mobileFiltersOpen ? "mobile-filters-open" : ""}`} aria-label="任务筛选">
             <div className="filter-controls">
               <label>任务类型<select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setCurrentPage(1); }}>
                 <option value="all">全部类型（{filterFacets.type.all}）</option>

@@ -1,10 +1,11 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { dataFetch, isOfflineApp } from "../lib/data-client";
 import { validateBackup, type ArchiveBackup } from "../lib/backup";
 import "./data-tools.css";
 
-export default function DataTools() {
+export default function DataTools({ compact = false }: { compact?: boolean }) {
+  const titleId = useId();
   const [open, setOpen] = useState(false);
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState("");
@@ -111,9 +112,9 @@ export default function DataTools() {
   }
 
   return <>
-    <button className="data-tools-trigger" onClick={() => setOpen(true)}>完整备份与{isOfflineApp ? "离线管理" : "恢复"}</button>
-    <dialog className="data-tools-dialog" ref={panel} onCancel={(e) => { if (busy) e.preventDefault(); else setOpen(false); }} onClose={() => setOpen(false)} aria-labelledby="data-tools-title">
-      <h2 id="data-tools-title">完整备份与恢复</h2>
+    <button className="data-tools-trigger" onClick={() => setOpen(true)}>{compact ? "备份与更新" : `完整备份与${isOfflineApp ? "离线管理" : "恢复"}`}</button>
+    <dialog className="data-tools-dialog" ref={panel} onCancel={(e) => { if (busy) e.preventDefault(); else setOpen(false); }} onClose={() => setOpen(false)} aria-labelledby={titleId}>
+      <h2 id={titleId}>完整备份与恢复</h2>
       <p>{isOfflineApp ? "数据仅保存在当前设备的 Web App 中。删除应用、清理存储或换设备前请备份。" : "备份当前电脑 SQLite 中的全部业务数据，可导入手机离线版。"}</p>
       <p>包含全部作品的任务、标签、笔记、NPC 关联、探索与角色收集进度。基础图片随应用提供，不重复放入备份。</p>
       <div className="data-tools-actions">
