@@ -3,7 +3,7 @@ import { dataFetch } from "../lib/data-client";
 import DataTools from "./data-tools";
 import "./mobile.css";
 
-import { ChangeEvent, FormEvent, useCallback, useEffect, useMemo, useState } from "react";
+import { ChangeEvent, FormEvent, useCallback, useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import GameNotes, { MarkdownPreview } from "./game-notes";
 import { ArchiveLogo, UiIcon, type IconName } from "./ui-icons";
 import XC1NpcDirectory from "./xc1-npcs";
@@ -333,6 +333,12 @@ async function requestXC1NpcDatabase() {
   return payload;
 }
 
+function subscribePhoneLayout(onChange: () => void) {
+  const query = window.matchMedia("(max-width: 780px)");
+  query.addEventListener("change", onChange);
+  return () => query.removeEventListener("change", onChange);
+}
+
 export default function Home() {
   const [quests, setQuests] = useState<Quest[]>([]);
   const [questLabels, setQuestLabels] = useState<QuestLabel[]>([]);
@@ -345,13 +351,15 @@ export default function Home() {
   const [xc2LocationView, setXc2LocationView] = useState<XC2LocationView>(initialXC2LocationView);
   const [markerFilter, setMarkerFilter] = useState<MarkerFilter>("all");
   const [typeFilter, setTypeFilter] = useState("all");
-  const [arcFilter, setArcFilter] = useState<QuestArcFilter>("all");
+  const [arcFilter, setArcFilter] = useState<QuestArcFilter>("main");
   const [timedFilter, setTimedFilter] = useState<BinaryQuestFilter>("all");
   const [exclusiveFilter, setExclusiveFilter] = useState<BinaryQuestFilter>("all");
   const [regionFilter, setRegionFilter] = useState("all");
   const [query, setQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const [pageSize, setPageSize] = useState(20);
+  const isPhoneLayout = useSyncExternalStore(subscribePhoneLayout, () => window.matchMedia("(max-width: 780px)").matches, () => false);
+  const [preferredPageSize, setPageSize] = useState<number | null>(null);
+  const pageSize = preferredPageSize ?? (isPhoneLayout ? 10 : 20);
   const [detailOpen, setDetailOpen] = useState(false);
   const [editorOpen, setEditorOpen] = useState(false);
   const [questNotesView, setQuestNotesView] = useState<"write" | "preview">("write");
@@ -652,7 +660,7 @@ export default function Home() {
       ...emptyQuest,
       game: gameFilter,
       type: questTypesByGame[gameFilter][0],
-      chapter: gameFilter === "XC1" ? emptyQuest.chapter : gameFilter === "XCX" ? "终极版 · 随剧情开放" : "本篇 · 随剧情开放",
+      chapter: gameFilter === "XC1" ? withXC1Arc(emptyQuest.chapter, arcFilter === "futureConnected" ? "futureConnected" : "main") : gameFilter === "XCX" ? "终极版 · 随剧情开放" : "本篇 · 随剧情开放",
       updatedAt: new Date().toISOString().slice(0, 10),
     });
     setQuestNotesView("write");
@@ -666,7 +674,7 @@ export default function Home() {
     if (game !== "XC2" && (activeModule === "xc2Characters" || activeModule === "xc2Locations")) setActiveModule("quests");
     setMarkerFilter("all");
     setTypeFilter("all");
-    setArcFilter("all");
+    setArcFilter(game === "XC1" ? "main" : "all");
     setTimedFilter("all");
     setExclusiveFilter("all");
     setRegionFilter("all");
@@ -675,13 +683,21 @@ export default function Home() {
 
   function changeArcFilter(arc: QuestArcFilter) {
     setArcFilter(arc);
+    if (gameFilter === "XC1") {
+      setQuery("");
+      setTypeFilter("all");
+      setMarkerFilter("all");
+      setTimedFilter("all");
+      setExclusiveFilter("all");
+      setRegionFilter("all");
+    }
     setCurrentPage(1);
   }
 
   function resetQuestFilters() {
     setMarkerFilter("all");
     setTypeFilter("all");
-    setArcFilter("all");
+    if (gameFilter !== "XC1") setArcFilter("all");
     setTimedFilter("all");
     setExclusiveFilter("all");
     setRegionFilter("all");
@@ -704,7 +720,7 @@ export default function Home() {
     setActiveModule("quests");
     setMarkerFilter("all");
     setTypeFilter("all");
-    setArcFilter("all");
+    setArcFilter(quest.game === "XC1" ? getXC1Arc(quest.chapter) ?? "main" : "all");
     setTimedFilter("all");
     setExclusiveFilter("all");
     setRegionFilter("all");
@@ -1071,25 +1087,32 @@ export default function Home() {
           </div>
         </header>
 
-        <div className="content quest-content">
-          <section className="page-heading quest-heading">
+        <div className={`content quest-content${gameFilter === "XC1" ? " xc1-quest-content" : ""}`}>
+          {gameFilter === "XC1" ? (
+            <nav className="xc1-quest-editions" aria-label="选择任务篇章">
+              {(["main", "futureConnected"] as const).map((arc) => (
+                <button key={arc} type="button" aria-pressed={arcFilter === arc} onClick={() => changeArcFilter(arc)}>
+                  <span>{arc === "main" ? "本篇" : "相连的未来"}</span>
+                  <small>{arc === "main" ? "主线旅程" : "追加篇章"} · {xc1ArcCounts[arc]} 条</small>
+                </button>
+              ))}
+            </nav>
+          ) : <section className="page-heading quest-heading">
             <div>
               <h1>任务资料<span className="heading-dot">.</span></h1>
-              {gameFilter === "XC1"
-                ? <p>已收录 {gameQuests.length} 条任务 · 本篇 {xc1ArcCounts.main} 条、《相连的未来》{xc1ArcCounts.futureConnected} 条。</p>
-                : gameFilter === "XC2"
+              {gameFilter === "XC2"
                   ? <p>已收录 {gameQuests.length} 条任务 · 本篇 {xc2ArcCounts.baseGame} 条、扩展票追加 {xc2ArcCounts.expansionPass} 条、《黄金之国伊拉》{xc2ArcCounts.torna} 条。</p>
                   : gameFilter === "XC3"
                     ? <p>已收录 {gameQuests.length} 条任务 · 本篇 {xc3ArcCounts.baseGame} 条、扩展票追加 {xc3ArcCounts.expansionPass} 条、《崭新的未来》{xc3ArcCounts.futureRedeemed} 条。</p>
                     : <p>Nintendo Switch · 终极版 · 简体中文 · 已收录 {gameQuests.length} 条任务（含第 13 章）</p>}
             </div>
-          </section>
+          </section>}
 
           {databaseError && <div className="database-error"><strong>数据库连接失败</strong><span>{databaseError}</span></div>}
 
           <button className="mobile-filter-toggle secondary-button" aria-expanded={mobileFiltersOpen} aria-controls="quest-filters" onClick={() => setMobileFiltersOpen(!mobileFiltersOpen)}>
             <UiIcon name="search" size={16} />{mobileFiltersOpen ? "收起筛选" : "筛选任务"}
-            {[typeFilter, arcFilter, timedFilter, exclusiveFilter, regionFilter, markerFilter].some((value) => value !== "all") && <span> · 已筛选</span>}
+            {[typeFilter, gameFilter === "XC1" ? "all" : arcFilter, timedFilter, exclusiveFilter, regionFilter, markerFilter].some((value) => value !== "all") && <span> · 已筛选</span>}
           </button>
           <section id="quest-filters" className={`filterbar ${mobileFiltersOpen ? "mobile-filters-open" : ""}`} aria-label="任务筛选">
             <div className="filter-controls">
@@ -1097,11 +1120,6 @@ export default function Home() {
                 <option value="all">全部类型（{filterFacets.type.all}）</option>
                 {types.map((type) => <option value={type} key={type}>{type}（{filterFacets.type.counts.get(type) ?? 0}）</option>)}
               </select></label>
-              {gameFilter === "XC1" && <label>篇章<select value={arcFilter} onChange={(event) => changeArcFilter(event.target.value as QuestArcFilter)}>
-                <option value="all">全部篇章（{filterFacets.arc.all}）</option>
-                <option value="main">本篇（{filterFacets.arc.main}）</option>
-                <option value="futureConnected">相连的未来（{filterFacets.arc.futureConnected}）</option>
-              </select></label>}
               {gameFilter === "XC2" && <label>内容归属<select value={arcFilter} onChange={(event) => changeArcFilter(event.target.value as QuestArcFilter)}>
                 <option value="all">全部内容（{filterFacets.arc.all}）</option>
                 <option value="baseGame">本篇（{filterFacets.arc.baseGame}）</option>
@@ -1139,7 +1157,7 @@ export default function Home() {
 
           <div className="workspace">
             <section className="records-panel" aria-label="任务目录">
-              <div className="records-toolbar"><div><UiIcon name="list" size={18} /><h2>任务目录</h2><span className="results-count">{loading ? "读取中" : `${visibleQuests.length} 条`}</span></div><span className="records-hint">点击任务查看详情</span></div>
+              {gameFilter !== "XC1" && <div className="records-toolbar"><div><UiIcon name="list" size={18} /><h2>任务目录</h2><span className="results-count">{loading ? "读取中" : `${visibleQuests.length} 条`}</span></div><span className="records-hint">点击任务查看详情</span></div>}
               <div className="records-table">
               <div className="records-head">
                 <span>任务记录</span><span>类型</span><span>地区</span><span>委托人</span><span>章节 / 进度</span><span>前置条件</span><span>手动备注</span><span>标记</span>
@@ -1175,7 +1193,7 @@ export default function Home() {
                         {quest.status === "complete" ? "✓" : quest.status === "incomplete" ? "!" : quest.status === "pending" ? "?" : "↯"}
                       </span>
                       <span className="record-main">
-                        <strong>{quest.name}</strong><small>{quest.id} · {getQuestArcLabel(quest)}</small>
+                        <strong>{quest.name}</strong><small>{quest.id}{gameFilter !== "XC1" && <> · {getQuestArcLabel(quest)}</>}</small>
                         {supportsQuestRiskFlags(quest.game) && (isTimedQuest(quest) || quest.isExclusive) && <span className="quest-flags">
                           {isTimedQuest(quest) && <span className="quest-flag timed">{quest.game === "XCX" ? "接取期限" : "限时"}</span>}
                           {quest.isExclusive && <span className="quest-flag exclusive" title={exclusivePeerLabel ? `与 ${exclusivePeerLabel} 互斥` : "尚未关联互斥任务"}>
@@ -1226,13 +1244,18 @@ export default function Home() {
                 <label>每页显示<select value={pageSize} onChange={(event) => { setPageSize(Number(event.target.value)); setCurrentPage(1); }}>
                   <option value="10">10</option><option value="20">20</option><option value="50">50</option>
                 </select>条</label>
-                <nav className="pagination" aria-label="任务列表分页">
+                <nav className={`pagination${gameFilter === "XC1" ? " xc1-desktop-pagination" : ""}`} aria-label="任务列表分页">
                   <button disabled={activePage === 1} onClick={() => setCurrentPage(Math.max(1, activePage - 1))} aria-label="上一页"><UiIcon name="chevron-left" size={15} /></button>
                   {paginationItems.map((item) => typeof item === "number"
                     ? <button className={item === activePage ? "active" : ""} key={item} onClick={() => setCurrentPage(item)} aria-current={item === activePage ? "page" : undefined}>{item}</button>
                     : <span key={item}>…</span>)}
                   <button disabled={activePage === totalPages} onClick={() => setCurrentPage(Math.min(totalPages, activePage + 1))} aria-label="下一页"><UiIcon name="chevron-right" size={15} /></button>
                 </nav>
+                {gameFilter === "XC1" && <nav className="xc1-phone-pagination" aria-label="任务列表分页">
+                  <button type="button" disabled={activePage === 1} onClick={() => setCurrentPage(activePage - 1)}><UiIcon name="chevron-left" size={16} />上一页</button>
+                  <span aria-live="polite"><strong>{activePage}</strong><span> / {totalPages} 页</span></span>
+                  <button type="button" disabled={activePage === totalPages} onClick={() => setCurrentPage(activePage + 1)}>下一页<UiIcon name="chevron-right" size={16} /></button>
+                </nav>}
               </footer>}
             </section>
 

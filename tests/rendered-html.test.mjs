@@ -168,7 +168,7 @@ test("links quest types to each game", async () => {
   assert.match(page, /filterFacets\.region\.counts\.get\(region\)/);
   assert.doesNotMatch(page, /setTimedFilter\(event\.target\.value as BinaryQuestFilter\); setRegionFilter\("all"\)/);
   assert.doesNotMatch(page, /setExclusiveFilter\(event\.target\.value as BinaryQuestFilter\); setRegionFilter\("all"\)/);
-  assert.match(page, /function changeArcFilter\(arc: QuestArcFilter\) \{\s*setArcFilter\(arc\);\s*setCurrentPage\(1\);\s*\}/);
+  assert.match(page, /function changeArcFilter\(arc: QuestArcFilter\) \{\s*setArcFilter\(arc\);[\s\S]*?setCurrentPage\(1\);\s*\}/);
   assert.match(page, /if \(exclusiveFilter !== "yes"\) return filtered/);
   assert.match(page, /getExclusiveGroup\(left\)\.localeCompare\(getExclusiveGroup\(right\)/);
   assert.match(filters, /quest\.region !== filters\.region/);
@@ -213,7 +213,9 @@ test("links quest types to each game", async () => {
   assert.doesNotMatch(page, /qualityPercent|const stats =/);
   assert.doesNotMatch(page, /status-card conflict/);
   assert.doesNotMatch(page, /className="quality-meter"/);
-  assert.match(page, /相连的未来（\{filterFacets\.arc\.futureConnected\}）/);
+  assert.match(page, /aria-label="选择任务篇章"/);
+  assert.match(page, /\["main", "futureConnected"\] as const/);
+  assert.match(page, /arc === "main" \? "本篇" : "相连的未来"/);
   assert.match(page, /扩展票追加（\{filterFacets\.arc\.expansionPass\}）/);
   assert.match(page, /黄金之国伊拉（\{filterFacets\.arc\.torna\}）/);
   assert.match(page, /崭新的未来（\{filterFacets\.arc\.futureRedeemed\}）/);

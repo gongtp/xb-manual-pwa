@@ -238,6 +238,23 @@ export default function GameNotes({ game, onToast }: GameNotesProps) {
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState("");
+  const [mobileView, setMobileView] = useState<"list" | "detail">("list");
+
+  function showDetail() {
+    setMobileView("detail");
+    if (window.matchMedia("(max-width: 780px)").matches) window.scrollTo({ top: 0 });
+  }
+
+  function cancelEditing() {
+    if (saving) return;
+    const original = notes.find((note) => note.id === editing?.id);
+    const changed = editing && (original
+      ? JSON.stringify(editing) !== JSON.stringify(original)
+      : !!(editing.title.trim() || editing.content.trim()));
+    if (changed && !window.confirm("放弃尚未保存的修改？")) return;
+    setEditing(null);
+    if (!editing?.id) setMobileView("list");
+  }
 
   useEffect(() => {
     let cancelled = false;
@@ -271,13 +288,16 @@ export default function GameNotes({ game, onToast }: GameNotesProps) {
   const selectedNote = visibleNotes.find((note) => note.id === selectedId) ?? visibleNotes[0];
 
   function openNewNote() {
-    setEditing({ ...emptyGameNote(game), content: "# 新笔记\n\n在这里记录重点、玩法或待办事项。" });
+    if (editing) return;
+    setEditing(emptyGameNote(game));
     setEditorView("write");
+    showDetail();
   }
 
   function openEditor(note: GameNote) {
     setEditing({ ...note });
     setEditorView("write");
+    showDetail();
   }
 
   async function saveNote(event: FormEvent<HTMLFormElement>) {
@@ -289,7 +309,10 @@ export default function GameNotes({ game, onToast }: GameNotesProps) {
       const records = payload.notes ?? [];
       setNotes(records);
       setSelectedId(payload.note?.id ?? records[0]?.id ?? "");
+      setQuery("");
+      setCategory("all");
       setEditing(null);
+      showDetail();
       onToast("玩法笔记已保存");
     } catch (saveError) {
       onToast(saveError instanceof Error ? saveError.message : "保存笔记失败");
@@ -307,6 +330,7 @@ export default function GameNotes({ game, onToast }: GameNotesProps) {
       setNotes(records);
       setSelectedId(records[0]?.id ?? "");
       setEditing(null);
+      setMobileView("list");
       onToast("玩法笔记已删除");
     } catch (deleteError) {
       onToast(deleteError instanceof Error ? deleteError.message : "删除笔记失败");
@@ -316,7 +340,17 @@ export default function GameNotes({ game, onToast }: GameNotesProps) {
   }
 
   return (
-    <div className="notes-page">
+    <div className={`notes-page notes-mobile-${mobileView}${editing ? " notes-is-editing" : ""}`}>
+      <div className="notes-mobile-toolbar">
+        <button type="button" className="secondary-button" disabled={saving} onClick={() => {
+          if (editing) cancelEditing();
+          else { setMobileView("list"); window.scrollTo({ top: 0 }); }
+        }}>{editing ? "取消" : "‹ 笔记列表"}</button>
+        <span>{editing ? (editing.id ? "编辑笔记" : "新建笔记") : "阅读笔记"}</span>
+        {editing
+          ? <button key="save" className="primary-button" type="submit" form="game-note-editor" disabled={saving}>{saving ? "保存中…" : "保存"}</button>
+          : selectedNote && <button key="edit" type="button" className="secondary-button" onClick={() => openEditor(selectedNote)}>编辑</button>}
+      </div>
       <header className="topbar notes-topbar">
         <div className="workspace-breadcrumb"><span>资料库</span><UiIcon name="chevron-right" size={14} /><strong>{gameNames[game]}</strong></div>
         <label className="search-box">
@@ -324,20 +358,20 @@ export default function GameNotes({ game, onToast }: GameNotesProps) {
           <input data-archive-search aria-label="搜索笔记" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索笔记标题或内容" />
         </label>
         <div className="top-actions">
-          <button className="primary-button" onClick={openNewNote} disabled={loading || saving}><UiIcon name="plus" size={17} />新建笔记</button>
+          <button className="primary-button" onClick={openNewNote} disabled={loading || saving || !!editing}><UiIcon name="plus" size={17} />新建笔记</button>
         </div>
       </header>
 
       <div className="content notes-content">
         <section className="notes-heading">
-          <div><h1>玩法笔记</h1><p>把战斗技巧、探索路线和游戏心得，整理成自己的攻略。</p></div>
+          <div><h1>玩法笔记</h1><p>{gameNames[game]} · {notes.length} 篇笔记</p></div>
         </section>
 
         {error && <div className="database-error"><strong>笔记数据库连接失败</strong><span>{error}</span></div>}
 
         <div className="notes-workspace">
           <aside className="notes-list-panel">
-            <div className="notes-list-title"><div><UiIcon name="notebook" size={17} /><strong>笔记目录</strong><span>{visibleNotes.length}</span></div><button onClick={openNewNote} aria-label="新建笔记" disabled={loading || saving}><UiIcon name="plus" size={17} /></button></div>
+            <div className="notes-list-title"><div><UiIcon name="notebook" size={17} /><strong>笔记目录</strong><span>{visibleNotes.length}</span></div><button onClick={openNewNote} aria-label="新建笔记" disabled={loading || saving || !!editing}><UiIcon name="plus" size={17} /></button></div>
             <div className="notes-list-filter">
               <label htmlFor="notes-category-filter">分类</label>
               <select id="notes-category-filter" value={category} onChange={(event) => setCategory(event.target.value)}>
@@ -348,12 +382,12 @@ export default function GameNotes({ game, onToast }: GameNotesProps) {
             <div className="notes-list">
               {loading && <div className="notes-empty"><span>◌</span><p>正在读取笔记…</p></div>}
               {!loading && visibleNotes.map((note, index) => (
-                <button className={`note-row ${selectedNote?.id === note.id ? "selected" : ""}`} aria-current={selectedNote?.id === note.id ? "true" : undefined} key={note.id} onClick={() => { setSelectedId(note.id); setEditing(null); }}>
+                <button className={`note-row ${selectedNote?.id === note.id ? "selected" : ""}`} aria-current={selectedNote?.id === note.id ? "true" : undefined} key={note.id} disabled={!!editing || saving} onClick={() => { setSelectedId(note.id); showDetail(); }}>
                   <span className="note-row-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
                   <span className="note-row-copy">
                     <span className="note-row-meta"><em>{note.category}</em>{note.isPinned && <b title="置顶">置顶</b>}</span>
                     <strong>{note.title}</strong>
-                    <span className="note-row-excerpt">{noteExcerpt(note.content) || "暂无正文"}</span>
+                    <span className="note-row-excerpt">{noteExcerpt(noteReadingContent(note)) || "暂无正文"}</span>
                     <small>{formatUpdatedAt(note.updatedAt).split(" ")[0]}</small>
                   </span>
                 </button>
@@ -364,7 +398,7 @@ export default function GameNotes({ game, onToast }: GameNotesProps) {
 
           <section className="note-detail-panel">
             {editing ? (
-              <form className="note-editor" onSubmit={saveNote}>
+              <form id="game-note-editor" className="note-editor" onSubmit={saveNote}>
                 <div className="note-editor-heading">
                   <div><span className="note-editor-label"><UiIcon name="edit" size={15} />正在编辑</span><h2>{editing.id ? "编辑玩法笔记" : "新建玩法笔记"}</h2></div>
                   <div className="editor-view-tabs" role="group" aria-label="编辑器视图">
@@ -375,22 +409,28 @@ export default function GameNotes({ game, onToast }: GameNotesProps) {
 
                 <div className="note-fields">
                   <label className="note-title-field">标题<input required value={editing.title} onChange={(event) => setEditing({ ...editing, title: event.target.value })} placeholder="例如：连锁攻击使用技巧" /></label>
+                </div>
+                <details className="note-settings">
+                  <summary>笔记设置 <span>{editing.category}{editing.isPinned ? " · 已置顶" : ""}</span></summary>
+                  <div className="note-fields">
                   <label>分类<select value={editing.category} onChange={(event) => setEditing({ ...editing, category: event.target.value })}>
                     {categories.map((item) => <option value={item} key={item}>{item}</option>)}
                   </select></label>
                   <label>排序<input type="number" value={editing.sortOrder} onChange={(event) => setEditing({ ...editing, sortOrder: Number(event.target.value) || 0 })} /></label>
                   <label className="pin-field"><input type="checkbox" checked={editing.isPinned} onChange={(event) => setEditing({ ...editing, isPinned: event.target.checked })} />置顶显示</label>
-                </div>
+                  </div>
+                  {editing.id && <button className="danger-button note-settings-delete" type="button" disabled={saving} onClick={() => removeNote(editing)}>删除这篇笔记</button>}
+                </details>
 
                 {editorView === "write" ? (
                   <div className="markdown-editor-field">
                     <div className="markdown-help"><span>Markdown 正文</span><small>支持标题、列表、待办框、粗体、链接、表格和代码块</small></div>
-                    <textarea value={editing.content} onChange={(event) => setEditing({ ...editing, content: event.target.value })} rows={24} spellCheck={false} placeholder="# 标题&#10;&#10;- 记录内容" />
+                    <textarea aria-label="笔记正文" value={editing.content} onChange={(event) => setEditing({ ...editing, content: event.target.value })} rows={24} spellCheck={false} placeholder="写下你的攻略或心得…&#10;&#10;## 小标题&#10;- 要点一&#10;- 要点二" />
                   </div>
                 ) : <div className="markdown-preview"><MarkdownPreview content={editing.content} /></div>}
 
                 <div className="note-editor-actions">
-                  <button className="secondary-button" type="button" onClick={() => setEditing(null)}>取消</button>
+                  <button className="secondary-button" type="button" disabled={saving} onClick={cancelEditing}>取消</button>
                   <button className="primary-button" type="submit" disabled={saving}>{saving ? "正在保存…" : "保存笔记"}</button>
                 </div>
               </form>
