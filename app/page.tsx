@@ -1099,7 +1099,7 @@ export default function Home() {
             </nav>
           ) : <section className="page-heading quest-heading">
             <div>
-              <h1>任务资料<span className="heading-dot">.</span></h1>
+              <h1>任务资料</h1>
               {gameFilter === "XC2"
                   ? <p>已收录 {gameQuests.length} 条任务 · 本篇 {xc2ArcCounts.baseGame} 条、扩展票追加 {xc2ArcCounts.expansionPass} 条、《黄金之国伊拉》{xc2ArcCounts.torna} 条。</p>
                   : gameFilter === "XC3"

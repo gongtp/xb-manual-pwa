@@ -1,30 +1,5 @@
 name: 发布离线资料库
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'app/**'
-      - 'lib/**'
-      - 'db/**'
-      - 'pwa/**'
-      - 'data/**'
-      - 'public/**'
-      - 'build/**'
-      - 'scripts/**'
-      - 'tests/**'
-      - 'drizzle/**'
-      - 'package.json'
-      - 'package-lock.json'
-      - '.npmrc'
-      - 'tsconfig*.json'
-      - 'vite*.config.*'
-      - 'next.config.*'
-      - 'next-env.d.ts'
-      - 'postcss.config.*'
-      - 'tailwind.config.*'
-      - 'drizzle.config.*'
-      - '.github/workflows/pages.yml'
-      - '!**/*.md'
   workflow_dispatch:
 permissions:
   contents: read

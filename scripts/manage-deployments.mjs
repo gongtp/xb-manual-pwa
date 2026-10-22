@@ -4,7 +4,20 @@ import { pathToFileURL, fileURLToPath } from "node:url";
 
 const repository = "gongtp/xb-manual-pwa";
 const base = `/repos/${repository}/deployments`;
-export const deletable = (state) => ["inactive", "failure", "error"].includes(state);
+export const deletable = (record) => record?.canDelete === true;
+
+export function classifyDeployments(records) {
+  // Completion time matters: an older run may finish later (for example a rollback).
+  const successes = records.filter((d) => d.state === "success");
+  const timesKnown = successes.every((d) => Number.isFinite(Date.parse(d.statusCreatedAt)));
+  const latest = timesKnown && successes.length
+    ? Math.max(...successes.map((d) => Date.parse(d.statusCreatedAt))) : NaN;
+  return records.map((d) => {
+    const current = d.state === "success" && (!timesKnown || Date.parse(d.statusCreatedAt) === latest);
+    return { ...d, current, canDelete: ["inactive", "failure", "error"].includes(d.state)
+      || (d.state === "success" && timesKnown && Date.parse(d.statusCreatedAt) < latest) };
+  });
+}
 
 export async function listDeployments(api) {
   const records = [];
@@ -13,25 +26,23 @@ export async function listDeployments(api) {
     for (const deployment of batch) {
       if (deployment.environment !== "github-pages") continue;
       const statuses = await api(`${base}/${deployment.id}/statuses?per_page=1`);
-      records.push({ ...deployment, state: statuses[0]?.state ?? "unknown" });
+      records.push({ ...deployment, state: statuses[0]?.state ?? "unknown", statusCreatedAt: statuses[0]?.created_at });
     }
-    if (batch.length < 100) return records;
+    if (batch.length < 100) return classifyDeployments(records);
   }
 }
 
 export async function deleteOldDeployment(api, id) {
   if (!Number.isSafeInteger(id) || id <= 0) throw new Error("无效记录 ID");
   const path = `${base}/${id}`;
-  const deployment = await api(path);
-  if (deployment.environment !== "github-pages") throw new Error("拒绝删除其他环境的记录");
-  let statuses = await api(`${path}/statuses?per_page=1`);
-  if (!deletable(statuses[0]?.state)) throw new Error("该记录当前为 Active、正在部署或状态未知，已保护");
-  if (statuses[0].state !== "inactive") {
-    await api(`${path}/statuses`, "POST", { state: "inactive", auto_inactive: false, description: "用户确认清理失败的历史部署记录" });
+  const record = (await listDeployments(api)).find((d) => d.id === id);
+  if (!deletable(record)) throw new Error("该记录为当前部署、正在部署、状态未知或不属于 Pages 环境，已保护");
+  if (record.state !== "inactive") {
+    await api(`${path}/statuses`, "POST", { state: "inactive", auto_inactive: false, description: "用户确认清理历史部署记录" });
   }
-  // Re-read immediately before deleting; never deactivate successful/live deployments.
-  statuses = await api(`${path}/statuses?per_page=1`);
-  if (statuses[0]?.state !== "inactive") throw new Error("部署状态已变化，取消删除");
+  // Refresh the entire environment before each write, including after user confirmation.
+  const refreshed = (await listDeployments(api)).find((d) => d.id === id);
+  if (!deletable(refreshed) || refreshed.state !== "inactive") throw new Error("部署状态已变化，取消删除");
   await api(path, "DELETE");
 }
 
@@ -65,8 +76,8 @@ async function main() {
     return response.status === 204 ? null : response.json();
   }
   function show(records) {
-    console.table(records.map((d, i) => ({ 序号: i + 1, ID: d.id, 状态: d.state === "success" ? "Active（保护）" : d.state,
-      可删除: deletable(d.state) ? "是" : "否", 时间: new Date(d.created_at).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" }),
+    console.table(records.map((d, i) => ({ 序号: i + 1, ID: d.id, 状态: d.current ? "最新成功部署（保护）" : d.state === "success" ? "旧成功记录" : d.state,
+      可删除: deletable(d) ? "是" : "否", 时间: new Date(d.created_at).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" }),
       提交: d.sha.slice(0, 7), 说明: d.description || d.ref })));
   }
   console.log(`部署记录管理：${repository} / github-pages\n只管理部署记录，不提交代码、不推送、不发布，不删除 Actions 运行记录。`);
@@ -83,11 +94,11 @@ async function main() {
         const input = (await rl.question("输入要删除的序号（多个用逗号分隔），all 选择全部可删除记录，0 取消：")).trim();
         if (input === "0") continue;
         let selected;
-        if (input === "all") selected = records.filter((d) => deletable(d.state));
+        if (input === "all") selected = records.filter(deletable);
         else {
           if (!/^\d+(?:\s*[,，]\s*\d+)*$/.test(input)) throw new Error("序号格式无效");
           selected = [...new Set(input.split(/[,，]/).map(Number))].map((n) => records[n - 1]);
-          if (selected.some((d) => !d || !deletable(d.state))) throw new Error("选中了无效序号或受保护记录，未删除任何记录");
+          if (selected.some((d) => !deletable(d))) throw new Error("选中了无效序号或受保护记录，未删除任何记录");
         }
         if (!selected.length) { console.log("没有可删除的旧记录。"); continue; }
         console.log("即将永久删除以下部署记录：");

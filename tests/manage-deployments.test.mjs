@@ -1,44 +1,97 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { deleteOldDeployment, listDeployments } from "../scripts/manage-deployments.mjs";
+import { classifyDeployments, deleteOldDeployment, listDeployments } from "../scripts/manage-deployments.mjs";
 
-test("active, pending and unknown deployments cannot be mutated", async () => {
-  for (const state of ["success", "queued", "pending", "in_progress", undefined]) {
-    const calls = [];
-    const api = async (path, method = "GET") => {
-      calls.push(method);
-      return path.includes("statuses") ? (state ? [{ state }] : []) : { environment: "github-pages" };
-    };
+const oldTime = "2026-10-20T01:44:30Z";
+const newTime = "2026-10-22T09:27:54Z";
+function mockApi(initial, onRead) {
+  const records = structuredClone(initial);
+  const writes = [];
+  let reads = 0;
+  const api = async (path, method = "GET", body) => {
+    const id = Number(path.match(/deployments\/(\d+)/)?.[1]);
+    if (method !== "GET") {
+      writes.push({ id, method, body });
+      if (method === "POST") records.find((d) => d.id === id).state = body.state;
+      return null;
+    }
+    if (path.includes("statuses")) {
+      const d = records.find((d) => d.id === id);
+      return d.state ? [{ state: d.state, created_at: d.statusCreatedAt }] : [];
+    }
+    onRead?.(records, ++reads);
+    return records.map((d) => ({ ...d, environment: "github-pages" }));
+  };
+  return { api, writes };
+}
+const record = (id, state, statusCreatedAt = oldTime) => ({ id, state, statusCreatedAt });
+
+test("old successful record is deletable while latest success is protected", async () => {
+  const { api } = mockApi([record(12, "success"), record(13, "success", newTime)]);
+  const rows = await listDeployments(api);
+  assert.equal(rows[0].canDelete, true);
+  assert.equal(rows[1].canDelete, false);
+  assert.equal(rows[1].current, true);
+});
+
+test("latest success, running, waiting and unknown cannot be mutated", async () => {
+  for (const state of ["success", "queued", "pending", "waiting", "in_progress", undefined]) {
+    const { api, writes } = mockApi([record(12, state)]);
     await assert.rejects(deleteOldDeployment(api, 12));
-    assert.ok(calls.every((method) => method === "GET"));
+    assert.equal(writes.length, 0);
   }
 });
 
-test("failed records become inactive without affecting other deployments", async () => {
-  const writes = [];
-  let state = "failure";
-  await deleteOldDeployment(async (path, method = "GET", body) => {
-    if (method !== "GET") writes.push({ method, body });
-    if (method === "POST") state = body.state;
-    return path.includes("statuses") ? [{ state }] : { environment: "github-pages" };
-  }, 12);
-  assert.equal(writes[0].body.auto_inactive, false);
-  assert.deepEqual(writes.map((w) => w.method), ["POST", "DELETE"]);
+test("old successes and failures are deactivated without affecting current deployment", async () => {
+  for (const state of ["success", "failure", "error", "inactive"]) {
+    const { api, writes } = mockApi([record(12, state), record(13, "success", newTime)]);
+    await deleteOldDeployment(api, 12);
+    assert.ok(writes.every((w) => w.id === 12));
+    assert.deepEqual(writes.map((w) => w.method), state === "inactive" ? ["DELETE"] : ["POST", "DELETE"]);
+    if (state !== "inactive") assert.equal(writes[0].body.auto_inactive, false);
+  }
 });
 
-test("state changes during confirmation prevent deletion", async () => {
-  let reads = 0;
-  await assert.rejects(deleteOldDeployment(async (path, method = "GET") => {
-    assert.equal(method, "GET");
-    return path.includes("statuses") ? [{ state: ++reads === 1 ? "inactive" : "success" }] : { environment: "github-pages" };
-  }, 12));
+test("latest failed run does not unprotect previous successful deployment", () => {
+  const rows = classifyDeployments([record(12, "success"), record(13, "failure", newTime)]);
+  assert.equal(rows[0].canDelete, false);
+  assert.equal(rows[1].canDelete, true);
 });
 
-test("lists all pages, treats missing status as unknown", async () => {
-  const records = await listDeployments(async (path) => {
+test("completion time rather than creation order protects a redeployed old run", () => {
+  const rows = classifyDeployments([record(13, "success"), record(12, "success", newTime)]);
+  assert.equal(rows[1].current, true);
+  assert.equal(rows[0].canDelete, true);
+});
+
+test("ambiguous or missing success timestamps are protected", () => {
+  for (const time of [newTime, undefined, "invalid"]) {
+    const rows = classifyDeployments([record(12, "success", newTime), { id: 13, state: "success", statusCreatedAt: time }]);
+    assert.ok(rows.every((d) => !d.canDelete));
+  }
+});
+
+test("confirmation refresh protects an old record that became current", async () => {
+  const { api, writes } = mockApi([record(12, "success"), record(13, "success", newTime)], (rows) => {
+    rows[0].statusCreatedAt = "2026-10-23T00:00:00Z";
+  });
+  await assert.rejects(deleteOldDeployment(api, 12));
+  assert.equal(writes.length, 0);
+});
+
+test("reactivated record cannot be deleted after deactivation", async () => {
+  const { api, writes } = mockApi([record(12, "success"), record(13, "success", newTime)], (rows, reads) => {
+    if (reads === 2) { rows[0].state = "success"; rows[0].statusCreatedAt = "2026-10-23T00:00:00Z"; }
+  });
+  await assert.rejects(deleteOldDeployment(api, 12));
+  assert.deepEqual(writes.map((w) => w.method), ["POST"]);
+});
+
+test("lists all pages and protects missing statuses", async () => {
+  const rows = await listDeployments(async (path) => {
     if (path.includes("statuses")) return [];
     return path.endsWith("page=1") ? Array.from({ length: 100 }, (_, i) => ({ id: i + 1, environment: "github-pages" })) : [{ id: 101, environment: "github-pages" }];
   });
-  assert.equal(records.length, 101);
-  assert.ok(records.every((d) => d.state === "unknown"));
+  assert.equal(rows.length, 101);
+  assert.ok(rows.every((d) => d.state === "unknown" && !d.canDelete));
 });

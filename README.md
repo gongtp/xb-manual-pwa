@@ -131,9 +131,9 @@ npm run preview:pwa
 
 ### 发布到 GitHub Pages
 
-项目已提供 `.github/workflows/pages.yml`：推送 `main` 且包含程序、基础资料、静态资源、脚本、测试或构建/发布配置改动时，构建并上传 **dist-pwa/**。
-仅修改 README、Markdown 文档或其他未列入工作流 `paths` 的文件时，不自动部署。
-文档与程序一起修改时仍会部署。GitHub Actions 中的手动发布入口始终保留，不受路径筛选限制。
+项目已提供 `.github/workflows/pages.yml`，仅支持手动发布；推送代码或文档均不会自动部署。
+发布时打开 GitHub Actions 中的“发布离线资料库”，点击 **Run workflow**，选择 `main` 并确认。
+工作流使用远程分支上已提交的代码，测试、构建并上传 **dist-pwa/**；未手动发布时，线上网站保持原版本。
 工作流自动读取 Pages 的站点子路径，无需把仓库名写死进代码。
 
 代码仓库：https://github.com/gongtp/xb-manual-pwa
@@ -141,7 +141,7 @@ npm run preview:pwa
 手机访问：https://gongtp.github.io/xb-manual-pwa/
 
 当前工作目录直接使用 GitHub 的干净历史，`origin` 仅指向上述 GitHub 仓库。
-修改代码后在本目录测试、提交并 `git push origin main`，Actions 自动发布；不再同步临时发布副本。
+修改代码后在本目录测试、提交并 `git push origin main`；需要上线时再手动运行发布工作流。
 原 Gitee 仓库暂时保留，不再向其推送，也不要合并旧仓库历史。
 
 `data/` 中受版本控制的 JSON/TS 是公开基础资料。页面内的个人修改保存在
@@ -160,7 +160,9 @@ npm run preview:pwa
 
 双击 `manage-deployments.cmd`：输入 `1` 查询，`2` 选择删除，`0` 退出。
 删除时可输入序号（多个用逗号分隔）或 `all` 选择全部可删除记录，最后输入 `DELETE` 确认。
-只清理 `gongtp/xb-manual-pwa` 的 `github-pages` 环境，保护成功的 Active、进行中和状态未知的记录。
+只清理 `gongtp/xb-manual-pwa` 的 `github-pages` 环境，按成功状态的完成时间保护最新成功部署（包括旧任务重新部署的情况），而非把所有成功记录都当成 Active。
+旧成功记录可以选择删除，确认后先标为 inactive 再删除；进行中、状态未知、成功时间缺失或并列最新的记录受到保护。
+每条记录执行前重新查询状态，避免使用确认前的过期列表；若操作期间正在发布，建议等待发布完成后再清理。
 使用已有 Git 凭据管理器，可能弹出登录窗口；不安装软件、不保存令牌到项目。
 如凭据权限不足，需给该仓库授予 Deployments 读写权限（也支持运行前设置 `GITHUB_TOKEN` 环境变量）。
 此工具不提交、不推送、不触发部署，不删除 Actions 运行日志，也不修改个人数据库。
