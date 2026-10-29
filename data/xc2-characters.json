@@ -16,123 +16,273 @@
     "battleSkills": [
       {
         "name": "肌肉锻炼",
-        "effect": "力量增加20"
+        "effect": "力量增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 1
+        }
       },
       {
         "name": "高速反应",
-        "effect": "敏捷增加20"
+        "effect": "敏捷增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 2
+        }
       },
       {
         "name": "速攻1",
-        "effect": "战斗开始时可以使用 X键的御刃者武技"
+        "effect": "战斗开始时可以使用 X键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 3
+        }
       },
       {
         "name": "学习以太",
-        "effect": "以太力增加20"
+        "effect": "以太力增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 4
+        }
       },
       {
         "name": "救助",
-        "effect": "救起对象的HP提升15%"
+        "effect": "救起对象的HP提升15%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 5
+        }
       },
       {
         "name": "健康优良儿",
-        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量"
+        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 1
+        }
       },
       {
         "name": "武技连锁",
-        "effect": "可以通过取消御刃者武技 来使用御刃者武技"
+        "effect": "可以通过取消御刃者武技 来使用御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 2
+        }
       },
       {
         "name": "强化连击",
-        "effect": "取消时的伤害上升率增加 20%"
+        "effect": "取消时的伤害上升率增加 20%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 3
+        }
       },
       {
         "name": "速攻2",
-        "effect": "战斗开始时可以使用 Y键的御刃者武技"
+        "effect": "战斗开始时可以使用 Y键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 4
+        }
       },
       {
         "name": "爷爷的祈祷",
-        "effect": "运气增加20"
+        "effect": "运气增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 5
+        }
       },
       {
         "name": "速攻3",
-        "effect": "战斗开始时可以使用 B键的御刃者武技"
+        "effect": "战斗开始时可以使用 B键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 1
+        }
       },
       {
         "name": "精力充沛",
-        "effect": "最大HP增加200"
+        "effect": "最大HP增加200",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 2
+        }
       },
       {
         "name": "连携的极致",
-        "effect": "连锁攻击开始时 攻击力倍率提升"
+        "effect": "连锁攻击开始时 攻击力倍率提升",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 3
+        }
       },
       {
         "name": "倒地高手",
-        "effect": "将倒地的有效时间延长15%"
+        "effect": "将倒地的有效时间延长15%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 4
+        }
       },
       {
         "name": "对胜利的执着",
-        "effect": "发生暴击时 队伍槽少量增加"
+        "effect": "发生暴击时 队伍槽少量增加",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 5
+        }
       },
       {
         "name": "疯狂学习以太",
-        "effect": "以太力提升10%"
+        "effect": "以太力提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 1
+        }
       },
       {
         "name": "影之一击",
-        "effect": "偷袭成功时 伤害输出提升50%"
+        "effect": "偷袭成功时 伤害输出提升50%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 2
+        }
       },
       {
         "name": "声援团团员",
-        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%"
+        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 3
+        }
       },
       {
         "name": "预感",
-        "effect": "灵巧增加20"
+        "effect": "灵巧增加20",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 4
+        }
       },
       {
         "name": "危机爆发力",
-        "effect": "降低敌方的破防抗性"
+        "effect": "降低敌方的破防抗性",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 5
+        }
       },
       {
         "name": "肌肉继承",
-        "effect": "力量提升10%"
+        "effect": "力量提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 1
+        }
       },
       {
         "name": "药物知识",
-        "effect": "回复瓶的效果提升20%"
+        "effect": "回复瓶的效果提升20%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 2
+        }
       },
       {
         "name": "看破",
-        "effect": "敏捷提升10%"
+        "effect": "敏捷提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 3
+        }
       },
       {
         "name": "斗志昂扬",
-        "effect": "使用御刃者武技取代自动攻击时 HP回复3%"
+        "effect": "使用御刃者武技取代自动攻击时 HP回复3%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 4
+        }
       },
       {
         "name": "行动预测",
-        "effect": "灵巧提升10%"
+        "effect": "灵巧提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 5
+        }
       },
       {
         "name": "团结力",
-        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加"
+        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 1
+        }
       },
       {
         "name": "坚定之心",
-        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）"
+        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 2
+        }
       },
       {
         "name": "牵绊之力",
-        "effect": "取消时所增加的必杀技 填充量提升20%"
+        "effect": "取消时所增加的必杀技 填充量提升20%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 3
+        }
       },
       {
         "name": "钢铁少年",
-        "effect": "最大HP提升10%"
+        "effect": "最大HP提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 4
+        }
       },
       {
         "name": "爷爷的守护",
-        "effect": "运气提升10%"
+        "effect": "运气提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 5
+        }
       }
     ],
     "favoriteCategories": [
@@ -178,123 +328,273 @@
     "battleSkills": [
       {
         "name": "野性觉醒1",
-        "effect": "战斗开始时可以使用 X键的御刃者武技"
+        "effect": "战斗开始时可以使用 X键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 1
+        }
       },
       {
         "name": "治疗者",
-        "effect": "救起对象的HP提升15%"
+        "effect": "救起对象的HP提升15%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 2
+        }
       },
       {
         "name": "猫女",
-        "effect": "敏捷增加20"
+        "effect": "敏捷增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 3
+        }
       },
       {
         "name": "以太的才能",
-        "effect": "以太力增加20"
+        "effect": "以太力增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 4
+        }
       },
       {
         "name": "动态视力",
-        "effect": "灵巧增加20"
+        "effect": "灵巧增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 5
+        }
       },
       {
         "name": "药草调和",
-        "effect": "回复瓶的效果提升20%"
+        "effect": "回复瓶的效果提升20%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 1
+        }
       },
       {
         "name": "巨猫",
-        "effect": "最大HP增加200"
+        "effect": "最大HP增加200",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 2
+        }
       },
       {
         "name": "喜悦共享",
-        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加"
+        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 3
+        }
       },
       {
         "name": "连抓",
-        "effect": "可以通过取消御刃者武技 来使用御刃者武技"
+        "effect": "可以通过取消御刃者武技 来使用御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 4
+        }
       },
       {
         "name": "野性觉醒2",
-        "effect": "战斗开始时可以使用 Y键的御刃者武技"
+        "effect": "战斗开始时可以使用 Y键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 5
+        }
       },
       {
         "name": "野性觉醒3",
-        "effect": "战斗开始时可以使用 B键的御刃者武技"
+        "effect": "战斗开始时可以使用 B键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 1
+        }
       },
       {
         "name": "合气",
-        "effect": "将破防的有效时间延长20%"
+        "effect": "将破防的有效时间延长20%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 2
+        }
       },
       {
         "name": "野兽追击",
-        "effect": "取消时的伤害上升率增加 20%"
+        "effect": "取消时的伤害上升率增加 20%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 3
+        }
       },
       {
         "name": "生存本能",
-        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量"
+        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 4
+        }
       },
       {
         "name": "野豹攻击",
-        "effect": "偷袭成功时 伤害输出提升50%"
+        "effect": "偷袭成功时 伤害输出提升50%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 5
+        }
       },
       {
         "name": "机会回复",
-        "effect": "连锁攻击开始时HP回复25%"
+        "effect": "连锁攻击开始时HP回复25%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 1
+        }
       },
       {
         "name": "虎眼",
-        "effect": "灵巧提升10%"
+        "effect": "灵巧提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 2
+        }
       },
       {
         "name": "技术纯熟",
-        "effect": "降低敌方的破防抗性"
+        "effect": "降低敌方的破防抗性",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 3
+        }
       },
       {
         "name": "柔韧筋肉",
-        "effect": "力量增加20"
+        "effect": "力量增加20",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 4
+        }
       },
       {
         "name": "幸运女孩",
-        "effect": "运气增加20"
+        "effect": "运气增加20",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 5
+        }
       },
       {
         "name": "力量的传达",
-        "effect": "取消时所增加的必杀技 填充量提升20%"
+        "effect": "取消时所增加的必杀技 填充量提升20%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 1
+        }
       },
       {
         "name": "拉拉队长",
-        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%"
+        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 2
+        }
       },
       {
         "name": "真实之力",
-        "effect": "以太力提升10%"
+        "effect": "以太力提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 3
+        }
       },
       {
         "name": "幸运女神",
-        "effect": "运气提升10%"
+        "effect": "运气提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 4
+        }
       },
       {
         "name": "狂野生命",
-        "effect": "最大HP提升10%"
+        "effect": "最大HP提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 5
+        }
       },
       {
         "name": "肾上腺素",
-        "effect": "使用御刃者武技取代自动攻击时 HP回复3%"
+        "effect": "使用御刃者武技取代自动攻击时 HP回复3%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 1
+        }
       },
       {
         "name": "通往胜利的道路",
-        "effect": "发生暴击时 队伍槽少量增加"
+        "effect": "发生暴击时 队伍槽少量增加",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 2
+        }
       },
       {
         "name": "好胜心",
-        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）"
+        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 3
+        }
       },
       {
         "name": "巨熊爪击",
-        "effect": "力量提升10%"
+        "effect": "力量提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 4
+        }
       },
       {
         "name": "虎女",
-        "effect": "敏捷提升10%"
+        "effect": "敏捷提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 5
+        }
       }
     ],
     "favoriteCategories": [
@@ -337,123 +637,273 @@
     "battleSkills": [
       {
         "name": "安慰剂",
-        "effect": "回复瓶的效果提升20%"
+        "effect": "回复瓶的效果提升20%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 1
+        }
       },
       {
         "name": "万全准备1",
-        "effect": "战斗开始时可以使用 X键的御刃者武技"
+        "effect": "战斗开始时可以使用 X键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 2
+        }
       },
       {
         "name": "喜欢工作",
-        "effect": "灵巧增加20"
+        "effect": "灵巧增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 3
+        }
       },
       {
         "name": "柔韧身躯",
-        "effect": "最大HP增加200"
+        "effect": "最大HP增加200",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 4
+        }
       },
       {
         "name": "幸运男孩",
-        "effect": "运气增加20"
+        "effect": "运气增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 5
+        }
       },
       {
         "name": "更柔韧的身躯",
-        "effect": "最大HP提升10%"
+        "effect": "最大HP提升10%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 1
+        }
       },
       {
         "name": "超级幸运男孩",
-        "effect": "运气提升10%"
+        "effect": "运气提升10%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 2
+        }
       },
       {
         "name": "免疫爆发",
-        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量"
+        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 3
+        }
       },
       {
         "name": "万全准备2",
-        "effect": "战斗开始时可以使用 Y键的御刃者武技"
+        "effect": "战斗开始时可以使用 Y键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 4
+        }
       },
       {
         "name": "硬撑",
-        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）"
+        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 5
+        }
       },
       {
         "name": "肌肉锻炼器",
-        "effect": "力量增加20"
+        "effect": "力量增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 1
+        }
       },
       {
         "name": "工作狂人",
-        "effect": "灵巧提升10%"
+        "effect": "灵巧提升10%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 2
+        }
       },
       {
         "name": "欢天喜地",
-        "effect": "连锁攻击结束时 队伍槽增加"
+        "effect": "连锁攻击结束时 队伍槽增加",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 3
+        }
       },
       {
         "name": "诺彭式连续攻击",
-        "effect": "可以通过取消御刃者武技 来使用御刃者武技"
+        "effect": "可以通过取消御刃者武技 来使用御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 4
+        }
       },
       {
         "name": "万全准备3",
-        "effect": "战斗开始时可以使用 B键的御刃者武技"
+        "effect": "战斗开始时可以使用 B键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 5
+        }
       },
       {
         "name": "情绪回复",
-        "effect": "使用御刃者武技取代自动攻击时 HP回复3%"
+        "effect": "使用御刃者武技取代自动攻击时 HP回复3%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 1
+        }
       },
       {
         "name": "被隐藏的才能",
-        "effect": "以太力增加20"
+        "effect": "以太力增加20",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 2
+        }
       },
       {
         "name": "强硬的先发制人",
-        "effect": "偷袭成功时 伤害输出提升50%"
+        "effect": "偷袭成功时 伤害输出提升50%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 3
+        }
       },
       {
         "name": "诺彭式救助法",
-        "effect": "救起对象的HP提升15%"
+        "effect": "救起对象的HP提升15%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 4
+        }
       },
       {
         "name": "匆忙脚步",
-        "effect": "敏捷增加20"
+        "effect": "敏捷增加20",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 5
+        }
       },
       {
         "name": "吉祥物般的存在",
-        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%"
+        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 1
+        }
       },
       {
         "name": "诺彭式击倒法",
-        "effect": "将倒地的有效时间延长15%"
+        "effect": "将倒地的有效时间延长15%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 2
+        }
       },
       {
         "name": "更加匆忙的脚步",
-        "effect": "敏捷提升10%"
+        "effect": "敏捷提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 3
+        }
       },
       {
         "name": "看向那边嘿",
-        "effect": "降低敌方的破防抗性"
+        "effect": "降低敌方的破防抗性",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 4
+        }
       },
       {
         "name": "炫耀成功",
-        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加"
+        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 5
+        }
       },
       {
         "name": "对花的挂虑",
-        "effect": "取消时所增加的必杀技 填充量提升20%"
+        "effect": "取消时所增加的必杀技 填充量提升20%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 1
+        }
       },
       {
         "name": "蛋白质继承",
-        "effect": "力量提升10%"
+        "effect": "力量提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 2
+        }
       },
       {
         "name": "才能开花结果？",
-        "effect": "以太力提升10%"
+        "effect": "以太力提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 3
+        }
       },
       {
         "name": "诺彭式连击强化",
-        "effect": "取消时的伤害上升率增加 20%"
+        "effect": "取消时的伤害上升率增加 20%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 4
+        }
       },
       {
         "name": "气氛制造者",
-        "effect": "发生暴击时 队伍槽少量增加"
+        "effect": "发生暴击时 队伍槽少量增加",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 5
+        }
       }
     ],
     "favoriteCategories": [
@@ -498,123 +948,273 @@
     "battleSkills": [
       {
         "name": "武技连环",
-        "effect": "可以通过取消御刃者武技 来使用御刃者武技"
+        "effect": "可以通过取消御刃者武技 来使用御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 1
+        }
       },
       {
         "name": "帝国式步法",
-        "effect": "敏捷增加20"
+        "effect": "敏捷增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 2
+        }
       },
       {
         "name": "以太学",
-        "effect": "以太力增加20"
+        "effect": "以太力增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 3
+        }
       },
       {
         "name": "基础锻炼",
-        "effect": "自动攻击的伤害提升20%"
+        "effect": "自动攻击的伤害提升20%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 4
+        }
       },
       {
         "name": "先发制人1",
-        "effect": "战斗开始时可以使用 X键的御刃者武技"
+        "effect": "战斗开始时可以使用 X键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 5
+        }
       },
       {
         "name": "集中力",
-        "effect": "灵巧增加20"
+        "effect": "灵巧增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 1
+        }
       },
       {
         "name": "炼金术",
-        "effect": "回复瓶的效果提升20%"
+        "effect": "回复瓶的效果提升20%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 2
+        }
       },
       {
         "name": "先发制人2",
-        "effect": "战斗开始时可以使用 Y键的御刃者武技"
+        "effect": "战斗开始时可以使用 Y键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 3
+        }
       },
       {
         "name": "续战能力",
-        "effect": "使用御刃者武技取代自动攻击时 HP回复3%"
+        "effect": "使用御刃者武技取代自动攻击时 HP回复3%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 4
+        }
       },
       {
         "name": "力量石",
-        "effect": "运气增加20"
+        "effect": "运气增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 5
+        }
       },
       {
         "name": "帝国式应急治疗",
-        "effect": "救起对象的HP提升15%"
+        "effect": "救起对象的HP提升15%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 1
+        }
       },
       {
         "name": "先发制人3",
-        "effect": "战斗开始时可以使用 B键的御刃者武技"
+        "effect": "战斗开始时可以使用 B键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 2
+        }
       },
       {
         "name": "肉体锻炼",
-        "effect": "力量增加20"
+        "effect": "力量增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 3
+        }
       },
       {
         "name": "帝国式追击法",
-        "effect": "取消时的伤害上升率增加 20%"
+        "effect": "取消时的伤害上升率增加 20%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 4
+        }
       },
       {
         "name": "步法的极致",
-        "effect": "敏捷提升10%"
+        "effect": "敏捷提升10%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 5
+        }
       },
       {
         "name": "鼓舞",
-        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加"
+        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 1
+        }
       },
       {
         "name": "无音杀伤",
-        "effect": "偷袭成功时 伤害输出提升50%"
+        "effect": "偷袭成功时 伤害输出提升50%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 2
+        }
       },
       {
         "name": "瞬间连击",
-        "effect": "自动攻击命中时 有10%的概率发生2次攻击"
+        "effect": "自动攻击命中时 有10%的概率发生2次攻击",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 3
+        }
       },
       {
         "name": "异刃共斗术",
-        "effect": "取消时所增加的必杀技 填充量提升20%"
+        "effect": "取消时所增加的必杀技 填充量提升20%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 4
+        }
       },
       {
         "name": "生存训练",
-        "effect": "最大HP增加200"
+        "effect": "最大HP增加200",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 5
+        }
       },
       {
         "name": "以太学的极致",
-        "effect": "以太力提升10%"
+        "effect": "以太力提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 1
+        }
       },
       {
         "name": "内气功",
-        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量"
+        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 2
+        }
       },
       {
         "name": "冥想",
-        "effect": "灵巧提升10%"
+        "effect": "灵巧提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 3
+        }
       },
       {
         "name": "武士道觉悟",
-        "effect": "最大HP提升10%"
+        "effect": "最大HP提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 4
+        }
       },
       {
         "name": "气场巡礼",
-        "effect": "运气提升10%"
+        "effect": "运气提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 5
+        }
       },
       {
         "name": "帝国军人的自尊",
-        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）"
+        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 1
+        }
       },
       {
         "name": "神技",
-        "effect": "发生暴击时 队伍槽少量增加"
+        "effect": "发生暴击时 队伍槽少量增加",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 2
+        }
       },
       {
         "name": "机会降临",
-        "effect": "连锁攻击开始时 攻击力倍率提升"
+        "effect": "连锁攻击开始时 攻击力倍率提升",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 3
+        }
       },
       {
         "name": "战斗体型",
-        "effect": "力量提升10%"
+        "effect": "力量提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 4
+        }
       },
       {
         "name": "声援团团长",
-        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%"
+        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 5
+        }
       }
     ],
     "favoriteCategories": [
@@ -658,123 +1258,273 @@
     "battleSkills": [
       {
         "name": "马赫准备1",
-        "effect": "战斗开始时可以使用 X键的御刃者武技"
+        "effect": "战斗开始时可以使用 X键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 1
+        }
       },
       {
         "name": "肌肉力量",
-        "effect": "力量增加20"
+        "effect": "力量增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 2
+        }
       },
       {
         "name": "幸运之男",
-        "effect": "运气增加20"
+        "effect": "运气增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 3
+        }
       },
       {
         "name": "钢铁之心",
-        "effect": "最大HP增加200"
+        "effect": "最大HP增加200",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 4
+        }
       },
       {
         "name": "瞬间移动",
-        "effect": "敏捷增加20"
+        "effect": "敏捷增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 5
+        }
       },
       {
         "name": "会心专家",
-        "effect": "暴击伤害提升10%"
+        "effect": "暴击伤害提升10%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 1
+        }
       },
       {
         "name": "伙伴共鸣",
-        "effect": "取消时所增加的必杀技 填充量提升20%"
+        "effect": "取消时所增加的必杀技 填充量提升20%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 2
+        }
       },
       {
         "name": "大力士的肌肉",
-        "effect": "力量提升10%"
+        "effect": "力量提升10%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 3
+        }
       },
       {
         "name": "技能连锁",
-        "effect": "可以通过取消御刃者武技 来使用御刃者武技"
+        "effect": "可以通过取消御刃者武技 来使用御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 4
+        }
       },
       {
         "name": "马赫准备2",
-        "effect": "战斗开始时可以使用 Y键的御刃者武技"
+        "effect": "战斗开始时可以使用 Y键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 5
+        }
       },
       {
         "name": "剧场型英雄",
-        "effect": "连锁攻击时 暴击率提升10%"
+        "effect": "连锁攻击时 暴击率提升10%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 1
+        }
       },
       {
         "name": "马赫准备3",
-        "effect": "战斗开始时可以使用 B键的御刃者武技"
+        "effect": "战斗开始时可以使用 B键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 2
+        }
       },
       {
         "name": "狮子心",
-        "effect": "救起对象的HP提升15%"
+        "effect": "救起对象的HP提升15%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 3
+        }
       },
       {
         "name": "以太才俊",
-        "effect": "以太力增加20"
+        "effect": "以太力增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 4
+        }
       },
       {
         "name": "延长发射",
-        "effect": "将浮空的有效时间延长15%"
+        "effect": "将浮空的有效时间延长15%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 5
+        }
       },
       {
         "name": "以太天才",
-        "effect": "以太力提升10%"
+        "effect": "以太力提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 1
+        }
       },
       {
         "name": "自然恢复力",
-        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量"
+        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 2
+        }
       },
       {
         "name": "黄金之心",
-        "effect": "最大HP提升10%"
+        "effect": "最大HP提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 3
+        }
       },
       {
         "name": "行家之击",
-        "effect": "灵巧提升10%"
+        "effect": "灵巧提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 4
+        }
       },
       {
         "name": "魔鬼追击",
-        "effect": "取消时的伤害上升率增加 20%"
+        "effect": "取消时的伤害上升率增加 20%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 5
+        }
       },
       {
         "name": "英雄动作",
-        "effect": "发生暴击时 队伍槽少量增加"
+        "effect": "发生暴击时 队伍槽少量增加",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 1
+        }
       },
       {
         "name": "黑暗猛砍",
-        "effect": "偷袭成功时 伤害输出提升50%"
+        "effect": "偷袭成功时 伤害输出提升50%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 2
+        }
       },
       {
         "name": "达人攻击",
-        "effect": "灵巧增加20"
+        "effect": "灵巧增加20",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 3
+        }
       },
       {
         "name": "飞毛腿",
-        "effect": "敏捷提升10%"
+        "effect": "敏捷提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 4
+        }
       },
       {
         "name": "兴奋回复",
-        "effect": "使用御刃者武技取代自动攻击时 HP回复3%"
+        "effect": "使用御刃者武技取代自动攻击时 HP回复3%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 5
+        }
       },
       {
         "name": "第二生命",
-        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）"
+        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 1
+        }
       },
       {
         "name": "大声援",
-        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%"
+        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 2
+        }
       },
       {
         "name": "解放霸王心眼",
-        "effect": "牵绊MAX时 同时按下R和+ 彩歌会在一定时间内觉醒（1场战斗仅限1次）"
+        "effect": "牵绊MAX时 同时按下R和+ 彩歌会在一定时间内觉醒（1场战斗仅限1次）",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 3
+        }
       },
       {
         "name": "超级药",
-        "effect": "回复瓶的效果提升20%"
+        "effect": "回复瓶的效果提升20%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 4
+        }
       },
       {
         "name": "大团结",
-        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加"
+        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 5
+        }
       }
     ],
     "favoriteCategories": [
@@ -817,123 +1567,273 @@
     "battleSkills": [
       {
         "name": "肌肉锁链",
-        "effect": "可以通过取消御刃者武技 来使用御刃者武技"
+        "effect": "可以通过取消御刃者武技 来使用御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 1
+        }
       },
       {
         "name": "不屈意志",
-        "effect": "最大HP增加200"
+        "effect": "最大HP增加200",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 2
+        }
       },
       {
         "name": "俯卧撑一万次",
-        "effect": "力量增加20"
+        "effect": "力量增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 3
+        }
       },
       {
         "name": "战场老兵",
-        "effect": "自动攻击命中时 有10%的概率发生2次攻击"
+        "effect": "自动攻击命中时 有10%的概率发生2次攻击",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 4
+        }
       },
       {
         "name": "速肌强化1",
-        "effect": "战斗开始时可以使用 X键的御刃者武技"
+        "effect": "战斗开始时可以使用 X键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 1,
+          "position": 5
+        }
       },
       {
         "name": "以太力量",
-        "effect": "以太力增加20"
+        "effect": "以太力增加20",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 1
+        }
       },
       {
         "name": "肌肉精英",
-        "effect": "力量提升10%"
+        "effect": "力量提升10%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 2
+        }
       },
       {
         "name": "连击肌肉",
-        "effect": "取消时的伤害上升率增加 20%"
+        "effect": "取消时的伤害上升率增加 20%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 3
+        }
       },
       {
         "name": "速肌强化2",
-        "effect": "战斗开始时可以使用 Y键的御刃者武技"
+        "effect": "战斗开始时可以使用 Y键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 4
+        }
       },
       {
         "name": "守护者",
-        "effect": "最大HP提升10%"
+        "effect": "最大HP提升10%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 2,
+          "position": 5
+        }
       },
       {
         "name": "超回复",
-        "effect": "回复瓶的效果提升20%"
+        "effect": "回复瓶的效果提升20%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 1
+        }
       },
       {
         "name": "速肌强化3",
-        "effect": "战斗开始时可以使用 B键的御刃者武技"
+        "effect": "战斗开始时可以使用 B键的御刃者武技",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 2
+        }
       },
       {
         "name": "最后的男人",
-        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）"
+        "effect": "无法战斗时有50%的概率以HP1幸存 5秒内变为无敌状态（1次战斗仅限1次）",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 3
+        }
       },
       {
         "name": "巨大的手",
-        "effect": "救起对象的HP提升15%"
+        "effect": "救起对象的HP提升15%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 4
+        }
       },
       {
         "name": "以太肌肉",
-        "effect": "以太力提升10%"
+        "effect": "以太力提升10%",
+        "affinity": {
+          "chart": "表象牵绊",
+          "ring": 3,
+          "position": 5
+        }
       },
       {
         "name": "动力提升",
-        "effect": "将浮空的有效时间延长15%"
+        "effect": "将浮空的有效时间延长15%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 1
+        }
       },
       {
         "name": "迅猛肌肉",
-        "effect": "敏捷增加20"
+        "effect": "敏捷增加20",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 2
+        }
       },
       {
         "name": "靠得住的男人",
-        "effect": "发生暴击时 队伍槽少量增加"
+        "effect": "发生暴击时 队伍槽少量增加",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 3
+        }
       },
       {
         "name": "同伴支援",
-        "effect": "取消时所增加的必杀技 填充量提升20%"
+        "effect": "取消时所增加的必杀技 填充量提升20%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 4
+        }
       },
       {
         "name": "战斗感觉",
-        "effect": "灵巧增加20"
+        "effect": "灵巧增加20",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 1,
+          "position": 5
+        }
       },
       {
         "name": "肌肉王",
-        "effect": "力量提升10%"
+        "effect": "力量提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 1
+        }
       },
       {
         "name": "熟练技术",
-        "effect": "灵巧提升10%"
+        "effect": "灵巧提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 2
+        }
       },
       {
         "name": "复原力",
-        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量"
+        "effect": "自身的回复量提升10% 但不包括回复瓶的回复量",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 3
+        }
       },
       {
         "name": "肌肉回避",
-        "effect": "敏捷提升10%"
+        "effect": "敏捷提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 4
+        }
       },
       {
         "name": "向天祈祷",
-        "effect": "运气增加20"
+        "effect": "运气增加20",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 2,
+          "position": 5
+        }
       },
       {
         "name": "炫耀肌肉",
-        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加"
+        "effect": "当在必杀技的按键挑战上 获得Excellent时 队伍槽增加",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 1
+        }
       },
       {
         "name": "天命",
-        "effect": "运气提升10%"
+        "effect": "运气提升10%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 2
+        }
       },
       {
         "name": "运动回复",
-        "effect": "使用御刃者武技取代自动攻击时 HP回复3%"
+        "effect": "使用御刃者武技取代自动攻击时 HP回复3%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 3
+        }
       },
       {
         "name": "大声支援",
-        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%"
+        "effect": "在必杀技的按键挑战上成功时 牵绊的上升量提升25%",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 4
+        }
       },
       {
         "name": "一气呵成",
-        "effect": "连锁攻击结束时 队伍槽增加"
+        "effect": "连锁攻击结束时 队伍槽增加",
+        "affinity": {
+          "chart": "内心牵绊",
+          "ring": 3,
+          "position": 5
+        }
       }
     ],
     "favoriteCategories": [

@@ -5,7 +5,10 @@ export type XC2AcquisitionType = "story" | "resonance" | "quest" | "special" | "
 export type XC2Character = {
   id: string; kind: "driver" | "blade"; name: string; englishName: string; arc: XC2CharacterArc; group: string;
   element: string; role: string; weapon: string; acquisition: string; acquisitionType: XC2AcquisitionType;
-  description: string; fieldSkills: string[]; battleSkills: Array<{ name: string; effect: string }>;
+  description: string; fieldSkills: string[]; battleSkills: Array<{
+    name: string; effect: string;
+    affinity?: { chart: "表象牵绊" | "内心牵绊"; ring: number; position: number };
+  }>;
   favoriteCategories: string[]; favoriteItems: string[]; auxCores: number | null; statModifier: string;
   partners: string[]; image: string; imageSource: string; sourceUrl: string; updatedAt: string;
   spoiler: boolean; playable: boolean; collectible: boolean; isForm: boolean; questIds: string[];

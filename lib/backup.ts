@@ -9,6 +9,7 @@ export const backupColumns = {
   xc1_location_progress: "location_id visited bookmarked",
   xc2_character_progress: "character_id collected bookmarked",
   xc2_location_progress: "location_id visited bookmarked",
+  xc3_location_progress: "location_id visited bookmarked",
   app_metadata: "key value",
 } as const;
 export type BackupTable = keyof typeof backupColumns;
@@ -23,9 +24,13 @@ export type ArchiveBackup = {
 
 export function validateBackup(value: unknown): ArchiveBackup {
   if (!value || typeof value !== "object") throw new Error("不是完整备份文件");
-  const b = value as ArchiveBackup;
+  let b = value as ArchiveBackup;
   if (b.format !== "xeno-archive-backup" || b.version !== 1 || !b.tables
     || typeof b.exportedAt !== "string") throw new Error("备份格式或版本不支持，请使用完整备份 JSON");
+  // Backups made before XC3 locations have no records for the new directory.
+  if (!Object.hasOwn(b.tables, "xc3_location_progress")) {
+    b = { ...b, tables: { ...b.tables, xc3_location_progress: [] } };
+  }
   if (Object.keys(b.tables).length !== backupTables.length) throw new Error("备份表不完整或包含未知表");
   for (const table of backupTables) {
     const rows = b.tables[table];

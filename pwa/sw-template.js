@@ -45,6 +45,7 @@ self.addEventListener("activate", (event) => {
   })());
 });
 self.addEventListener("message", (event) => {
+  if (event.data?.type === "VERSION") event.ports?.[0]?.postMessage({ version: VERSION });
   if (event.data?.type === "SKIP_WAITING") event.waitUntil(self.skipWaiting());
   if (event.data?.type === "STATUS") event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
@@ -54,6 +55,11 @@ self.addEventListener("message", (event) => {
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (event.request.method !== "GET" || url.origin !== BASE.origin || !url.pathname.startsWith(BASE.pathname)) return;
+  // Version checks must reach the deployment, never a previous offline cache.
+  if (url.pathname === new URL("version.json", BASE).pathname) {
+    event.respondWith(fetch(new Request(event.request, { cache: "no-store" })));
+    return;
+  }
   event.respondWith((async () => {
     const cache = await caches.open(CACHE);
     // All app navigation uses the same shell; query parameters do not change it.

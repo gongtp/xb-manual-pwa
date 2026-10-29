@@ -52,7 +52,8 @@ function worker({ failDownload = false } = {}) {
   }
   async function request(url, mode = "cors") {
     let response;
-    listeners.fetch({ request: { method: "GET", mode, url }, respondWith: (value) => { response = value; } });
+    const request = mode === "navigate" ? { method: "GET", mode, url } : new Request(url);
+    listeners.fetch({ request, respondWith: (value) => { response = value; } });
     return response;
   }
   return { event, request, stores, downloads, messages, origin };
@@ -89,6 +90,26 @@ test("failed offline download cannot mark ready or destroy an older working cach
   assert.deepEqual([...w.stores.keys()], [old]);
   assert.ok(w.messages.some((m) => m.type === "CACHE_FAILED"));
   assert.ok(!w.messages.some((m) => m.type === "CACHE_READY"));
+});
+
+test("published version matches the shell and worker, and manual checks always use the network", async () => {
+  const release = JSON.parse(await readFile(new URL("version.json", root), "utf8"));
+  assert.match(release.version, /^[a-f0-9]{16}$/);
+  assert.ok(Number.isFinite(Date.parse(release.builtAt)));
+  const html = await readFile(new URL("index.html", root), "utf8");
+  assert.ok(html.includes(`name="app-version" content="${release.version}"`));
+  const w = worker();
+  await w.event("install");
+  let reported;
+  await w.event("message", { data: { type: "VERSION" }, ports: [{ postMessage: (data) => { reported = data.version; } }] });
+  assert.equal(reported, release.version);
+  assert.ok(!w.downloads.some((url) => url.includes("version.json")));
+  const count = w.downloads.length;
+  for (let i = 0; i < 2; i++) {
+    const result = await w.request(`${w.origin}${manifest.scope}version.json?check=${i}`);
+    assert.equal((await result.json()).version, release.version);
+  }
+  assert.equal(w.downloads.length, count + 2);
 });
 
 test("static output excludes private database files and server bundles", async () => {

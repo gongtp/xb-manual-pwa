@@ -4,7 +4,7 @@ import { dataFetch } from "../lib/data-client";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { xc1Atlas, xc1RegionGuides } from "../lib/xc1-location-data";
 import {
-  locationKindNames, matchesLocationFilters, nearbyLandmarks, npcsAtLocation, projectLocations,
+  locationKindNames, matchesLocationFilters, nearbyLandmarks, npcsAtLocation,
   questBelongsToRegion, type XC1LocationArc, type XC1LocationFilters, type XC1LocationProgress,
 } from "../lib/xc1-location";
 import type { Quest } from "../lib/quest";
@@ -48,7 +48,12 @@ export default function XC1LocationDirectory({ view, onViewChange, quests, npcs,
   const pending = useRef(false);
   const detailRef = useRef<HTMLElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
-  const { filters, arc } = view;
+  const [mobileDetail, setMobileDetail] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const listScroll = useRef(0);
+  const lastLocationButton = useRef<HTMLButtonElement | null>(null);
+  const { filters: savedFilters, arc } = view;
+  const filters = useMemo(() => ({ ...emptyFilters, query: savedFilters.query }), [savedFilters.query]);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -79,10 +84,11 @@ export default function XC1LocationDirectory({ view, onViewChange, quests, npcs,
   const region = visibleRegions.find((item) => item.id === view.regionId) ?? visibleRegions[0];
   const regionLocations = arcLocations.filter((location) => location.regionId === region?.id);
   const visibleLocations = matchingByRegion.get(region?.id ?? "") ?? [];
-  const selected = visibleLocations.find((location) => location.id === view.locationId) ?? visibleLocations[0];
+  const totalPages = Math.max(1, Math.ceil(visibleLocations.length / 10));
+  const activePage = Math.min(currentPage, totalPages);
+  const pageLocations = visibleLocations.slice((activePage - 1) * 10, activePage * 10);
+  const selected = visibleLocations.find((location) => location.id === view.locationId) ?? pageLocations[0];
   const guide = region ? xc1RegionGuides[region.id] : undefined;
-  const markers = useMemo(() => projectLocations(regionLocations), [regionLocations]);
-  const visibleIds = new Set(visibleLocations.map((item) => item.id));
   const visitedCount = arcLocations.filter((item) => progress[item.id]?.visited).length;
   const regionVisited = regionLocations.filter((item) => progress[item.id]?.visited).length;
   const filterActive = Boolean(filters.query || filters.kind !== "all" || filters.visited !== "all" || filters.bookmarked);
@@ -94,16 +100,41 @@ export default function XC1LocationDirectory({ view, onViewChange, quests, npcs,
   const trackingUnavailable = loading || !progressReady;
 
   function updateFilters(patch: Partial<XC1LocationFilters>) {
-    onViewChange({ ...view, filters: { ...filters, ...patch } });
+    changeDirectoryView({ ...view, filters: { ...filters, ...patch } });
+  }
+  function changeDirectoryView(nextView: XC1LocationView) {
+    setCurrentPage(1);
+    onViewChange(nextView);
     listRef.current?.scrollTo({ top: 0 });
   }
-  function selectLocation(id: string, fromMap = false) {
+  function changePage(page: number) {
+    setCurrentPage(Math.max(1, Math.min(page, totalPages)));
+    lastLocationButton.current = null;
+    requestAnimationFrame(() => {
+      listRef.current?.scrollTo({ top: 0 });
+      if (window.matchMedia("(max-width: 780px)").matches) {
+        listRef.current?.scrollIntoView({ block: "start", behavior: "instant" });
+      }
+    });
+  }
+  function selectLocation(id: string, button: HTMLButtonElement) {
+    listScroll.current = window.scrollY;
+    lastLocationButton.current = button;
     onViewChange({ ...view, regionId: region?.id ?? view.regionId, locationId: id });
-    if (fromMap) listRef.current?.querySelector<HTMLElement>(`[data-location-id="${id}"]`)?.scrollIntoView({ block: "nearest" });
-    if (window.matchMedia("(max-width: 760px)").matches) {
-      detailRef.current?.scrollIntoView({ block: "start", behavior: "smooth" });
-      detailRef.current?.focus({ preventScroll: true });
+    setMobileDetail(true);
+    if (window.matchMedia("(max-width: 780px)").matches) {
+      requestAnimationFrame(() => {
+        window.scrollTo({ top: 0, behavior: "instant" });
+        detailRef.current?.focus({ preventScroll: true });
+      });
     }
+  }
+  function returnToLocations() {
+    setMobileDetail(false);
+    requestAnimationFrame(() => {
+      lastLocationButton.current?.focus({ preventScroll: true });
+      window.scrollTo({ top: listScroll.current, behavior: "instant" });
+    });
   }
   async function saveProgress(id: string, patch: { visited?: boolean; bookmarked?: boolean }) {
     if (pending.current || trackingUnavailable) return;
@@ -124,7 +155,8 @@ export default function XC1LocationDirectory({ view, onViewChange, quests, npcs,
     }
   }
 
-  return <div className="xc1-atlas">
+  return <div className={`xc1-atlas ${mobileDetail && selected ? "atlas-mobile-detail" : "atlas-mobile-list"}`}>
+    <div className="atlas-mobile-back"><button type="button" onClick={returnToLocations}><UiIcon name="chevron-left" size={18} />地点列表</button><span>{region?.name}</span></div>
     <header className="topbar atlas-topbar">
       <div className="workspace-breadcrumb"><span>资料库</span><UiIcon name="chevron-right" size={14} /><strong>异度神剑 1</strong></div>
       <label className="atlas-search"><UiIcon name="search" size={18} /><input data-archive-search aria-label="搜索地区或地点" placeholder="搜索本篇章的地区、地点或英文名…" value={filters.query} onChange={(event) => updateFilters({ query: event.target.value })} />{filters.query && <button aria-label="清空搜索" onClick={() => updateFilters({ query: "" })}><UiIcon name="close" size={14} /></button>}</label>
@@ -137,7 +169,7 @@ export default function XC1LocationDirectory({ view, onViewChange, quests, npcs,
         <div className="atlas-heading-tools">
           <div className="atlas-arcs" role="group" aria-label="地点篇章">
             {(["main", "futureConnected"] as const).map((value) => <button key={value} aria-pressed={arc === value} className={arc === value ? "active" : ""}
-              onClick={() => onViewChange({ arc: value, regionId: "", locationId: "", filters: emptyFilters })}>
+              onClick={() => changeDirectoryView({ arc: value, regionId: "", locationId: "", filters: emptyFilters })}>
               {value === "main" ? "本篇" : "相连的未来"}
             </button>)}
           </div>
@@ -145,18 +177,10 @@ export default function XC1LocationDirectory({ view, onViewChange, quests, npcs,
         </div>
       </section>
 
-      <section className="atlas-toolbar" aria-label="地点筛选">
-        <label className="atlas-select"><span>类型</span><select aria-label="地点类型" value={filters.kind} onChange={(event) => updateFilters({ kind: event.target.value as XC1LocationFilters["kind"] })}><option value="all">全部类型</option><option value="landmark">地标</option><option value="location">地点</option><option value="secret">秘境</option></select></label>
-        <label className="atlas-select"><span>探索</span><select aria-label="探索状态" disabled={trackingUnavailable} value={filters.visited} onChange={(event) => updateFilters({ visited: event.target.value as XC1LocationFilters["visited"] })}><option value="all">全部状态</option><option value="unvisited">未探索</option><option value="visited">已探索</option></select></label>
-        <button className={`atlas-bookmark-filter ${filters.bookmarked ? "active" : ""}`} aria-pressed={filters.bookmarked} disabled={trackingUnavailable} onClick={() => updateFilters({ bookmarked: !filters.bookmarked })}><Star filled={filters.bookmarked} />仅收藏</button>
-        {filterActive && <button className="atlas-text-button" onClick={() => onViewChange({ ...view, filters: emptyFilters })}><UiIcon name="refresh" size={14} />重置筛选</button>}
-        <span className="atlas-toolbar-summary">{filterActive ? `找到 ${matchCount} 个地点` : `${arcRegions.length} 个地区 · ${arcLocations.length} 个地点`}</span>
-      </section>
-
       {error && <div className="atlas-error" role="alert"><UiIcon name="alert" size={17} /><span>{error} 地点资料仍可浏览。</span><button onClick={() => { setError(""); setLoading(true); setReload((value) => value + 1); }}>重新读取</button></div>}
       <span className="atlas-sr-only" role="status">{announcement}</span>
 
-      {!visibleRegions.length ? <section className="atlas-empty"><UiIcon name="search" size={38} /><h2>没有找到匹配的地点</h2><p>当前搜索范围：{arc === "main" ? "本篇" : "相连的未来"}。试试其他关键词，或清除筛选条件。</p><button className="primary-button" onClick={() => onViewChange({ ...view, filters: emptyFilters })}>清除筛选</button></section> :
+      {!visibleRegions.length ? <section className="atlas-empty"><UiIcon name="search" size={38} /><h2>没有找到匹配的地点</h2><p>当前搜索范围：{arc === "main" ? "本篇" : "相连的未来"}。试试其他关键词，或清除筛选条件。</p><button className="primary-button" onClick={() => updateFilters(emptyFilters)}>清除筛选</button></section> :
         <div className="atlas-workspace">
           <nav className="atlas-regions" aria-label="地区目录">
             <header><strong>地区目录</strong><span>{filterActive ? `${visibleRegions.length} / ` : ""}{arcRegions.length}</span></header>
@@ -165,7 +189,7 @@ export default function XC1LocationDirectory({ view, onViewChange, quests, npcs,
                 const all = arcLocations.filter((location) => location.regionId === item.id);
                 const visited = all.filter((location) => progress[location.id]?.visited).length;
                 return <button key={item.id} className={`atlas-region ${item.id === region.id ? "active" : ""}`} aria-current={item.id === region.id ? "true" : undefined}
-                  onClick={() => { onViewChange({ ...view, regionId: item.id, locationId: "" }); listRef.current?.scrollTo({ top: 0 }); }}>
+                  onClick={() => { changeDirectoryView({ ...view, regionId: item.id, locationId: "" }); listRef.current?.scrollTo({ top: 0 }); }}>
                   <span className="atlas-region-index">{String(arcRegions.indexOf(item) + 1).padStart(2, "0")}</span>
                   <span className="atlas-region-label"><strong>{item.name}{item.stage && <small> · {item.stage}</small>}</strong><span>{filterActive ? `${matchingByRegion.get(item.id)?.length} 个匹配` : `${all.length} 个地点`}<i />{trackingUnavailable ? "—" : `${visited} 已探索`}</span></span>
                   {visited === all.length ? <UiIcon name="check" size={15} /> : <UiIcon name="chevron-right" size={14} />}
@@ -175,6 +199,9 @@ export default function XC1LocationDirectory({ view, onViewChange, quests, npcs,
           </nav>
 
           <section className="atlas-explorer" aria-label="地区地点">
+            <label className="atlas-region-picker"><span>选择地区（{arcRegions.length} 个地区 · {arcLocations.length} 个地点）</span><select value={region.id} onChange={(event) => { changeDirectoryView({ ...view, regionId: event.target.value, locationId: "" }); listRef.current?.scrollTo({ top: 0 }); }}>
+              {visibleRegions.map((item) => <option key={item.id} value={item.id}>{item.name}{item.stage ? ` · ${item.stage}` : ""}</option>)}
+            </select></label>
             <header className="atlas-region-hero">
               <div className="atlas-region-kicker"><span>{arc === "main" ? "本篇" : "相连的未来"} / {region.stage || "探索档案"}</span><span>{String(arcRegions.indexOf(region) + 1).padStart(2, "0")}</span></div>
               <h2>{region.name}</h2><p className="atlas-region-english">{region.englishName}</p><p className="atlas-region-description" title={guide?.description}>{guide?.description}</p>
@@ -182,28 +209,18 @@ export default function XC1LocationDirectory({ view, onViewChange, quests, npcs,
               <div className="atlas-region-summary"><span>{regionLocations.filter((item) => item.kind === "landmark").length} 地标</span><span>{regionLocations.filter((item) => item.kind === "location").length} 地点</span><span>{regionLocations.filter((item) => item.kind === "secret").length} 秘境</span><span>{trackingUnavailable ? "—" : `${regionVisited} / ${regionLocations.length} 已探索`}</span></div>
             </header>
 
-            <section className="atlas-map-panel" aria-label="地点位置分布">
-              <header><strong>地点分布</strong><span>点击标记查看详情</span><span className="atlas-north">↑ N</span></header>
-              <div className="atlas-map" role="group" aria-label={`${region.name}平面位置示意图`}>
-                {markers.map(({ location, left, top }) => <button key={location.id} title={`${location.name} · ${locationKindNames[location.kind]}`}
-                  aria-label={`地图：${location.name}（${locationKindNames[location.kind]}）`} aria-pressed={selected?.id === location.id}
-                  disabled={!visibleIds.has(location.id)} onClick={() => selectLocation(location.id, true)}
-                  className={`atlas-marker ${location.kind} ${selected?.id === location.id ? "selected" : ""} ${progress[location.id]?.visited ? "visited" : ""}`}
-                  style={{ left: `${left}%`, top: `${top}%` }}><span />
-                </button>)}
-                <span className="atlas-map-caption">{selected?.name}</span>
-              </div>
-              <div className="atlas-map-legend">{(["landmark", "location", "secret"] as const).map((kind) => <span key={kind}><i className={`atlas-symbol ${kind}`} />{locationKindNames[kind]}</span>)}<small>实际坐标投影 · 无地形路径</small></div>
-            </section>
-
             <div className="atlas-location-list-heading"><strong>探索清单</strong><span role="status">本地区 {visibleLocations.length} 个{filterActive && ` · 全篇章匹配 ${matchCount} 个`}</span></div>
             <div className="atlas-location-list" ref={listRef}>
-              {visibleLocations.map((location) => <div data-location-id={location.id} className={`atlas-location-row ${location.id === selected?.id ? "active" : ""}`} key={location.id}>
-                <button className="atlas-visit-check" aria-label={`${progress[location.id]?.visited ? "取消探索" : "标记已探索"}：${location.name}`} aria-pressed={Boolean(progress[location.id]?.visited)} disabled={trackingUnavailable || Boolean(saving)} onClick={() => saveProgress(location.id, { visited: !progress[location.id]?.visited })}>{progress[location.id]?.visited && <UiIcon name="check" size={17} />}</button>
-                <button className="atlas-location-select" onClick={() => selectLocation(location.id)} aria-pressed={selected?.id === location.id}><span><strong>{location.name}</strong>{progress[location.id]?.bookmarked && <Star filled />}</span><small>{location.englishName}</small></button>
+              {pageLocations.map((location) => <div data-location-id={location.id} className={`atlas-location-row ${location.id === selected?.id ? "active" : ""}`} key={location.id}>
+                <button className="atlas-location-select" onClick={(event) => selectLocation(location.id, event.currentTarget)} aria-pressed={selected?.id === location.id}><span><strong>{location.name}</strong>{progress[location.id]?.bookmarked && <Star filled />}</span><small>{location.englishName}</small></button>
                 <span className={`atlas-kind ${location.kind}`}>{locationKindNames[location.kind]}</span>
               </div>)}
             </div>
+            {visibleLocations.length > 0 && <nav className="atlas-pagination" aria-label="地点列表分页">
+              <button type="button" disabled={activePage === 1} onClick={() => changePage(activePage - 1)}><UiIcon name="chevron-left" size={16} />上一页</button>
+              <span aria-live="polite">{activePage} / {totalPages} 页</span>
+              <button type="button" disabled={activePage === totalPages} onClick={() => changePage(activePage + 1)}>下一页<UiIcon name="chevron-right" size={16} /></button>
+            </nav>}
           </section>
 
           {selected && <aside className="atlas-detail" ref={detailRef} tabIndex={-1} aria-label="地点详情">

@@ -2,6 +2,9 @@
 import { dataFetch } from "../lib/data-client";
 import DataTools from "./data-tools";
 import "./mobile.css";
+import "./xc2-quests.css";
+import "./xc3-quests.css";
+import "./xcx-quests.css";
 
 import { ChangeEvent, FormEvent, useCallback, useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import GameNotes, { MarkdownPreview } from "./game-notes";
@@ -9,7 +12,10 @@ import { ArchiveLogo, UiIcon, type IconName } from "./ui-icons";
 import XC1NpcDirectory from "./xc1-npcs";
 import XC1LocationDirectory, { initialLocationView, type XC1LocationView } from "./xc1-locations";
 import XC2CharacterDirectory from "./xc2-characters";
+import XC3CharacterDirectory from "./xc3-characters";
 import XC2LocationDirectory from "./xc2-locations";
+import XC3LocationDirectory from "./xc3-locations";
+import { initialXC3LocationView, type XC3LocationView } from "../lib/xc3-location";
 import { initialXC2LocationView, type XC2LocationView } from "../lib/xc2-location";
 import {
   gameCodes,
@@ -46,7 +52,7 @@ type ImportReport = {
   records: Quest[];
 };
 
-type ActiveModule = "quests" | "notes" | "npcs" | "locations" | "xc2Characters" | "xc2Locations";
+type ActiveModule = "quests" | "notes" | "npcs" | "locations" | "xc2Characters" | "xc2Locations" | "xc3Characters" | "xc3Locations";
 
 type ExclusiveQuestInfo = {
   group: string;
@@ -85,9 +91,9 @@ const sidebarModulesByGame: Record<GameCode, SidebarModule[]> = {
   XC3: [
     { id: "quests", icon: "list", label: "任务资料", target: "quests" },
     { id: "notes", icon: "notebook", label: "玩法笔记", target: "notes" },
-    { id: "characters", icon: "users", label: "角色与英雄" },
+    { id: "characters", icon: "users", label: "角色与英雄", target: "xc3Characters" },
     { id: "classes", icon: "file", label: "职业与技能" },
-    { id: "locations", icon: "map", label: "地区与地点" },
+    { id: "locations", icon: "map", label: "地区与地点", target: "xc3Locations" },
   ],
 };
 
@@ -345,9 +351,11 @@ export default function Home() {
   const [xc1Npcs, setXc1Npcs] = useState<XC1Npc[]>([]);
   const [selectedId, setSelectedId] = useState("");
   const [selectedNpcId, setSelectedNpcId] = useState("");
+  const [npcInitialDetail, setNpcInitialDetail] = useState(false);
   const [gameFilter, setGameFilter] = useState<GameCode>("XC1");
   const [activeModule, setActiveModule] = useState<ActiveModule>("quests");
   const [locationView, setLocationView] = useState<XC1LocationView>(initialLocationView);
+  const [xc3LocationView, setXc3LocationView] = useState<XC3LocationView>(initialXC3LocationView);
   const [xc2LocationView, setXc2LocationView] = useState<XC2LocationView>(initialXC2LocationView);
   const [markerFilter, setMarkerFilter] = useState<MarkerFilter>("all");
   const [typeFilter, setTypeFilter] = useState("all");
@@ -485,12 +493,12 @@ export default function Home() {
     futureConnected: quests.filter((quest) => quest.game === "XC1" && getXC1Arc(quest.chapter) === "futureConnected").length,
   }), [quests]);
   const xc2ArcCounts = useMemo(() => ({
-    baseGame: quests.filter((quest) => quest.game === "XC2" && getQuestArc(quest) === "baseGame").length,
+    baseGame: quests.filter((quest) => quest.game === "XC2" && getQuestArc(quest) !== "torna").length,
     expansionPass: quests.filter((quest) => quest.game === "XC2" && getQuestArc(quest) === "expansionPass").length,
     torna: quests.filter((quest) => quest.game === "XC2" && getQuestArc(quest) === "torna").length,
   }), [quests]);
   const xc3ArcCounts = useMemo(() => ({
-    baseGame: quests.filter((quest) => quest.game === "XC3" && getQuestArc(quest) === "baseGame").length,
+    baseGame: quests.filter((quest) => quest.game === "XC3" && ["baseGame", "expansionPass"].includes(getQuestArc(quest) ?? "")).length,
     expansionPass: quests.filter((quest) => quest.game === "XC3" && getQuestArc(quest) === "expansionPass").length,
     futureRedeemed: quests.filter((quest) => quest.game === "XC3" && getQuestArc(quest) === "futureRedeemed").length,
   }), [quests]);
@@ -531,11 +539,14 @@ export default function Home() {
   }, [quests]);
   const types = useMemo(() => {
     const configured = questTypesByGame[gameFilter];
+    const isTorna = gameFilter === "XC2" && arcFilter === "torna";
     const imported = quests
       .filter((quest) => quest.game === gameFilter)
+      .filter((quest) => !isTorna || getQuestArc(quest) === "torna")
       .map((quest) => quest.type);
-    return [...new Set([...configured, ...imported])];
-  }, [gameFilter, quests]);
+    return [...new Set([...configured, ...imported])]
+      .filter((type) => !isTorna || imported.includes(type));
+  }, [arcFilter, gameFilter, quests]);
   const allRegions = useMemo(() => {
     const available = quests
       .filter((quest) => quest.game === gameFilter)
@@ -579,7 +590,11 @@ export default function Home() {
     });
     const exclusiveQuests = exclusivePool.filter((quest) => quest.isExclusive);
     return {
-      type: { all: typePool.length, counts: typeCounts },
+      type: {
+        all: typePool.length,
+        counts: typeCounts,
+        expansionPass: typePool.filter((quest) => getQuestArc(quest) === "expansionPass").length,
+      },
       arc: {
         all: arcPool.length,
         main: arcPool.filter((quest) => getQuestArc(quest) === "main").length,
@@ -672,9 +687,10 @@ export default function Home() {
     setQuery("");
     if (game !== "XC1" && (activeModule === "npcs" || activeModule === "locations")) setActiveModule("quests");
     if (game !== "XC2" && (activeModule === "xc2Characters" || activeModule === "xc2Locations")) setActiveModule("quests");
+    if (game !== "XC3" && (activeModule === "xc3Characters" || activeModule === "xc3Locations")) setActiveModule("quests");
     setMarkerFilter("all");
     setTypeFilter("all");
-    setArcFilter(game === "XC1" ? "main" : "all");
+    setArcFilter(game === "XC1" ? "main" : game === "XC2" || game === "XC3" ? "baseGame" : "all");
     setTimedFilter("all");
     setExclusiveFilter("all");
     setRegionFilter("all");
@@ -683,7 +699,7 @@ export default function Home() {
 
   function changeArcFilter(arc: QuestArcFilter) {
     setArcFilter(arc);
-    if (gameFilter === "XC1") {
+    if (gameFilter === "XC1" || gameFilter === "XC2" || gameFilter === "XC3") {
       setQuery("");
       setTypeFilter("all");
       setMarkerFilter("all");
@@ -697,7 +713,7 @@ export default function Home() {
   function resetQuestFilters() {
     setMarkerFilter("all");
     setTypeFilter("all");
-    if (gameFilter !== "XC1") setArcFilter("all");
+    if (gameFilter === "XCX") setArcFilter("all");
     setTimedFilter("all");
     setExclusiveFilter("all");
     setRegionFilter("all");
@@ -709,6 +725,7 @@ export default function Home() {
     const npc = npcByQuestId.get(questId);
     if (!npc) return;
     setSelectedNpcId(npc.id);
+    setNpcInitialDetail(true);
     setDetailOpen(false);
     setActiveModule("npcs");
   }
@@ -720,7 +737,7 @@ export default function Home() {
     setActiveModule("quests");
     setMarkerFilter("all");
     setTypeFilter("all");
-    setArcFilter(quest.game === "XC1" ? getXC1Arc(quest.chapter) ?? "main" : "all");
+    setArcFilter(quest.game === "XC1" ? getXC1Arc(quest.chapter) ?? "main" : quest.game === "XC2" ? getQuestArc(quest) === "torna" ? "torna" : "baseGame" : quest.game === "XC3" ? getQuestArc(quest) === "futureRedeemed" ? "futureRedeemed" : "baseGame" : "all");
     setTimedFilter("all");
     setExclusiveFilter("all");
     setRegionFilter("all");
@@ -971,7 +988,7 @@ export default function Home() {
   }
 
   return (
-    <main className="archive-app">
+    <main className="archive-app" data-game={gameFilter}>
       <header className="mobile-app-header">
         <label><span>异度资料库</span><select aria-label="切换作品" value={gameFilter} onChange={(event) => changeGameFilter(event.target.value as GameCode)}>
           {gameCodes.map((game) => <option key={game} value={game}>{gameNames[game]}</option>)}
@@ -981,7 +998,7 @@ export default function Home() {
       <nav className="mobile-tabbar" aria-label="手机栏目导航">
         {sidebarModulesByGame[gameFilter].filter((module) => module.target).map((module) => (
           <button key={module.id} aria-current={activeModule === module.target ? "page" : undefined}
-            onClick={() => { if (module.target) setActiveModule(module.target); window.scrollTo({ top: 0 }); }}>
+            onClick={() => { if (module.target) { setNpcInitialDetail(false); setActiveModule(module.target); } window.scrollTo({ top: 0 }); }}>
             <UiIcon name={module.icon} size={21} /><span>{module.label}</span>
           </button>
         ))}
@@ -1015,7 +1032,7 @@ export default function Home() {
                         className={module.target === activeModule ? "active" : ""}
                         disabled={!module.target}
                         key={module.id}
-                        onClick={() => module.target && setActiveModule(module.target)}
+                        onClick={() => { if (module.target) { setNpcInitialDetail(false); setActiveModule(module.target); } }}
                         aria-current={module.target === activeModule ? "page" : undefined}
                       >
                         <span className="line-icon"><UiIcon name={module.icon} size={16} /></span>
@@ -1034,7 +1051,7 @@ export default function Home() {
           <DataTools />
           <div className="database-card">
             <div className="database-card-title"><span><UiIcon name="database" size={17} /></span><strong>本地资料库</strong></div>
-            <p>{gameNames[gameFilter]}{activeModule === "quests" ? "任务资料库" : activeModule === "notes" ? "玩法笔记库" : activeModule === "locations" ? "探索地图册" : activeModule === "xc2Locations" ? "地区与地点目录" : activeModule === "xc2Characters" ? "角色与异刃图鉴" : "人物关联库"}已就绪</p>
+            <p>{gameNames[gameFilter]}{activeModule === "quests" ? "任务资料库" : activeModule === "notes" ? "玩法笔记库" : activeModule === "locations" ? "探索地图册" : (activeModule === "xc2Locations" || activeModule === "xc3Locations") ? "地区与地点目录" : activeModule === "xc2Characters" ? "角色与异刃图鉴" : activeModule === "xc3Characters" ? "角色与英雄目录" : "人物关联库"}已就绪</p>
             <small>SQLite · 本地保存</small>
             {activeModule === "quests" && <button onClick={resetInitialData} disabled={saving}><UiIcon name="refresh" size={14} />恢复初始数据</button>}
           </div>
@@ -1051,7 +1068,7 @@ export default function Home() {
               relatedLoading={loading || npcLoading}
               relatedError={databaseError || npcDatabaseError}
               onOpenQuest={openQuestFromNpc}
-              onOpenNpc={(id) => { setSelectedNpcId(id); setActiveModule("npcs"); }}
+              onOpenNpc={(id) => { setSelectedNpcId(id); setNpcInitialDetail(true); setActiveModule("npcs"); }}
             />
           : activeModule === "xc2Locations" && gameFilter === "XC2"
           ? <XC2LocationDirectory view={xc2LocationView} onViewChange={setXc2LocationView}
@@ -1060,12 +1077,18 @@ export default function Home() {
           ? <GameNotes game={gameFilter} key={gameFilter} onToast={setToast} />
           : activeModule === "xc2Characters" && gameFilter === "XC2"
           ? <XC2CharacterDirectory quests={quests.filter((quest) => quest.game === "XC2")} onOpenQuest={openQuestFromNpc} />
+          : activeModule === "xc3Locations" && gameFilter === "XC3"
+          ? <XC3LocationDirectory view={xc3LocationView} onViewChange={setXc3LocationView} quests={quests} relatedLoading={loading} relatedError={databaseError} onOpenQuest={openQuestFromNpc} />
+          : activeModule === "xc3Characters" && gameFilter === "XC3"
+          ? <XC3CharacterDirectory quests={quests} relatedLoading={loading} relatedError={databaseError} onOpenQuest={openQuestFromNpc} />
           : activeModule === "npcs"
             ? <XC1NpcDirectory
                 npcs={xc1Npcs}
                 quests={quests.filter((quest) => quest.game === "XC1")}
                 questLabels={questLabels.filter((label) => label.game === "XC1")}
                 selectedNpcId={selectedNpcId}
+                key={String(npcInitialDetail)}
+                initialDetail={npcInitialDetail}
                 loading={npcLoading}
                 error={npcDatabaseError}
                 onSelectNpc={setSelectedNpcId}
@@ -1087,7 +1110,7 @@ export default function Home() {
           </div>
         </header>
 
-        <div className={`content quest-content${gameFilter === "XC1" ? " xc1-quest-content" : ""}`}>
+        <div className={`content quest-content${gameFilter === "XC1" ? " xc1-quest-content" : gameFilter === "XC2" ? " xc2-quest-content" : gameFilter === "XC3" ? " xc3-quest-content" : " xcx-quest-content"}`}>
           {gameFilter === "XC1" ? (
             <nav className="xc1-quest-editions" aria-label="选择任务篇章">
               {(["main", "futureConnected"] as const).map((arc) => (
@@ -1097,41 +1120,43 @@ export default function Home() {
                 </button>
               ))}
             </nav>
-          ) : <section className="page-heading quest-heading">
-            <div>
-              <h1>任务资料</h1>
-              {gameFilter === "XC2"
-                  ? <p>已收录 {gameQuests.length} 条任务 · 本篇 {xc2ArcCounts.baseGame} 条、扩展票追加 {xc2ArcCounts.expansionPass} 条、《黄金之国伊拉》{xc2ArcCounts.torna} 条。</p>
-                  : gameFilter === "XC3"
-                    ? <p>已收录 {gameQuests.length} 条任务 · 本篇 {xc3ArcCounts.baseGame} 条、扩展票追加 {xc3ArcCounts.expansionPass} 条、《崭新的未来》{xc3ArcCounts.futureRedeemed} 条。</p>
-                    : <p>Nintendo Switch · 终极版 · 简体中文 · 已收录 {gameQuests.length} 条任务（含第 13 章）</p>}
-            </div>
-          </section>}
+          ) : gameFilter === "XC2" ? (
+            <nav className="xc2-quest-editions" aria-label="选择任务篇章">
+              {(["baseGame", "torna"] as const).map((arc) => (
+                <button key={arc} type="button" aria-pressed={arcFilter === arc} onClick={() => changeArcFilter(arc)}>
+                  <span>{questArcNames[arc]}</span>
+                  <small>{arc === "baseGame" ? "含扩展票任务" : "追加篇章"} · {xc2ArcCounts[arc]} 条</small>
+                </button>
+              ))}
+            </nav>
+          ) : gameFilter === "XC3" ? (
+            <nav className="xc3-quest-editions" aria-label="选择任务篇章">
+              {(["baseGame", "futureRedeemed"] as const).map((arc) => (
+                <button key={arc} type="button" aria-pressed={arcFilter === arc} onClick={() => changeArcFilter(arc)}>
+                  <span>{questArcNames[arc]}</span>
+                  <small>{arc === "baseGame" ? "含扩展票任务" : "追加篇章"} · {xc3ArcCounts[arc]} 条</small>
+                </button>
+              ))}
+            </nav>
+          ) : null}
 
           {databaseError && <div className="database-error"><strong>数据库连接失败</strong><span>{databaseError}</span></div>}
 
+          <div className={gameFilter === "XCX" ? "xcx-list-tools" : "quest-list-tools"}>
+          {gameFilter === "XCX" && <p className="xcx-task-count" role="status">{loading ? "正在读取任务…" : <>共 <strong>{gameQuests.length}</strong> 条任务 · 含第 13 章{visibleQuests.length !== gameQuests.length && <span> · 匹配 {visibleQuests.length} 条</span>}</>}</p>}
           <button className="mobile-filter-toggle secondary-button" aria-expanded={mobileFiltersOpen} aria-controls="quest-filters" onClick={() => setMobileFiltersOpen(!mobileFiltersOpen)}>
             <UiIcon name="search" size={16} />{mobileFiltersOpen ? "收起筛选" : "筛选任务"}
-            {[typeFilter, gameFilter === "XC1" ? "all" : arcFilter, timedFilter, exclusiveFilter, regionFilter, markerFilter].some((value) => value !== "all") && <span> · 已筛选</span>}
+            {[typeFilter, gameFilter === "XCX" ? arcFilter : "all", timedFilter, exclusiveFilter, regionFilter, markerFilter].some((value) => value !== "all") && <span> · 已筛选</span>}
           </button>
+          </div>
           <section id="quest-filters" className={`filterbar ${mobileFiltersOpen ? "mobile-filters-open" : ""}`} aria-label="任务筛选">
             <div className="filter-controls">
               <label>任务类型<select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setCurrentPage(1); }}>
                 <option value="all">全部类型（{filterFacets.type.all}）</option>
                 {types.map((type) => <option value={type} key={type}>{type}（{filterFacets.type.counts.get(type) ?? 0}）</option>)}
+                {gameFilter === "XC2" && arcFilter !== "torna" && <option value="xc2-expansion-pass">扩展票任务（{filterFacets.type.expansionPass}）</option>}
+                {gameFilter === "XC3" && arcFilter !== "futureRedeemed" && <option value="xc3-expansion-pass">扩展票任务（{filterFacets.type.expansionPass}）</option>}
               </select></label>
-              {gameFilter === "XC2" && <label>内容归属<select value={arcFilter} onChange={(event) => changeArcFilter(event.target.value as QuestArcFilter)}>
-                <option value="all">全部内容（{filterFacets.arc.all}）</option>
-                <option value="baseGame">本篇（{filterFacets.arc.baseGame}）</option>
-                <option value="expansionPass">扩展票追加（{filterFacets.arc.expansionPass}）</option>
-                <option value="torna">黄金之国伊拉（{filterFacets.arc.torna}）</option>
-              </select></label>}
-              {gameFilter === "XC3" && <label>内容归属<select value={arcFilter} onChange={(event) => changeArcFilter(event.target.value as QuestArcFilter)}>
-                <option value="all">全部内容（{filterFacets.arc.all}）</option>
-                <option value="baseGame">本篇（{filterFacets.arc.baseGame}）</option>
-                <option value="expansionPass">扩展票追加（{filterFacets.arc.expansionPass}）</option>
-                <option value="futureRedeemed">崭新的未来（{filterFacets.arc.futureRedeemed}）</option>
-              </select></label>}
               {supportsQuestRiskFlags(gameFilter) && <label>{gameFilter === "XCX" ? "接取期限" : "是否限时"}<select value={timedFilter} onChange={(event) => { setTimedFilter(event.target.value as BinaryQuestFilter); setCurrentPage(1); }}>
                 <option value="all">不限（{filterFacets.timed.all}条）</option>
                 <option value="yes">是（{filterFacets.timed.yes}条）</option>
@@ -1157,7 +1182,6 @@ export default function Home() {
 
           <div className="workspace">
             <section className="records-panel" aria-label="任务目录">
-              {gameFilter !== "XC1" && <div className="records-toolbar"><div><UiIcon name="list" size={18} /><h2>任务目录</h2><span className="results-count">{loading ? "读取中" : `${visibleQuests.length} 条`}</span></div><span className="records-hint">点击任务查看详情</span></div>}
               <div className="records-table">
               <div className="records-head">
                 <span>任务记录</span><span>类型</span><span>地区</span><span>委托人</span><span>章节 / 进度</span><span>前置条件</span><span>手动备注</span><span>标记</span>
@@ -1193,16 +1217,16 @@ export default function Home() {
                         {quest.status === "complete" ? "✓" : quest.status === "incomplete" ? "!" : quest.status === "pending" ? "?" : "↯"}
                       </span>
                       <span className="record-main">
-                        <strong>{quest.name}</strong><small>{quest.id}{gameFilter !== "XC1" && <> · {getQuestArcLabel(quest)}</>}</small>
+                        <strong>{quest.name}</strong>
                         {supportsQuestRiskFlags(quest.game) && (isTimedQuest(quest) || quest.isExclusive) && <span className="quest-flags">
                           {isTimedQuest(quest) && <span className="quest-flag timed">{quest.game === "XCX" ? "接取期限" : "限时"}</span>}
                           {quest.isExclusive && <span className="quest-flag exclusive" title={exclusivePeerLabel ? `与 ${exclusivePeerLabel} 互斥` : "尚未关联互斥任务"}>
-                            {exclusivePeerLabel ? `互斥：${exclusivePeerLabel}` : "互斥（未关联）"}
+                            {gameFilter === "XC1" ? <><span className="xc1-card-exclusive-label">互斥</span><span className="xc1-exclusive-full">{exclusivePeerLabel ? `互斥：${exclusivePeerLabel}` : "互斥（未关联）"}</span></> : exclusivePeerLabel ? `互斥：${exclusivePeerLabel}` : "互斥（未关联）"}
                           </span>}
                         </span>}
                       </span>
                       <span className={`record-type quest-type ${getQuestTypeTone(quest.type)}`}>{quest.type}</span>
-                      <span className="record-location"><strong>{quest.region || "地区缺失"}</strong></span>
+                      <span className="record-location"><strong>{quest.region || "地区缺失"}</strong>{gameFilter === "XC1" && quest.giver.trim() && <span className="xc1-card-giver"> · {quest.giver}</span>}{gameFilter === "XC2" && quest.giver.trim() && <span className="xc2-card-giver"> · {quest.giver}</span>}{gameFilter === "XC3" && quest.giver.trim() && <span className="xc3-card-giver"> · {quest.giver}</span>}{gameFilter === "XCX" && quest.giver.trim() && <span className="xcx-card-giver"> · {quest.giver}</span>}</span>
                       {linkedNpc
                         ? <button
                             type="button"
@@ -1244,18 +1268,18 @@ export default function Home() {
                 <label>每页显示<select value={pageSize} onChange={(event) => { setPageSize(Number(event.target.value)); setCurrentPage(1); }}>
                   <option value="10">10</option><option value="20">20</option><option value="50">50</option>
                 </select>条</label>
-                <nav className={`pagination${gameFilter === "XC1" ? " xc1-desktop-pagination" : ""}`} aria-label="任务列表分页">
+                <nav className={`pagination${gameFilter === "XC1" ? " xc1-desktop-pagination" : gameFilter === "XC2" ? " xc2-desktop-pagination" : gameFilter === "XC3" ? " xc3-desktop-pagination" : " xcx-desktop-pagination"}`} aria-label="任务列表分页">
                   <button disabled={activePage === 1} onClick={() => setCurrentPage(Math.max(1, activePage - 1))} aria-label="上一页"><UiIcon name="chevron-left" size={15} /></button>
                   {paginationItems.map((item) => typeof item === "number"
                     ? <button className={item === activePage ? "active" : ""} key={item} onClick={() => setCurrentPage(item)} aria-current={item === activePage ? "page" : undefined}>{item}</button>
                     : <span key={item}>…</span>)}
                   <button disabled={activePage === totalPages} onClick={() => setCurrentPage(Math.min(totalPages, activePage + 1))} aria-label="下一页"><UiIcon name="chevron-right" size={15} /></button>
                 </nav>
-                {gameFilter === "XC1" && <nav className="xc1-phone-pagination" aria-label="任务列表分页">
+                <nav className={gameFilter === "XC1" ? "xc1-phone-pagination" : gameFilter === "XC2" ? "xc2-phone-pagination" : gameFilter === "XC3" ? "xc3-phone-pagination" : "xcx-phone-pagination"} aria-label="任务列表分页">
                   <button type="button" disabled={activePage === 1} onClick={() => setCurrentPage(activePage - 1)}><UiIcon name="chevron-left" size={16} />上一页</button>
                   <span aria-live="polite"><strong>{activePage}</strong><span> / {totalPages} 页</span></span>
                   <button type="button" disabled={activePage === totalPages} onClick={() => setCurrentPage(activePage + 1)}>下一页<UiIcon name="chevron-right" size={16} /></button>
-                </nav>}
+                </nav>
               </footer>}
             </section>
 

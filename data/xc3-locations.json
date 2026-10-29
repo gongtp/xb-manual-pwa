@@ -1,0 +1,5852 @@
+{
+  "regions": [
+    {
+      "id": "XC3-REGION-0",
+      "name": "亚艾提亚地区",
+      "arc": "baseGame",
+      "chapter": "本篇",
+      "description": "按游戏地图分区浏览地标、地点与休息地点。",
+      "caution": "部分地点受剧情、任务或场景技能限制。",
+      "sourceUrl": "https://xenoblade3.cn/地点"
+    },
+    {
+      "id": "XC3-REGION-1",
+      "name": "佛尼斯地区",
+      "arc": "baseGame",
+      "chapter": "本篇",
+      "description": "按游戏地图分区浏览地标、地点与休息地点。",
+      "caution": "部分地点受剧情、任务或场景技能限制。",
+      "sourceUrl": "https://xenoblade3.cn/地点"
+    },
+    {
+      "id": "XC3-REGION-2",
+      "name": "潘特拉斯地区",
+      "arc": "baseGame",
+      "chapter": "本篇",
+      "description": "按游戏地图分区浏览地标、地点与休息地点。",
+      "caution": "部分地点受剧情、任务或场景技能限制。",
+      "sourceUrl": "https://xenoblade3.cn/地点"
+    },
+    {
+      "id": "XC3-REGION-3",
+      "name": "科维斯主堡地区",
+      "arc": "baseGame",
+      "chapter": "本篇",
+      "description": "按游戏地图分区浏览地标、地点与休息地点。",
+      "caution": "部分地点受剧情、任务或场景技能限制。",
+      "sourceUrl": "https://xenoblade3.cn/地点"
+    },
+    {
+      "id": "XC3-REGION-4",
+      "name": "嘉登西亚地区",
+      "arc": "baseGame",
+      "chapter": "本篇",
+      "description": "按游戏地图分区浏览地标、地点与休息地点。",
+      "caution": "部分地点受剧情、任务或场景技能限制。",
+      "sourceUrl": "https://xenoblade3.cn/地点"
+    },
+    {
+      "id": "XC3-REGION-5",
+      "name": "安格努斯主堡",
+      "arc": "baseGame",
+      "chapter": "本篇",
+      "description": "按游戏地图分区浏览地标、地点与休息地点。",
+      "caution": "部分地点受剧情、任务或场景技能限制。",
+      "sourceUrl": "https://xenoblade3.cn/地点"
+    },
+    {
+      "id": "XC3-REGION-6",
+      "name": "大剑",
+      "arc": "baseGame",
+      "chapter": "本篇",
+      "description": "按游戏地图分区浏览地标、地点与休息地点。",
+      "caution": "部分地点受剧情、任务或场景技能限制。",
+      "sourceUrl": "https://xenoblade3.cn/地点"
+    },
+    {
+      "id": "XC3-REGION-7",
+      "name": "始源",
+      "arc": "baseGame",
+      "chapter": "本篇",
+      "description": "按游戏地图分区浏览地标、地点与休息地点。",
+      "caution": "部分地点受剧情、任务或场景技能限制。",
+      "sourceUrl": "https://xenoblade3.cn/地点"
+    },
+    {
+      "id": "XC3-REGION-8",
+      "name": "都市",
+      "arc": "baseGame",
+      "chapter": "本篇",
+      "description": "按游戏地图分区浏览地标、地点与休息地点。",
+      "caution": "部分地点受剧情、任务或场景技能限制。",
+      "sourceUrl": "https://xenoblade3.cn/地点"
+    },
+    {
+      "id": "XC3-FR-REGION-0",
+      "name": "红之森",
+      "arc": "futureRedeemed",
+      "chapter": "森托姆尼亚地区",
+      "description": "已核对的探索地点与任务参考。",
+      "caution": "本篇章当前收录主要地点，尚非全地点清单；未核实类型的条目标为“地点参考”，不据此判断能否传送。",
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-FR-REGION-1",
+      "name": "阿玛内瑟尔高原",
+      "arc": "futureRedeemed",
+      "chapter": "森托姆尼亚地区",
+      "description": "已核对的探索地点与任务参考。",
+      "caution": "本篇章当前收录主要地点，尚非全地点清单；未核实类型的条目标为“地点参考”，不据此判断能否传送。",
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-FR-REGION-2",
+      "name": "望乡的盆地",
+      "arc": "futureRedeemed",
+      "chapter": "森托姆尼亚地区",
+      "description": "已核对的探索地点与任务参考。",
+      "caution": "本篇章当前收录主要地点，尚非全地点清单；未核实类型的条目标为“地点参考”，不据此判断能否传送。",
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-FR-REGION-3",
+      "name": "拉古纳利亚遗迹群",
+      "arc": "futureRedeemed",
+      "chapter": "森托姆尼亚地区",
+      "description": "已核对的探索地点与任务参考。",
+      "caution": "本篇章当前收录主要地点，尚非全地点清单；未核实类型的条目标为“地点参考”，不据此判断能否传送。",
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-FR-REGION-4",
+      "name": "黑之山",
+      "arc": "futureRedeemed",
+      "chapter": "森托姆尼亚地区",
+      "description": "已核对的探索地点与任务参考。",
+      "caution": "本篇章当前收录主要地点，尚非全地点清单；未核实类型的条目标为“地点参考”，不据此判断能否传送。",
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    }
+  ],
+  "locations": [
+    {
+      "id": "XC3-PLACE-ac85865a8e06",
+      "regionId": "XC3-REGION-0",
+      "name": "伊札纳平原",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%8A%E6%9C%AD%E7%BA%B3%E5%B9%B3%E5%8E%9F"
+    },
+    {
+      "id": "XC3-PLACE-32e597071b30",
+      "regionId": "XC3-REGION-0",
+      "name": "亚尔菲特溪谷",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BA%9A%E5%B0%94%E8%8F%B2%E7%89%B9%E6%BA%AA%E8%B0%B7"
+    },
+    {
+      "id": "XC3-PLACE-375a52fb0d5c",
+      "regionId": "XC3-REGION-0",
+      "name": "梅尔纳斯高地",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%A2%85%E5%B0%94%E7%BA%B3%E6%96%AF%E9%AB%98%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-445aa3e0ee10",
+      "regionId": "XC3-REGION-0",
+      "name": "米利库平原",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%B1%B3%E5%88%A9%E5%BA%93%E5%B9%B3%E5%8E%9F"
+    },
+    {
+      "id": "XC3-PLACE-f55d1ca96bdb",
+      "regionId": "XC3-REGION-0",
+      "name": "卡普托柯尔山岭",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8D%A1%E6%99%AE%E6%89%98%E6%9F%AF%E5%B0%94%E5%B1%B1%E5%B2%AD"
+    },
+    {
+      "id": "XC3-PLACE-448470310b31",
+      "regionId": "XC3-REGION-0",
+      "name": "不治原野",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%8D%E6%B2%BB%E5%8E%9F%E9%87%8E"
+    },
+    {
+      "id": "XC3-PLACE-0def3e43b6f9",
+      "regionId": "XC3-REGION-0",
+      "name": "罗佐古战场遗址",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BD%97%E4%BD%90%E5%8F%A4%E6%88%98%E5%9C%BA%E9%81%97%E5%9D%80"
+    },
+    {
+      "id": "XC3-PLACE-3992eb406a37",
+      "regionId": "XC3-REGION-0",
+      "name": "梅尔纳斯山道上层",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%A2%85%E5%B0%94%E7%BA%B3%E6%96%AF%E5%B1%B1%E9%81%93%E4%B8%8A%E5%B1%82"
+    },
+    {
+      "id": "XC3-PLACE-e4ab785fd9fa",
+      "regionId": "XC3-REGION-0",
+      "name": "克莱尔水脉",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%85%8B%E8%8E%B1%E5%B0%94%E6%B0%B4%E8%84%89"
+    },
+    {
+      "id": "XC3-PLACE-cc530f1e6781",
+      "regionId": "XC3-REGION-0",
+      "name": "9号殖民地 办公室",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/9%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E5%8A%9E%E5%85%AC%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-0b811c8f5228",
+      "regionId": "XC3-REGION-0",
+      "name": "臧克道路",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%87%A7%E5%85%8B%E9%81%93%E8%B7%AF"
+    },
+    {
+      "id": "XC3-PLACE-055fc3513f24",
+      "regionId": "XC3-REGION-0",
+      "name": "拉德拉斯道路",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%8B%89%E5%BE%B7%E6%8B%89%E6%96%AF%E9%81%93%E8%B7%AF"
+    },
+    {
+      "id": "XC3-PLACE-59ebd2e9ebde",
+      "regionId": "XC3-REGION-0",
+      "name": "绵绵薯田",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BB%B5%E7%BB%B5%E8%96%AF%E7%94%B0"
+    },
+    {
+      "id": "XC3-PLACE-0e4648f8c1d8",
+      "regionId": "XC3-REGION-0",
+      "name": "天眼大瀑布",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%A9%E7%9C%BC%E5%A4%A7%E7%80%91%E5%B8%83"
+    },
+    {
+      "id": "XC3-PLACE-454110c70cb2",
+      "regionId": "XC3-REGION-0",
+      "name": "奏鸣山丘",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A5%8F%E9%B8%A3%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-e48c4a402d65",
+      "regionId": "XC3-REGION-0",
+      "name": "火烈鸟的水池",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%81%AB%E7%83%88%E9%B8%9F%E7%9A%84%E6%B0%B4%E6%B1%A0"
+    },
+    {
+      "id": "XC3-PLACE-74bb4206e91a",
+      "regionId": "XC3-REGION-0",
+      "name": "夏维涅空洞",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%8F%E7%BB%B4%E6%B6%85%E7%A9%BA%E6%B4%9E"
+    },
+    {
+      "id": "XC3-PLACE-144a7ec5d547",
+      "regionId": "XC3-REGION-0",
+      "name": "贝雷杰地区",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B4%9D%E9%9B%B7%E6%9D%B0%E5%9C%B0%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-2a99ab55d2be",
+      "regionId": "XC3-REGION-0",
+      "name": "隐者小道",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9A%90%E8%80%85%E5%B0%8F%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-92d64c88b64b",
+      "regionId": "XC3-REGION-0",
+      "name": "狼兽巢穴",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%8B%BC%E5%85%BD%E5%B7%A2%E7%A9%B4"
+    },
+    {
+      "id": "XC3-PLACE-74c64ec9951c",
+      "regionId": "XC3-REGION-0",
+      "name": "红紫仙境",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BA%A2%E7%B4%AB%E4%BB%99%E5%A2%83"
+    },
+    {
+      "id": "XC3-PLACE-fd5158049e48",
+      "regionId": "XC3-REGION-0",
+      "name": "艾尔嘉雷斯地下洞窟",
+      "area": "艾尔嘉雷斯地下洞窟",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%89%BE%E5%B0%94%E5%98%89%E9%9B%B7%E6%96%AF%E5%9C%B0%E4%B8%8B%E6%B4%9E%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-1040b6a63de9",
+      "regionId": "XC3-REGION-0",
+      "name": "梅尔纳斯山道下层",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%A2%85%E5%B0%94%E7%BA%B3%E6%96%AF%E5%B1%B1%E9%81%93%E4%B8%8B%E5%B1%82"
+    },
+    {
+      "id": "XC3-PLACE-e8356cc95257",
+      "regionId": "XC3-REGION-0",
+      "name": "9号殖民地",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/9%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-5e3fb63605b7",
+      "regionId": "XC3-REGION-0",
+      "name": "伽玛殖民地",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%BD%E7%8E%9B%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-17c54e5b4d8b",
+      "regionId": "XC3-REGION-0",
+      "name": "欧米伽殖民地",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%AC%A7%E7%B1%B3%E4%BC%BD%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-7bca4e99394e",
+      "regionId": "XC3-REGION-0",
+      "name": "0号殖民地",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/0%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-730b97570225",
+      "regionId": "XC3-REGION-0",
+      "name": "伽玛殖民地 演习场",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%BD%E7%8E%9B%E6%AE%96%E6%B0%91%E5%9C%B0%20%E6%BC%94%E4%B9%A0%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-0e5ac43471bb",
+      "regionId": "XC3-REGION-0",
+      "name": "彼里艾拉丘陵",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%BD%BC%E9%87%8C%E8%89%BE%E6%8B%89%E4%B8%98%E9%99%B5"
+    },
+    {
+      "id": "XC3-PLACE-f60d27ab4a6a",
+      "regionId": "XC3-REGION-0",
+      "name": "穆穆尔山丘",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%A9%86%E7%A9%86%E5%B0%94%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-82b45a25b7a8",
+      "regionId": "XC3-REGION-0",
+      "name": "鬼哭洞",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%AC%BC%E5%93%AD%E6%B4%9E"
+    },
+    {
+      "id": "XC3-PLACE-17aa22c913cf",
+      "regionId": "XC3-REGION-0",
+      "name": "幽菈之道",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B9%BD%E8%8F%88%E4%B9%8B%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-e3b794c5a5bd",
+      "regionId": "XC3-REGION-0",
+      "name": "天空要塞",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%A9%E7%A9%BA%E8%A6%81%E5%A1%9E"
+    },
+    {
+      "id": "XC3-PLACE-b94eba2f039f",
+      "regionId": "XC3-REGION-0",
+      "name": "灯火山丘",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%81%AF%E7%81%AB%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-f9c37326ddf6",
+      "regionId": "XC3-REGION-0",
+      "name": "9号殖民地 背面入口",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/9%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E8%83%8C%E9%9D%A2%E5%85%A5%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-d3c2eeb0684b",
+      "regionId": "XC3-REGION-0",
+      "name": "9号殖民地 集合广场",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/9%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%9B%86%E5%90%88%E5%B9%BF%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-fbc224af1c55",
+      "regionId": "XC3-REGION-0",
+      "name": "9号殖民地 正面入口",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/9%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E6%AD%A3%E9%9D%A2%E5%85%A5%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-ba31784a3d2a",
+      "regionId": "XC3-REGION-0",
+      "name": "亚尔菲特溪谷入口",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BA%9A%E5%B0%94%E8%8F%B2%E7%89%B9%E6%BA%AA%E8%B0%B7%E5%85%A5%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-a5a3c82b8993",
+      "regionId": "XC3-REGION-0",
+      "name": "鲛口山岬",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%B2%9B%E5%8F%A3%E5%B1%B1%E5%B2%AC"
+    },
+    {
+      "id": "XC3-PLACE-1fff6752a843",
+      "regionId": "XC3-REGION-0",
+      "name": "古拉·弗拉巴低地",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%A4%E6%8B%89%C2%B7%E5%BC%97%E6%8B%89%E5%B7%B4%E4%BD%8E%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-7955c1ea1366",
+      "regionId": "XC3-REGION-0",
+      "name": "艾尔嘉雷斯地下洞窟入口",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%89%BE%E5%B0%94%E5%98%89%E9%9B%B7%E6%96%AF%E5%9C%B0%E4%B8%8B%E6%B4%9E%E7%AA%9F%E5%85%A5%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-19cd875ef5e4",
+      "regionId": "XC3-REGION-0",
+      "name": "西耶尔湖水",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%A5%BF%E8%80%B6%E5%B0%94%E6%B9%96%E6%B0%B4"
+    },
+    {
+      "id": "XC3-PLACE-3865dc1469b1",
+      "regionId": "XC3-REGION-0",
+      "name": "瞭望窄桥",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%9E%AD%E6%9C%9B%E7%AA%84%E6%A1%A5"
+    },
+    {
+      "id": "XC3-PLACE-478e32c5c392",
+      "regionId": "XC3-REGION-0",
+      "name": "齐马利斯高台",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%BD%90%E9%A9%AC%E5%88%A9%E6%96%AF%E9%AB%98%E5%8F%B0"
+    },
+    {
+      "id": "XC3-PLACE-c6af0b731e9d",
+      "regionId": "XC3-REGION-0",
+      "name": "米利库峡谷道",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%B1%B3%E5%88%A9%E5%BA%93%E5%B3%A1%E8%B0%B7%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-a8fb7ef4c572",
+      "regionId": "XC3-REGION-0",
+      "name": "卡普托柯尔岭道",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8D%A1%E6%99%AE%E6%89%98%E6%9F%AF%E5%B0%94%E5%B2%AD%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-65a796078c88",
+      "regionId": "XC3-REGION-0",
+      "name": "泡沫之门",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B3%A1%E6%B2%AB%E4%B9%8B%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-3ba55defb0df",
+      "regionId": "XC3-REGION-0",
+      "name": "诺奇路亚腐败池",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%AF%BA%E5%A5%87%E8%B7%AF%E4%BA%9A%E8%85%90%E8%B4%A5%E6%B1%A0"
+    },
+    {
+      "id": "XC3-PLACE-65bbf4c83a61",
+      "regionId": "XC3-REGION-0",
+      "name": "克莱尔湖",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%85%8B%E8%8E%B1%E5%B0%94%E6%B9%96"
+    },
+    {
+      "id": "XC3-PLACE-a18a2162b722",
+      "regionId": "XC3-REGION-0",
+      "name": "伽玛殖民地 正面路口",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%BD%E7%8E%9B%E6%AE%96%E6%B0%91%E5%9C%B0%20%E6%AD%A3%E9%9D%A2%E8%B7%AF%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-841aa889db7d",
+      "regionId": "XC3-REGION-0",
+      "name": "嘉瓦三岔路",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%98%89%E7%93%A6%E4%B8%89%E5%B2%94%E8%B7%AF"
+    },
+    {
+      "id": "XC3-PLACE-b3c47ed394b9",
+      "regionId": "XC3-REGION-0",
+      "name": "伽玛殖民地 集会场",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%BD%E7%8E%9B%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%9B%86%E4%BC%9A%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-1bb255f05916",
+      "regionId": "XC3-REGION-0",
+      "name": "伽玛殖民地 后方路口",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%BD%E7%8E%9B%E6%AE%96%E6%B0%91%E5%9C%B0%20%E5%90%8E%E6%96%B9%E8%B7%AF%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-463e91282f8a",
+      "regionId": "XC3-REGION-0",
+      "name": "卡穆特的地标",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8D%A1%E7%A9%86%E7%89%B9%E7%9A%84%E5%9C%B0%E6%A0%87"
+    },
+    {
+      "id": "XC3-PLACE-5939e24373d2",
+      "regionId": "XC3-REGION-0",
+      "name": "奉迎基座",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A5%89%E8%BF%8E%E5%9F%BA%E5%BA%A7"
+    },
+    {
+      "id": "XC3-PLACE-2b010ffa85f9",
+      "regionId": "XC3-REGION-0",
+      "name": "幽玄之间",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B9%BD%E7%8E%84%E4%B9%8B%E9%97%B4"
+    },
+    {
+      "id": "XC3-PLACE-1c0363156f8a",
+      "regionId": "XC3-REGION-0",
+      "name": "尽收眼底",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B0%BD%E6%94%B6%E7%9C%BC%E5%BA%95"
+    },
+    {
+      "id": "XC3-PLACE-9f0fef8dfef1",
+      "regionId": "XC3-REGION-0",
+      "name": "9号殖民地 兵营帐篷",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/9%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E5%85%B5%E8%90%A5%E5%B8%90%E7%AF%B7"
+    },
+    {
+      "id": "XC3-PLACE-31850419ef79",
+      "regionId": "XC3-REGION-0",
+      "name": "9号殖民地 野外食堂",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/9%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%87%8E%E5%A4%96%E9%A3%9F%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-a78b8a1f12e7",
+      "regionId": "XC3-REGION-0",
+      "name": "先锋扎营地",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%85%88%E9%94%8B%E6%89%8E%E8%90%A5%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-a73a982b9738",
+      "regionId": "XC3-REGION-0",
+      "name": "古拉·弗拉巴休息地",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%A4%E6%8B%89%C2%B7%E5%BC%97%E6%8B%89%E5%B7%B4%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-ef51fcdaa8ec",
+      "regionId": "XC3-REGION-0",
+      "name": "丘陵的锈毁铁巨神",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%98%E9%99%B5%E7%9A%84%E9%94%88%E6%AF%81%E9%93%81%E5%B7%A8%E7%A5%9E"
+    },
+    {
+      "id": "XC3-PLACE-1216d5077d6e",
+      "regionId": "XC3-REGION-0",
+      "name": "伽玛殖民地 野外食堂",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%BD%E7%8E%9B%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%87%8E%E5%A4%96%E9%A3%9F%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-9bcc40ce5028",
+      "regionId": "XC3-REGION-0",
+      "name": "克莱尔水脉休息地",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%85%8B%E8%8E%B1%E5%B0%94%E6%B0%B4%E8%84%89%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-a84371a24630",
+      "regionId": "XC3-REGION-0",
+      "name": "古战场遗址的锈毁铁巨神",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%A4%E6%88%98%E5%9C%BA%E9%81%97%E5%9D%80%E7%9A%84%E9%94%88%E6%AF%81%E9%93%81%E5%B7%A8%E7%A5%9E"
+    },
+    {
+      "id": "XC3-PLACE-a8375b6802cd",
+      "regionId": "XC3-REGION-0",
+      "name": "臧克休息地",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%87%A7%E5%85%8B%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-618761900cd1",
+      "regionId": "XC3-REGION-0",
+      "name": "欧米伽殖民地休息地",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%AC%A7%E7%B1%B3%E4%BC%BD%E6%AE%96%E6%B0%91%E5%9C%B0%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-1881cd7c514c",
+      "regionId": "XC3-REGION-0",
+      "name": "拉德拉斯休息地",
+      "area": "亚艾提亚地区上层部",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%8B%89%E5%BE%B7%E6%8B%89%E6%96%AF%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-925062a37a06",
+      "regionId": "XC3-REGION-0",
+      "name": "地下洞窟休息地",
+      "area": "艾尔嘉雷斯地下洞窟",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%9C%B0%E4%B8%8B%E6%B4%9E%E7%AA%9F%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-97d1ec8a161e",
+      "regionId": "XC3-REGION-0",
+      "name": "里卡罗水池",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%87%8C%E5%8D%A1%E7%BD%97%E6%B0%B4%E6%B1%A0"
+    },
+    {
+      "id": "XC3-PLACE-f5db166fcbbe",
+      "regionId": "XC3-REGION-0",
+      "name": "露卡环形浅滩",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9C%B2%E5%8D%A1%E7%8E%AF%E5%BD%A2%E6%B5%85%E6%BB%A9"
+    },
+    {
+      "id": "XC3-PLACE-2e95c0675589",
+      "regionId": "XC3-REGION-0",
+      "name": "奈落崖道",
+      "area": "亚艾提亚地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A5%88%E8%90%BD%E5%B4%96%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-249423688465",
+      "regionId": "XC3-REGION-1",
+      "name": "伊格斯荒野",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%8A%E6%A0%BC%E6%96%AF%E8%8D%92%E9%87%8E"
+    },
+    {
+      "id": "XC3-PLACE-da706f4ffc41",
+      "regionId": "XC3-REGION-1",
+      "name": "路伊德谷",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B7%AF%E4%BC%8A%E5%BE%B7%E8%B0%B7"
+    },
+    {
+      "id": "XC3-PLACE-9d2e5443dc6c",
+      "regionId": "XC3-REGION-1",
+      "name": "彼恩特洼地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%BD%BC%E6%81%A9%E7%89%B9%E6%B4%BC%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-d03fe5feb0ac",
+      "regionId": "XC3-REGION-1",
+      "name": "虚无山丘",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%99%9A%E6%97%A0%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-ad07fee78356",
+      "regionId": "XC3-REGION-1",
+      "name": "罗针大圆盘",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BD%97%E9%92%88%E5%A4%A7%E5%9C%86%E7%9B%98"
+    },
+    {
+      "id": "XC3-PLACE-fbcaca2251e6",
+      "regionId": "XC3-REGION-1",
+      "name": "雷森特湖",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9B%B7%E6%A3%AE%E7%89%B9%E6%B9%96"
+    },
+    {
+      "id": "XC3-PLACE-e6207997de0a",
+      "regionId": "XC3-REGION-1",
+      "name": "莉可之泉",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8E%89%E5%8F%AF%E4%B9%8B%E6%B3%89"
+    },
+    {
+      "id": "XC3-PLACE-424769e06d49",
+      "regionId": "XC3-REGION-1",
+      "name": "史塔尔大圆盖",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%B2%E5%A1%94%E5%B0%94%E5%A4%A7%E5%9C%86%E7%9B%96"
+    },
+    {
+      "id": "XC3-PLACE-a9366584bcce",
+      "regionId": "XC3-REGION-1",
+      "name": "尼尔谷",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B0%BC%E5%B0%94%E8%B0%B7"
+    },
+    {
+      "id": "XC3-PLACE-9b7a05a77181",
+      "regionId": "XC3-REGION-1",
+      "name": "泽姆十字路口",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B3%BD%E5%A7%86%E5%8D%81%E5%AD%97%E8%B7%AF%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-a8a361b70035",
+      "regionId": "XC3-REGION-1",
+      "name": "贝涅尔洞窟",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B4%9D%E6%B6%85%E5%B0%94%E6%B4%9E%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-c3a7812981ed",
+      "regionId": "XC3-REGION-1",
+      "name": "长城内庭",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%95%BF%E5%9F%8E%E5%86%85%E5%BA%AD"
+    },
+    {
+      "id": "XC3-PLACE-d5f2b4b505f4",
+      "regionId": "XC3-REGION-1",
+      "name": "慈爱水瓶",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%85%88%E7%88%B1%E6%B0%B4%E7%93%B6"
+    },
+    {
+      "id": "XC3-PLACE-d237d69d2c61",
+      "regionId": "XC3-REGION-1",
+      "name": "4号殖民地 医疗区域",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/4%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E5%8C%BB%E7%96%97%E5%8C%BA%E5%9F%9F"
+    },
+    {
+      "id": "XC3-PLACE-bc3103e319ee",
+      "regionId": "XC3-REGION-1",
+      "name": "4号殖民地 中央广场",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/4%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E4%B8%AD%E5%A4%AE%E5%B9%BF%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-af82fe562484",
+      "regionId": "XC3-REGION-1",
+      "name": "4号殖民地 作战会议室",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/4%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E4%BD%9C%E6%88%98%E4%BC%9A%E8%AE%AE%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-074952301274",
+      "regionId": "XC3-REGION-1",
+      "name": "4号殖民地 中枢机构区",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/4%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E4%B8%AD%E6%9E%A2%E6%9C%BA%E6%9E%84%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-2a33efdb9bd2",
+      "regionId": "XC3-REGION-1",
+      "name": "4号殖民地 眺望甲板",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/4%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E7%9C%BA%E6%9C%9B%E7%94%B2%E6%9D%BF"
+    },
+    {
+      "id": "XC3-PLACE-7419f5960585",
+      "regionId": "XC3-REGION-1",
+      "name": "4号殖民地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/4%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-191756d8c97b",
+      "regionId": "XC3-REGION-1",
+      "name": "拉达峡谷道",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%8B%89%E8%BE%BE%E5%B3%A1%E8%B0%B7%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-6c7b0949f394",
+      "regionId": "XC3-REGION-1",
+      "name": "梅诺大洞门",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%A2%85%E8%AF%BA%E5%A4%A7%E6%B4%9E%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-04aa1d5e21cf",
+      "regionId": "XC3-REGION-1",
+      "name": "掌中长城",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%8E%8C%E4%B8%AD%E9%95%BF%E5%9F%8E"
+    },
+    {
+      "id": "XC3-PLACE-61d3e27f79dc",
+      "regionId": "XC3-REGION-1",
+      "name": "古嘉巨岩",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%A4%E5%98%89%E5%B7%A8%E5%B2%A9"
+    },
+    {
+      "id": "XC3-PLACE-511b38afb4ad",
+      "regionId": "XC3-REGION-1",
+      "name": "欧迪山谷",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%AC%A7%E8%BF%AA%E5%B1%B1%E8%B0%B7"
+    },
+    {
+      "id": "XC3-PLACE-cae3052f4d02",
+      "regionId": "XC3-REGION-1",
+      "name": "霸者的望楼",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9C%B8%E8%80%85%E7%9A%84%E6%9C%9B%E6%A5%BC"
+    },
+    {
+      "id": "XC3-PLACE-ff1545536ef5",
+      "regionId": "XC3-REGION-1",
+      "name": "4号殖民地 守卫门",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/4%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E5%AE%88%E5%8D%AB%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-1c3ad327cb2f",
+      "regionId": "XC3-REGION-1",
+      "name": "4号殖民地 铁巨神舱口",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/4%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%93%81%E5%B7%A8%E7%A5%9E%E8%88%B1%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-668a1d75c789",
+      "regionId": "XC3-REGION-1",
+      "name": "4号殖民地 办公室",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/4%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E5%8A%9E%E5%85%AC%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-a4c7510eca57",
+      "regionId": "XC3-REGION-1",
+      "name": "雷森特湖休息地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9B%B7%E6%A3%AE%E7%89%B9%E6%B9%96%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-1ae17deb5ea1",
+      "regionId": "XC3-REGION-1",
+      "name": "贝涅尔洞窟休息地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B4%9D%E6%B6%85%E5%B0%94%E6%B4%9E%E7%AA%9F%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-50ce9fb943f0",
+      "regionId": "XC3-REGION-1",
+      "name": "4号殖民地 野外食堂",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/4%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%87%8E%E5%A4%96%E9%A3%9F%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-881aafa0e1e4",
+      "regionId": "XC3-REGION-1",
+      "name": "4号殖民地 兵营帐篷",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/4%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E5%85%B5%E8%90%A5%E5%B8%90%E7%AF%B7"
+    },
+    {
+      "id": "XC3-PLACE-708aa86feb87",
+      "regionId": "XC3-REGION-1",
+      "name": "艾雷斯大道",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%89%BE%E9%9B%B7%E6%96%AF%E5%A4%A7%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-b4ac9c46566d",
+      "regionId": "XC3-REGION-1",
+      "name": "特普诺斯丘陵",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%89%B9%E6%99%AE%E8%AF%BA%E6%96%AF%E4%B8%98%E9%99%B5"
+    },
+    {
+      "id": "XC3-PLACE-dc9e3c89c0d4",
+      "regionId": "XC3-REGION-1",
+      "name": "三英杰山丘",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%89%E8%8B%B1%E6%9D%B0%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-df69d36dd948",
+      "regionId": "XC3-REGION-1",
+      "name": "梅纳特的指缝",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%A2%85%E7%BA%B3%E7%89%B9%E7%9A%84%E6%8C%87%E7%BC%9D"
+    },
+    {
+      "id": "XC3-PLACE-b961a8d13418",
+      "regionId": "XC3-REGION-1",
+      "name": "泽因的大钩爪",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B3%BD%E5%9B%A0%E7%9A%84%E5%A4%A7%E9%92%A9%E7%88%AA"
+    },
+    {
+      "id": "XC3-PLACE-3566c4dfae99",
+      "regionId": "XC3-REGION-1",
+      "name": "罗雷特巨岩台",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BD%97%E9%9B%B7%E7%89%B9%E5%B7%A8%E5%B2%A9%E5%8F%B0"
+    },
+    {
+      "id": "XC3-PLACE-9107957bee65",
+      "regionId": "XC3-REGION-1",
+      "name": "悉藤林野",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%82%89%E8%97%A4%E6%9E%97%E9%87%8E"
+    },
+    {
+      "id": "XC3-PLACE-40cb5d7d70fb",
+      "regionId": "XC3-REGION-1",
+      "name": "幽寂之湖",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B9%BD%E5%AF%82%E4%B9%8B%E6%B9%96"
+    },
+    {
+      "id": "XC3-PLACE-231dbe3c5e5f",
+      "regionId": "XC3-REGION-1",
+      "name": "亚吉的大钩爪",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BA%9A%E5%90%89%E7%9A%84%E5%A4%A7%E9%92%A9%E7%88%AA"
+    },
+    {
+      "id": "XC3-PLACE-afa44d5faf31",
+      "regionId": "XC3-REGION-1",
+      "name": "西克敦裂缝",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%A5%BF%E5%85%8B%E6%95%A6%E8%A3%82%E7%BC%9D"
+    },
+    {
+      "id": "XC3-PLACE-757f96551a3b",
+      "regionId": "XC3-REGION-1",
+      "name": "尼德洞窟",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B0%BC%E5%BE%B7%E6%B4%9E%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-6df5fd75f4ca",
+      "regionId": "XC3-REGION-1",
+      "name": "圆环洞窟",
+      "area": "圆环洞窟",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%9C%86%E7%8E%AF%E6%B4%9E%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-af37ec080269",
+      "regionId": "XC3-REGION-1",
+      "name": "悠涅台地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%82%A0%E6%B6%85%E5%8F%B0%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-788e3bbf1543",
+      "regionId": "XC3-REGION-1",
+      "name": "约塔殖民地 北门",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BA%A6%E5%A1%94%E6%AE%96%E6%B0%91%E5%9C%B0%20%E5%8C%97%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-0b5c34f3afe2",
+      "regionId": "XC3-REGION-1",
+      "name": "约塔殖民地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BA%A6%E5%A1%94%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-3a5234d8a336",
+      "regionId": "XC3-REGION-1",
+      "name": "狄斯石门",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%8B%84%E6%96%AF%E7%9F%B3%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-53946ad4a84e",
+      "regionId": "XC3-REGION-1",
+      "name": "史兰大幻球",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%B2%E5%85%B0%E5%A4%A7%E5%B9%BB%E7%90%83"
+    },
+    {
+      "id": "XC3-PLACE-2fed0b000ab8",
+      "regionId": "XC3-REGION-1",
+      "name": "普尔斯大缺柱",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%99%AE%E5%B0%94%E6%96%AF%E5%A4%A7%E7%BC%BA%E6%9F%B1"
+    },
+    {
+      "id": "XC3-PLACE-f62180a9a6ed",
+      "regionId": "XC3-REGION-1",
+      "name": "风鸣洞门",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%A3%8E%E9%B8%A3%E6%B4%9E%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-55c4f523ae0c",
+      "regionId": "XC3-REGION-1",
+      "name": "蜥蜴人大本营",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%9C%A5%E8%9C%B4%E4%BA%BA%E5%A4%A7%E6%9C%AC%E8%90%A5"
+    },
+    {
+      "id": "XC3-PLACE-2232f6090d03",
+      "regionId": "XC3-REGION-1",
+      "name": "嘉迪翁崖道",
+      "area": "圆环洞窟",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%98%89%E8%BF%AA%E7%BF%81%E5%B4%96%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-247983698f55",
+      "regionId": "XC3-REGION-1",
+      "name": "隐藏储藏库",
+      "area": "圆环洞窟",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9A%90%E8%97%8F%E5%82%A8%E8%97%8F%E5%BA%93"
+    },
+    {
+      "id": "XC3-PLACE-65053a7a3497",
+      "regionId": "XC3-REGION-1",
+      "name": "穆登大石柱",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%A9%86%E7%99%BB%E5%A4%A7%E7%9F%B3%E6%9F%B1"
+    },
+    {
+      "id": "XC3-PLACE-3f8482d02790",
+      "regionId": "XC3-REGION-1",
+      "name": "约塔殖民地 南门",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BA%A6%E5%A1%94%E6%AE%96%E6%B0%91%E5%9C%B0%20%E5%8D%97%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-103d4d3960d5",
+      "regionId": "XC3-REGION-1",
+      "name": "约塔殖民地 据点入口",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BA%A6%E5%A1%94%E6%AE%96%E6%B0%91%E5%9C%B0%20%E6%8D%AE%E7%82%B9%E5%85%A5%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-32911e314f2d",
+      "regionId": "XC3-REGION-1",
+      "name": "天涯指尖",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%A9%E6%B6%AF%E6%8C%87%E5%B0%96"
+    },
+    {
+      "id": "XC3-PLACE-23b0b61fc2df",
+      "regionId": "XC3-REGION-1",
+      "name": "悉藤林野休息地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%82%89%E8%97%A4%E6%9E%97%E9%87%8E%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-29dc2eca8a60",
+      "regionId": "XC3-REGION-1",
+      "name": "约塔殖民地 野外食堂",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BA%A6%E5%A1%94%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%87%8E%E5%A4%96%E9%A3%9F%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-d9e4ef09ecb0",
+      "regionId": "XC3-REGION-1",
+      "name": "达纳沙漠",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%BE%BE%E7%BA%B3%E6%B2%99%E6%BC%A0"
+    },
+    {
+      "id": "XC3-PLACE-bc2f451901c1",
+      "regionId": "XC3-REGION-1",
+      "name": "纳巴姆丘陵",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BA%B3%E5%B7%B4%E5%A7%86%E4%B8%98%E9%99%B5"
+    },
+    {
+      "id": "XC3-PLACE-ac8e9bf7b94c",
+      "regionId": "XC3-REGION-1",
+      "name": "伊普西山丘",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%8A%E6%99%AE%E8%A5%BF%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-1aeb4c550df0",
+      "regionId": "XC3-REGION-1",
+      "name": "泽尔大流沙",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B3%BD%E5%B0%94%E5%A4%A7%E6%B5%81%E6%B2%99"
+    },
+    {
+      "id": "XC3-PLACE-e5587fd15b4f",
+      "regionId": "XC3-REGION-1",
+      "name": "灼热的大研钵",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%81%BC%E7%83%AD%E7%9A%84%E5%A4%A7%E7%A0%94%E9%92%B5"
+    },
+    {
+      "id": "XC3-PLACE-835e2b3e46dc",
+      "regionId": "XC3-REGION-1",
+      "name": "费托斯沙庭",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B4%B9%E6%89%98%E6%96%AF%E6%B2%99%E5%BA%AD"
+    },
+    {
+      "id": "XC3-PLACE-72927377e15e",
+      "regionId": "XC3-REGION-1",
+      "name": "达格伊斯大流沙",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%BE%BE%E6%A0%BC%E4%BC%8A%E6%96%AF%E5%A4%A7%E6%B5%81%E6%B2%99"
+    },
+    {
+      "id": "XC3-PLACE-31d75f6b991a",
+      "regionId": "XC3-REGION-1",
+      "name": "阿雷法的空幻球",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%98%BF%E9%9B%B7%E6%B3%95%E7%9A%84%E7%A9%BA%E5%B9%BB%E7%90%83"
+    },
+    {
+      "id": "XC3-PLACE-afe147261af7",
+      "regionId": "XC3-REGION-1",
+      "name": "大鹫翅膀",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%A7%E9%B9%AB%E7%BF%85%E8%86%80"
+    },
+    {
+      "id": "XC3-PLACE-580d22f27e6e",
+      "regionId": "XC3-REGION-1",
+      "name": "埔立克山丘",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%9F%94%E7%AB%8B%E5%85%8B%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-12fab32578f9",
+      "regionId": "XC3-REGION-1",
+      "name": "米利欧的机关洞窟",
+      "area": "米利欧的机关洞窟",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%B1%B3%E5%88%A9%E6%AC%A7%E7%9A%84%E6%9C%BA%E5%85%B3%E6%B4%9E%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-1614c47c783e",
+      "regionId": "XC3-REGION-1",
+      "name": "贤者之庭",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B4%A4%E8%80%85%E4%B9%8B%E5%BA%AD"
+    },
+    {
+      "id": "XC3-PLACE-017d957f271a",
+      "regionId": "XC3-REGION-1",
+      "name": "莉姆山丘",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8E%89%E5%A7%86%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-801907736197",
+      "regionId": "XC3-REGION-1",
+      "name": "孔多司台地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%AD%94%E5%A4%9A%E5%8F%B8%E5%8F%B0%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-431841a55bb4",
+      "regionId": "XC3-REGION-1",
+      "name": "伊铎尔大溪谷",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%8A%E9%93%8E%E5%B0%94%E5%A4%A7%E6%BA%AA%E8%B0%B7"
+    },
+    {
+      "id": "XC3-PLACE-78b7c01e8986",
+      "regionId": "XC3-REGION-1",
+      "name": "巨鸟石门",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B7%A8%E9%B8%9F%E7%9F%B3%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-89d285316a57",
+      "regionId": "XC3-REGION-1",
+      "name": "佐拉岩锤",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BD%90%E6%8B%89%E5%B2%A9%E9%94%A4"
+    },
+    {
+      "id": "XC3-PLACE-e1074d09a81a",
+      "regionId": "XC3-REGION-1",
+      "name": "流沙瀑潭",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B5%81%E6%B2%99%E7%80%91%E6%BD%AD"
+    },
+    {
+      "id": "XC3-PLACE-1c5c37bc5c2b",
+      "regionId": "XC3-REGION-1",
+      "name": "赛拉托之泉",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B5%9B%E6%8B%89%E6%89%98%E4%B9%8B%E6%B3%89"
+    },
+    {
+      "id": "XC3-PLACE-50b7dd9aa9b3",
+      "regionId": "XC3-REGION-1",
+      "name": "贤者之家",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B4%A4%E8%80%85%E4%B9%8B%E5%AE%B6"
+    },
+    {
+      "id": "XC3-PLACE-5461ff97dbeb",
+      "regionId": "XC3-REGION-1",
+      "name": "格尔姆岩石",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%A0%BC%E5%B0%94%E5%A7%86%E5%B2%A9%E7%9F%B3"
+    },
+    {
+      "id": "XC3-PLACE-5bf14f4ebc84",
+      "regionId": "XC3-REGION-1",
+      "name": "佩丝莉丝之泉",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BD%A9%E4%B8%9D%E8%8E%89%E4%B8%9D%E4%B9%8B%E6%B3%89"
+    },
+    {
+      "id": "XC3-PLACE-bedffb70953b",
+      "regionId": "XC3-REGION-1",
+      "name": "艾克特地下空洞",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%89%BE%E5%85%8B%E7%89%B9%E5%9C%B0%E4%B8%8B%E7%A9%BA%E6%B4%9E"
+    },
+    {
+      "id": "XC3-PLACE-69bbe6eb24b2",
+      "regionId": "XC3-REGION-1",
+      "name": "一色海角",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%80%E8%89%B2%E6%B5%B7%E8%A7%92"
+    },
+    {
+      "id": "XC3-PLACE-404ca8b79680",
+      "regionId": "XC3-REGION-1",
+      "name": "纳巴姆丘陵休息地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BA%B3%E5%B7%B4%E5%A7%86%E4%B8%98%E9%99%B5%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-a91ae197db01",
+      "regionId": "XC3-REGION-1",
+      "name": "沙漠的锈毁铁巨神",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B2%99%E6%BC%A0%E7%9A%84%E9%94%88%E6%AF%81%E9%93%81%E5%B7%A8%E7%A5%9E"
+    },
+    {
+      "id": "XC3-PLACE-0ea2359cb1cd",
+      "regionId": "XC3-REGION-1",
+      "name": "利比平原",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%88%A9%E6%AF%94%E5%B9%B3%E5%8E%9F"
+    },
+    {
+      "id": "XC3-PLACE-9ef2050cd2b9",
+      "regionId": "XC3-REGION-1",
+      "name": "斯帕斯丘陵",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%96%AF%E5%B8%95%E6%96%AF%E4%B8%98%E9%99%B5"
+    },
+    {
+      "id": "XC3-PLACE-5b6d48c84f3f",
+      "regionId": "XC3-REGION-1",
+      "name": "涅乌斯湖",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B6%85%E4%B9%8C%E6%96%AF%E6%B9%96"
+    },
+    {
+      "id": "XC3-PLACE-7f97d4df8369",
+      "regionId": "XC3-REGION-1",
+      "name": "疗愈水岸",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%96%97%E6%84%88%E6%B0%B4%E5%B2%B8"
+    },
+    {
+      "id": "XC3-PLACE-0a336fb56cca",
+      "regionId": "XC3-REGION-1",
+      "name": "利佩尔山丘",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%88%A9%E4%BD%A9%E5%B0%94%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-99adabefc6a1",
+      "regionId": "XC3-REGION-1",
+      "name": "帕斯拉岛",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B8%95%E6%96%AF%E6%8B%89%E5%B2%9B"
+    },
+    {
+      "id": "XC3-PLACE-6fe3264a0589",
+      "regionId": "XC3-REGION-1",
+      "name": "卡塔拉丘陵",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8D%A1%E5%A1%94%E6%8B%89%E4%B8%98%E9%99%B5"
+    },
+    {
+      "id": "XC3-PLACE-268f09ff66a3",
+      "regionId": "XC3-REGION-1",
+      "name": "制裁的绝壁",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%88%B6%E8%A3%81%E7%9A%84%E7%BB%9D%E5%A3%81"
+    },
+    {
+      "id": "XC3-PLACE-8dffde09cfff",
+      "regionId": "XC3-REGION-1",
+      "name": "贤者阳台",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B4%A4%E8%80%85%E9%98%B3%E5%8F%B0"
+    },
+    {
+      "id": "XC3-PLACE-e2a373761960",
+      "regionId": "XC3-REGION-1",
+      "name": "特拉荒地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%89%B9%E6%8B%89%E8%8D%92%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-ac06d5ade9c5",
+      "regionId": "XC3-REGION-1",
+      "name": "古伦坡道",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%A4%E4%BC%A6%E5%9D%A1%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-e9fff394a778",
+      "regionId": "XC3-REGION-1",
+      "name": "贝伊克洞窟",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B4%9D%E4%BC%8A%E5%85%8B%E6%B4%9E%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-10e00c6ffff9",
+      "regionId": "XC3-REGION-1",
+      "name": "帕拉提山丘",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B8%95%E6%8B%89%E6%8F%90%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-59830edd3ad9",
+      "regionId": "XC3-REGION-1",
+      "name": "30号殖民地 维修场",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/30%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E7%BB%B4%E4%BF%AE%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-536eab2afd94",
+      "regionId": "XC3-REGION-1",
+      "name": "30号殖民地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/30%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-5a8b448bbbef",
+      "regionId": "XC3-REGION-1",
+      "name": "奇理瀑布",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A5%87%E7%90%86%E7%80%91%E5%B8%83"
+    },
+    {
+      "id": "XC3-PLACE-8d84f45cd654",
+      "regionId": "XC3-REGION-1",
+      "name": "玛格莉亚湖",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%8E%9B%E6%A0%BC%E8%8E%89%E4%BA%9A%E6%B9%96"
+    },
+    {
+      "id": "XC3-PLACE-eefe4331dd61",
+      "regionId": "XC3-REGION-1",
+      "name": "希克克岩块",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B8%8C%E5%85%8B%E5%85%8B%E5%B2%A9%E5%9D%97"
+    },
+    {
+      "id": "XC3-PLACE-87e67e5f0eff",
+      "regionId": "XC3-REGION-1",
+      "name": "伊格诺桥梁",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%8A%E6%A0%BC%E8%AF%BA%E6%A1%A5%E6%A2%81"
+    },
+    {
+      "id": "XC3-PLACE-2630d48f238e",
+      "regionId": "XC3-REGION-1",
+      "name": "艾尔希瀑布",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%89%BE%E5%B0%94%E5%B8%8C%E7%80%91%E5%B8%83"
+    },
+    {
+      "id": "XC3-PLACE-affd2918616a",
+      "regionId": "XC3-REGION-1",
+      "name": "火鸡人大本营",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%81%AB%E9%B8%A1%E4%BA%BA%E5%A4%A7%E6%9C%AC%E8%90%A5"
+    },
+    {
+      "id": "XC3-PLACE-9764273a8ad2",
+      "regionId": "XC3-REGION-1",
+      "name": "30号殖民地 洞门前",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/30%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E6%B4%9E%E9%97%A8%E5%89%8D"
+    },
+    {
+      "id": "XC3-PLACE-1514ac09323d",
+      "regionId": "XC3-REGION-1",
+      "name": "涅乌斯湖休息地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B6%85%E4%B9%8C%E6%96%AF%E6%B9%96%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-a5a3315a8c11",
+      "regionId": "XC3-REGION-1",
+      "name": "30号殖民地 洞内食堂",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/30%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E6%B4%9E%E5%86%85%E9%A3%9F%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-cd088161fbeb",
+      "regionId": "XC3-REGION-1",
+      "name": "雷贝高原",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9B%B7%E8%B4%9D%E9%AB%98%E5%8E%9F"
+    },
+    {
+      "id": "XC3-PLACE-1b9d24a7e041",
+      "regionId": "XC3-REGION-1",
+      "name": "杜玛之颚",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9D%9C%E7%8E%9B%E4%B9%8B%E9%A2%9A"
+    },
+    {
+      "id": "XC3-PLACE-fee9400b1b8a",
+      "regionId": "XC3-REGION-1",
+      "name": "莉札之园",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8E%89%E6%9C%AD%E4%B9%8B%E5%9B%AD"
+    },
+    {
+      "id": "XC3-PLACE-ab499e5fd140",
+      "regionId": "XC3-REGION-1",
+      "name": "罗米山丘",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BD%97%E7%B1%B3%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-3a380e7de650",
+      "regionId": "XC3-REGION-1",
+      "name": "卢特斯丘陵",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8D%A2%E7%89%B9%E6%96%AF%E4%B8%98%E9%99%B5"
+    },
+    {
+      "id": "XC3-PLACE-3610ed2201f7",
+      "regionId": "XC3-REGION-1",
+      "name": "彼萨高台",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%BD%BC%E8%90%A8%E9%AB%98%E5%8F%B0"
+    },
+    {
+      "id": "XC3-PLACE-c4a9d3588413",
+      "regionId": "XC3-REGION-1",
+      "name": "利耶斯湖",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%88%A9%E8%80%B6%E6%96%AF%E6%B9%96"
+    },
+    {
+      "id": "XC3-PLACE-4c8e6c2258fb",
+      "regionId": "XC3-REGION-1",
+      "name": "沛拉特洞窟",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B2%9B%E6%8B%89%E7%89%B9%E6%B4%9E%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-faa899b3df7e",
+      "regionId": "XC3-REGION-1",
+      "name": "苏尼岩台",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8B%8F%E5%B0%BC%E5%B2%A9%E5%8F%B0"
+    },
+    {
+      "id": "XC3-PLACE-9353d89e47ac",
+      "regionId": "XC3-REGION-1",
+      "name": "塞拉斯河阶",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A1%9E%E6%8B%89%E6%96%AF%E6%B2%B3%E9%98%B6"
+    },
+    {
+      "id": "XC3-PLACE-5525de1366c5",
+      "regionId": "XC3-REGION-1",
+      "name": "毕托雷坡道",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%AF%95%E6%89%98%E9%9B%B7%E5%9D%A1%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-8e1a90373fa4",
+      "regionId": "XC3-REGION-1",
+      "name": "缇尔帕岩石地带",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BC%87%E5%B0%94%E5%B8%95%E5%B2%A9%E7%9F%B3%E5%9C%B0%E5%B8%A6"
+    },
+    {
+      "id": "XC3-PLACE-c1f88d6aac81",
+      "regionId": "XC3-REGION-1",
+      "name": "艾尔瑟亚山谷",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%89%BE%E5%B0%94%E7%91%9F%E4%BA%9A%E5%B1%B1%E8%B0%B7"
+    },
+    {
+      "id": "XC3-PLACE-b539f7bba001",
+      "regionId": "XC3-REGION-1",
+      "name": "悲叹之谷",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%82%B2%E5%8F%B9%E4%B9%8B%E8%B0%B7"
+    },
+    {
+      "id": "XC3-PLACE-dbe46bd89ec4",
+      "regionId": "XC3-REGION-1",
+      "name": "称霸者崖顶",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%A7%B0%E9%9C%B8%E8%80%85%E5%B4%96%E9%A1%B6"
+    },
+    {
+      "id": "XC3-PLACE-92cdec1de6ea",
+      "regionId": "XC3-REGION-1",
+      "name": "黄樟树",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%BB%84%E6%A8%9F%E6%A0%91"
+    },
+    {
+      "id": "XC3-PLACE-dcac388d1b9c",
+      "regionId": "XC3-REGION-1",
+      "name": "雷斯地底湖",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9B%B7%E6%96%AF%E5%9C%B0%E5%BA%95%E6%B9%96"
+    },
+    {
+      "id": "XC3-PLACE-53c5049fa464",
+      "regionId": "XC3-REGION-1",
+      "name": "卡纳古战场",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8D%A1%E7%BA%B3%E5%8F%A4%E6%88%98%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-cec7877ba98b",
+      "regionId": "XC3-REGION-1",
+      "name": "英维迪亚坑道设施",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8B%B1%E7%BB%B4%E8%BF%AA%E4%BA%9A%E5%9D%91%E9%81%93%E8%AE%BE%E6%96%BD"
+    },
+    {
+      "id": "XC3-PLACE-5cd1aedf1b48",
+      "regionId": "XC3-REGION-1",
+      "name": "导乌石门",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%AF%BC%E4%B9%8C%E7%9F%B3%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-5b551c872c2d",
+      "regionId": "XC3-REGION-1",
+      "name": "大蛇巨岩",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%A7%E8%9B%87%E5%B7%A8%E5%B2%A9"
+    },
+    {
+      "id": "XC3-PLACE-cbb80a312244",
+      "regionId": "XC3-REGION-1",
+      "name": "先驱者高楼",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%85%88%E9%A9%B1%E8%80%85%E9%AB%98%E6%A5%BC"
+    },
+    {
+      "id": "XC3-PLACE-ff9270564f8a",
+      "regionId": "XC3-REGION-1",
+      "name": "塞拉斯河阶休息地",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A1%9E%E6%8B%89%E6%96%AF%E6%B2%B3%E9%98%B6%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-99482ef4fd94",
+      "regionId": "XC3-REGION-1",
+      "name": "高原的锈毁铁巨神",
+      "area": "佛尼斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%AB%98%E5%8E%9F%E7%9A%84%E9%94%88%E6%AF%81%E9%93%81%E5%B7%A8%E7%A5%9E"
+    },
+    {
+      "id": "XC3-PLACE-482b07766e12",
+      "regionId": "XC3-REGION-2",
+      "name": "英维迪亚坑道",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8B%B1%E7%BB%B4%E8%BF%AA%E4%BA%9A%E5%9D%91%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-1006a6f269e7",
+      "regionId": "XC3-REGION-2",
+      "name": "孔提大瀑布",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%AD%94%E6%8F%90%E5%A4%A7%E7%80%91%E5%B8%83"
+    },
+    {
+      "id": "XC3-PLACE-fa4f98ea49cb",
+      "regionId": "XC3-REGION-2",
+      "name": "断崖古道",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%96%AD%E5%B4%96%E5%8F%A4%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-d5c0740c1654",
+      "regionId": "XC3-REGION-2",
+      "name": "莫尔克纳大森林·上层",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8E%AB%E5%B0%94%E5%85%8B%E7%BA%B3%E5%A4%A7%E6%A3%AE%E6%9E%97%C2%B7%E4%B8%8A%E5%B1%82"
+    },
+    {
+      "id": "XC3-PLACE-42c9fff981c5",
+      "regionId": "XC3-REGION-2",
+      "name": "莫尔克纳大森林·下层",
+      "area": "莫尔克纳大森林下层",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8E%AB%E5%B0%94%E5%85%8B%E7%BA%B3%E5%A4%A7%E6%A3%AE%E6%9E%97%C2%B7%E4%B8%8B%E5%B1%82"
+    },
+    {
+      "id": "XC3-PLACE-b99625c73f22",
+      "regionId": "XC3-REGION-2",
+      "name": "英维迪亚山道",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8B%B1%E7%BB%B4%E8%BF%AA%E4%BA%9A%E5%B1%B1%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-29dbbcfe39f1",
+      "regionId": "XC3-REGION-2",
+      "name": "第一电梯",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E7%94%B5%E6%A2%AF"
+    },
+    {
+      "id": "XC3-PLACE-0efee0ff6243",
+      "regionId": "XC3-REGION-2",
+      "name": "瑟弗遗迹",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%91%9F%E5%BC%97%E9%81%97%E8%BF%B9"
+    },
+    {
+      "id": "XC3-PLACE-d798aebcdf9d",
+      "regionId": "XC3-REGION-2",
+      "name": "罗亚之泉",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BD%97%E4%BA%9A%E4%B9%8B%E6%B3%89"
+    },
+    {
+      "id": "XC3-PLACE-05af6d9822af",
+      "regionId": "XC3-REGION-2",
+      "name": "第二电梯",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E7%94%B5%E6%A2%AF"
+    },
+    {
+      "id": "XC3-PLACE-47194c17a397",
+      "regionId": "XC3-REGION-2",
+      "name": "第三电梯",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%89%E7%94%B5%E6%A2%AF"
+    },
+    {
+      "id": "XC3-PLACE-c59ecad82485",
+      "regionId": "XC3-REGION-2",
+      "name": "采石岩道",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%87%87%E7%9F%B3%E5%B2%A9%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-61b683880383",
+      "regionId": "XC3-REGION-2",
+      "name": "第二采矿场",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E9%87%87%E7%9F%BF%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-92f422bdeb7c",
+      "regionId": "XC3-REGION-2",
+      "name": "卡库利可洞窟",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8D%A1%E5%BA%93%E5%88%A9%E5%8F%AF%E6%B4%9E%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-09b5982ae2d4",
+      "regionId": "XC3-REGION-2",
+      "name": "岩窟瀑布",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B2%A9%E7%AA%9F%E7%80%91%E5%B8%83"
+    },
+    {
+      "id": "XC3-PLACE-1420859b8174",
+      "regionId": "XC3-REGION-2",
+      "name": "岩窟水脉",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B2%A9%E7%AA%9F%E6%B0%B4%E8%84%89"
+    },
+    {
+      "id": "XC3-PLACE-b1533d655218",
+      "regionId": "XC3-REGION-2",
+      "name": "瀑布下的战场遗址",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%80%91%E5%B8%83%E4%B8%8B%E7%9A%84%E6%88%98%E5%9C%BA%E9%81%97%E5%9D%80"
+    },
+    {
+      "id": "XC3-PLACE-e1e45cb2841b",
+      "regionId": "XC3-REGION-2",
+      "name": "琵勒断崖洞窟",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%90%B5%E5%8B%92%E6%96%AD%E5%B4%96%E6%B4%9E%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-2000629f1355",
+      "regionId": "XC3-REGION-2",
+      "name": "莫兰大桥",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8E%AB%E5%85%B0%E5%A4%A7%E6%A1%A5"
+    },
+    {
+      "id": "XC3-PLACE-9f9bc0ce7c38",
+      "regionId": "XC3-REGION-2",
+      "name": "花水母圣地",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8A%B1%E6%B0%B4%E6%AF%8D%E5%9C%A3%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-0dfa79da6c47",
+      "regionId": "XC3-REGION-2",
+      "name": "巨神兽岩",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B7%A8%E7%A5%9E%E5%85%BD%E5%B2%A9"
+    },
+    {
+      "id": "XC3-PLACE-4357000503d0",
+      "regionId": "XC3-REGION-2",
+      "name": "孔提的眺望",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%AD%94%E6%8F%90%E7%9A%84%E7%9C%BA%E6%9C%9B"
+    },
+    {
+      "id": "XC3-PLACE-6d812feb8f84",
+      "regionId": "XC3-REGION-2",
+      "name": "孔提的机关遗迹",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%AD%94%E6%8F%90%E7%9A%84%E6%9C%BA%E5%85%B3%E9%81%97%E8%BF%B9"
+    },
+    {
+      "id": "XC3-PLACE-e7f9154ebdc9",
+      "regionId": "XC3-REGION-2",
+      "name": "隆亚之泉",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9A%86%E4%BA%9A%E4%B9%8B%E6%B3%89"
+    },
+    {
+      "id": "XC3-PLACE-a58cb508fab4",
+      "regionId": "XC3-REGION-2",
+      "name": "可可凯之泉",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%AF%E5%8F%AF%E5%87%AF%E4%B9%8B%E6%B3%89"
+    },
+    {
+      "id": "XC3-PLACE-c7cd97c16e6d",
+      "regionId": "XC3-REGION-2",
+      "name": "大树洞",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%A7%E6%A0%91%E6%B4%9E"
+    },
+    {
+      "id": "XC3-PLACE-6a58a2ae5b92",
+      "regionId": "XC3-REGION-2",
+      "name": "黄色森林",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%BB%84%E8%89%B2%E6%A3%AE%E6%9E%97"
+    },
+    {
+      "id": "XC3-PLACE-651b881c688a",
+      "regionId": "XC3-REGION-2",
+      "name": "猩猩兽之树",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%8C%A9%E7%8C%A9%E5%85%BD%E4%B9%8B%E6%A0%91"
+    },
+    {
+      "id": "XC3-PLACE-532e21b2303d",
+      "regionId": "XC3-REGION-2",
+      "name": "火鸡人要塞",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%81%AB%E9%B8%A1%E4%BA%BA%E8%A6%81%E5%A1%9E"
+    },
+    {
+      "id": "XC3-PLACE-c49874e887d4",
+      "regionId": "XC3-REGION-2",
+      "name": "太古四角塔",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%AA%E5%8F%A4%E5%9B%9B%E8%A7%92%E5%A1%94"
+    },
+    {
+      "id": "XC3-PLACE-9c6d68a7c216",
+      "regionId": "XC3-REGION-2",
+      "name": "金恩的树屋",
+      "area": "莫尔克纳大森林下层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%87%91%E6%81%A9%E7%9A%84%E6%A0%91%E5%B1%8B"
+    },
+    {
+      "id": "XC3-PLACE-1a3b5ea796dd",
+      "regionId": "XC3-REGION-2",
+      "name": "古代储藏库",
+      "area": "莫尔克纳大森林下层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%A4%E4%BB%A3%E5%82%A8%E8%97%8F%E5%BA%93"
+    },
+    {
+      "id": "XC3-PLACE-e2c2b2215f11",
+      "regionId": "XC3-REGION-2",
+      "name": "遗忘大窟",
+      "area": "莫尔克纳大森林下层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%81%97%E5%BF%98%E5%A4%A7%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-523a65d666a7",
+      "regionId": "XC3-REGION-2",
+      "name": "山道战线 安格努斯阵营",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B1%B1%E9%81%93%E6%88%98%E7%BA%BF%20%E5%AE%89%E6%A0%BC%E5%8A%AA%E6%96%AF%E9%98%B5%E8%90%A5"
+    },
+    {
+      "id": "XC3-PLACE-ff44caa71a53",
+      "regionId": "XC3-REGION-2",
+      "name": "山道战线 科维斯阵营",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B1%B1%E9%81%93%E6%88%98%E7%BA%BF%20%E7%A7%91%E7%BB%B4%E6%96%AF%E9%98%B5%E8%90%A5"
+    },
+    {
+      "id": "XC3-PLACE-4f82bdc3193c",
+      "regionId": "XC3-REGION-2",
+      "name": "罗斯卡洞窟",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BD%97%E6%96%AF%E5%8D%A1%E6%B4%9E%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-18aad1204423",
+      "regionId": "XC3-REGION-2",
+      "name": "罗斯卡台地",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BD%97%E6%96%AF%E5%8D%A1%E5%8F%B0%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-e387c804bec1",
+      "regionId": "XC3-REGION-2",
+      "name": "拉姆达殖民地",
+      "area": "拉姆达殖民地",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%8B%89%E5%A7%86%E8%BE%BE%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-f960af97b629",
+      "regionId": "XC3-REGION-2",
+      "name": "第一瀑布",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E7%80%91%E5%B8%83"
+    },
+    {
+      "id": "XC3-PLACE-528b3eca7251",
+      "regionId": "XC3-REGION-2",
+      "name": "第二瀑布",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E7%80%91%E5%B8%83"
+    },
+    {
+      "id": "XC3-PLACE-25ec5e1f2d4b",
+      "regionId": "XC3-REGION-2",
+      "name": "第三瀑布",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%89%E7%80%91%E5%B8%83"
+    },
+    {
+      "id": "XC3-PLACE-846ba620b515",
+      "regionId": "XC3-REGION-2",
+      "name": "第一采矿场",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E9%87%87%E7%9F%BF%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-ac36731a3d0d",
+      "regionId": "XC3-REGION-2",
+      "name": "第三采矿场",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%89%E9%87%87%E7%9F%BF%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-6253f67df4e4",
+      "regionId": "XC3-REGION-2",
+      "name": "恩达多山岭",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%81%A9%E8%BE%BE%E5%A4%9A%E5%B1%B1%E5%B2%AD"
+    },
+    {
+      "id": "XC3-PLACE-9b8033fd4db0",
+      "regionId": "XC3-REGION-2",
+      "name": "巴尔克鲁斯大门",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B7%B4%E5%B0%94%E5%85%8B%E9%B2%81%E6%96%AF%E5%A4%A7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-9e13616ecb60",
+      "regionId": "XC3-REGION-2",
+      "name": "塔乌殖民地",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A1%94%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-ffe55e085595",
+      "regionId": "XC3-REGION-2",
+      "name": "塔乌殖民地 铁巨神头部",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A1%94%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%93%81%E5%B7%A8%E7%A5%9E%E5%A4%B4%E9%83%A8"
+    },
+    {
+      "id": "XC3-PLACE-a9d4a121548b",
+      "regionId": "XC3-REGION-2",
+      "name": "塔乌殖民地 硕果沃田",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A1%94%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0%20%E7%A1%95%E6%9E%9C%E6%B2%83%E7%94%B0"
+    },
+    {
+      "id": "XC3-PLACE-32da3aa51db5",
+      "regionId": "XC3-REGION-2",
+      "name": "莫尔克纳纵断升降机",
+      "area": "莫尔克纳大森林下层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8E%AB%E5%B0%94%E5%85%8B%E7%BA%B3%E7%BA%B5%E6%96%AD%E5%8D%87%E9%99%8D%E6%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-8405217cd9f2",
+      "regionId": "XC3-REGION-2",
+      "name": "拉姆达殖民地 铁巨神",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%8B%89%E5%A7%86%E8%BE%BE%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%93%81%E5%B7%A8%E7%A5%9E"
+    },
+    {
+      "id": "XC3-PLACE-29f673a5f8d2",
+      "regionId": "XC3-REGION-2",
+      "name": "5号殖民地 铁巨神",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/5%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%93%81%E5%B7%A8%E7%A5%9E"
+    },
+    {
+      "id": "XC3-PLACE-bc83fabd27d5",
+      "regionId": "XC3-REGION-2",
+      "name": "巨神兽岩尖角",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B7%A8%E7%A5%9E%E5%85%BD%E5%B2%A9%E5%B0%96%E8%A7%92"
+    },
+    {
+      "id": "XC3-PLACE-9488e6847621",
+      "regionId": "XC3-REGION-2",
+      "name": "鲁诺古代遗迹",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%B2%81%E8%AF%BA%E5%8F%A4%E4%BB%A3%E9%81%97%E8%BF%B9"
+    },
+    {
+      "id": "XC3-PLACE-007eca052f5f",
+      "regionId": "XC3-REGION-2",
+      "name": "切石场",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%88%87%E7%9F%B3%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-63c420963b30",
+      "regionId": "XC3-REGION-2",
+      "name": "麦姆之门",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%BA%A6%E5%A7%86%E4%B9%8B%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-33f1d6b062ab",
+      "regionId": "XC3-REGION-2",
+      "name": "警告的票树",
+      "area": "莫尔克纳大森林下层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%AD%A6%E5%91%8A%E7%9A%84%E7%A5%A8%E6%A0%91"
+    },
+    {
+      "id": "XC3-PLACE-8eb7212e2f52",
+      "regionId": "XC3-REGION-2",
+      "name": "遗忘机关门",
+      "area": "莫尔克纳大森林下层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%81%97%E5%BF%98%E6%9C%BA%E5%85%B3%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-5d46dba328a6",
+      "regionId": "XC3-REGION-2",
+      "name": "芙蕾维尔运输通路",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8A%99%E8%95%BE%E7%BB%B4%E5%B0%94%E8%BF%90%E8%BE%93%E9%80%9A%E8%B7%AF"
+    },
+    {
+      "id": "XC3-PLACE-3a70c3a39505",
+      "regionId": "XC3-REGION-2",
+      "name": "贝尔扎山岭",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B4%9D%E5%B0%94%E6%89%8E%E5%B1%B1%E5%B2%AD"
+    },
+    {
+      "id": "XC3-PLACE-438de01dfa33",
+      "regionId": "XC3-REGION-2",
+      "name": "追风崖道",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%BF%BD%E9%A3%8E%E5%B4%96%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-315bb58816a1",
+      "regionId": "XC3-REGION-2",
+      "name": "塔乌殖民地 入口",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A1%94%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0%20%E5%85%A5%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-6cfce0dce6ac",
+      "regionId": "XC3-REGION-2",
+      "name": "塔乌殖民地 铁巨神",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A1%94%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%93%81%E5%B7%A8%E7%A5%9E"
+    },
+    {
+      "id": "XC3-PLACE-538dbf394ec2",
+      "regionId": "XC3-REGION-2",
+      "name": "塔乌殖民地 瞭望塔",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A1%94%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0%20%E7%9E%AD%E6%9C%9B%E5%A1%94"
+    },
+    {
+      "id": "XC3-PLACE-190246dae452",
+      "regionId": "XC3-REGION-2",
+      "name": "拉姆达殖民地 瀑布洞口",
+      "area": "拉姆达殖民地",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%8B%89%E5%A7%86%E8%BE%BE%E6%AE%96%E6%B0%91%E5%9C%B0%20%E7%80%91%E5%B8%83%E6%B4%9E%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-bd815e60a719",
+      "regionId": "XC3-REGION-2",
+      "name": "苍水岩台",
+      "area": "拉姆达殖民地",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8B%8D%E6%B0%B4%E5%B2%A9%E5%8F%B0"
+    },
+    {
+      "id": "XC3-PLACE-edf83bbf9e0a",
+      "regionId": "XC3-REGION-2",
+      "name": "隆亚瞭望点",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9A%86%E4%BA%9A%E7%9E%AD%E6%9C%9B%E7%82%B9"
+    },
+    {
+      "id": "XC3-PLACE-22ce71c60738",
+      "regionId": "XC3-REGION-2",
+      "name": "水脉尽头瀑布",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B0%B4%E8%84%89%E5%B0%BD%E5%A4%B4%E7%80%91%E5%B8%83"
+    },
+    {
+      "id": "XC3-PLACE-16cb3d2de867",
+      "regionId": "XC3-REGION-2",
+      "name": "集矿场",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9B%86%E7%9F%BF%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-570477a359a7",
+      "regionId": "XC3-REGION-2",
+      "name": "清流隐密河口",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B8%85%E6%B5%81%E9%9A%90%E5%AF%86%E6%B2%B3%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-d2f319564866",
+      "regionId": "XC3-REGION-2",
+      "name": "孔提的泉源",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%AD%94%E6%8F%90%E7%9A%84%E6%B3%89%E6%BA%90"
+    },
+    {
+      "id": "XC3-PLACE-a321b8bfedd4",
+      "regionId": "XC3-REGION-2",
+      "name": "发电所指挥室",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%91%E7%94%B5%E6%89%80%E6%8C%87%E6%8C%A5%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-4f67ee719dc2",
+      "regionId": "XC3-REGION-2",
+      "name": "瑟弗遗迹休息地",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%91%9F%E5%BC%97%E9%81%97%E8%BF%B9%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-16cde186a209",
+      "regionId": "XC3-REGION-2",
+      "name": "巨神兽岩休息地",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B7%A8%E7%A5%9E%E5%85%BD%E5%B2%A9%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-5dbcf1fb3423",
+      "regionId": "XC3-REGION-2",
+      "name": "古道休息地",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%A4%E9%81%93%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-960539a30e57",
+      "regionId": "XC3-REGION-2",
+      "name": "闪耀水池休息地",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%97%AA%E8%80%80%E6%B0%B4%E6%B1%A0%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-044c8adeaeab",
+      "regionId": "XC3-REGION-2",
+      "name": "四角塔休息地",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%9B%9B%E8%A7%92%E5%A1%94%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-f4f98c74512c",
+      "regionId": "XC3-REGION-2",
+      "name": "恩达多山岭休息地",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%81%A9%E8%BE%BE%E5%A4%9A%E5%B1%B1%E5%B2%AD%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-ba4013e10e2f",
+      "regionId": "XC3-REGION-2",
+      "name": "拉姆达殖民地前 扎营地",
+      "area": "拉姆达殖民地",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%8B%89%E5%A7%86%E8%BE%BE%E6%AE%96%E6%B0%91%E5%9C%B0%E5%89%8D%20%E6%89%8E%E8%90%A5%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-26a50af8b6ff",
+      "regionId": "XC3-REGION-2",
+      "name": "拉姆达殖民地 洞内食堂",
+      "area": "拉姆达殖民地",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%8B%89%E5%A7%86%E8%BE%BE%E6%AE%96%E6%B0%91%E5%9C%B0%20%E6%B4%9E%E5%86%85%E9%A3%9F%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-d9e94a8ab452",
+      "regionId": "XC3-REGION-2",
+      "name": "塔乌殖民地 野外食堂",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A1%94%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%87%8E%E5%A4%96%E9%A3%9F%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-bf738fa77224",
+      "regionId": "XC3-REGION-2",
+      "name": "瀑布中的锈毁铁巨神",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%80%91%E5%B8%83%E4%B8%AD%E7%9A%84%E9%94%88%E6%AF%81%E9%93%81%E5%B7%A8%E7%A5%9E"
+    },
+    {
+      "id": "XC3-PLACE-05f5014a5882",
+      "regionId": "XC3-REGION-2",
+      "name": "崖上的锈毁铁巨神",
+      "area": "潘特拉斯地区全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B4%96%E4%B8%8A%E7%9A%84%E9%94%88%E6%AF%81%E9%93%81%E5%B7%A8%E7%A5%9E"
+    },
+    {
+      "id": "XC3-PLACE-4b8e9ae09f53",
+      "regionId": "XC3-REGION-3",
+      "name": "科维斯主堡",
+      "area": "主堡第一阶层",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%A7%91%E7%BB%B4%E6%96%AF%E4%B8%BB%E5%A0%A1"
+    },
+    {
+      "id": "XC3-PLACE-632d1ece2d7f",
+      "regionId": "XC3-REGION-3",
+      "name": "机库 下层(科维斯主堡地区)",
+      "area": "主堡第一阶层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%BA%93%20%E4%B8%8B%E5%B1%82(%E7%A7%91%E7%BB%B4%E6%96%AF%E4%B8%BB%E5%A0%A1%E5%9C%B0%E5%8C%BA)"
+    },
+    {
+      "id": "XC3-PLACE-20ea34af8f0f",
+      "regionId": "XC3-REGION-3",
+      "name": "西雷大会堂",
+      "area": "主堡第一阶层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%A5%BF%E9%9B%B7%E5%A4%A7%E4%BC%9A%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-6918831b6292",
+      "regionId": "XC3-REGION-3",
+      "name": "机库 联络通道",
+      "area": "主堡第二阶层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%BA%93%20%E8%81%94%E7%BB%9C%E9%80%9A%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-4f285aa05926",
+      "regionId": "XC3-REGION-3",
+      "name": "机库 上层(科维斯主堡地区)",
+      "area": "主堡第二阶层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%BA%93%20%E4%B8%8A%E5%B1%82(%E7%A7%91%E7%BB%B4%E6%96%AF%E4%B8%BB%E5%A0%A1%E5%9C%B0%E5%8C%BA)"
+    },
+    {
+      "id": "XC3-PLACE-4a3540819220",
+      "regionId": "XC3-REGION-3",
+      "name": "第一兵员待机室",
+      "area": "主堡第三阶层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E5%85%B5%E5%91%98%E5%BE%85%E6%9C%BA%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-8d13e3454356",
+      "regionId": "XC3-REGION-3",
+      "name": "第二兵员待机室",
+      "area": "主堡第三阶层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E5%85%B5%E5%91%98%E5%BE%85%E6%9C%BA%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-9a2b6eab126b",
+      "regionId": "XC3-REGION-3",
+      "name": "外壳维修区域",
+      "area": "主堡第三阶层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%96%E5%A3%B3%E7%BB%B4%E4%BF%AE%E5%8C%BA%E5%9F%9F"
+    },
+    {
+      "id": "XC3-PLACE-21176e146de3",
+      "regionId": "XC3-REGION-3",
+      "name": "中层排水道",
+      "area": "主堡第三阶层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%AD%E5%B1%82%E6%8E%92%E6%B0%B4%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-f4e152bc50dd",
+      "regionId": "XC3-REGION-3",
+      "name": "恩宠殿廊",
+      "area": "主堡第三阶层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%81%A9%E5%AE%A0%E6%AE%BF%E5%BB%8A"
+    },
+    {
+      "id": "XC3-PLACE-2c1c10b6d346",
+      "regionId": "XC3-REGION-3",
+      "name": "物资搬运轴",
+      "area": "主堡第四阶层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%89%A9%E8%B5%84%E6%90%AC%E8%BF%90%E8%BD%B4"
+    },
+    {
+      "id": "XC3-PLACE-2a1e669b95f4",
+      "regionId": "XC3-REGION-3",
+      "name": "女王大厅",
+      "area": "主堡第四阶层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A5%B3%E7%8E%8B%E5%A4%A7%E5%8E%85"
+    },
+    {
+      "id": "XC3-PLACE-5d026065cfdf",
+      "regionId": "XC3-REGION-3",
+      "name": "上层排水道",
+      "area": "主堡第四阶层",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%8A%E5%B1%82%E6%8E%92%E6%B0%B4%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-554c35445f3b",
+      "regionId": "XC3-REGION-3",
+      "name": "下层排水道",
+      "area": "主堡排水道区域",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%8B%E5%B1%82%E6%8E%92%E6%B0%B4%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-079b6ccfde57",
+      "regionId": "XC3-REGION-3",
+      "name": "中央塔 空中庭园",
+      "area": "主堡第五阶层",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%AD%E5%A4%AE%E5%A1%94%20%E7%A9%BA%E4%B8%AD%E5%BA%AD%E5%9B%AD"
+    },
+    {
+      "id": "XC3-PLACE-ab332d6045e3",
+      "regionId": "XC3-REGION-3",
+      "name": "第一物资保管区",
+      "area": "主堡第一阶层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E7%89%A9%E8%B5%84%E4%BF%9D%E7%AE%A1%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-56ffb08f006d",
+      "regionId": "XC3-REGION-3",
+      "name": "第二物资保管区",
+      "area": "主堡第一阶层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E7%89%A9%E8%B5%84%E4%BF%9D%E7%AE%A1%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-c0b66742ca67",
+      "regionId": "XC3-REGION-3",
+      "name": "机库 下层西侧大门",
+      "area": "主堡第一阶层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%BA%93%20%E4%B8%8B%E5%B1%82%E8%A5%BF%E4%BE%A7%E5%A4%A7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-cf740ace8034",
+      "regionId": "XC3-REGION-3",
+      "name": "机库 下层东侧大门",
+      "area": "主堡第一阶层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%BA%93%20%E4%B8%8B%E5%B1%82%E4%B8%9C%E4%BE%A7%E5%A4%A7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-82231a5e738b",
+      "regionId": "XC3-REGION-3",
+      "name": "主堡 正门",
+      "area": "主堡第一阶层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%BB%E5%A0%A1%20%E6%AD%A3%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-f0a4e72f9093",
+      "regionId": "XC3-REGION-3",
+      "name": "圣天翔大厅",
+      "area": "主堡第一阶层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%9C%A3%E5%A4%A9%E7%BF%94%E5%A4%A7%E5%8E%85"
+    },
+    {
+      "id": "XC3-PLACE-5baad25ae536",
+      "regionId": "XC3-REGION-3",
+      "name": "机库 上层中央大门",
+      "area": "主堡第二阶层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%BA%93%20%E4%B8%8A%E5%B1%82%E4%B8%AD%E5%A4%AE%E5%A4%A7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-d2ccdc2c774d",
+      "regionId": "XC3-REGION-3",
+      "name": "兵员待机区域",
+      "area": "主堡第三阶层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%85%B5%E5%91%98%E5%BE%85%E6%9C%BA%E5%8C%BA%E5%9F%9F"
+    },
+    {
+      "id": "XC3-PLACE-cbb390acad1f",
+      "regionId": "XC3-REGION-3",
+      "name": "歼灭者 基座",
+      "area": "主堡第三阶层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%AD%BC%E7%81%AD%E8%80%85%20%E5%9F%BA%E5%BA%A7"
+    },
+    {
+      "id": "XC3-PLACE-e3d4c260d53e",
+      "regionId": "XC3-REGION-3",
+      "name": "启示大厅",
+      "area": "主堡第三阶层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%90%AF%E7%A4%BA%E5%A4%A7%E5%8E%85"
+    },
+    {
+      "id": "XC3-PLACE-f31533714892",
+      "regionId": "XC3-REGION-3",
+      "name": "中央塔联络通道",
+      "area": "主堡第四阶层",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%AD%E5%A4%AE%E5%A1%94%E8%81%94%E7%BB%9C%E9%80%9A%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-3b501025c9e2",
+      "regionId": "XC3-REGION-3",
+      "name": "排水口",
+      "area": "主堡排水道区域",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%8E%92%E6%B0%B4%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-c3f7fe0636cb",
+      "regionId": "XC3-REGION-3",
+      "name": "女王起居室",
+      "area": "主堡第五阶层",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A5%B3%E7%8E%8B%E8%B5%B7%E5%B1%85%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-00db475e3737",
+      "regionId": "XC3-REGION-3",
+      "name": "第三物资保管区",
+      "area": "主堡第二阶层",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%89%E7%89%A9%E8%B5%84%E4%BF%9D%E7%AE%A1%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-d03e989fb75f",
+      "regionId": "XC3-REGION-3",
+      "name": "备用物资保管室",
+      "area": "主堡第三阶层",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%87%E7%94%A8%E7%89%A9%E8%B5%84%E4%BF%9D%E7%AE%A1%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-fe44b655b199",
+      "regionId": "XC3-REGION-3",
+      "name": "上层供水道",
+      "area": "主堡第四阶层",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%8A%E5%B1%82%E4%BE%9B%E6%B0%B4%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-7538601b616a",
+      "regionId": "XC3-REGION-3",
+      "name": "希维拉浮游岩礁地带",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B8%8C%E7%BB%B4%E6%8B%89%E6%B5%AE%E6%B8%B8%E5%B2%A9%E7%A4%81%E5%9C%B0%E5%B8%A6"
+    },
+    {
+      "id": "XC3-PLACE-0c2a90f0ade7",
+      "regionId": "XC3-REGION-3",
+      "name": "第一伊克西亚大桥",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E4%BC%8A%E5%85%8B%E8%A5%BF%E4%BA%9A%E5%A4%A7%E6%A1%A5"
+    },
+    {
+      "id": "XC3-PLACE-286c2636dc6a",
+      "regionId": "XC3-REGION-3",
+      "name": "11号殖民地",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/11%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-c2494924353e",
+      "regionId": "XC3-REGION-3",
+      "name": "第二伊克西亚大桥",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E4%BC%8A%E5%85%8B%E8%A5%BF%E4%BA%9A%E5%A4%A7%E6%A1%A5"
+    },
+    {
+      "id": "XC3-PLACE-1c81a52fa43c",
+      "regionId": "XC3-REGION-3",
+      "name": "奥比尔布斯要塞",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A5%A5%E6%AF%94%E5%B0%94%E5%B8%83%E6%96%AF%E8%A6%81%E5%A1%9E"
+    },
+    {
+      "id": "XC3-PLACE-ed3fdce0911c",
+      "regionId": "XC3-REGION-3",
+      "name": "第三伊克西亚大桥",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%89%E4%BC%8A%E5%85%8B%E8%A5%BF%E4%BA%9A%E5%A4%A7%E6%A1%A5"
+    },
+    {
+      "id": "XC3-PLACE-1fe3c02da9d1",
+      "regionId": "XC3-REGION-3",
+      "name": "迦汀防卫基地",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%BF%A6%E6%B1%80%E9%98%B2%E5%8D%AB%E5%9F%BA%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-345fa07caf28",
+      "regionId": "XC3-REGION-3",
+      "name": "第四伊克西亚大桥",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E5%9B%9B%E4%BC%8A%E5%85%8B%E8%A5%BF%E4%BA%9A%E5%A4%A7%E6%A1%A5"
+    },
+    {
+      "id": "XC3-PLACE-950e61813c9d",
+      "regionId": "XC3-REGION-3",
+      "name": "第零浮游岩礁",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E9%9B%B6%E6%B5%AE%E6%B8%B8%E5%B2%A9%E7%A4%81"
+    },
+    {
+      "id": "XC3-PLACE-e9cdffb8bfe7",
+      "regionId": "XC3-REGION-3",
+      "name": "第一浮游岩礁",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E6%B5%AE%E6%B8%B8%E5%B2%A9%E7%A4%81"
+    },
+    {
+      "id": "XC3-PLACE-843d1e69f60f",
+      "regionId": "XC3-REGION-3",
+      "name": "第二浮游岩礁",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E6%B5%AE%E6%B8%B8%E5%B2%A9%E7%A4%81"
+    },
+    {
+      "id": "XC3-PLACE-961d226a079a",
+      "regionId": "XC3-REGION-3",
+      "name": "第三浮游岩礁",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%89%E6%B5%AE%E6%B8%B8%E5%B2%A9%E7%A4%81"
+    },
+    {
+      "id": "XC3-PLACE-6c9cced71fee",
+      "regionId": "XC3-REGION-3",
+      "name": "第四浮游岩礁",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E5%9B%9B%E6%B5%AE%E6%B8%B8%E5%B2%A9%E7%A4%81"
+    },
+    {
+      "id": "XC3-PLACE-d9d2ca68d051",
+      "regionId": "XC3-REGION-3",
+      "name": "第五浮游岩礁",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%94%E6%B5%AE%E6%B8%B8%E5%B2%A9%E7%A4%81"
+    },
+    {
+      "id": "XC3-PLACE-13f149b0153e",
+      "regionId": "XC3-REGION-3",
+      "name": "第六浮游岩礁",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E5%85%AD%E6%B5%AE%E6%B8%B8%E5%B2%A9%E7%A4%81"
+    },
+    {
+      "id": "XC3-PLACE-7b1d6354bddb",
+      "regionId": "XC3-REGION-3",
+      "name": "第七浮游岩礁",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%83%E6%B5%AE%E6%B8%B8%E5%B2%A9%E7%A4%81"
+    },
+    {
+      "id": "XC3-PLACE-7f4484cb37a6",
+      "regionId": "XC3-REGION-3",
+      "name": "11号殖民地 练兵壕",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/11%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E7%BB%83%E5%85%B5%E5%A3%95"
+    },
+    {
+      "id": "XC3-PLACE-57ebbbbaf842",
+      "regionId": "XC3-REGION-3",
+      "name": "西克札尔岔路",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%A5%BF%E5%85%8B%E6%9C%AD%E5%B0%94%E5%B2%94%E8%B7%AF"
+    },
+    {
+      "id": "XC3-PLACE-357798f4bb88",
+      "regionId": "XC3-REGION-3",
+      "name": "席尔海姆联络通道",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B8%AD%E5%B0%94%E6%B5%B7%E5%A7%86%E8%81%94%E7%BB%9C%E9%80%9A%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-c675850639d9",
+      "regionId": "XC3-REGION-3",
+      "name": "普罗帕特翁大圣堂前",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%99%AE%E7%BD%97%E5%B8%95%E7%89%B9%E7%BF%81%E5%A4%A7%E5%9C%A3%E5%A0%82%E5%89%8D"
+    },
+    {
+      "id": "XC3-PLACE-3c9bbd6c787d",
+      "regionId": "XC3-REGION-3",
+      "name": "卫士队 训练所",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8D%AB%E5%A3%AB%E9%98%9F%20%E8%AE%AD%E7%BB%83%E6%89%80"
+    },
+    {
+      "id": "XC3-PLACE-e07cd8d86351",
+      "regionId": "XC3-REGION-3",
+      "name": "以太采集场",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BB%A5%E5%A4%AA%E9%87%87%E9%9B%86%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-f2558023ef5b",
+      "regionId": "XC3-REGION-3",
+      "name": "潘西亚岩门",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%BD%98%E8%A5%BF%E4%BA%9A%E5%B2%A9%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-b0a653c2918f",
+      "regionId": "XC3-REGION-3",
+      "name": "11号殖民地 东侧防门",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/11%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E4%B8%9C%E4%BE%A7%E9%98%B2%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-eefd8e2748ea",
+      "regionId": "XC3-REGION-3",
+      "name": "11号殖民地 西侧防门",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/11%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E8%A5%BF%E4%BE%A7%E9%98%B2%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-5de153338a0d",
+      "regionId": "XC3-REGION-3",
+      "name": "西门大道",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%A5%BF%E9%97%A8%E5%A4%A7%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-7836f1d33734",
+      "regionId": "XC3-REGION-3",
+      "name": "东门大道",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%9C%E9%97%A8%E5%A4%A7%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-4c2c386f1f2a",
+      "regionId": "XC3-REGION-3",
+      "name": "通往大剑的干谷",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%80%9A%E5%BE%80%E5%A4%A7%E5%89%91%E7%9A%84%E5%B9%B2%E8%B0%B7"
+    },
+    {
+      "id": "XC3-PLACE-ae86d34db761",
+      "regionId": "XC3-REGION-3",
+      "name": "埃可达索山崖",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%9F%83%E5%8F%AF%E8%BE%BE%E7%B4%A2%E5%B1%B1%E5%B4%96"
+    },
+    {
+      "id": "XC3-PLACE-8df01d819643",
+      "regionId": "XC3-REGION-3",
+      "name": "圣盖冠顶",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%9C%A3%E7%9B%96%E5%86%A0%E9%A1%B6"
+    },
+    {
+      "id": "XC3-PLACE-18ad6fa1c425",
+      "regionId": "XC3-REGION-3",
+      "name": "第二浮游岩礁休息地",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E6%B5%AE%E6%B8%B8%E5%B2%A9%E7%A4%81%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-06e3460b0303",
+      "regionId": "XC3-REGION-3",
+      "name": "11号殖民地 野外食堂",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/11%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%87%8E%E5%A4%96%E9%A3%9F%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-7aacff1f2175",
+      "regionId": "XC3-REGION-3",
+      "name": "跳舞诺彭亭",
+      "area": "希维拉浮游岩礁地带全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B7%B3%E8%88%9E%E8%AF%BA%E5%BD%AD%E4%BA%AD"
+    },
+    {
+      "id": "XC3-PLACE-83e35311cc00",
+      "regionId": "XC3-REGION-4",
+      "name": "大剑山麓",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%A7%E5%89%91%E5%B1%B1%E9%BA%93"
+    },
+    {
+      "id": "XC3-PLACE-db7931c90985",
+      "regionId": "XC3-REGION-4",
+      "name": "安格努斯城镇要塞",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%AE%89%E6%A0%BC%E5%8A%AA%E6%96%AF%E5%9F%8E%E9%95%87%E8%A6%81%E5%A1%9E"
+    },
+    {
+      "id": "XC3-PLACE-13d7bb9d4216",
+      "regionId": "XC3-REGION-4",
+      "name": "艾尔提亚海",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%89%BE%E5%B0%94%E6%8F%90%E4%BA%9A%E6%B5%B7"
+    },
+    {
+      "id": "XC3-PLACE-178f62c61aaa",
+      "regionId": "XC3-REGION-4",
+      "name": "利·嘉德收容所",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%88%A9%C2%B7%E5%98%89%E5%BE%B7%E6%94%B6%E5%AE%B9%E6%89%80"
+    },
+    {
+      "id": "XC3-PLACE-75a6c53b46b9",
+      "regionId": "XC3-REGION-4",
+      "name": "诺·欧姆湿地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%AF%BA%C2%B7%E6%AC%A7%E5%A7%86%E6%B9%BF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-72fbd71da3a3",
+      "regionId": "XC3-REGION-4",
+      "name": "大剑内部通道",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%A7%E5%89%91%E5%86%85%E9%83%A8%E9%80%9A%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-66a29e11ab79",
+      "regionId": "XC3-REGION-4",
+      "name": "森特利吉港",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%A3%AE%E7%89%B9%E5%88%A9%E5%90%89%E6%B8%AF"
+    },
+    {
+      "id": "XC3-PLACE-9c5dce9de972",
+      "regionId": "XC3-REGION-4",
+      "name": "第三船坞",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%89%E8%88%B9%E5%9D%9E"
+    },
+    {
+      "id": "XC3-PLACE-e4153678d727",
+      "regionId": "XC3-REGION-4",
+      "name": "赛门的秘密仓库",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B5%9B%E9%97%A8%E7%9A%84%E7%A7%98%E5%AF%86%E4%BB%93%E5%BA%93"
+    },
+    {
+      "id": "XC3-PLACE-8ebf8564194d",
+      "regionId": "XC3-REGION-4",
+      "name": "隐藏的兵器研究室",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9A%90%E8%97%8F%E7%9A%84%E5%85%B5%E5%99%A8%E7%A0%94%E7%A9%B6%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-aa54a179eefd",
+      "regionId": "XC3-REGION-4",
+      "name": "比宁岛",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%AF%94%E5%AE%81%E5%B2%9B"
+    },
+    {
+      "id": "XC3-PLACE-89742b684cf9",
+      "regionId": "XC3-REGION-4",
+      "name": "克尔努岛",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%85%8B%E5%B0%94%E5%8A%AA%E5%B2%9B"
+    },
+    {
+      "id": "XC3-PLACE-b6ec57867bc7",
+      "regionId": "XC3-REGION-4",
+      "name": "萨班岛",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%90%A8%E7%8F%AD%E5%B2%9B"
+    },
+    {
+      "id": "XC3-PLACE-f41eb163a2dd",
+      "regionId": "XC3-REGION-4",
+      "name": "安努群岛",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%AE%89%E5%8A%AA%E7%BE%A4%E5%B2%9B"
+    },
+    {
+      "id": "XC3-PLACE-91577018e53b",
+      "regionId": "XC3-REGION-4",
+      "name": "亚尔加弗半岛",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BA%9A%E5%B0%94%E5%8A%A0%E5%BC%97%E5%8D%8A%E5%B2%9B"
+    },
+    {
+      "id": "XC3-PLACE-6c287e9e7ed2",
+      "regionId": "XC3-REGION-4",
+      "name": "哈坎海角",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%93%88%E5%9D%8E%E6%B5%B7%E8%A7%92"
+    },
+    {
+      "id": "XC3-PLACE-7acbf6caa602",
+      "regionId": "XC3-REGION-4",
+      "name": "机关岩屋岛",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%85%B3%E5%B2%A9%E5%B1%8B%E5%B2%9B"
+    },
+    {
+      "id": "XC3-PLACE-e1806aa8e549",
+      "regionId": "XC3-REGION-4",
+      "name": "巴尔多塔斯环礁",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B7%B4%E5%B0%94%E5%A4%9A%E5%A1%94%E6%96%AF%E7%8E%AF%E7%A4%81"
+    },
+    {
+      "id": "XC3-PLACE-907b7b5aebe1",
+      "regionId": "XC3-REGION-4",
+      "name": "帝达拉岛",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B8%9D%E8%BE%BE%E6%8B%89%E5%B2%9B"
+    },
+    {
+      "id": "XC3-PLACE-d0c0d846fa53",
+      "regionId": "XC3-REGION-4",
+      "name": "米古罗浮游列岛",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%B1%B3%E5%8F%A4%E7%BD%97%E6%B5%AE%E6%B8%B8%E5%88%97%E5%B2%9B"
+    },
+    {
+      "id": "XC3-PLACE-60224786a90a",
+      "regionId": "XC3-REGION-4",
+      "name": "缪乌殖民地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BC%AA%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-10942db6cc58",
+      "regionId": "XC3-REGION-4",
+      "name": "拉比亚沙丘岛",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%8B%89%E6%AF%94%E4%BA%9A%E6%B2%99%E4%B8%98%E5%B2%9B"
+    },
+    {
+      "id": "XC3-PLACE-5b568556d6fa",
+      "regionId": "XC3-REGION-4",
+      "name": "雷乌尼斯开发区",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9B%B7%E4%B9%8C%E5%B0%BC%E6%96%AF%E5%BC%80%E5%8F%91%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-ae31f69cee4f",
+      "regionId": "XC3-REGION-4",
+      "name": "巨蚁深渊",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B7%A8%E8%9A%81%E6%B7%B1%E6%B8%8A"
+    },
+    {
+      "id": "XC3-PLACE-cae3cb6fa950",
+      "regionId": "XC3-REGION-4",
+      "name": "刃尖的溪谷道",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%88%83%E5%B0%96%E7%9A%84%E6%BA%AA%E8%B0%B7%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-420ee6a88569",
+      "regionId": "XC3-REGION-4",
+      "name": "佩德司特地谷",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BD%A9%E5%BE%B7%E5%8F%B8%E7%89%B9%E5%9C%B0%E8%B0%B7"
+    },
+    {
+      "id": "XC3-PLACE-5ece36dac885",
+      "regionId": "XC3-REGION-4",
+      "name": "法凌岩窟道",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B3%95%E5%87%8C%E5%B2%A9%E7%AA%9F%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-d3e98788cb08",
+      "regionId": "XC3-REGION-4",
+      "name": "遗忘的殖民地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%81%97%E5%BF%98%E7%9A%84%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-2bd37cbf8b6e",
+      "regionId": "XC3-REGION-4",
+      "name": "克雷森海岸",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%85%8B%E9%9B%B7%E6%A3%AE%E6%B5%B7%E5%B2%B8"
+    },
+    {
+      "id": "XC3-PLACE-493d14b974bb",
+      "regionId": "XC3-REGION-4",
+      "name": "三界绝景海角",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%89%E7%95%8C%E7%BB%9D%E6%99%AF%E6%B5%B7%E8%A7%92"
+    },
+    {
+      "id": "XC3-PLACE-62040f367e5d",
+      "regionId": "XC3-REGION-4",
+      "name": "普拉司热泉地带",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%99%AE%E6%8B%89%E5%8F%B8%E7%83%AD%E6%B3%89%E5%9C%B0%E5%B8%A6"
+    },
+    {
+      "id": "XC3-PLACE-cdbbb374b77b",
+      "regionId": "XC3-REGION-4",
+      "name": "叛逆洞窟",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%9B%E9%80%86%E6%B4%9E%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-b3269431d076",
+      "regionId": "XC3-REGION-4",
+      "name": "普拉司温泉",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%99%AE%E6%8B%89%E5%8F%B8%E6%B8%A9%E6%B3%89"
+    },
+    {
+      "id": "XC3-PLACE-9ac30ef5056e",
+      "regionId": "XC3-REGION-4",
+      "name": "海风侵蚀洞窟",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B5%B7%E9%A3%8E%E4%BE%B5%E8%9A%80%E6%B4%9E%E7%AA%9F"
+    },
+    {
+      "id": "XC3-PLACE-e9c568116228",
+      "regionId": "XC3-REGION-4",
+      "name": "极点栈道",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9E%81%E7%82%B9%E6%A0%88%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-91c71d17b63e",
+      "regionId": "XC3-REGION-4",
+      "name": "粮食保管库",
+      "area": "利·嘉德收容所",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%B2%AE%E9%A3%9F%E4%BF%9D%E7%AE%A1%E5%BA%93"
+    },
+    {
+      "id": "XC3-PLACE-960740631df1",
+      "regionId": "XC3-REGION-4",
+      "name": "中央牢房",
+      "area": "利·嘉德收容所",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%AD%E5%A4%AE%E7%89%A2%E6%88%BF"
+    },
+    {
+      "id": "XC3-PLACE-f7f1b29396f8",
+      "regionId": "XC3-REGION-4",
+      "name": "外廊森林区",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%96%E5%BB%8A%E6%A3%AE%E6%9E%97%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-b9f51d72d2f6",
+      "regionId": "XC3-REGION-4",
+      "name": "多人牢房区域",
+      "area": "利·嘉德收容所",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%9A%E4%BA%BA%E7%89%A2%E6%88%BF%E5%8C%BA%E5%9F%9F"
+    },
+    {
+      "id": "XC3-PLACE-4649a634aa02",
+      "regionId": "XC3-REGION-4",
+      "name": "希望山丘",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B8%8C%E6%9C%9B%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-06d17f400216",
+      "regionId": "XC3-REGION-4",
+      "name": "外廊东部联络桥",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%96%E5%BB%8A%E4%B8%9C%E9%83%A8%E8%81%94%E7%BB%9C%E6%A1%A5"
+    },
+    {
+      "id": "XC3-PLACE-d2fa03582ea4",
+      "regionId": "XC3-REGION-4",
+      "name": "中央港湾区",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%AD%E5%A4%AE%E6%B8%AF%E6%B9%BE%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-efb3d2b9754d",
+      "regionId": "XC3-REGION-4",
+      "name": "情报统整管理室",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%83%85%E6%8A%A5%E7%BB%9F%E6%95%B4%E7%AE%A1%E7%90%86%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-59d0fbc0cd18",
+      "regionId": "XC3-REGION-4",
+      "name": "15号殖民地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "colony",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/15%E5%8F%B7%E6%AE%96%E6%B0%91%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-0a1115dd97de",
+      "regionId": "XC3-REGION-4",
+      "name": "狱警待命处",
+      "area": "利·嘉德收容所",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%8B%B1%E8%AD%A6%E5%BE%85%E5%91%BD%E5%A4%84"
+    },
+    {
+      "id": "XC3-PLACE-a1f453ab24a3",
+      "regionId": "XC3-REGION-4",
+      "name": "天葛特遗迹",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%A9%E8%91%9B%E7%89%B9%E9%81%97%E8%BF%B9"
+    },
+    {
+      "id": "XC3-PLACE-1cf01f972b3c",
+      "regionId": "XC3-REGION-4",
+      "name": "缪乌殖民地 背面海岸",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BC%AA%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0%20%E8%83%8C%E9%9D%A2%E6%B5%B7%E5%B2%B8"
+    },
+    {
+      "id": "XC3-PLACE-80027715758d",
+      "regionId": "XC3-REGION-4",
+      "name": "缪乌殖民地 眺望广场",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BC%AA%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0%20%E7%9C%BA%E6%9C%9B%E5%B9%BF%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-6840687dd7ad",
+      "regionId": "XC3-REGION-4",
+      "name": "埃癸斯海域",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%9F%83%E7%99%B8%E6%96%AF%E6%B5%B7%E5%9F%9F"
+    },
+    {
+      "id": "XC3-PLACE-e808deee7df5",
+      "regionId": "XC3-REGION-4",
+      "name": "一花的隐藏据点",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%80%E8%8A%B1%E7%9A%84%E9%9A%90%E8%97%8F%E6%8D%AE%E7%82%B9"
+    },
+    {
+      "id": "XC3-PLACE-bb7bc442cfd2",
+      "regionId": "XC3-REGION-4",
+      "name": "欧西雅斯岩礁峡谷",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%AC%A7%E8%A5%BF%E9%9B%85%E6%96%AF%E5%B2%A9%E7%A4%81%E5%B3%A1%E8%B0%B7"
+    },
+    {
+      "id": "XC3-PLACE-330f29879824",
+      "regionId": "XC3-REGION-4",
+      "name": "海蜥蜴潮池",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B5%B7%E8%9C%A5%E8%9C%B4%E6%BD%AE%E6%B1%A0"
+    },
+    {
+      "id": "XC3-PLACE-b5d69de46f0d",
+      "regionId": "XC3-REGION-4",
+      "name": "尖角礁沙滩",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B0%96%E8%A7%92%E7%A4%81%E6%B2%99%E6%BB%A9"
+    },
+    {
+      "id": "XC3-PLACE-dcf8a40fdf17",
+      "regionId": "XC3-REGION-4",
+      "name": "希克特河口",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B8%8C%E5%85%8B%E7%89%B9%E6%B2%B3%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-1370d5be378f",
+      "regionId": "XC3-REGION-4",
+      "name": "艾尔提亚中继基地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%89%BE%E5%B0%94%E6%8F%90%E4%BA%9A%E4%B8%AD%E7%BB%A7%E5%9F%BA%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-8bdefa2d831a",
+      "regionId": "XC3-REGION-4",
+      "name": "帕图丽雅湾",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B8%95%E5%9B%BE%E4%B8%BD%E9%9B%85%E6%B9%BE"
+    },
+    {
+      "id": "XC3-PLACE-f06f3eb4464e",
+      "regionId": "XC3-REGION-4",
+      "name": "巴尼斯小径",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B7%B4%E5%B0%BC%E6%96%AF%E5%B0%8F%E5%BE%84"
+    },
+    {
+      "id": "XC3-PLACE-b0984a79a72e",
+      "regionId": "XC3-REGION-4",
+      "name": "剑身巨壁",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%89%91%E8%BA%AB%E5%B7%A8%E5%A3%81"
+    },
+    {
+      "id": "XC3-PLACE-52475a54c71a",
+      "regionId": "XC3-REGION-4",
+      "name": "芙拉电梯前",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8A%99%E6%8B%89%E7%94%B5%E6%A2%AF%E5%89%8D"
+    },
+    {
+      "id": "XC3-PLACE-ade2722d9c99",
+      "regionId": "XC3-REGION-4",
+      "name": "双岩之门",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8F%8C%E5%B2%A9%E4%B9%8B%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-886b339734e5",
+      "regionId": "XC3-REGION-4",
+      "name": "萨班港",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%90%A8%E7%8F%AD%E6%B8%AF"
+    },
+    {
+      "id": "XC3-PLACE-404657810a18",
+      "regionId": "XC3-REGION-4",
+      "name": "海风的眺望地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B5%B7%E9%A3%8E%E7%9A%84%E7%9C%BA%E6%9C%9B%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-29cfb2d25d8c",
+      "regionId": "XC3-REGION-4",
+      "name": "观瀑三岔路",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%A7%82%E7%80%91%E4%B8%89%E5%B2%94%E8%B7%AF"
+    },
+    {
+      "id": "XC3-PLACE-9eaba0d5eea9",
+      "regionId": "XC3-REGION-4",
+      "name": "至天飞瀑",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%87%B3%E5%A4%A9%E9%A3%9E%E7%80%91"
+    },
+    {
+      "id": "XC3-PLACE-4b1cdd381e74",
+      "regionId": "XC3-REGION-4",
+      "name": "伊森岛",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%8A%E6%A3%AE%E5%B2%9B"
+    },
+    {
+      "id": "XC3-PLACE-8f52748f3f2c",
+      "regionId": "XC3-REGION-4",
+      "name": "先驱者河口",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%85%88%E9%A9%B1%E8%80%85%E6%B2%B3%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-11bfd42a17e1",
+      "regionId": "XC3-REGION-4",
+      "name": "第一石柱遗迹",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E7%9F%B3%E6%9F%B1%E9%81%97%E8%BF%B9"
+    },
+    {
+      "id": "XC3-PLACE-868a9bbf0296",
+      "regionId": "XC3-REGION-4",
+      "name": "悠久的天盘",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%82%A0%E4%B9%85%E7%9A%84%E5%A4%A9%E7%9B%98"
+    },
+    {
+      "id": "XC3-PLACE-b82a92e5c523",
+      "regionId": "XC3-REGION-4",
+      "name": "海螺岩沙滩",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B5%B7%E8%9E%BA%E5%B2%A9%E6%B2%99%E6%BB%A9"
+    },
+    {
+      "id": "XC3-PLACE-fd0ecd95c5e3",
+      "regionId": "XC3-REGION-4",
+      "name": "缪乌殖民地 正门",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BC%AA%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0%20%E6%AD%A3%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-5580369f2fee",
+      "regionId": "XC3-REGION-4",
+      "name": "第四石柱遗迹",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E5%9B%9B%E7%9F%B3%E6%9F%B1%E9%81%97%E8%BF%B9"
+    },
+    {
+      "id": "XC3-PLACE-81b757502fb5",
+      "regionId": "XC3-REGION-4",
+      "name": "森特利吉港 管理室",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%A3%AE%E7%89%B9%E5%88%A9%E5%90%89%E6%B8%AF%20%E7%AE%A1%E7%90%86%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-419677762899",
+      "regionId": "XC3-REGION-4",
+      "name": "榈榈孤岛",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%A6%88%E6%A6%88%E5%AD%A4%E5%B2%9B"
+    },
+    {
+      "id": "XC3-PLACE-ff096c596f3c",
+      "regionId": "XC3-REGION-4",
+      "name": "第二石柱遗迹",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E7%9F%B3%E6%9F%B1%E9%81%97%E8%BF%B9"
+    },
+    {
+      "id": "XC3-PLACE-57c6b5ead763",
+      "regionId": "XC3-REGION-4",
+      "name": "第三石柱遗迹",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%89%E7%9F%B3%E6%9F%B1%E9%81%97%E8%BF%B9"
+    },
+    {
+      "id": "XC3-PLACE-e38362daf8cd",
+      "regionId": "XC3-REGION-4",
+      "name": "魔兽的掌心",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%AD%94%E5%85%BD%E7%9A%84%E6%8E%8C%E5%BF%83"
+    },
+    {
+      "id": "XC3-PLACE-8b75bae32183",
+      "regionId": "XC3-REGION-4",
+      "name": "英灵遗迹",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8B%B1%E7%81%B5%E9%81%97%E8%BF%B9"
+    },
+    {
+      "id": "XC3-PLACE-cf0338270cfc",
+      "regionId": "XC3-REGION-4",
+      "name": "莫拉克特河口",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%8E%AB%E6%8B%89%E5%85%8B%E7%89%B9%E6%B2%B3%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-4be435c3d4d2",
+      "regionId": "XC3-REGION-4",
+      "name": "摇篮运输部队 扎营地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%91%87%E7%AF%AE%E8%BF%90%E8%BE%93%E9%83%A8%E9%98%9F%20%E6%89%8E%E8%90%A5%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-166dece62ed1",
+      "regionId": "XC3-REGION-4",
+      "name": "隐者河口",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9A%90%E8%80%85%E6%B2%B3%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-9af720cbccdf",
+      "regionId": "XC3-REGION-4",
+      "name": "遗忘的殖民地 领袖住家",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%81%97%E5%BF%98%E7%9A%84%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%A2%86%E8%A2%96%E4%BD%8F%E5%AE%B6"
+    },
+    {
+      "id": "XC3-PLACE-aca89581e0c3",
+      "regionId": "XC3-REGION-4",
+      "name": "热沙海岸",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%83%AD%E6%B2%99%E6%B5%B7%E5%B2%B8"
+    },
+    {
+      "id": "XC3-PLACE-b01b12a91c8b",
+      "regionId": "XC3-REGION-4",
+      "name": "邪念的空洞",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%82%AA%E5%BF%B5%E7%9A%84%E7%A9%BA%E6%B4%9E"
+    },
+    {
+      "id": "XC3-PLACE-9635effcdb48",
+      "regionId": "XC3-REGION-4",
+      "name": "翠玉光泉",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BF%A0%E7%8E%89%E5%85%89%E6%B3%89"
+    },
+    {
+      "id": "XC3-PLACE-298d3cac6734",
+      "regionId": "XC3-REGION-4",
+      "name": "亚人炼狱",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BA%9A%E4%BA%BA%E7%82%BC%E7%8B%B1"
+    },
+    {
+      "id": "XC3-PLACE-1e4eb46c63cc",
+      "regionId": "XC3-REGION-4",
+      "name": "缪乌殖民地 休憩牧场",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BC%AA%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0%20%E4%BC%91%E6%86%A9%E7%89%A7%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-ce9ad8c9e93e",
+      "regionId": "XC3-REGION-4",
+      "name": "通风孔入口",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%80%9A%E9%A3%8E%E5%AD%94%E5%85%A5%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-2cd52bd30951",
+      "regionId": "XC3-REGION-4",
+      "name": "外廊开口",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%96%E5%BB%8A%E5%BC%80%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-9f6288725556",
+      "regionId": "XC3-REGION-4",
+      "name": "第一看守塔",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E7%9C%8B%E5%AE%88%E5%A1%94"
+    },
+    {
+      "id": "XC3-PLACE-ca7f0daf0f88",
+      "regionId": "XC3-REGION-4",
+      "name": "收容所 运送大门",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%94%B6%E5%AE%B9%E6%89%80%20%E8%BF%90%E9%80%81%E5%A4%A7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-d4a67ea7b333",
+      "regionId": "XC3-REGION-4",
+      "name": "韧骡型起降场",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%9F%A7%E9%AA%A1%E5%9E%8B%E8%B5%B7%E9%99%8D%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-1444bff37ded",
+      "regionId": "XC3-REGION-4",
+      "name": "开发区入口",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%BC%80%E5%8F%91%E5%8C%BA%E5%85%A5%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-95440f1ee89f",
+      "regionId": "XC3-REGION-4",
+      "name": "斜向大电梯前",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%96%9C%E5%90%91%E5%A4%A7%E7%94%B5%E6%A2%AF%E5%89%8D"
+    },
+    {
+      "id": "XC3-PLACE-36a34c7713f6",
+      "regionId": "XC3-REGION-4",
+      "name": "中继基地 联络桥",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%AD%E7%BB%A7%E5%9F%BA%E5%9C%B0%20%E8%81%94%E7%BB%9C%E6%A1%A5"
+    },
+    {
+      "id": "XC3-PLACE-23c9f4b4fc12",
+      "regionId": "XC3-REGION-4",
+      "name": "吊唁与希望的花田",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%90%8A%E5%94%81%E4%B8%8E%E5%B8%8C%E6%9C%9B%E7%9A%84%E8%8A%B1%E7%94%B0"
+    },
+    {
+      "id": "XC3-PLACE-6764b1611af5",
+      "regionId": "XC3-REGION-4",
+      "name": "札拉峡谷门",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%AD%E6%8B%89%E5%B3%A1%E8%B0%B7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-e46c375a20e3",
+      "regionId": "XC3-REGION-4",
+      "name": "轮回古道",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%BD%AE%E5%9B%9E%E5%8F%A4%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-1e84e80f9b32",
+      "regionId": "XC3-REGION-4",
+      "name": "卢加水源地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8D%A2%E5%8A%A0%E6%B0%B4%E6%BA%90%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-085f596ed405",
+      "regionId": "XC3-REGION-4",
+      "name": "第五石柱遗迹",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%94%E7%9F%B3%E6%9F%B1%E9%81%97%E8%BF%B9"
+    },
+    {
+      "id": "XC3-PLACE-103c3ec426d4",
+      "regionId": "XC3-REGION-4",
+      "name": "拉迪亚尔的眺望",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%8B%89%E8%BF%AA%E4%BA%9A%E5%B0%94%E7%9A%84%E7%9C%BA%E6%9C%9B"
+    },
+    {
+      "id": "XC3-PLACE-73a2147041e7",
+      "regionId": "XC3-REGION-4",
+      "name": "久远风韵",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B9%85%E8%BF%9C%E9%A3%8E%E9%9F%B5"
+    },
+    {
+      "id": "XC3-PLACE-e7cd973c4bae",
+      "regionId": "XC3-REGION-4",
+      "name": "水源休息地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B0%B4%E6%BA%90%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-06418f3e7065",
+      "regionId": "XC3-REGION-4",
+      "name": "安努群岛休息地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%AE%89%E5%8A%AA%E7%BE%A4%E5%B2%9B%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-219133d14110",
+      "regionId": "XC3-REGION-4",
+      "name": "比宁岛休息地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%AF%94%E5%AE%81%E5%B2%9B%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-3b499c431bd0",
+      "regionId": "XC3-REGION-4",
+      "name": "克尔努岛休息地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%85%8B%E5%B0%94%E5%8A%AA%E5%B2%9B%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-438f2f97a2a4",
+      "regionId": "XC3-REGION-4",
+      "name": "环礁的锈毁铁巨神",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%8E%AF%E7%A4%81%E7%9A%84%E9%94%88%E6%AF%81%E9%93%81%E5%B7%A8%E7%A5%9E"
+    },
+    {
+      "id": "XC3-PLACE-2f01c8884774",
+      "regionId": "XC3-REGION-4",
+      "name": "沙丘岛的锈毁铁巨神",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B2%99%E4%B8%98%E5%B2%9B%E7%9A%84%E9%94%88%E6%AF%81%E9%93%81%E5%B7%A8%E7%A5%9E"
+    },
+    {
+      "id": "XC3-PLACE-e90d9fcfe88b",
+      "regionId": "XC3-REGION-4",
+      "name": "遗忘的殖民地 兵营",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%81%97%E5%BF%98%E7%9A%84%E6%AE%96%E6%B0%91%E5%9C%B0%20%E5%85%B5%E8%90%A5"
+    },
+    {
+      "id": "XC3-PLACE-b812f06169df",
+      "regionId": "XC3-REGION-4",
+      "name": "哈坎海角休息地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%93%88%E5%9D%8E%E6%B5%B7%E8%A7%92%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-253e8d8c7257",
+      "regionId": "XC3-REGION-4",
+      "name": "第一牢房",
+      "area": "利·嘉德收容所",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E7%89%A2%E6%88%BF"
+    },
+    {
+      "id": "XC3-PLACE-9b3ee12bfc8b",
+      "regionId": "XC3-REGION-4",
+      "name": "侵蚀洞窟休息地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BE%B5%E8%9A%80%E6%B4%9E%E7%AA%9F%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-570977f8ef2c",
+      "regionId": "XC3-REGION-4",
+      "name": "缪乌殖民地 野外食堂",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BC%AA%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0%20%E9%87%8E%E5%A4%96%E9%A3%9F%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-5862daa1e04b",
+      "regionId": "XC3-REGION-4",
+      "name": "缪乌殖民地 兵营",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BC%AA%E4%B9%8C%E6%AE%96%E6%B0%91%E5%9C%B0%20%E5%85%B5%E8%90%A5"
+    },
+    {
+      "id": "XC3-PLACE-3fc121b6426d",
+      "regionId": "XC3-REGION-4",
+      "name": "河口休息地",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B2%B3%E5%8F%A3%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-4a81552f6e3a",
+      "regionId": "XC3-REGION-4",
+      "name": "中央牢房 食堂",
+      "area": "利·嘉德收容所",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%AD%E5%A4%AE%E7%89%A2%E6%88%BF%20%E9%A3%9F%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-1ce691089960",
+      "regionId": "XC3-REGION-4",
+      "name": "外廊西门",
+      "area": "嘉登西亚全域地图",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%96%E5%BB%8A%E8%A5%BF%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-7625eeff1eae",
+      "regionId": "XC3-REGION-5",
+      "name": "安格努斯主堡",
+      "area": "天归处刑场",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%AE%89%E6%A0%BC%E5%8A%AA%E6%96%AF%E4%B8%BB%E5%A0%A1"
+    },
+    {
+      "id": "XC3-PLACE-02f2c93241c9",
+      "regionId": "XC3-REGION-5",
+      "name": "白墙牢狱",
+      "area": "天归处刑场",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%99%BD%E5%A2%99%E7%89%A2%E7%8B%B1"
+    },
+    {
+      "id": "XC3-PLACE-2913a34c7269",
+      "regionId": "XC3-REGION-5",
+      "name": "天归处刑场",
+      "area": "天归处刑场",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%A9%E5%BD%92%E5%A4%84%E5%88%91%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-60509c93b076",
+      "regionId": "XC3-REGION-5",
+      "name": "处刑场前集会区",
+      "area": "天归处刑场",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%84%E5%88%91%E5%9C%BA%E5%89%8D%E9%9B%86%E4%BC%9A%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-d64347f5ab27",
+      "regionId": "XC3-REGION-5",
+      "name": "值勤室休息区",
+      "area": "天归处刑场",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%80%BC%E5%8B%A4%E5%AE%A4%E4%BC%91%E6%81%AF%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-f5363b75ddbe",
+      "regionId": "XC3-REGION-6",
+      "name": "大剑护手",
+      "area": "大剑上层部(6章前) / 大剑上层部(6章后)",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%A7%E5%89%91%E6%8A%A4%E6%89%8B"
+    },
+    {
+      "id": "XC3-PLACE-ff96bfdc3f9c",
+      "regionId": "XC3-REGION-8",
+      "name": "都市",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%83%BD%E5%B8%82"
+    },
+    {
+      "id": "XC3-PLACE-9ba4f5600830",
+      "regionId": "XC3-REGION-6",
+      "name": "空中回廊",
+      "area": "大剑上层部(6章前) / 大剑上层部(6章后)",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%A9%BA%E4%B8%AD%E5%9B%9E%E5%BB%8A"
+    },
+    {
+      "id": "XC3-PLACE-9e503f56096f",
+      "regionId": "XC3-REGION-8",
+      "name": "中央大道",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%AD%E5%A4%AE%E5%A4%A7%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-0de17124cee8",
+      "regionId": "XC3-REGION-8",
+      "name": "机神工房区",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E7%A5%9E%E5%B7%A5%E6%88%BF%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-cd90ab10ae3f",
+      "regionId": "XC3-REGION-8",
+      "name": "普拉耶塔莉亚山丘",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%99%AE%E6%8B%89%E8%80%B6%E5%A1%94%E8%8E%89%E4%BA%9A%E5%B1%B1%E4%B8%98"
+    },
+    {
+      "id": "XC3-PLACE-1a8b340564b6",
+      "regionId": "XC3-REGION-8",
+      "name": "医疗设施",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8C%BB%E7%96%97%E8%AE%BE%E6%96%BD"
+    },
+    {
+      "id": "XC3-PLACE-9cddc3de99ca",
+      "regionId": "XC3-REGION-8",
+      "name": "凯露姆居住区",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%87%AF%E9%9C%B2%E5%A7%86%E5%B1%85%E4%BD%8F%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-fa7e229472f7",
+      "regionId": "XC3-REGION-8",
+      "name": "维利德公园",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BB%B4%E5%88%A9%E5%BE%B7%E5%85%AC%E5%9B%AD"
+    },
+    {
+      "id": "XC3-PLACE-3b2645d9efab",
+      "regionId": "XC3-REGION-8",
+      "name": "失落编号宿舍",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%B1%E8%90%BD%E7%BC%96%E5%8F%B7%E5%AE%BF%E8%88%8D"
+    },
+    {
+      "id": "XC3-PLACE-5c1f7c62c6a5",
+      "regionId": "XC3-REGION-8",
+      "name": "利贝里广场",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%88%A9%E8%B4%9D%E9%87%8C%E5%B9%BF%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-c5a9b4d143c2",
+      "regionId": "XC3-REGION-8",
+      "name": "赛克列特通道",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B5%9B%E5%85%8B%E5%88%97%E7%89%B9%E9%80%9A%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-03482266bc74",
+      "regionId": "XC3-REGION-8",
+      "name": "资源保管区",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%B5%84%E6%BA%90%E4%BF%9D%E7%AE%A1%E5%8C%BA"
+    },
+    {
+      "id": "XC3-PLACE-f2d4b51f8323",
+      "regionId": "XC3-REGION-8",
+      "name": "失落编号训练场",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%B1%E8%90%BD%E7%BC%96%E5%8F%B7%E8%AE%AD%E7%BB%83%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-d4e368d13ab5",
+      "regionId": "XC3-REGION-8",
+      "name": "蜜琪巴食堂",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%9C%9C%E7%90%AA%E5%B7%B4%E9%A3%9F%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-0b1a6c45f028",
+      "regionId": "XC3-REGION-6",
+      "name": "多鲁干断崖",
+      "area": "大剑上层部(6章前) / 大剑上层部(6章后)",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A4%9A%E9%B2%81%E5%B9%B2%E6%96%AD%E5%B4%96"
+    },
+    {
+      "id": "XC3-PLACE-13132e9fb699",
+      "regionId": "XC3-REGION-6",
+      "name": "物资保管库",
+      "area": "大剑上层部(6章前) / 大剑上层部(6章后)",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%89%A9%E8%B5%84%E4%BF%9D%E7%AE%A1%E5%BA%93"
+    },
+    {
+      "id": "XC3-PLACE-e62c6c97ba90",
+      "regionId": "XC3-REGION-6",
+      "name": "都市入口",
+      "area": "大剑上层部(6章前)",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%83%BD%E5%B8%82%E5%85%A5%E5%8F%A3"
+    },
+    {
+      "id": "XC3-PLACE-80de0efd2acc",
+      "regionId": "XC3-REGION-8",
+      "name": "命刻碑",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%91%BD%E5%88%BB%E7%A2%91"
+    },
+    {
+      "id": "XC3-PLACE-2f5f3e27ba8e",
+      "regionId": "XC3-REGION-8",
+      "name": "纪念堂",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%BA%AA%E5%BF%B5%E5%A0%82"
+    },
+    {
+      "id": "XC3-PLACE-e471e9d1ced4",
+      "regionId": "XC3-REGION-8",
+      "name": "爱丝特尔港",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%88%B1%E4%B8%9D%E7%89%B9%E5%B0%94%E6%B8%AF"
+    },
+    {
+      "id": "XC3-PLACE-c1c6c19c8156",
+      "regionId": "XC3-REGION-8",
+      "name": "模组仓库",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%A8%A1%E7%BB%84%E4%BB%93%E5%BA%93"
+    },
+    {
+      "id": "XC3-PLACE-58fa090d4692",
+      "regionId": "XC3-REGION-8",
+      "name": "蜜缇雅瞭望台",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E8%9C%9C%E7%BC%87%E9%9B%85%E7%9E%AD%E6%9C%9B%E5%8F%B0"
+    },
+    {
+      "id": "XC3-PLACE-1ba553c93a17",
+      "regionId": "XC3-REGION-8",
+      "name": "作战指令室",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BD%9C%E6%88%98%E6%8C%87%E4%BB%A4%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-1d1ce1d39335",
+      "regionId": "XC3-REGION-8",
+      "name": "都市休息地",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E9%83%BD%E5%B8%82%E4%BC%91%E6%81%AF%E5%9C%B0"
+    },
+    {
+      "id": "XC3-PLACE-4902e3c2f606",
+      "regionId": "XC3-REGION-8",
+      "name": "休息小广场",
+      "area": "大剑上层部(6章前) / 都市内部(6章后)",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%BC%91%E6%81%AF%E5%B0%8F%E5%B9%BF%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-258a1336c0d4",
+      "regionId": "XC3-REGION-6",
+      "name": "灭光之虚",
+      "area": "大剑上层部(6章后)",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%81%AD%E5%85%89%E4%B9%8B%E8%99%9A"
+    },
+    {
+      "id": "XC3-PLACE-e48973225d95",
+      "regionId": "XC3-REGION-6",
+      "name": "崩塌的通道",
+      "area": "大剑上层部(6章后)",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B4%A9%E5%A1%8C%E7%9A%84%E9%80%9A%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-955f66e2b447",
+      "regionId": "XC3-REGION-7",
+      "name": "始源内部",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "area",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A7%8B%E6%BA%90%E5%86%85%E9%83%A8"
+    },
+    {
+      "id": "XC3-PLACE-c9f4e821537e",
+      "regionId": "XC3-REGION-7",
+      "name": "力场产生器 基座",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8A%9B%E5%9C%BA%E4%BA%A7%E7%94%9F%E5%99%A8%20%E5%9F%BA%E5%BA%A7"
+    },
+    {
+      "id": "XC3-PLACE-3dcc02e89c32",
+      "regionId": "XC3-REGION-7",
+      "name": "北区联络通道",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8C%97%E5%8C%BA%E8%81%94%E7%BB%9C%E9%80%9A%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-57576e1c34f3",
+      "regionId": "XC3-REGION-7",
+      "name": "勇气号 船舱",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8B%87%E6%B0%94%E5%8F%B7%20%E8%88%B9%E8%88%B1"
+    },
+    {
+      "id": "XC3-PLACE-32317677ba0a",
+      "regionId": "XC3-REGION-7",
+      "name": "第一增幅器",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E5%A2%9E%E5%B9%85%E5%99%A8"
+    },
+    {
+      "id": "XC3-PLACE-e79d019bb89f",
+      "regionId": "XC3-REGION-7",
+      "name": "北侧外壳通道",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8C%97%E4%BE%A7%E5%A4%96%E5%A3%B3%E9%80%9A%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-31c62eda7d73",
+      "regionId": "XC3-REGION-7",
+      "name": "增幅器区域",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A2%9E%E5%B9%85%E5%99%A8%E5%8C%BA%E5%9F%9F"
+    },
+    {
+      "id": "XC3-PLACE-14b3db1792eb",
+      "regionId": "XC3-REGION-7",
+      "name": "第二增幅器",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E5%A2%9E%E5%B9%85%E5%99%A8"
+    },
+    {
+      "id": "XC3-PLACE-becd10a4c842",
+      "regionId": "XC3-REGION-7",
+      "name": "第一增幅器 上层大门",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E5%A2%9E%E5%B9%85%E5%99%A8%20%E4%B8%8A%E5%B1%82%E5%A4%A7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-cca630aaeda6",
+      "regionId": "XC3-REGION-7",
+      "name": "第一增幅器 下层大门",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E5%A2%9E%E5%B9%85%E5%99%A8%20%E4%B8%8B%E5%B1%82%E5%A4%A7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-cd134e783381",
+      "regionId": "XC3-REGION-7",
+      "name": "第二增幅器 上层大门",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E5%A2%9E%E5%B9%85%E5%99%A8%20%E4%B8%8A%E5%B1%82%E5%A4%A7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-50a6b11a051c",
+      "regionId": "XC3-REGION-7",
+      "name": "第二增幅器 下层大门",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E5%A2%9E%E5%B9%85%E5%99%A8%20%E4%B8%8B%E5%B1%82%E5%A4%A7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-6034e9c36f32",
+      "regionId": "XC3-REGION-7",
+      "name": "增幅器控制室",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%A2%9E%E5%B9%85%E5%99%A8%E6%8E%A7%E5%88%B6%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-7f1b07d0ec4f",
+      "regionId": "XC3-REGION-7",
+      "name": "第一铁巨神工厂",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E9%93%81%E5%B7%A8%E7%A5%9E%E5%B7%A5%E5%8E%82"
+    },
+    {
+      "id": "XC3-PLACE-086dac42a2ec",
+      "regionId": "XC3-REGION-7",
+      "name": "第二铁巨神工厂",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E9%93%81%E5%B7%A8%E7%A5%9E%E5%B7%A5%E5%8E%82"
+    },
+    {
+      "id": "XC3-PLACE-b44f12624ee7",
+      "regionId": "XC3-REGION-7",
+      "name": "第三铁巨神工厂",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%89%E9%93%81%E5%B7%A8%E7%A5%9E%E5%B7%A5%E5%8E%82"
+    },
+    {
+      "id": "XC3-PLACE-cf3b5c24967a",
+      "regionId": "XC3-REGION-7",
+      "name": "东西区联络通道",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%9C%E8%A5%BF%E5%8C%BA%E8%81%94%E7%BB%9C%E9%80%9A%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-54e8dd6225a9",
+      "regionId": "XC3-REGION-7",
+      "name": "第一铁巨神工厂 东门",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E9%93%81%E5%B7%A8%E7%A5%9E%E5%B7%A5%E5%8E%82%20%E4%B8%9C%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-b687469cef1e",
+      "regionId": "XC3-REGION-7",
+      "name": "第一铁巨神工厂 南门",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E9%93%81%E5%B7%A8%E7%A5%9E%E5%B7%A5%E5%8E%82%20%E5%8D%97%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-d26ec76f7756",
+      "regionId": "XC3-REGION-7",
+      "name": "第三铁巨神工厂 北门",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%89%E9%93%81%E5%B7%A8%E7%A5%9E%E5%B7%A5%E5%8E%82%20%E5%8C%97%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-85e454bac6bc",
+      "regionId": "XC3-REGION-7",
+      "name": "第三铁巨神工厂 东门",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%89%E9%93%81%E5%B7%A8%E7%A5%9E%E5%B7%A5%E5%8E%82%20%E4%B8%9C%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-8f7910e1c732",
+      "regionId": "XC3-REGION-7",
+      "name": "工厂控制室",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%B7%A5%E5%8E%82%E6%8E%A7%E5%88%B6%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-b1c4cc02b0a0",
+      "regionId": "XC3-REGION-7",
+      "name": "南区联络通道",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8D%97%E5%8C%BA%E8%81%94%E7%BB%9C%E9%80%9A%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-3674c57f66ee",
+      "regionId": "XC3-REGION-7",
+      "name": "永劫监狱",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%B0%B8%E5%8A%AB%E7%9B%91%E7%8B%B1"
+    },
+    {
+      "id": "XC3-PLACE-66643326a8be",
+      "regionId": "XC3-REGION-7",
+      "name": "南侧外壳通道",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%8D%97%E4%BE%A7%E5%A4%96%E5%A3%B3%E9%80%9A%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-15b70809130f",
+      "regionId": "XC3-REGION-7",
+      "name": "机库 上层(始源)",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%BA%93%20%E4%B8%8A%E5%B1%82(%E5%A7%8B%E6%BA%90)"
+    },
+    {
+      "id": "XC3-PLACE-87e38cd704cd",
+      "regionId": "XC3-REGION-7",
+      "name": "机库 下层(始源)",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%BA%93%20%E4%B8%8B%E5%B1%82(%E5%A7%8B%E6%BA%90)"
+    },
+    {
+      "id": "XC3-PLACE-5ec33814ca36",
+      "regionId": "XC3-REGION-7",
+      "name": "机库区域",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%BA%93%E5%8C%BA%E5%9F%9F"
+    },
+    {
+      "id": "XC3-PLACE-a1b2d0cf18f1",
+      "regionId": "XC3-REGION-7",
+      "name": "机库 上层东侧大门",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%BA%93%20%E4%B8%8A%E5%B1%82%E4%B8%9C%E4%BE%A7%E5%A4%A7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-740afe5e0242",
+      "regionId": "XC3-REGION-7",
+      "name": "机库 上层西侧大门",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%BA%93%20%E4%B8%8A%E5%B1%82%E8%A5%BF%E4%BE%A7%E5%A4%A7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-9c0e34e49069",
+      "regionId": "XC3-REGION-7",
+      "name": "机库 下层中央大门",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E6%9C%BA%E5%BA%93%20%E4%B8%8B%E5%B1%82%E4%B8%AD%E5%A4%AE%E5%A4%A7%E9%97%A8"
+    },
+    {
+      "id": "XC3-PLACE-95dca444b762",
+      "regionId": "XC3-REGION-7",
+      "name": "第二物资保管室",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E7%89%A9%E8%B5%84%E4%BF%9D%E7%AE%A1%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-c8a934d65aa9",
+      "regionId": "XC3-REGION-7",
+      "name": "第一物资保管室",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E7%89%A9%E8%B5%84%E4%BF%9D%E7%AE%A1%E5%AE%A4"
+    },
+    {
+      "id": "XC3-PLACE-effc8d3cbfa7",
+      "regionId": "XC3-REGION-7",
+      "name": "中央防卫区域",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%AD%E5%A4%AE%E9%98%B2%E5%8D%AB%E5%8C%BA%E5%9F%9F"
+    },
+    {
+      "id": "XC3-PLACE-980594ed4185",
+      "regionId": "XC3-REGION-7",
+      "name": "第二防卫塔",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%BA%8C%E9%98%B2%E5%8D%AB%E5%A1%94"
+    },
+    {
+      "id": "XC3-PLACE-fe5b8a465894",
+      "regionId": "XC3-REGION-7",
+      "name": "第四防卫塔",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E5%9B%9B%E9%98%B2%E5%8D%AB%E5%A1%94"
+    },
+    {
+      "id": "XC3-PLACE-fdfadc0fe425",
+      "regionId": "XC3-REGION-7",
+      "name": "中央区联络通道",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "location",
+      "travel": false,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%AD%E5%A4%AE%E5%8C%BA%E8%81%94%E7%BB%9C%E9%80%9A%E9%81%93"
+    },
+    {
+      "id": "XC3-PLACE-815c741bb3b5",
+      "regionId": "XC3-REGION-7",
+      "name": "第一防卫塔",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%80%E9%98%B2%E5%8D%AB%E5%A1%94"
+    },
+    {
+      "id": "XC3-PLACE-4f53333be5b5",
+      "regionId": "XC3-REGION-7",
+      "name": "第三防卫塔",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E7%AC%AC%E4%B8%89%E9%98%B2%E5%8D%AB%E5%A1%94"
+    },
+    {
+      "id": "XC3-PLACE-e1dfcb137809",
+      "regionId": "XC3-REGION-7",
+      "name": "下层武装保管塔",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%8B%E5%B1%82%E6%AD%A6%E8%A3%85%E4%BF%9D%E7%AE%A1%E5%A1%94"
+    },
+    {
+      "id": "XC3-PLACE-4d79d5a00fe8",
+      "regionId": "XC3-REGION-7",
+      "name": "上层武装保管塔",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E4%B8%8A%E5%B1%82%E6%AD%A6%E8%A3%85%E4%BF%9D%E7%AE%A1%E5%A1%94"
+    },
+    {
+      "id": "XC3-PLACE-a4fe5639f579",
+      "regionId": "XC3-REGION-7",
+      "name": "圆环剧场",
+      "area": "始源内部",
+      "floor": "",
+      "kind": "landmark",
+      "travel": true,
+      "sourceUrl": "https://xenoblade3.cn/%E5%9C%B0%E7%82%B9/%E5%9C%86%E7%8E%AF%E5%89%A7%E5%9C%BA"
+    },
+    {
+      "id": "XC3-PLACE-78badbc2bf22",
+      "regionId": "XC3-FR-REGION-0",
+      "name": "被废弃的储藏库",
+      "area": "红之森",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-2104731e6843",
+      "regionId": "XC3-FR-REGION-0",
+      "name": "无名洞窟",
+      "area": "红之森",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-329e38fb4a90",
+      "regionId": "XC3-FR-REGION-0",
+      "name": "巴鲁亚滋宫殿",
+      "area": "红之森",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-e855388c9674",
+      "regionId": "XC3-FR-REGION-1",
+      "name": "腐朽的古岚戴尔城堡",
+      "area": "阿玛内瑟尔高原",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-93bf61a12969",
+      "regionId": "XC3-FR-REGION-1",
+      "name": "流刑堡垒遗址",
+      "area": "阿玛内瑟尔高原",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-fc76e4217ace",
+      "regionId": "XC3-FR-REGION-1",
+      "name": "开拓者的眺望",
+      "area": "阿玛内瑟尔高原",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-270b34d4ebdc",
+      "regionId": "XC3-FR-REGION-1",
+      "name": "萨尔摩亚冰释洞窟",
+      "area": "阿玛内瑟尔高原",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-f9cf4e59fe51",
+      "regionId": "XC3-FR-REGION-1",
+      "name": "开拓者休息地",
+      "area": "阿玛内瑟尔高原",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-02181686324b",
+      "regionId": "XC3-FR-REGION-2",
+      "name": "9号殖民地",
+      "area": "望乡的盆地",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-b244694dfb68",
+      "regionId": "XC3-FR-REGION-2",
+      "name": "葛托利克斯神托遗迹",
+      "area": "望乡的盆地",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-9cbcbe315c05",
+      "regionId": "XC3-FR-REGION-2",
+      "name": "锈毁的3号防空炮塔",
+      "area": "望乡的盆地",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-b0baa548edc2",
+      "regionId": "XC3-FR-REGION-3",
+      "name": "白国占领地",
+      "area": "拉古纳利亚遗迹群",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-51289cddb606",
+      "regionId": "XC3-FR-REGION-3",
+      "name": "淹没的达克夏神殿",
+      "area": "拉古纳利亚遗迹群",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-2754b587ad4e",
+      "regionId": "XC3-FR-REGION-3",
+      "name": "神托之塔",
+      "area": "拉古纳利亚遗迹群",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-ddaaebdae204",
+      "regionId": "XC3-FR-REGION-3",
+      "name": "王之庭园",
+      "area": "拉古纳利亚遗迹群",
+      "floor": "",
+      "kind": "secret",
+      "travel": true,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-21fb29458481",
+      "regionId": "XC3-FR-REGION-3",
+      "name": "湖畔休息地",
+      "area": "拉古纳利亚遗迹群",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-71b820d71bf0",
+      "regionId": "XC3-FR-REGION-3",
+      "name": "鲁米那利亚支柱遗迹",
+      "area": "拉古纳利亚遗迹群",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-05f4b71fe362",
+      "regionId": "XC3-FR-REGION-3",
+      "name": "拉格艾尔湖泊",
+      "area": "拉古纳利亚遗迹群",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-54ae7858f4a0",
+      "regionId": "XC3-FR-REGION-3",
+      "name": "拉格艾尔大桥",
+      "area": "拉古纳利亚遗迹群",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-43fd29ae1567",
+      "regionId": "XC3-FR-REGION-4",
+      "name": "大神殿亚耿遗迹",
+      "area": "黑之山",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-039f4e503011",
+      "regionId": "XC3-FR-REGION-4",
+      "name": "贝加萨斯大雪原",
+      "area": "黑之山",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-eb9df4121d64",
+      "regionId": "XC3-FR-REGION-4",
+      "name": "巴涅罗旧街区遗迹群",
+      "area": "黑之山",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-f0bbbe7370d2",
+      "regionId": "XC3-FR-REGION-4",
+      "name": "贝法鲁阁遗迹",
+      "area": "黑之山",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-e9284d0a7f3e",
+      "regionId": "XC3-FR-REGION-4",
+      "name": "白磁的王座",
+      "area": "黑之山",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-44b134bd5dcd",
+      "regionId": "XC3-FR-REGION-4",
+      "name": "三圣贤至圣所",
+      "area": "黑之山",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-74c28373bae1",
+      "regionId": "XC3-FR-REGION-4",
+      "name": "监狱岛",
+      "area": "黑之山",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-a3db419c4ac6",
+      "regionId": "XC3-FR-REGION-4",
+      "name": "旧街区遗迹休息地",
+      "area": "黑之山",
+      "floor": "",
+      "kind": "rest",
+      "travel": true,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-1272e5b83c88",
+      "regionId": "XC3-FR-REGION-4",
+      "name": "纳古尔山瞭望台",
+      "area": "黑之山",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    },
+    {
+      "id": "XC3-PLACE-ed09527b2643",
+      "regionId": "XC3-FR-REGION-4",
+      "name": "第三圣器室",
+      "area": "黑之山",
+      "floor": "",
+      "kind": "reference",
+      "travel": false,
+      "sourceUrl": "https://billyisland.blogspot.com/2023/05/3.html"
+    }
+  ]
+}

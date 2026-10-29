@@ -28,8 +28,12 @@ test("full backup round-trips desktop → browser SQLite → desktop and rejects
   assert.equal(response.status, 200);
   const initial = validateBackup(await response.json());
   assert.equal(initial.tables.quests.length, 1890);
-  assert.equal(Object.keys(initial.tables).length, 10);
+  assert.equal(Object.keys(initial.tables).length, 11);
   const backup = structuredClone(initial);
+  const legacy = structuredClone(initial);
+  delete legacy.tables.xc3_location_progress;
+  assert.deepEqual(validateBackup(legacy).tables.xc3_location_progress, []);
+  assert.equal(Object.hasOwn(legacy.tables, "xc3_location_progress"), false);
   const now = new Date().toISOString();
   backup.tables.quest_labels.push({ id: "test-label", game: "XCX", name: "离线测试标签", color: "#445566", is_built_in: 0, sort_order: 999, created_at: now });
   const quest = backup.tables.quests.find((q) => q.game === "XCX");
@@ -37,6 +41,7 @@ test("full backup round-trips desktop → browser SQLite → desktop and rejects
   backup.tables.game_notes.push({ id: "test-note", game: "XCX", title: "手机笔记", category: "战斗", content: "# 离线笔记\n中文完整内容", is_pinned: 1, sort_order: 9, created_at: now, updated_at: now });
   backup.tables.xc1_location_progress.push({ location_id: "XC1-PLACE-003", visited: 1, bookmarked: 1 });
   backup.tables.xc2_location_progress.push({ location_id: "test-location", visited: 1, bookmarked: 0 });
+  backup.tables.xc3_location_progress.push({ location_id: "test-xc3-location", visited: 1, bookmarked: 1 });
   backup.tables.xc2_character_progress.push({ character_id: "test-character", collected: 1, bookmarked: 1 });
   response = await call("POST", backup);
   assert.equal(response.status, 200, await response.text());

@@ -1,8 +1,9 @@
 import data from "../data/xc2-locations.json";
-import { getQuestArc, type XC2Arc } from "./quest-filters";
+import { getQuestArc } from "./quest-filters";
 import type { Quest } from "./quest";
 
 export type XC2LocationKind = "landmark" | "location" | "secret" | "scene";
+export type XC2LocationArc = "baseGame" | "torna";
 export type XC2Location = {
   id: string;
   regionId: string;
@@ -18,7 +19,7 @@ export type XC2Location = {
 export type XC2Region = {
   id: string;
   name: string;
-  arc: XC2Arc;
+  arc: XC2LocationArc;
   order: number;
   chapter: string;
   description: string;
@@ -28,7 +29,7 @@ export type XC2Region = {
 };
 export type XC2LocationProgress = { id: string; visited: boolean; bookmarked: boolean };
 export type XC2LocationView = {
-  arc: "all" | XC2Arc;
+  arc: XC2LocationArc;
   regionId: string;
   locationId: string;
   query: string;
@@ -36,16 +37,16 @@ export type XC2LocationView = {
   progress: "all" | "visited" | "unvisited" | "bookmarked";
 };
 export const initialXC2LocationView: XC2LocationView = {
-  arc: "all", regionId: "XC2-REGION-ma02a", locationId: "", query: "", kind: "all", progress: "all",
+  arc: "baseGame", regionId: "XC2-REGION-ma02a", locationId: "", query: "", kind: "all", progress: "all",
 };
 export const xc2Directory = data as Omit<typeof data, "regions" | "locations"> & { regions: XC2Region[]; locations: XC2Location[] };
 export const xc2LocationKinds: Record<XC2LocationKind, string> = { landmark: "地标", location: "地点", secret: "秘境", scene: "剧情场景" };
-export const xc2LocationArcs: Record<XC2Arc, string> = { baseGame: "本篇", expansionPass: "扩展票", torna: "黄金之国伊拉" };
+export const xc2LocationArcs: Record<XC2LocationArc, string> = { baseGame: "本篇", torna: "黄金国" };
 export const xc2RegionsById = new Map(xc2Directory.regions.map((region) => [region.id, region]));
 
 export function matchesXC2Location(location: XC2Location, view: XC2LocationView, progress?: XC2LocationProgress) {
   const region = xc2RegionsById.get(location.regionId);
-  if (!region || (view.arc !== "all" && region.arc !== view.arc)) return false;
+  if (!region || region.arc !== view.arc) return false;
   if (view.regionId !== "all" && view.regionId !== region.id) return false;
   if (view.kind !== "all" && view.kind !== location.kind) return false;
   if (view.progress === "visited" && !progress?.visited) return false;

@@ -42,6 +42,25 @@ function BattleSkillList({ skills }: { skills: XC2Character["battleSkills"] }) {
   return <div className="xc2-battle-skills">{skills.map((skill) => <div key={skill.name}><h4>{skill.name}</h4><p>{skill.effect}</p></div>)}</div>;
 }
 
+function DriverAffinityChart({ skills }: { skills: XC2Character["battleSkills"] }) {
+  const [chart, setChart] = useState<"表象牵绊" | "内心牵绊">("表象牵绊");
+  return <div className="xc2-affinity">
+    <div className="xc2-affinity-tabs" role="group" aria-label="选择牵绊圆环">
+      {(["表象牵绊", "内心牵绊"] as const).map((name) => <button type="button" key={name} aria-pressed={chart === name} onClick={() => setChart(name)}>{name}</button>)}
+    </div>
+    <p className="xc2-affinity-guide">每环按游戏中的位置从左到右排列，编号 1—5。</p>
+    {[1, 2, 3].map((ring) => <details className="xc2-affinity-ring" key={`${chart}-${ring}`} open={ring === 1}>
+      <summary><strong>第 {ring} 环</strong><span>5 个位置 · 从左到右</span><UiIcon name="chevron-down" size={16} /></summary>
+      <ol>{skills.filter((skill) => skill.affinity?.chart === chart && skill.affinity.ring === ring)
+        .sort((left, right) => left.affinity!.position - right.affinity!.position)
+        .map((skill) => <li key={skill.name}>
+          <span className="xc2-affinity-position">第 {ring} 环 · 从左第 {skill.affinity!.position} 个</span>
+          <h4>{skill.name}</h4><p>{skill.effect}</p>
+        </li>)}</ol>
+    </details>)}
+  </div>;
+}
+
 function archiveTag(character: XC2Character) {
   if (character.isForm) return "形态档案";
   if (!character.collectible && character.playable) return "临时可操作";
@@ -71,7 +90,34 @@ export default function XC2CharacterDirectory({ quests, onOpenQuest }: Props) {
   const [savingIds, setSavingIds] = useState<Record<string, boolean>>({});
   const [saveError, setSaveError] = useState("");
   const [saveMessage, setSaveMessage] = useState("");
-  const detailRef = useRef<HTMLElement>(null);
+  const detailRef = useRef<HTMLDialogElement>(null);
+  const [detailOpen, setDetailOpen] = useState(false);
+
+  useEffect(() => {
+    if (!detailOpen) return;
+    const dialog = detailRef.current;
+    if (!dialog) return;
+    const opener = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    const shell = dialog.closest<HTMLElement>(".main-shell");
+    const bodyOverflow = document.body.style.overflow;
+    const shellOverflow = shell?.style.overflow ?? "";
+    document.body.style.overflow = "hidden";
+    if (shell) shell.style.overflow = "hidden";
+    const dismissBackdrop = (event: MouseEvent) => {
+      if (event.target !== dialog) return;
+      const bounds = dialog.getBoundingClientRect();
+      if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) setDetailOpen(false);
+    };
+    dialog.addEventListener("click", dismissBackdrop);
+    dialog.showModal();
+    return () => {
+      dialog.removeEventListener("click", dismissBackdrop);
+      dialog.close();
+      document.body.style.overflow = bodyOverflow;
+      if (shell) shell.style.overflow = shellOverflow;
+      if (opener?.isConnected) opener.focus({ preventScroll: true });
+    };
+  }, [detailOpen]);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -118,7 +164,7 @@ export default function XC2CharacterDirectory({ quests, onOpenQuest }: Props) {
     });
   }, [query, kindFilter, arcFilter, elementFilter, roleFilter, acquisitionFilter, collectionFilter, progressById]);
 
-  const selected = filteredCharacters.find((character) => character.id === selectedId) ?? filteredCharacters[0];
+  const selected = characterById.get(selectedId);
   const selectedProgress = selected ? progressById[selected.id] : undefined;
   const relatedQuests = selected ? selected.questIds.map((id) => questById.get(id)).filter((quest): quest is Quest => Boolean(quest)) : [];
   const partners = selected ? selected.partners.map((id) => characterById.get(id)).filter((character): character is XC2Character => Boolean(character)) : [];
@@ -129,7 +175,7 @@ export default function XC2CharacterDirectory({ quests, onOpenQuest }: Props) {
   const auxiliaryCoreLabel = !selected ? "" : selected.auxCores !== null ? `${selected.auxCores} 个槽位`
     : ["花JS", "花JK", "花JD"].includes(selected.name) ? "使用花的定制部件"
     : selected.isForm ? "无独立辅助核心槽位" : "暂未收录";
-  const foldBattleSkills = selected?.kind === "driver" && selected.battleSkills.length > 6;
+  const hasAffinityChart = selected?.kind === "driver" && selected.battleSkills.some((skill) => skill.affinity);
 
   function resetFilters() {
     setQuery("");
@@ -142,15 +188,14 @@ export default function XC2CharacterDirectory({ quests, onOpenQuest }: Props) {
   }
 
   function selectCharacter(id: string, fromPartner = false) {
-    if (fromPartner) resetFilters();
+    if (fromPartner && detailRef.current) {
+      detailRef.current.scrollTop = 0;
+      detailRef.current.querySelector<HTMLButtonElement>(".xc2-dialog-header button")?.focus({ preventScroll: true });
+    }
     setSelectedId(id);
     setSaveError("");
     setSaveMessage("");
-    if (window.matchMedia("(max-width: 780px)").matches) {
-      window.requestAnimationFrame(() => detailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }));
-    } else if (detailRef.current) {
-      detailRef.current.scrollTop = 0;
-    }
+    setDetailOpen(true);
   }
 
   async function updateProgress(character: XC2Character, field: "collected" | "bookmarked") {
@@ -214,7 +259,7 @@ export default function XC2CharacterDirectory({ quests, onOpenQuest }: Props) {
           {filteredCharacters.length ? <div className="xc2-character-grid">{filteredCharacters.map((character, index) => {
             const progress = progressById[character.id];
             const tag = archiveTag(character);
-            return <button type="button" key={character.id} className={`xc2-character-card${selected?.id === character.id ? " selected" : ""}`} aria-pressed={selected?.id === character.id} aria-label={`查看${character.name}档案`} onClick={() => selectCharacter(character.id)} style={{ "--element-color": elementColors[character.element] ?? "#65837b" } as CSSProperties}>
+            return <button type="button" key={character.id} className={`xc2-character-card${selected?.id === character.id ? " selected" : ""}`} aria-haspopup="dialog" aria-label={`查看${character.name}档案`} onClick={() => selectCharacter(character.id)} style={{ "--element-color": elementColors[character.element] ?? "#65837b" } as CSSProperties}>
               <span className="xc2-card-art"><span className="xc2-card-number">{String(index + 1).padStart(2, "0")}</span><CharacterImage character={character} />{progress?.bookmarked && <span className="xc2-card-bookmark" aria-label="已收藏"><Star filled /></span>}{tag && <span className="xc2-card-tag">{tag}</span>}</span>
               <span className="xc2-card-info"><span className="xc2-card-name"><strong>{character.name}</strong>{progress?.collected && character.collectible && <span className="xc2-card-collected" title="已获得" aria-label="已获得"><UiIcon name="check" size={16} /></span>}</span><small>{character.englishName}</small><span className="xc2-card-meta">{character.element ? <ElementMark element={character.element} /> : <span>{arcNames[character.arc]}</span>}<span>{character.role || characterLabel(character)}</span></span></span>
             </button>;
@@ -222,7 +267,8 @@ export default function XC2CharacterDirectory({ quests, onOpenQuest }: Props) {
           <div className="xc2-gallery-footer"><span><i />简体中文名称</span><span>形态与临时角色不计入收集进度</span></div>
         </section>
 
-        {selected ? <article className="xc2-detail" ref={detailRef} aria-label={`${selected.name}角色档案`}>
+        {detailOpen && selected && <dialog className="xc2-detail xc2-character-dialog" ref={detailRef} aria-label={`${selected.name}角色档案`} onCancel={() => setDetailOpen(false)} onClose={() => setDetailOpen(false)}>
+          <header className="xc2-dialog-header"><strong>角色档案</strong><button type="button" aria-label="关闭角色详情" onClick={() => setDetailOpen(false)}><UiIcon name="close" size={20} /></button></header>
           <div className="xc2-detail-hero" style={{ "--element-color": elementColors[selected.element] ?? "#65837b" } as CSSProperties}>
             <div className="xc2-hero-lines" aria-hidden="true" />
             <div className="xc2-detail-identity"><p className="xc2-file-label">{selected.kind === "driver" ? selected.collectible ? "DRIVER" : "CHARACTER" : "BLADE"}<span>{arcNames[selected.arc]}</span></p><h2>{selected.name}</h2><p className="xc2-english-name">{selected.englishName}</p><div className="xc2-hero-tags">{selected.element && <ElementMark element={selected.element} />}{selected.role && <span>{selected.role}</span>}</div><p className="xc2-hero-group">{selected.group}</p></div>
@@ -245,14 +291,14 @@ export default function XC2CharacterDirectory({ quests, onOpenQuest }: Props) {
 
             <section className="xc2-detail-section"><div className="xc2-section-heading"><h3>场景技能</h3><span>探索与环境互动</span></div>{selected.fieldSkills.length ? <div className="xc2-field-skills">{selected.fieldSkills.map((skill) => <span key={skill}><i />{skill}</span>)}</div> : <p className="xc2-unavailable">{selected.kind === "driver" ? "场景技能由同行异刃提供。" : "场景技能资料暂未收录。"}</p>}</section>
 
-            {selected.battleSkills.length > 0 && <section className="xc2-detail-section"><div className="xc2-section-heading"><h3>{foldBattleSkills ? "牵绊能力" : "战斗技能"}</h3><span>{selected.battleSkills.length} 项能力</span></div><BattleSkillList skills={foldBattleSkills ? selected.battleSkills.slice(0, 4) : selected.battleSkills} />{foldBattleSkills && <details className="xc2-more-skills" key={selected.id}><summary>查看其余 {selected.battleSkills.length - 4} 项牵绊能力<UiIcon name="chevron-down" size={15} /></summary><BattleSkillList skills={selected.battleSkills.slice(4)} /></details>}</section>}
+            {selected.battleSkills.length > 0 && <section className="xc2-detail-section"><div className="xc2-section-heading"><h3>{hasAffinityChart ? "牵绊圆环" : "战斗技能"}</h3><span>{selected.battleSkills.length} 项能力</span></div>{hasAffinityChart ? <DriverAffinityChart key={selected.id} skills={selected.battleSkills} /> : <BattleSkillList skills={selected.battleSkills} />}</section>}
 
             <section className="xc2-detail-section"><div className="xc2-section-heading"><h3>收纳包喜好</h3><UiIcon name="gift" size={17} /></div><dl className="xc2-favorites"><div><dt>喜好类别</dt><dd>{selected.favoriteCategories.length ? selected.favoriteCategories.join(" · ") : "暂未收录"}</dd></div><div><dt>最喜欢的物品</dt><dd>{selected.favoriteItems.length ? selected.favoriteItems.map((item) => <span key={item}>{item}</span>) : "暂未收录"}</dd></div></dl></section>
 
             <section className="xc2-detail-section"><div className="xc2-section-heading"><h3>关联任务</h3><span>{relatedQuests.length} 项</span></div>{relatedQuests.length ? <div className="xc2-related-quests">{relatedQuests.map((quest) => <button type="button" key={quest.id} onClick={() => onOpenQuest(quest.id)}><span><strong>{quest.name}</strong><small>{[quest.region, quest.type].filter(Boolean).join(" · ")}</small></span><UiIcon name="chevron-right" size={17} /></button>)}</div> : <p className="xc2-unavailable">{selected.questIds.length ? "关联任务暂未载入。" : "暂未关联任务档案。"}</p>}</section>
           </div>
           <footer className="xc2-detail-source"><div><span>资料来源</span>{selected.sourceUrl ? <a href={selected.sourceUrl} target="_blank" rel="noreferrer">查看角色资料<UiIcon name="link" size={14} /></a> : <span>资料暂未提供</span>}</div>{selected.imageSource && <a href={selected.imageSource} target="_blank" rel="noreferrer">角色图片来源<UiIcon name="link" size={13} /></a>}<p>Switch 原版本篇 / 扩展票 / 黄金之国伊拉</p><p>收录有名字的御刃者与史诗、稀有异刃；普通随机异刃不逐个列出。</p><p>更新于 {selected.updatedAt}</p></footer>
-        </article> : <div className="xc2-detail xc2-detail-empty"><UiIcon name="users" size={40} /><p>选择一个人物，展开他的故事与能力。</p></div>}
+        </dialog>}
       </div>
     </main>
   </div>;

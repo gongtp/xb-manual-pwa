@@ -1,12 +1,11 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import type { Quest, QuestLabel } from "../lib/quest";
 import type { XC1Npc, XC1NpcArc } from "../lib/xc1-npc";
 import { UiIcon } from "./ui-icons";
 import "./xc1-npcs.css";
 
-type ArcFilter = "all" | XC1NpcArc;
 type RiskFilter = "all" | "timed" | "exclusive";
 
 type Props = {
@@ -14,6 +13,7 @@ type Props = {
   quests: Quest[];
   questLabels: QuestLabel[];
   selectedNpcId: string;
+  initialDetail?: boolean;
   loading: boolean;
   error: string;
   onSelectNpc: (npcId: string) => void;
@@ -34,25 +34,52 @@ export default function XC1NpcDirectory({
   quests,
   questLabels,
   selectedNpcId,
+  initialDetail = false,
   loading,
   error,
   onSelectNpc,
   onOpenQuest,
 }: Props) {
   const [query, setQuery] = useState("");
-  const [arcFilter, setArcFilter] = useState<ArcFilter>("all");
+  const [chosenArc, setChosenArc] = useState<XC1NpcArc | null>(null);
+  const arcFilter = chosenArc ?? (initialDetail ? npcs.find((npc) => npc.id === selectedNpcId)?.arc : undefined) ?? "main";
+  const arcCounts = useMemo(() => ({
+    main: npcs.filter((npc) => npc.arc === "main").length,
+    futureConnected: npcs.filter((npc) => npc.arc === "futureConnected").length,
+  }), [npcs]);
   const [regionFilter, setRegionFilter] = useState("all");
   const [riskFilter, setRiskFilter] = useState<RiskFilter>("all");
+  const [mobileDetail, setMobileDetail] = useState(initialDetail);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const pageSize = 10;
+  const listPanel = useRef<HTMLDivElement | null>(null);
+  const listScroll = useRef(0);
+  const lastRow = useRef<HTMLButtonElement | null>(null);
+  function openNpc(npcId: string, button: HTMLButtonElement) {
+    listScroll.current = window.scrollY;
+    lastRow.current = button;
+    onSelectNpc(npcId);
+    setMobileDetail(true);
+    if (window.matchMedia("(max-width: 780px)").matches) window.scrollTo({ top: 0 });
+  }
+  function returnToList() {
+    setMobileDetail(false);
+    requestAnimationFrame(() => {
+      lastRow.current?.focus({ preventScroll: true });
+      window.scrollTo({ top: listScroll.current, behavior: "instant" });
+    });
+  }
   const questById = useMemo(() => new Map(quests.map((quest) => [quest.id, quest])), [quests]);
   const labelById = useMemo(() => new Map(questLabels.map((label) => [label.id, label])), [questLabels]);
   const regions = useMemo(() => uniqueValues(
-    npcs.flatMap((npc) => npc.appearances.map((appearance) => appearance.region)),
-  ), [npcs]);
+    npcs.filter((npc) => npc.arc === arcFilter).flatMap((npc) => npc.appearances.map((appearance) => appearance.region)),
+  ), [npcs, arcFilter]);
 
   const filteredNpcs = useMemo(() => {
     const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
     return npcs.filter((npc) => {
-      if (arcFilter !== "all" && npc.arc !== arcFilter) return false;
+      if (npc.arc !== arcFilter) return false;
       if (regionFilter !== "all" && !npc.appearances.some((appearance) => appearance.region === regionFilter)) return false;
       const relatedQuests = npc.questIds.map((questId) => questById.get(questId)).filter((quest): quest is Quest => Boolean(quest));
       if (riskFilter === "timed" && !relatedQuests.some((quest) => quest.isTimed)) return false;
@@ -72,18 +99,44 @@ export default function XC1NpcDirectory({
     });
   }, [arcFilter, npcs, query, questById, regionFilter, riskFilter]);
 
-  const selectedNpc = filteredNpcs.find((npc) => npc.id === selectedNpcId) ?? filteredNpcs[0];
+  const totalPages = Math.max(1, Math.ceil(filteredNpcs.length / pageSize));
+  const activePage = Math.min(currentPage, totalPages);
+  const pageNpcs = filteredNpcs.slice((activePage - 1) * pageSize, activePage * pageSize);
+  const selectedNpc = filteredNpcs.find((npc) => npc.id === selectedNpcId) ?? pageNpcs[0];
+  function changePage(page: number) {
+    setCurrentPage(Math.max(1, Math.min(page, totalPages)));
+    lastRow.current = null;
+    requestAnimationFrame(() => {
+      const list = listPanel.current?.querySelector(".npc-list");
+      if (list) list.scrollTop = 0;
+      if (window.matchMedia("(max-width: 780px)").matches) {
+        listPanel.current?.scrollIntoView({ block: "start", behavior: "instant" });
+      }
+    });
+  }
   const selectedQuests = selectedNpc
     ? selectedNpc.questIds.map((questId) => questById.get(questId)).filter((quest): quest is Quest => Boolean(quest))
     : [];
   function resetFilters() {
     setQuery("");
-    setArcFilter("all");
     setRegionFilter("all");
     setRiskFilter("all");
+    setCurrentPage(1);
+  }
+  function changeArc(arc: XC1NpcArc) {
+    if (arc === arcFilter) return;
+    setChosenArc(arc);
+    resetFilters();
+    setMobileDetail(false);
+    listScroll.current = 0;
+    lastRow.current = null;
   }
 
-  return <div className="npc-page">
+  return <div className={`npc-page ${mobileDetail ? "npc-mobile-detail" : "npc-mobile-list"}`}>
+    <div className="npc-mobile-toolbar">
+      <button type="button" onClick={returnToList}><UiIcon name="chevron-left" size={18} />人物列表</button>
+      <span>{selectedNpc?.name || "人物详情"}</span>
+    </div>
     <header className="topbar npc-topbar">
       <div className="workspace-breadcrumb"><span>资料库</span><UiIcon name="chevron-right" size={14} /><strong>异度神剑 1</strong></div>
       <label className="search-box">
@@ -92,7 +145,7 @@ export default function XC1NpcDirectory({
           data-archive-search
           aria-label="搜索 NPC、地点或关联任务"
           value={query}
-          onChange={(event) => setQuery(event.target.value)}
+          onChange={(event) => { setQuery(event.target.value); setCurrentPage(1); }}
           placeholder="搜索 NPC、地点或关联任务"
         />
       </label>
@@ -109,34 +162,38 @@ export default function XC1NpcDirectory({
 
       {error && <div className="database-error"><strong>NPC 数据库连接失败</strong><span>{error}</span></div>}
 
-      <section className="filterbar npc-filterbar">
+      <nav className="npc-editions" aria-label="选择人物篇章">
+        {(["main", "futureConnected"] as const).map((arc) => <button type="button" key={arc} aria-pressed={arcFilter === arc} onClick={() => changeArc(arc)}>
+          <span>{arcNames[arc]}</span><small>{loading ? "读取中…" : `${arcCounts[arc]} 名`}</small>
+        </button>)}
+      </nav>
+      <button type="button" className="npc-filter-toggle" aria-expanded={filtersOpen} aria-controls="npc-filters" onClick={() => setFiltersOpen(!filtersOpen)}>
+        <UiIcon name="search" size={16} />{filtersOpen ? "收起筛选" : "筛选人物"}<span>{[regionFilter, riskFilter].filter((value) => value !== "all").length || ""}</span>
+      </button>
+      <section id="npc-filters" className={`filterbar npc-filterbar ${filtersOpen ? "npc-filters-open" : ""}`}>
         <div className="filter-controls">
-          <label>篇章<select value={arcFilter} onChange={(event) => setArcFilter(event.target.value as ArcFilter)}>
-            <option value="all">全部篇章</option>
-            <option value="main">本篇</option>
-            <option value="futureConnected">相连的未来</option>
-          </select></label>
-          <label>出现区域<select value={regionFilter} onChange={(event) => setRegionFilter(event.target.value)}>
+          <label>出现区域<select value={regionFilter} onChange={(event) => { setRegionFilter(event.target.value); setCurrentPage(1); }}>
             <option value="all">全部区域</option>
             {regions.map((region) => <option value={region} key={region}>{region}</option>)}
           </select></label>
-          <label>收集风险<select value={riskFilter} onChange={(event) => setRiskFilter(event.target.value as RiskFilter)}>
+          <label>关联任务<select value={riskFilter} onChange={(event) => { setRiskFilter(event.target.value as RiskFilter); setCurrentPage(1); }}>
             <option value="all">全部</option>
             <option value="timed">涉及限时任务</option>
             <option value="exclusive">涉及互斥任务</option>
           </select></label>
         </div>
-        <p>显示 <strong>{filteredNpcs.length}</strong> / {npcs.length} 名</p>
-        {(query || arcFilter !== "all" || regionFilter !== "all" || riskFilter !== "all")
+        <p>显示 <strong>{filteredNpcs.length}</strong> / {arcCounts[arcFilter]} 名</p>
+        {(query || regionFilter !== "all" || riskFilter !== "all")
           && <button className="clear-filters" onClick={resetFilters}>清除筛选</button>}
       </section>
 
       <section className="npc-workspace">
-        <div className="npc-list-panel">
+        <div className="npc-list-panel" ref={listPanel}>
           <div className="npc-list-title"><strong>委托人目录</strong><span>{loading ? "读取中…" : `${filteredNpcs.length} 名`}</span></div>
           <div className="npc-list">
+            {loading && <div className="npc-empty" role="status">正在读取人物资料…</div>}
             {!loading && !filteredNpcs.length && <div className="npc-empty"><UiIcon name="search" size={28} /><strong>没有匹配的 NPC</strong><p>尝试清除筛选或换一个关键词。</p></div>}
-            {filteredNpcs.map((npc) => {
+            {pageNpcs.map((npc) => {
               const related = npc.questIds.map((questId) => questById.get(questId)).filter((quest): quest is Quest => Boolean(quest));
               const hasTimed = related.some((quest) => quest.isTimed);
               const hasExclusive = related.some((quest) => quest.isExclusive);
@@ -144,18 +201,24 @@ export default function XC1NpcDirectory({
                 className={`npc-row ${selectedNpc?.id === npc.id ? "selected" : ""}`}
                 aria-pressed={selectedNpc?.id === npc.id}
                 key={npc.id}
-                onClick={() => onSelectNpc(npc.id)}
+                onClick={(event) => openNpc(npc.id, event.currentTarget)}
               >
                 <span className="npc-avatar">{npc.name.slice(0, 1)}</span>
                 <span className="npc-row-main">
                   <strong>{npc.name}</strong>
                   <small>{uniqueValues(npc.appearances.map((appearance) => appearance.region)).join(" / ")}</small>
-                  <span className="npc-row-meta"><em className={`npc-arc ${npc.arc}`}>{arcNames[npc.arc]}</em><b>{npc.questIds.length} 任务</b>{hasTimed && <i className="risk-timed">限时</i>}{hasExclusive && <i className="risk-exclusive">互斥</i>}</span>
+                  <span className="npc-row-time"><UiIcon name="clock" size={13} />{uniqueValues(npc.appearances.map((appearance) => appearance.activeTime)).join(" / ") || "活动时间未收录"}</span>
+                  <span className="npc-row-meta"><b>{npc.questIds.length} 任务</b>{hasTimed && <i className="risk-timed">限时</i>}{hasExclusive && <i className="risk-exclusive">互斥</i>}</span>
                 </span>
                 <UiIcon name="chevron-right" size={14} />
               </button>;
             })}
           </div>
+          {!loading && filteredNpcs.length > 0 && <nav className="npc-pagination" aria-label="人物列表分页">
+            <button type="button" disabled={activePage === 1} onClick={() => changePage(activePage - 1)}><UiIcon name="chevron-left" size={16} />上一页</button>
+            <span aria-live="polite">{activePage} / {totalPages} 页</span>
+            <button type="button" disabled={activePage === totalPages} onClick={() => changePage(activePage + 1)}>下一页<UiIcon name="chevron-right" size={16} /></button>
+          </nav>}
         </div>
 
         <article className="npc-detail-panel">
@@ -197,7 +260,7 @@ export default function XC1NpcDirectory({
                     <span className="npc-quest-status" style={{ backgroundColor: marker?.color ?? "#d5e4e1" }} />
                     <span className="npc-quest-main">
                       <span><strong>{quest.name}</strong><em>{quest.type}</em></span>
-                      <small>{quest.id} · {quest.region}</small>
+                      <small>{quest.region}</small>
                       {exclusivePeers.length > 0 && <p>与“{exclusivePeers.map((peer) => peer.name).join("、")}”互斥</p>}
                     </span>
                     <span className="npc-quest-tags">

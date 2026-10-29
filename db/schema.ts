@@ -99,3 +99,9 @@ export const xc2LocationProgress = sqliteTable("xc2_location_progress", {
   visited: integer("visited", { mode: "boolean" }).notNull().default(false),
   bookmarked: integer("bookmarked", { mode: "boolean" }).notNull().default(false),
 });
+
+export const xc3LocationProgress = sqliteTable("xc3_location_progress", {
+  locationId: text("location_id").primaryKey().notNull(),
+  visited: integer("visited", { mode: "boolean" }).notNull().default(false),
+  bookmarked: integer("bookmarked", { mode: "boolean" }).notNull().default(false),
+});

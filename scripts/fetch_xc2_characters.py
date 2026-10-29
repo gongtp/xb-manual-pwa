@@ -312,7 +312,18 @@ def build_records(raw: dict[str, str], parsed_drivers: dict[str, str], quest_rel
             if title in parsed_drivers:
                 # The source renders Driver affinities dynamically. Retain
                 # named combat abilities instead of falsely showing no skills.
-                battle = [{"name": row[0], "effect": row[1]} for heading, row in parser.heading_rows if heading in ("表象牵绊", "内心牵绊") and len(row) == 3 and row[0] != "名称"]
+                battle = []
+                for chart in ("表象牵绊", "内心牵绊"):
+                    rows = [row for heading, row in parser.heading_rows if heading == chart and len(row) == 3 and row[0] != "名称"]
+                    # CN tables are row-major: three rings, five positions each.
+                    # Verified against BTL_Skill_Dr_Table01..06 Round/RowNum/ColumnNum:
+                    # https://xenoblade.github.io/xb2/bdat/common/BTL_Skill_Dr_Table01.html
+                    if rows and len(rows) != 15:
+                        raise ValueError(f"Unexpected affinity layout: {title} / {chart}")
+                    for index, row in enumerate(rows):
+                        battle.append({"name": row[0], "effect": row[1], "affinity": {
+                            "chart": chart, "ring": index // 5 + 1, "position": index % 5 + 1,
+                        }})
         scenes = [row[0] for row in wiki_rows(section(text, "场景技能")) if len(row) >= 2 and row[0] not in ("名称", "")]
         if arc == "torna" and kind == "blade":
             battle, scenes = torna_affinity_skills(raw.get(title + "/牵绊圆环", ""))

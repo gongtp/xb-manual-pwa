@@ -17,6 +17,9 @@ for (const file of files) { hash.update(path.relative(output, file)); hash.updat
 const template = await readFile(path.join(root, "pwa/sw-template.js"), "utf8");
 hash.update(template);
 const version = hash.digest("hex").slice(0, 16);
+const indexPath = path.join(output, "index.html");
+await writeFile(indexPath, (await readFile(indexPath, "utf8")).replace("</head>", `<meta name="app-version" content="${version}"></head>`));
+await writeFile(path.join(output, "version.json"), JSON.stringify({ version, builtAt: new Date().toISOString() }));
 const paths = files.map((file) => path.relative(output, file).replaceAll("\\", "/")).filter((file) => file !== ".nojekyll");
 await writeFile(path.join(output, "sw.js"), template.replace("const VERSION = __VERSION__", `const VERSION = ${JSON.stringify(version)}`).replace("const FILES = __FILES__", `const FILES = ${JSON.stringify(paths)}`));
 console.log(`PWA ${version}: ${paths.length} files prepared for offline use. Output: dist-pwa`);

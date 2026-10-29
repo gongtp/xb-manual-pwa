@@ -4,11 +4,13 @@ import * as notes from "../app/api/notes/route";
 import * as npcs from "../app/api/xc1-npcs/route";
 import * as locations1 from "../app/api/xc1-locations/route";
 import * as locations2 from "../app/api/xc2-locations/route";
+import * as locations3 from "../app/api/xc3-locations/route";
 import * as characters from "../app/api/xc2-characters/route";
 import * as backup from "../app/api/backup/route";
 import { withLocalDatabase } from "./database";
 
 const routes: Record<string, Record<string, (request: Request) => Promise<Response>>> = {
+  "/api/xc3-locations": locations3,
   "/api/quests": quests, "/api/quest-labels": labels, "/api/notes": notes,
   "/api/xc1-npcs": npcs, "/api/xc1-locations": locations1,
   "/api/xc2-locations": locations2, "/api/xc2-characters": characters, "/api/backup": backup,

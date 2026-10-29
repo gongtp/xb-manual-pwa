@@ -53,8 +53,21 @@ export function questMatchesFilters(
       : quest.markerId === filters.marker;
     if (!markerMatch) return false;
   }
-  if (omitted !== "type" && filters.type !== "all" && quest.type !== filters.type) return false;
-  if (omitted !== "arc" && filters.arc !== "all" && getQuestArc(quest) !== filters.arc) return false;
+  if (omitted !== "type" && filters.type !== "all") {
+    const matchesType = (filters.game === "XC2" && filters.type === "xc2-expansion-pass") || (filters.game === "XC3" && filters.type === "xc3-expansion-pass")
+      ? getQuestArc(quest) === "expansionPass"
+      : quest.type === filters.type;
+    if (!matchesType) return false;
+  }
+  if (omitted !== "arc" && filters.arc !== "all") {
+    const arc = getQuestArc(quest);
+    const matchesArc = filters.game === "XC2" && filters.arc === "baseGame"
+      ? arc !== "torna"
+      : filters.game === "XC3" && filters.arc === "baseGame"
+        ? arc === "baseGame" || arc === "expansionPass"
+        : arc === filters.arc;
+    if (!matchesArc) return false;
+  }
   if (omitted !== "timed" && filters.timed !== "all" && quest.isTimed !== (filters.timed === "yes")) return false;
   if (omitted !== "exclusive" && filters.exclusive !== "all" && quest.isExclusive !== (filters.exclusive === "yes")) return false;
   if (omitted !== "region" && filters.region !== "all" && quest.region !== filters.region) return false;

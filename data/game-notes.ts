@@ -1,6 +1,7 @@
 import xc1QuestData from "./xc1-quests.json" with { type: "json" };
 import type { GameNote } from "../lib/game-note";
 import type { Quest } from "../lib/quest";
+import { xc3EndgameNote } from "./xc3-endgame-note";
 
 function deadlineRisk(quest: Quest) {
   return quest.notes.match(/截止点\/风险：([^；]+)/)?.[1] ?? "未标注截止点";
@@ -677,6 +678,7 @@ const xc2DotAndZeroOrbNote = `# 毕业配装：DOT流与0球流
 `;
 
 export const initialGameNotes: GameNote[] = [
+  xc3EndgameNote,
   {
     id: "XC1-NOTE-ALL-QUESTS",
     game: "XC1",

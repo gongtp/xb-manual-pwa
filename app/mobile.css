@@ -97,7 +97,7 @@
   .archive-app .detail-modal-body .markdown-content { min-width: 0; overflow-wrap: anywhere; }
   .archive-app .detail-modal-body .markdown-table-wrap, .archive-app .detail-modal-body pre { max-width: 100%; overscroll-behavior-x: contain; }
   .archive-app .modal-actions button, .archive-app .detail-modal-footer button, .archive-app .close-button { min-height: 44px; }
-  .archive-app .data-tools-dialog { width: calc(100% - 20px); max-height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 24px); padding: 20px 16px; color: #203c34; }
+  .archive-app .data-tools-dialog { width: calc(100% - 24px); max-height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 24px); padding: 0; color: var(--ink); }
   .archive-app .data-tools-dialog h2 { font-size: 21px; }
   .archive-app .toast { z-index: 50; bottom: calc(82px + env(safe-area-inset-bottom)); inset-inline: 14px; max-width: none; }
 
@@ -159,13 +159,16 @@
   .archive-app .xc1-quest-content .records-toolbar h2 { color: var(--muted); font-size: 13px; font-weight: 500; }
   .archive-app .xc1-quest-content .results-count { background: transparent; padding: 0; }
   .archive-app .xc1-quest-content .records-list { display: grid; gap: 10px; }
-  .archive-app .xc1-quest-content .record-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 12px; min-height: 104px; padding: 16px; background: white; border: 1px solid var(--line); border-radius: 12px; box-shadow: none; }
+  .archive-app .xc1-quest-content .record-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; min-height: 0; padding: 12px 14px; background: white; border: 1px solid var(--line); border-radius: 12px; box-shadow: none; }
   .archive-app .xc1-quest-content .record-row:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .archive-app .xc1-quest-content .quality-icon { display: none; }
   .archive-app .xc1-quest-content .record-main { grid-column: 1; grid-row: 1; }
   .archive-app .xc1-quest-content .record-main strong { font-size: 17px; line-height: 1.55; }
   .archive-app .xc1-quest-content .record-main small { font-size: 11px; color: var(--muted-2); }
-  .archive-app .xc1-quest-content .record-location { grid-column: 1; grid-row: 2; }
+  .archive-app .xc1-quest-content .record-location { grid-column: 1; grid-row: 2; color: var(--muted); font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+  .archive-app .xc1-quest-content .xc1-card-giver,
+  .archive-app .xc1-quest-content .xc1-card-exclusive-label { display: inline; }
+  .archive-app .xc1-quest-content .xc1-exclusive-full { display: none; }
   .archive-app .xc1-quest-content .record-location::before { content: ""; }
   .archive-app .xc1-quest-content .record-location strong { font-size: 13px; color: var(--muted); }
   .archive-app .xc1-quest-content .record-marker { grid-column: 2; grid-row: 1 / span 2; max-width: 88px; align-self: center; }
@@ -183,4 +186,66 @@
   .archive-app .xc1-phone-pagination button { display: flex; justify-content: center; align-items: center; gap: 4px; min-height: 44px; padding: 8px 4px; color: var(--ink); background: var(--paper-soft); border: 1px solid var(--line); border-radius: 8px; font-size: 13px; cursor: pointer; }
   .archive-app .xc1-phone-pagination button:disabled { opacity: .4; cursor: default; }
   .archive-app .xc1-phone-pagination button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+}
+
+/* Phone NPC directory: a full-page list and a separate reading view. */
+.npc-mobile-toolbar, .npc-filter-toggle, .npc-row-time { display: none; }
+@media (max-width: 780px) {
+  .archive-app:has(.npc-mobile-detail) .mobile-app-header { display: none; }
+  .archive-app .npc-page .npc-heading { display: none; }
+  .archive-app .npc-page .npc-topbar { height: auto; min-height: 0; }
+  .archive-app .npc-page .search-box input { height: 46px; }
+  .archive-app .npc-page .npc-filter-toggle { display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; min-height: 44px; margin-bottom: 12px; background: white; color: var(--ink); border: 1px solid var(--line); border-radius: 10px; }
+  .archive-app .npc-page .npc-filterbar { display: none; }
+  .archive-app .npc-page .npc-filterbar.npc-filters-open { display: flex; padding: 14px; border: 1px solid var(--line); border-radius: 12px; background: white; }
+  .archive-app .npc-page .npc-filterbar select { min-height: 44px; width: 100%; }
+  .archive-app .npc-page .npc-list-panel { margin: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; overflow: visible; }
+  .archive-app .npc-page .npc-list-title { padding: 0 2px 10px; min-height: 32px; border: 0; background: transparent; }
+  .archive-app .npc-page .npc-list-title strong { font-size: 13px; font-weight: 500; color: var(--muted); }
+  .archive-app .npc-page .npc-list { display: grid; gap: 10px; padding: 0; max-height: none; overflow: visible; }
+  .archive-app .npc-page .npc-row { grid-template-columns: minmax(0, 1fr) 16px; gap: 10px; min-height: 0; margin: 0; padding: 14px; background: white; border: 1px solid var(--line); border-radius: 12px; }
+  .archive-app .npc-page .npc-row.selected { background: white; border-color: var(--line); }
+  .archive-app .npc-page .npc-row > .npc-avatar { display: none; }
+  .archive-app .npc-page .npc-row-main { min-width: 0; }
+  .archive-app .npc-page .npc-row-main > strong { font-size: 17px; line-height: 1.5; white-space: normal; overflow-wrap: anywhere; }
+  .archive-app .npc-page .npc-row-main > small { font-size: 13px; line-height: 1.6; white-space: normal; overflow-wrap: anywhere; }
+  .archive-app .npc-page .npc-row-time { display: flex; align-items: baseline; gap: 5px; margin-top: 5px; font-size: 12px; color: var(--muted); line-height: 1.6; overflow-wrap: anywhere; }
+  .archive-app .npc-page .npc-row-time svg { flex-shrink: 0; }
+  .archive-app .npc-page .npc-row-main .npc-row-meta { margin-top: 9px; gap: 7px; font-size: 12px; }
+  .archive-app .npc-page .npc-row-meta .npc-arc, .archive-app .npc-page .npc-row-meta i { font-size: 12px; }
+  .archive-app .npc-page .npc-list-panel { scroll-margin-top: calc(80px + env(safe-area-inset-top)); }
+  .archive-app .npc-page .npc-pagination { margin-top: 14px; padding: 8px; border: 1px solid var(--line); border-radius: 10px; background: white; }
+  .archive-app .npc-mobile-list .npc-detail-panel { display: none; }
+  .archive-app .npc-mobile-detail .npc-topbar,
+  .archive-app .npc-mobile-detail .npc-editions,
+  .archive-app .npc-mobile-detail .npc-filterbar.npc-filters-open,
+  .archive-app .npc-mobile-detail .npc-filter-toggle,
+  .archive-app .npc-mobile-detail .npc-list-panel { display: none; }
+  .archive-app .npc-mobile-detail .npc-mobile-toolbar { position: sticky; top: 0; z-index: 13; display: flex; align-items: center; gap: 16px; padding: calc(8px + env(safe-area-inset-top)) 14px 8px; background: white; border-bottom: 1px solid var(--line); }
+  .archive-app .npc-mobile-toolbar button { display: flex; align-items: center; gap: 4px; min-height: 44px; padding: 8px 10px; background: var(--paper-soft); border: 1px solid var(--line); border-radius: 8px; color: var(--ink); white-space: nowrap; }
+  .archive-app .npc-mobile-toolbar > span { font-size: 14px; overflow-wrap: anywhere; }
+  .archive-app .npc-mobile-detail .npc-content { padding: 0 0 20px; }
+  .archive-app .npc-mobile-detail .npc-detail-panel { border: 0; border-radius: 0; box-shadow: none; overflow-x: hidden; }
+  .archive-app .npc-page .npc-detail-heading { padding: 22px 18px; }
+  .archive-app .npc-page .npc-detail-identity .npc-avatar { display: none; }
+  .archive-app .npc-page .npc-detail-heading h2 { font-size: 26px; }
+  .archive-app .npc-page .npc-file-label, .archive-app .npc-page .npc-identity-meta { font-size: 12px; }
+  .archive-app .npc-page .npc-detail-heading > a { min-width: 44px; min-height: 44px; }
+  .archive-app .npc-page .npc-detail-section { padding: 20px 18px; }
+  .archive-app .npc-page .npc-section-title h3 { font-size: 17px; }
+  .archive-app .npc-page .npc-section-title p { display: none; }
+  .archive-app .npc-page .npc-appearance-card { grid-template-columns: minmax(0, 1fr); padding: 14px; }
+  .archive-app .npc-page .npc-appearance-index { display: none; }
+  .archive-app .npc-page .npc-place-heading > strong { font-size: 16px; }
+  .archive-app .npc-page .npc-place-fields dt { font-size: 12px; }
+  .archive-app .npc-page .npc-place-fields dd { font-size: 15px; }
+  .archive-app .npc-page .npc-quest-row { grid-template-columns: 5px minmax(0, 1fr) 16px; gap: 7px 10px; padding: 14px 12px; }
+  .archive-app .npc-page .npc-quest-main strong { font-size: 16px; }
+  .archive-app .npc-page .npc-quest-main small, .archive-app .npc-page .npc-quest-main em { font-size: 12px; }
+  .archive-app .npc-page .npc-quest-row > svg { grid-column: 3; grid-row: 1; }
+  .archive-app .npc-page .npc-quest-tags { display: flex; flex-wrap: wrap; grid-column: 2; gap: 6px; }
+  .archive-app .npc-page .npc-quest-tags:empty { display: none; }
+  .archive-app .npc-page .npc-quest-tags i { font-size: 12px; }
+  .archive-app .npc-page .npc-detail-footer { font-size: 12px; line-height: 1.7; }
+  .archive-app .npc-page .npc-file-id { display: none; }
 }

@@ -1,0 +1,11 @@
+@import "./xc2-locations.css";
+
+/* Share the established location layout and global task-page typography. */
+.x3l-directory .x2l-totals strong, .x3l-directory .x2l-rewards strong { font-family: inherit; font-weight: 600; }
+.x3l-directory .x2l-heading h1 { font-family: inherit; }
+.x3l-directory .x2l-kind.rest { color: #547960; background: #edf4ef; }
+.x3l-directory .x2l-kind.reference { color: #777; background: #f2f2ef; }
+.x3l-directory .x2l-region-summary { flex-wrap: wrap; }
+.x3l-directory .x2l-region-intro > p { line-height: 1.7; }
+.x3l-directory .x2l-place-name strong { overflow-wrap: anywhere; }
+.x3l-coverage { margin: 0 0 16px; color: var(--text-muted, #777); font-size: 12px; line-height: 1.7; }

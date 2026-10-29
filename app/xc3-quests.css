@@ -1,0 +1,52 @@
+/* XC3 quest presentation mirrors XC1 without changing its styles. */
+.archive-app[data-game="XC3"]:has(.xc3-quest-content) {
+  --canvas: #f6f5f2;
+  --paper-soft: #f6f5f2;
+  --ink: #202632;
+  --muted: #72777e;
+  --line: #e5e4df;
+  --accent: #b94947;
+  --accent-soft: #faf0ee;
+}
+.xc3-phone-pagination, .xc3-card-giver { display: none; }
+.xc3-quest-editions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; flex-shrink: 0; margin-bottom: 16px; }
+.xc3-quest-editions button { display: grid; gap: 6px; min-width: 0; padding: 16px 18px; text-align: left; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 12px; cursor: pointer; }
+.xc3-quest-editions button[aria-pressed="true"] { color: var(--accent); background: var(--accent-soft); border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.xc3-quest-editions button > span { font-size: 18px; font-weight: 650; }
+.xc3-quest-editions button > small { color: var(--muted); font-size: 12px; line-height: 1.5; }
+.xc3-quest-editions button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.xc3-quest-content .filter-controls { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+
+@media (max-width: 780px) {
+  .archive-app .xc3-quest-content { padding-top: 8px; }
+  .archive-app .xc3-quest-editions { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-bottom: 12px; }
+  .archive-app .xc3-quest-editions button { padding: 14px; min-height: 82px; }
+  .archive-app .xc3-quest-editions button > span { font-size: 17px; }
+  .archive-app .xc3-quest-content .mobile-filter-toggle { justify-content: center; background: white; border-style: solid; }
+  .archive-app .xc3-quest-content .filter-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .archive-app .xc3-quest-content .records-panel { background: transparent; border: 0; overflow: visible; }
+  .archive-app .xc3-quest-content .records-list { display: grid; gap: 10px; }
+  .archive-app .xc3-quest-content .record-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; min-height: 0; padding: 12px 14px; background: white; border: 1px solid var(--line); border-radius: 12px; box-shadow: none; }
+  .archive-app .xc3-quest-content .record-row:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .archive-app .xc3-quest-content .quality-icon { display: none; }
+  .archive-app .xc3-quest-content .record-main { grid-column: 1; grid-row: 1; }
+  .archive-app .xc3-quest-content .record-main strong { font-size: 17px; line-height: 1.55; }
+  .archive-app .xc3-quest-content .record-location { grid-column: 1; grid-row: 2; color: var(--muted); font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+  .archive-app .xc3-quest-content .xc3-card-giver { display: inline; }
+  .archive-app .xc3-quest-content .record-location::before { content: ""; }
+  .archive-app .xc3-quest-content .record-location strong { font-size: 13px; color: var(--muted); }
+  .archive-app .xc3-quest-content .record-marker { grid-column: 2; grid-row: 1 / span 2; max-width: 88px; align-self: center; }
+  .archive-app .xc3-quest-content .marker-trigger { width: 100%; padding: 8px; font-size: 12px; background: #fafaf8; border-style: solid; }
+  .archive-app .xc3-quest-content .records-footer { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px 8px; margin-top: 14px; padding: 16px; background: white; border: 1px solid var(--line); border-radius: 12px; }
+  .archive-app .xc3-quest-content .records-footer p { width: auto; margin: 0; font-size: 12px; }
+  .archive-app .xc3-quest-content .records-footer label { gap: 6px; font-size: 12px; }
+  .archive-app .xc3-quest-content .records-footer select { min-height: 44px; padding-left: 10px; border-radius: 8px; }
+  .archive-app .xc3-quest-content .xc3-desktop-pagination { display: none; }
+  .archive-app .xc3-phone-pagination { display: grid; grid-column: 1 / -1; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; padding-top: 14px; border-top: 1px solid var(--line); }
+  .archive-app .xc3-phone-pagination > span { color: var(--muted); font-size: 13px; white-space: nowrap; }
+  .archive-app .xc3-phone-pagination strong { color: var(--ink); font-weight: 600; }
+  .archive-app .xc3-phone-pagination button { display: flex; justify-content: center; align-items: center; gap: 4px; min-height: 44px; padding: 8px 4px; color: var(--ink); background: var(--paper-soft); border: 1px solid var(--line); border-radius: 8px; font-size: 13px; cursor: pointer; }
+  .archive-app .xc3-phone-pagination button:disabled { opacity: .4; cursor: default; }
+  .archive-app .xc3-phone-pagination button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+}

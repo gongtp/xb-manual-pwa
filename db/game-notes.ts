@@ -88,6 +88,14 @@ export async function ensureGameNotesDatabase() {
     ]);
   }
 
+  const xc3SeedMarker = await database.prepare("SELECT value FROM app_metadata WHERE key = 'xc3_endgame_note_seed_v1'").first();
+  if (!xc3SeedMarker) {
+    await database.batch([
+      ...initialGameNotes.filter((note) => note.id === "XC3-NOTE-ENDGAME-PARTY").map((note) => bindGameNote(insertSeed, note)),
+      database.prepare("INSERT OR REPLACE INTO app_metadata (key, value) VALUES ('xc3_endgame_note_seed_v1', '1')"),
+    ]);
+  }
+
   const contentSeedMarker = await database.prepare("SELECT value FROM app_metadata WHERE key = 'game_notes_content_seed_v3'").first();
   if (contentSeedMarker) return;
   await database.batch([
